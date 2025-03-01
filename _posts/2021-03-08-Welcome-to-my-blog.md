@@ -15,3 +15,5 @@ Thanks for stopping by, and I look forward to sharing my thoughts with you!
 **Agunechemba Ekene,**
 
 *The Celebrated Tech Trainer*
+
+<img src="https://i.ibb.co/23wkZCKY/generate-an-image-that-is-welcoming-for.jpg" alt="generate-an-image-that-is-welcoming-for" border="0" />
