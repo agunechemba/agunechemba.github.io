@@ -1,5 +1,9 @@
 # About Me
 
+![Agunechemba Ekene Display Picture](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png)
+
+---
+
 Hi, I'm a seasoned tech trainer with 15+ years of experience. I'm passionate about empowering young learners between 12 and 22.
 
 ## Expertise
