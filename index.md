@@ -1,7 +1,7 @@
 ![Agunechemba Ekene Display Picture](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png)
 
 # About Me
-*The Celebrated Tech Trainer*
+***The Celebrated Tech Trainer***
 ---
 
 I've been geeking out about tech education for over 15 years, and my favorite thing is helping young minds around the world discover their inner coder!
