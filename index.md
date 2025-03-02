@@ -4,11 +4,17 @@
 
 ---
 
-Hi, I'm a seasoned tech trainer with 15+ years of experience. I'm passionate about empowering young learners between 12 and 22.
+I've been geeking out about tech education for over 15 years, and my favorite thing is helping young minds around the world discover their inner coder!
+
+I've had the blast teaching online to students from Nigeria to the UK, and even threw some epic coding competitions in Lagos. Plus, I love sharing tech tips and tricks in my blogs.
+
+Right now, I'm having a ton of fun teaching computer programming at [Clasam Schools](https://clasamschools.com/), where we're basically building the future, one line of code at a time!
 
 ## Expertise
 
-Web development, Programming and Robotics.
+- Web development (HTML, CSS, JavaScript)
+- Programming (Python, JavaScript)
+- Robotics (Arduino, C++, Python)
 
 ## Let's Connect
 
