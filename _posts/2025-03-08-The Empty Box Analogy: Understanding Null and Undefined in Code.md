@@ -20,6 +20,8 @@ Imagine you have two empty boxes. That’s it – just two empty boxes. But here
 
 So, how do we check if these boxes are equal? There are two ways to do this: abstract equality (==) and strict equality (===).
 
-Abstract Equality (==): This is like checking if both boxes are empty. Both null and undefined boxes are empty, so they seem equal.
-Strict Equality (===): This is like checking if both boxes are not only empty but also the same type. Null and undefined boxes are different types, so they’re not strictly equal.
+**Abstract Equality (==):** This is like checking if both boxes are empty. Both null and undefined boxes are empty, so they seem equal.
+
+**Strict Equality (===):** This is like checking if both boxes are not only empty but also the same type. Null and undefined boxes are different types, so they’re not strictly equal.
+
 So, the next time you’re faced with a null or undefined value, just remember: it’s not just an empty box – it’s a box with a specific meaning!
