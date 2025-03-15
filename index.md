@@ -23,3 +23,5 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 **Phone:** [+234-90-6611-5252](tel:+2349066115252)
 
 **Email:** [agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)
+
+**Read on Wordpress:** [agunechemba.wordpress.com](https://agunechembaekene.wordpress.com/)
