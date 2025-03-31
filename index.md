@@ -24,9 +24,9 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 
 &#9993; Email: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
 
-&#10561; Join Our Telegram Group: **[agunechemba_hub](https://t.me/agunechemba_hub)**
+&#10561; [Join](https://t.me/agunechemba_hub) Our Telegram Group: &#9758; **[JOIN](https://t.me/agunechemba_hub)**
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *or scan this &#x1F447; code to join our Telegram Group*
+*or scan this &#x1F447; code to join our Telegram Group*
 
 ![Telegram QR Scan Code](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/03/telegram-group-hub-qr-code-transparent.png)
 
