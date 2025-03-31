@@ -18,13 +18,13 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 
 ## &#129309; Let's Connect
 
-&#9742; **Phone:** [+234-90-6611-5252](tel:+2349066115252)
+&#9742; Phone: **[+234-90-6611-5252](tel:+2349066115252)**
 
-&#128488; **WhatsApp:** [+234-90-6611-5252](https://wa.link/qyy63j)
+&#128488; WhatsApp: **[+234-90-6611-5252](https://wa.link/qyy63j)**
 
-&#9993; **Email:** [agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)
+&#9993; Email: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
 
-&#10561; **Join Our Telegram Group:** [agunechemba_hub](https://t.me/agunechemba_hub)
+&#10561; Join Our Telegram Group: **[agunechemba_hub](https://t.me/agunechemba_hub)**
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *or scan this &#x1F447; code to join our Telegram Group*
 
