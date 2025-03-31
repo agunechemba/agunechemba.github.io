@@ -36,6 +36,6 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 
 &#8827; **Mastodon:** [agunechemba](https://mastodon.social/@agunechemba)
 
-&#8827; **LinkedIn:** [agunechembaekene](https://www.linkedin.com/in/agunechembaekene)
+&#8827; **LinkedIn:** [agunechembaekene](https://linkedin.com/in/agunechembaekene)
 
 &#8827; **Read Blog Posts Below &#x1F447; &#x1F447; &#x1F447; &#x1F447;**
