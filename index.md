@@ -20,7 +20,7 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 
 &#9742; **Phone:** [+234-90-6611-5252](tel:+2349066115252)
 
-&#128488; **Whatsapp:** [+234-90-6611-5252](https://wa.link/qyy63j)
+&#128488; **WhatsApp:** [+234-90-6611-5252](https://wa.link/qyy63j)
 
 &#x2709; **Email:** [agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)
 
@@ -31,6 +31,8 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 ![Telegram QR Scan Code](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/03/telegram-group-hub-qr-code-transparent.png)
 
 &#8727; **Dev.to:** [agunechemba](https://dev.to/agunechemba)
+
+&#8727; **GitHub:** [agunechemba](https://github.com/agunechemba)
 
 &#8727; **Mastodon:** [agunechemba](https://mastodon.social/@agunechemba)
 
