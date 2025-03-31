@@ -6,9 +6,7 @@
 
 I've been geeking out about tech education for over 15 years, and my favorite thing is helping young minds around the world discover their inner coder!
 
-I've had the blast teaching online to students from Nigeria to the UK, and even threw some epic coding competitions in Lagos. Plus, I love sharing tech tips and tricks in my blogs 
-
-**Read Blog Posts Below &#x1F447; &#x1F447; &#x1F447; &#x1F447;**
+I've had the blast teaching online to students from Nigeria to the UK, and even threw some epic coding competitions in Lagos. Plus, I love sharing tech tips and tricks in my [blog.](https://agunechembaekene.wordpress.com/)
 
 Right now, I'm having a ton of fun teaching computer programming at [Clasam Schools](https://clasamschools.com/), where we're basically building the future, one line of code at a time!
 
@@ -26,14 +24,16 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 
 &#x2709; **Email:** [agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)
 
-&#x1F5EB; **Telegram Group:** [agunechemba_hub](https://t.me/agunechemba_hub)
+&#128172; **Telegram Group:** [agunechemba_hub](https://t.me/agunechemba_hub)
+
+**Scan this &#x1F447; code to join our *Telegram* Group**
 
 ![Telegram QR Scan Code](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/03/telegram-group-hub-qr-code-transparent.png)
 
-&#10686; **Dev.to:** [agunechemba](https://dev.to/agunechemba)
+&#8727; **Dev.to:** [agunechemba](https://dev.to/agunechemba)
 
-&#10686; **Mastodon:** [agunechemba](https://mastodon.social/@agunechemba)
+&#8727; **Mastodon:** [agunechemba](https://mastodon.social/@agunechemba)
 
-&#10686; **LinkedIn:** [agunechembaekene](www.linkedin.com/in/agunechembaekene)
+&#8727; **LinkedIn:** [agunechembaekene](www.linkedin.com/in/agunechembaekene)
 
-&#128366; **Read on Wordpress:** [agunechemba.wordpress.com](https://agunechembaekene.wordpress.com/)
+&#128457; **Read Blog Posts Below &#x1F447; &#x1F447; &#x1F447; &#x1F447;**
