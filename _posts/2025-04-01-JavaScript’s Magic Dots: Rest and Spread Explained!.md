@@ -48,6 +48,9 @@ The ...partsBox spreads out the items in the array so that assembleParts gets th
 Think of these dots as tools that make your JavaScript code more:
 
 **Flexible:** Rest lets your machines handle different amounts of input.
+
 **Efficient:** Spread lets you easily use collections of data as inputs.
+
 **Readable:** These dots, when used correctly, can make your code cleaner and easier to understand.
+
 So, young coders, master these “magic dots,” and you’ll be building powerful JavaScript machines in no time! Keep experimenting, and have fun!
