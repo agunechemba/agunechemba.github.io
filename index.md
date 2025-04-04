@@ -31,7 +31,7 @@ I am basically building the future, one line of code at a time!
 
 ---
 
-## For weekly insights and practical tutorials &#128071;
+## &#128077; For weekly insights and practical tutorials &#128071;
 
 
 
