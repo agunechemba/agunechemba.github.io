@@ -70,4 +70,4 @@ I am basically building the future, one line of code at a time!
 ---
 
 
-## Read Blog Posts &#x1F447; &#x1F447; &#x1F447; &#x1F447;
+## Recent Blogs &#x1F447; &#x1F447; &#x1F447; &#x1F447;
