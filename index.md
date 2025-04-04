@@ -31,7 +31,7 @@ I am basically building the future, one line of code at a time!
 
 ---
 
-## Subscribe &#128071; now for weekly insights and practical tutorials!
+## For weekly insights and practical tutorials &#128071;
 
 
 
