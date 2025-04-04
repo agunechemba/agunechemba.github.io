@@ -8,6 +8,7 @@ What started as a crazy idea between childhood friends became a company that hel
 
 To think that Microsoft has been part of half a century of progress—from floppy disks to cloud computing, from DOS to AI—is surreal. I feel incredibly lucky to have been part of that journey. I only wish Paul were here to take it all in, too. But I’m deeply grateful to everyone who helped make the dream he and I shared a reality: from early pioneers like Steve Ballmer to today’s visionary leaders like Satya Nadella—and, of course, the many brilliant people who have worked at Microsoft along the way.
 
+
 To celebrate this milestone, I wanted to share something special: the code that started it all. Altair BASIC was the first software Paul and I ever sold—and the first product Microsoft ever made (back when we still spelled it “Micro-Soft,” with a hyphen). It remains the coolest code I’ve ever written. You can learn the story behind it on Gates Notes now—and even download the original source code yourself to see how it all worked.
 
 Thanks, as always, for being an Insider—and for being part of this journey, too. Here’s to the next 50 years.
