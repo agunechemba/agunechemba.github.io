@@ -29,8 +29,11 @@ I am basically building the future, one line of code at a time!
 &#9993; Email: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
 
 
-## Subscribe &#128071; now for weekly insights and practical tutorials!
 ---
+
+## Subscribe &#128071; now for weekly insights and practical tutorials!
+
+
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
@@ -67,4 +70,4 @@ I am basically building the future, one line of code at a time!
 ---
 
 
-&#8827; **Read Blog Posts Below &#x1F447; &#x1F447; &#x1F447; &#x1F447;**
+## Read Blog Posts &#x1F447; &#x1F447; &#x1F447; &#x1F447;**
