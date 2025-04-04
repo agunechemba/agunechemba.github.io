@@ -24,23 +24,9 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 
 &#9993; Email: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
 
-&#10561; [Join](https://t.me/agunechemba_hub) Our Telegram Group: &#9758; **[JOIN](https://t.me/agunechemba_hub)**
 
-*or scan this &#x1F447; code to join our Telegram Group*
-
-![Telegram QR Scan Code](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/03/telegram-group-hub-qr-code-transparent.png)
-
-&#8827; **Dev.to:** [agunechemba](https://dev.to/agunechemba)
-
-&#8827; **GitHub:** [agunechemba](https://github.com/agunechemba)
-
-&#8827; **Mastodon:** [agunechemba](https://mastodon.social/@agunechemba)
-
-&#8827; **LinkedIn:** [agunechembaekene](https://linkedin.com/in/agunechembaekene)
-
-&#8827; **Read Blog Posts Below &#x1F447; &#x1F447; &#x1F447; &#x1F447;**
-
-
+## Level up your tech skills! Subscribe &#128071; now for weekly insights, practical tutorials, and stay ahead of the curve. Don't miss out!
+-
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
@@ -71,4 +57,5 @@ Right now, I'm having a ton of fun teaching computer programming at [Clasam Scho
 </form>
 </div>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-
+-
+&#8827; **Read Blog Posts Below &#x1F447; &#x1F447; &#x1F447; &#x1F447;**
