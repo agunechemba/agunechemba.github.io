@@ -1,3 +1,5 @@
+## JavaScript’s Magic Dots: Rest and Spread Explained!
+
 ![children playing with 3 balls](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/3_black_children_playing_with_a_transparent.jpeg?w=1024)
 
 Hey everyone! Today, we’re going to explore a really cool and useful feature in JavaScript. It involves three little dots: ... Don’t let them fool you; they’re more powerful than they look!
