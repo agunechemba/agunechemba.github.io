@@ -1,3 +1,5 @@
+## The Empty Box Analogy: Understanding Null and Undefined in Code
+
 ![Code](https://agunechembaekene.wordpress.com/wp-content/uploads/2024/12/code_20241229_200319_via_10015_io.png?w=1024)
 
 Have you ever struggled to wrap your head around the concepts of null and undefined in programming? Do you find yourself wondering what the difference is between these two seemingly similar terms?
