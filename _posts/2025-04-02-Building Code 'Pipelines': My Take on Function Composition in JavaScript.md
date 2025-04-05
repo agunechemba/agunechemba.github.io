@@ -1,3 +1,5 @@
+## Building Code 'Pipelines': My Take on Function Composition in JavaScript
+
 ![Agunechemba Ekene - The Celebrated Tech Trainer](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/img_20241018_082917.jpg?w=1024)
 
 In the world of functional programming, it's quite common for me to take several smaller, focused functions and combine them into one single function. I think of it like building a pipeline or snapping together pieces of a train track. 
