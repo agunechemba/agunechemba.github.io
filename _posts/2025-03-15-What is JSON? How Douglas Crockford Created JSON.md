@@ -1,3 +1,5 @@
+## What is JSON? How Douglas Crockford Created JSON
+
 ![Douglas Crockford](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/douglas_crockford_february_2013.jpg?w=1024)
 
 In 2001, Douglas Crockford was working on a project. He needed to find a way to share data between different computers on the internet. At that time, people used big and complicated formats like XML.
