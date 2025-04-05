@@ -1,3 +1,5 @@
+## Emma’s Struggle with Assembly Code: Introduction to Variables and the First Mathematician to Use Variables
+
 It was a typical Monday morning for Emma, a programmer. She was staring at lines of assembly code that seemed to go on forever. She rubbed her tired eyes, trying to make sense of the confusing mix of 0s and 1s.
 
 Just then, her colleague Jack walked in with a cup of coffee. “Hey Emma, how’s it going?” he asked, looking at the code on her screen.
