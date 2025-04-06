@@ -1,4 +1,4 @@
-![Agunechemba Ekene Display Picture](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png)
+![Agunechemba Ekene Display Picture](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png)
 
 # &#129312; About Me
 ***&#128588; The Celebrated Tech Trainer***
