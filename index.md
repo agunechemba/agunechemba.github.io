@@ -14,7 +14,7 @@ Right now, I'm having a ton of fun blogging, training, and teaching computer pro
 
 I am basically building the future, one line of code at a time!
 
-## &#128421; Expertise
+## &#128421; My Expertise
 
 - **Web development** (HTML, CSS, JavaScript)
 - **Programming** (Python, JavaScript)
