@@ -70,5 +70,6 @@ I am basically building the future, one line of code at a time!
 ---
 
 
-## Recent Blogs &#x1F447; &#x1F447; &#x1F447; &#x1F447;
+
 <a id="my-blog"></a>
+## Recent Blogs &#x1F447; &#x1F447; &#x1F447; &#x1F447;
