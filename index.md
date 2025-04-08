@@ -10,7 +10,7 @@ I've had a blast teaching online to students from Nigeria, the UK, and the US, a
 
 Plus, I love sharing tech tips and tricks in my [blog](#my-blog).
 
-Right now, I'm having a ton of fun [blogging](#my-blog), training, and teaching computer programming at [Clasam Schools](https://clasamschools.com/).
+Right now, I'm having a ton of fun [blogging](#my-blog), training, and teaching computer programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.
 
 I am basically building the future, one line of code at a time!
 
