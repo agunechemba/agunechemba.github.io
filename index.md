@@ -8,7 +8,7 @@ I've been geeking out about tech education for over 15 years, and my favorite th
 
 I've had a blast teaching online to students from Nigeria, the UK, and the US, and even threw some epic coding competitions in Lagos.
 
-Plus, I love sharing tech tips and tricks in my [blog](#my-blog).
+Plus, I love sharing tech tips and tricks in my **[blog](#my-blog).**
 
 Right now, I'm having a ton of fun [blogging](#my-blog), training, and teaching computer programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.
 
