@@ -22,11 +22,11 @@ I am basically building the future, one line of code at a time!
 
 ## &#129309; Let's Connect
 
-&#9742; Phone: **[+234-90-6611-5252](tel:+2349066115252)**
+&#9742; Call Me: **<a href="tel:+2349066115252" target="_blank">+234-90-6611-5252</a>**
 
-&#128488; WhatsApp: **[+234-90-6611-5252](https://wa.link/qyy63j)**
+&#128488; WhatsApp Me: **<a href=" https://wa.link/qyy63j" target="_blank">+234-90-6611-5252</a>**
 
-&#9993; Email: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
+&#9993; Email Me: **<a href="mailto:agunechemba@yahoo.com" target="_blank">agunechemba@yahoo.com</a>**
 
 
 ---
