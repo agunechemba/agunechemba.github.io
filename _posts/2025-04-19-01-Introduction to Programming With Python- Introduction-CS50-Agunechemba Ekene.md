@@ -1,4 +1,4 @@
-## 01-Intro to Programming With Python Full Course.
+## 01-Introduction to Programming With Python: Introduction.
 
 Harvard University's renowned CS50 series brings you a comprehensive and accessible **Introduction to Programming with Python.**
 
