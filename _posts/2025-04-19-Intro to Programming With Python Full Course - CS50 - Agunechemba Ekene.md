@@ -21,4 +21,4 @@ By the end, you'll have the skills to tackle real-world programming challenges i
 
 ***
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezXN31o-15ZaW_ZB2levfrXKs0ACdc6v7EaIBcStB_7tO2Ow/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezXN31o-15ZaW_ZB2levfrXKs0ACdc6v7EaIBcStB_7tO2Ow/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
