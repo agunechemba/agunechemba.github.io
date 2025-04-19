@@ -45,4 +45,4 @@ Each week includes lectures and problem sets to apply the concepts learned.
 
 By the end, you'll have the skills to tackle real-world programming challenges in various fields.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezXN31o-15ZaW_ZB2levfrXKs0ACdc6v7EaIBcStB_7tO2Ow/viewform?embedded=true" width="640" height="2147" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSezXN31o-15ZaW_ZB2levfrXKs0ACdc6v7EaIBcStB_7tO2Ow/viewform?embedded=true" width="100%" height="2147" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
