@@ -17,6 +17,8 @@ This video introduces CS50's Introduction to Programming with Python, and it ser
 
 By the end, you'll have the skills to tackle real-world programming challenges in various fields.
 
+---
+
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/OvKCESUCWII?si=zb5cuFR4r3B8SFPV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ***
