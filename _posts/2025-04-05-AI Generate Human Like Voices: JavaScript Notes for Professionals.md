@@ -9,7 +9,7 @@ I just dropped a brand-new audio review of the fantastic ***JavaScript Notes for
 
 Take a listen to this concise summary, brought to you with a remarkably human-like voice thanks to the magic of Gemini 2.5!
 
-You can even [**download the "JavaScript Notes for Professionals" book for free**](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/javascript-notes-for-professionals.pdf).
+You can even [**download the "JavaScript Notes for Professionals" book for free**](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/javascript-notes-for-professionals.pdf){target="_blank"}.
 
 Give the audio review a listen to get a quick overview, and then grab your free copy to explore all the valuable insights it has to offer.
 
