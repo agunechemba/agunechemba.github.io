@@ -1,7 +1,7 @@
 ## AI Generate 100% Human Like Voices: JavaScript Notes for Professionals, Free E-Book Download!
 
 
-<embed src="https://jmp.sh/220dQ0jn" type="audio/mpeg" controls="true" loop="false" autostart="true" width="100%" height="100">
+<embed src="https://jmp.sh/220dQ0jn" type="audio/mpeg" controls="true" loop="false" autostart="true" width="100%" height="150">
 
 
 I just dropped a brand-new audio review of the fantastic ***JavaScript Notes for Professionals*** book – a truly invaluable resource for JavaScript developers at any stage.
