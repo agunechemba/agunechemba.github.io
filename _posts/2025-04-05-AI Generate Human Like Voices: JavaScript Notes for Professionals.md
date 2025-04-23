@@ -9,11 +9,6 @@
 </audio>
 
 
-<audio controls autoplay>
-  <source src="[https://jmp.sh/220dQ0jn](https://jmp.sh/220dQ0jn)" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
 I just dropped a brand-new audio review of the fantastic ***JavaScript Notes for Professionals*** book – a truly invaluable resource for JavaScript developers at any stage.
 
 Take a listen to this concise summary, brought to you with a remarkably human-like voice thanks to the magic of Gemini 2.5!
