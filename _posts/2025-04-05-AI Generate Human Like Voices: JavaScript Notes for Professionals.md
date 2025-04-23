@@ -1,7 +1,7 @@
 ## AI Generate 100% Human Like Voices: JavaScript Notes for Professionals
 
 
-<embed src="https://jmp.sh/220dQ0jn" type="audio/mpeg" controls="true" loop="false" autostart="true">
+<embed src="https://jmp.sh/220dQ0jn" type="audio/mpeg" controls="true" loop="false" autostart="true" width="100%">
 
 
 
