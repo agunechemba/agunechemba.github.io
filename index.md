@@ -3,12 +3,11 @@
 # &#129312; About Me
 ***&#128588; The Celebrated Tech Trainer***
 ---
+For 15+ years, I've loved igniting coding passion in young minds worldwide, teaching online to students across Nigeria, the UK, and the US, and even running exciting competitions in Lagos.
 
-I've been geeking out about tech education for over 15 years, and my favorite thing is helping young minds around the world discover their inner coder!
+As a side hustle, I also handle **web administration** and have hosted sites like _surepath.ng, clasamenergy.com, clasamschools.com,_ and managed **business email hosting** for various clients.
 
-I've had a blast teaching online to students from Nigeria, the UK, and the US, and even threw some epic coding competitions in Lagos.
-
-Plus, I love sharing tech tips and tricks in my **[blog](#my-blog).**
+I love sharing tech tips and tricks in my **[blog](#my-blog).**
 
 Right now, I'm having a ton of fun [blogging](#my-blog), training, and teaching computer programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.
 
