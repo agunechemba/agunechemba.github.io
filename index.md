@@ -169,7 +169,7 @@
 
 ---
 
-## &#128077; For weekly insights and practical tutorials &#128071;
+## <span class="emoji">&#128077; </span>For weekly insights and practical tutorials &#128071;
 
 
 
@@ -210,4 +210,4 @@
 
 
 <a id="my-blog"></a>
-## Recent Blogs &#x1F447; &#x1F447; &#x1F447; &#x1F447;
+## Recent Blogs <span class="emoji"> &#x1F447; &#x1F447; &#x1F447; &#x1F447;</span>
