@@ -1,89 +1,152 @@
-<!-- Display Picture -->
-<p align="center">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Agunechemba Ekene Display Picture" width="150">
-</p>
+<!-- Add Font Awesome CDN for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<h1 align="center">🧠 About Me</h1>
+<!-- Background Animation -->
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #1e1e1e, #2c3e50, #1e1e1e);
+    background-size: 600% 600%;
+    animation: backgroundShift 20s ease infinite;
+    font-family: Segoe UI, sans-serif;
+  }
 
-<h3 align="center" style="color:#ff6600;">🙌 The Celebrated Tech Trainer</h3>
+  @keyframes backgroundShift {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
 
-<hr>
+  .profile-container {
+    background-color: rgba(30, 30, 30, 0.95);
+    color: #e0e0e0;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 800px;
+    margin: 60px auto;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  }
 
-<p style="font-size:16px; line-height:1.6;">
-  For <strong>15+ years</strong>, I've loved igniting coding passion in young minds worldwide — teaching online to students across <strong>Nigeria, the UK, and the US</strong>, and running exciting competitions in Lagos.
-</p>
+  .profile-container a {
+    color: #00bfff;
+    text-decoration: none;
+  }
 
-<p style="font-size:16px; line-height:1.6;">
-  As a side hustle, I also handle <strong>web administration</strong> and have hosted sites like <em>surepath.ng, clasamenergy.com, clasamschools.com</em>, while managing <strong>business email hosting</strong> for various clients.
-</p>
+  .profile-container a:hover {
+    text-decoration: underline;
+  }
 
-<p style="font-size:16px; line-height:1.6;">
-  I love sharing tech tips and tricks in my <a href="#my-blog" style="color:#0077cc;">blog</a>.
-</p>
+  hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 20px 0;
+  }
 
-<p style="font-size:16px; line-height:1.6;">
-  Right now, I'm having a ton of fun <a href="#my-blog" style="color:#0077cc;">blogging</a>, training, and teaching computer programming at 
-  <a href="https://clasamschools.com/" target="_blank" style="color:#0077cc;">Clasam Schools</a>.
-</p>
+  h1, h2, h3 {
+    text-align: center;
+  }
 
-<p style="font-size:16px; line-height:1.6;">
-  <em>I am basically building the future, one line of code at a time!</em>
-</p>
+  /* Animated Icons */
+  .icon-spin {
+    animation: spin 4s linear infinite;
+  }
 
-<hr>
+  @keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
 
-<h2>🖥️ My Expertise</h2>
-<ul style="font-size:16px; line-height:1.8;">
-  <li><strong>Web development:</strong> HTML, CSS, JavaScript</li>
-  <li><strong>Programming:</strong> Python, JavaScript</li>
-  <li><strong>Robotics:</strong> Arduino, C++, Python</li>
-</ul>
+  /* Music Player Styling */
+  #music-controls {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-<hr>
-
-<h2>🤝 Let's Connect</h2>
-<ul style="font-size:16px; line-height:2;">
-  <li>📞 Call Me: <a href="tel:+2349066115252" target="_blank">+234-90-6611-5252</a></li>
-  <li>💬 WhatsApp: <a href="https://wa.link/qyy63j" target="_blank">+234-90-6611-5252</a></li>
-  <li>📧 Email: <a href="mailto:agunechemba@yahoo.com" target="_blank">agunechemba@yahoo.com</a></li>
-</ul>
-
----
-
-## &#128077; For weekly insights and practical tutorials &#128071;
-
-
-
-<div id="mc_embed_shell">
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-        #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 100%;}
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  #music-controls button {
+    background-color: #00bfff;
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
 </style>
-<div id="mc_embed_signup">
-    <form action="https://github.us13.list-manage.com/subscribe/post?u=dd2b3218fc9ed6ffb2bb5cad0&amp;id=058cc63af0&amp;f_id=00361eedf0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <div id="mc_embed_signup_scroll"><h2>Subscribe!</h2>
-            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
-        <div id="mce-responses" class="clear foot">
-            <div class="response" id="mce-error-response" style="display: none;"></div>
-            <div class="response" id="mce-success-response" style="display: none;"></div>
-        </div>
-    <div aria-hidden="true" style="position: absolute; left: -5000px;">
-        /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-        <input type="text" name="b_dd2b3218fc9ed6ffb2bb5cad0_058cc63af0" tabindex="-1" value="">
-    </div>
-        <div class="optionalParent">
-            <div class="clear foot">
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                <p style="margin: 0px auto;"><a href="http://eepurl.com/jbMNbw" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
-            </div>
-        </div>
-    </div>
-</form>
+
+<!-- Profile Content -->
+<div class="profile-container">
+  <p align="center">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Agunechemba Ekene Display Picture" width="120" style="border-radius:50%;">
+  </p>
+
+  <h1 style="color:#00bfff;">
+    <i class="fas fa-laptop-code icon-spin"></i> About Me
+  </h1>
+  <h3 style="color:#ffa500;">🙌 The Celebrated Tech Trainer</h3>
+
+  <!-- Music Player -->
+  <div id="music-controls">
+    <audio id="bg-music" autoplay loop>
+      <source src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+    <button onclick="toggleMusic()">🎵 Toggle Music</button>
+  </div>
+
+  <hr>
+
+  <p>
+    For <strong>15+ years</strong>, I've loved igniting coding passion in young minds worldwide — teaching online to students across <strong>Nigeria, the UK, and the US</strong>, and running exciting competitions in Lagos.
+  </p>
+
+  <p>
+    I also handle <strong>web administration</strong> and have hosted sites like <em>surepath.ng, clasamenergy.com, clasamschools.com</em>, while managing <strong>business email hosting</strong> for various clients.
+  </p>
+
+  <p>
+    I love sharing tech tips and tricks in my <a href="#my-blog">blog</a>.
+  </p>
+
+  <p>
+    Right now, I'm having a ton of fun <a href="#my-blog">blogging</a>, training, and teaching computer programming at 
+    <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.
+  </p>
+
+  <p style="font-style:italic;">I am basically building the future, one line of code at a time!</p>
+
+  <hr>
+
+  <h2 style="color:#ff6347;"><i class="fas fa-code icon-spin"></i> My Expertise</h2>
+  <ul>
+    <li><strong>Web development:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Programming:</strong> Python, JavaScript</li>
+    <li><strong>Robotics:</strong> Arduino, C++, Python</li>
+  </ul>
+
+  <hr>
+
+  <h2 style="color:#00ff99;"><i class="fas fa-handshake icon-spin"></i> Let's Connect</h2>
+  <ul>
+    <li>📞 Call Me: <a href="tel:+2349066115252">+234-90-6611-5252</a></li>
+    <li>💬 WhatsApp: <a href="https://wa.link/qyy63j">+234-90-6611-5252</a></li>
+    <li>📧 Email: <a href="mailto:agunechemba@yahoo.com">agunechemba@yahoo.com</a></li>
+  </ul>
 </div>
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+
+<!-- Music Toggle Script -->
+<script>
+  function toggleMusic() {
+    const music = document.getElementById('bg-music');
+    if (music.paused) {
+      music.play();
+    } else {
+      music.pause();
+    }
+  }
+</script>
+
 
 
 ---
