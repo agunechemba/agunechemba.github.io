@@ -1,32 +1,52 @@
-![Agunechemba Ekene Display Picture](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png)
+<!-- Display Picture -->
+<p align="center">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Agunechemba Ekene Display Picture" width="150">
+</p>
 
-# &#129312; About Me
-***&#128588; The Celebrated Tech Trainer***
----
-For 15+ years, I've loved igniting coding passion in young minds worldwide, teaching online to students across Nigeria, the UK, and the US, and even running exciting competitions in Lagos.
+<h1 align="center">🧠 About Me</h1>
 
-As a side hustle, I also handle **web administration** and have hosted sites like _surepath.ng, clasamenergy.com, clasamschools.com,_ and managed **business email hosting** for various clients.
+<h3 align="center" style="color:#ff6600;">🙌 The Celebrated Tech Trainer</h3>
 
-I love sharing tech tips and tricks in my **[blog](#my-blog).**
+<hr>
 
-Right now, I'm having a ton of fun [blogging](#my-blog), training, and teaching computer programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.
+<p style="font-size:16px; line-height:1.6;">
+  For <strong>15+ years</strong>, I've loved igniting coding passion in young minds worldwide — teaching online to students across <strong>Nigeria, the UK, and the US</strong>, and running exciting competitions in Lagos.
+</p>
 
-I am basically building the future, one line of code at a time!
+<p style="font-size:16px; line-height:1.6;">
+  As a side hustle, I also handle <strong>web administration</strong> and have hosted sites like <em>surepath.ng, clasamenergy.com, clasamschools.com</em>, while managing <strong>business email hosting</strong> for various clients.
+</p>
 
-## &#128421; My Expertise
+<p style="font-size:16px; line-height:1.6;">
+  I love sharing tech tips and tricks in my <a href="#my-blog" style="color:#0077cc;">blog</a>.
+</p>
 
-- **Web development** (HTML, CSS, JavaScript)
-- **Programming** (Python, JavaScript)
-- **Robotics** (Arduino, C++, Python)
+<p style="font-size:16px; line-height:1.6;">
+  Right now, I'm having a ton of fun <a href="#my-blog" style="color:#0077cc;">blogging</a>, training, and teaching computer programming at 
+  <a href="https://clasamschools.com/" target="_blank" style="color:#0077cc;">Clasam Schools</a>.
+</p>
 
-## &#129309; Let's Connect
+<p style="font-size:16px; line-height:1.6;">
+  <em>I am basically building the future, one line of code at a time!</em>
+</p>
 
-&#9742; Call Me: **<a href="tel:+2349066115252" target="_blank">+234-90-6611-5252</a>**
+<hr>
 
-&#128488; WhatsApp Me: **<a href=" https://wa.link/qyy63j" target="_blank">+234-90-6611-5252</a>**
+<h2>🖥️ My Expertise</h2>
+<ul style="font-size:16px; line-height:1.8;">
+  <li><strong>Web development:</strong> HTML, CSS, JavaScript</li>
+  <li><strong>Programming:</strong> Python, JavaScript</li>
+  <li><strong>Robotics:</strong> Arduino, C++, Python</li>
+</ul>
 
-&#9993; Email Me: **<a href="mailto:agunechemba@yahoo.com" target="_blank">agunechemba@yahoo.com</a>**
+<hr>
 
+<h2>🤝 Let's Connect</h2>
+<ul style="font-size:16px; line-height:2;">
+  <li>📞 Call Me: <a href="tel:+2349066115252" target="_blank">+234-90-6611-5252</a></li>
+  <li>💬 WhatsApp: <a href="https://wa.link/qyy63j" target="_blank">+234-90-6611-5252</a></li>
+  <li>📧 Email: <a href="mailto:agunechemba@yahoo.com" target="_blank">agunechemba@yahoo.com</a></li>
+</ul>
 
 ---
 
