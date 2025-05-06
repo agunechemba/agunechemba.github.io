@@ -169,7 +169,7 @@
 
 ---
 
-## <span class="emoji">&#128077; </span>For weekly insights and practical tutorials &#128071;
+## <span class="emoji">&#128077; </span>For weekly insights and practical tutorials <span class="emoji">&#128071;</span>
 
 
 
