@@ -130,7 +130,7 @@
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Agunechemba Ekene Display Picture">
 
-  <h1><i class="fas fa-laptop-code"></i> About Me</h1>
+  <h1><i class="fas fa-laptop-code"></i> Agunechemba Ekene</h1>
   <h2><span class="emoji">🙌</span> The Celebrated Tech Trainer</h2>
 
   <p>For <strong>15+ years</strong>, I've loved igniting coding passion in young minds worldwide, teaching online to students across <strong>Nigeria, the UK, and the US</strong>, and even running exciting competitions in Lagos.</p>
