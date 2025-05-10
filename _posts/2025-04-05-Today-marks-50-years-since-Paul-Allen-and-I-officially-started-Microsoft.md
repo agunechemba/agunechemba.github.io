@@ -1,6 +1,6 @@
 ## Today marks 50 years since Paul Allen and I officially started Microsoft By Bill Gates | April 4, 2025
 
-![Bill Gates](https://media.licdn.com/dms/image/v2/D4E22AQEq7FZ_0cUh5w/feedshare-shrink_2048_1536/B4EZYDLWNlHYAs-/0/1743810028914?e=1746662400&v=beta&t=QOjO6DWTZzEq-0dUm2UHBfnQ3Un7mRHs27vo7z-LL7w)
+![Bill Gates](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bill_Gates%2C_September_2024.jpg/250px-Bill_Gates%2C_September_2024.jpg)
 
 Today marks 50 years since Paul Allen and I officially started Microsoft. Back then, we were just two kids obsessed with computers, convinced that software could unlock a better future—and determined to make that future happen. We dreamed of a computer on every desk and in every home. In 1975, that sounded like a pipe dream to most people who didn’t even know what a computer was, let alone why they’d want one. But we believed that if we could make this technology accessible and useful, it could change the world. And it did.
 
