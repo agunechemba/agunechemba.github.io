@@ -135,7 +135,7 @@
 
   <p>For <strong>15+ years</strong>, I've loved igniting coding passion in young minds worldwide, teaching online to students across <strong>Nigeria, the UK, and the US</strong>, and even running exciting competitions in Lagos.</p>
 
-  <p>As a side hustle, I also handle <strong>web administration</strong> and have hosted sites like <strong>surepath.ng, clasamenergy.com, clasamschools.com</strong>, and managed <strong>business email hosting</strong> for various clients.</p>
+  <p>As a side hustle, I also handle <strong>web administration</strong> and have hosted sites like <strong>surepath.ng, clasamenergy.com, clasamschools.com</strong>, and managed <strong>business email hosting</strong> for various organisations.</p>
 
   <p>I love sharing tech tips and tricks in my <a href="#my-blog">blog</a>.</p>
 
