@@ -137,7 +137,7 @@
 
   <p>As a side hustle, I also handle <strong>web administration</strong> and have hosted sites like <strong>surepath.ng, clasamenergy.com, clasamschools.com</strong>, and managed <strong>business email hosting</strong> for various organisations.</p>
 
-  <p>I love sharing tech tips and tricks in my <stromg><a href="#my-blog">blog</a></stromg>.</p>
+  <p>I love sharing tech tips and tricks in my <strong><a href="#my-blog">blog</a></strong>.</p>
 
   <p>Right now, I'm having a ton of fun <strong><a href="#my-blog">blogging</a></strong>, training, and teaching computer programming at 
     <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.
