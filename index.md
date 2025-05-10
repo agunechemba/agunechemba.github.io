@@ -3,7 +3,7 @@
 
 <!-- Background Music -->
 <audio autoplay loop volume="0.2">
-  <source src="mp3/song.mp3" type="audio/mp3">
+  <source src="/mp3/song.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
 
