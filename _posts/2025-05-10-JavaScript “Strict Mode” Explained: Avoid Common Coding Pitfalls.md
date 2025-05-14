@@ -118,9 +118,7 @@ Strict mode offers several benefits:
     d) It automatically fixes all bugs in your code.
 
 
-    **Conclusion**
-
-Strict mode is a powerful tool that helps you write safer and more reliable JavaScript code. By enabling strict mode and following best practices like declaring variables explicitly, you can avoid common pitfalls and improve the quality of your code. Whether you’re a beginner or an experienced developer, using strict mode is a habit that will pay off in the long run.
+**Conclusion:** Strict mode is a powerful tool that helps you write safer and more reliable JavaScript code. By enabling strict mode and following best practices like declaring variables explicitly, you can avoid common pitfalls and improve the quality of your code. Whether you’re a beginner or an experienced developer, using strict mode is a habit that will pay off in the long run.
 
 So, the next time you write JavaScript, don’t forget to add “use strict”; at the top of your script or function. Your future self (and your teammates) will thank you!
 
