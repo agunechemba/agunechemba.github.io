@@ -85,11 +85,34 @@ Strict mode offers several benefits:
 ---
 
 
-**Conclusion**
+## Review Questions
 
-Strict mode is a powerful tool that helps you write safer and more reliable JavaScript code. By enabling strict mode and following best practices like declaring variables explicitly, you can avoid common pitfalls and improve the quality of your code. Whether you’re a beginner or an experienced developer, using strict mode is a habit that will pay off in the long run.
+1.  **What is the main purpose of "strict mode" in JavaScript?**
+    a) To make your code run faster.
+    b) To help you write safer code by catching common mistakes.
+    c) To add new features to JavaScript.
+    d) To automatically write code for you.
 
-So, the next time you write JavaScript, don’t forget to add "use strict"; at the top of your script or function. Your future self (and your teammates) will thank you!
+2.  **How do you turn on "strict mode" for your entire JavaScript file?**
+    a) By writing `// enable strict` at the bottom of the file.
+    b) By typing `"use strict";` at the very beginning of the file.
+    c) By clicking a button in your web browser.
+    d) It's always on by default.
 
-Happy coding! 😊
+3.  **In "non-strict mode," if you use a variable without declaring it first (e.g., `x = 10;`), what happens?**
+    a) Your code will stop and show an error.
+    b) JavaScript might create a global variable, which can sometimes cause problems.
+    c) The variable will only work inside functions.
+    d) Nothing, it's the best way to write code.
 
+4.  **What happens if you try to use a variable without declaring it in "strict mode" (e.g., `"use strict"; y = 5;`)?**
+    a) It works the same as non-strict mode.
+    b) JavaScript will show an error message (like `ReferenceError`).
+    c) JavaScript will ask you if you want to create the variable.
+    d) The variable will be created locally.
+
+5.  **Which of these is a benefit of using "strict mode"?**
+    a) It makes your code look more complicated.
+    b) It stops you from accidentally creating global variables.
+    c) It lets you use old JavaScript features that are no longer recommended.
+    d) It automatically fixes all bugs in your code.
