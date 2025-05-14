@@ -1,5 +1,5 @@
-![Python](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/python.png)
 ### 🧠 Booleans in Python: Think Light Switch!
+![Python](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/python.png)
 
 Imagine a light switch in your room. It’s either **ON** or **OFF** — no in-between, right?
 In Python, we have something similar called **Booleans**. These are just two special values:
