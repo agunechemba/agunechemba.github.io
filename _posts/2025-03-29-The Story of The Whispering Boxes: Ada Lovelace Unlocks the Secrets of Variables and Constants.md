@@ -53,4 +53,16 @@ Charles beamed with pride. “You’ve got it, Ada! Your work on the Analytical 
 
 And so, Ada Lovelace continued to weave her magic, using variables and constants to create innovative programs that would inspire generations to come.
 
+## Review Questions
+
+1.  imagine you have a special toy box. you can put any toy you want in it. Let's say you first put a teddy bear in. Now, if you want to put a car in, you take the teddy bear out, and the car goes in. The box can hold different things at different times. What could this toy box be like in computer coding?
+
+2.  Now, imagine another special box. Once you put your favorite block inside, you can never take it out, and you can never put anything else in. It stays the same forever. What could this never-changing box be like in computer coding? Can you think of something that should always stay the same, like the number of fingers on one hand?
+
+3.  Let's say your first toy box is called "number of cookies." First, you put in the number 5. Then, you eat two cookies. How would you change what's in the "number of cookies" box?
+
+4.  Think about a game you like. Is there anything in that game that never changes, no matter what you do? What is it? Why is it important that it stays the same?
+
+5.  If you have one toy box for the length of a table and another toy box for how wide it is, how could you figure out how much space the table takes up? Would the answer (how much space) be something that can change, or would it stay the same once you figure it out?
+
 ![Charles Babbage](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/british_english_school_-_charles_babbage_1792e280931871_-_814168_-_national_trust.jpg?w=850)
