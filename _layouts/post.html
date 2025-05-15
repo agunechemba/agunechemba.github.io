@@ -26,8 +26,7 @@ layout: default
     {% include navlinks.html %}
   </div>
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  <!-- Start Installing Utterances for comment-->
+<!-- Start Installing Utterances for comment-->
   <script src="https://utteranc.es/client.js"
         repo="agunechemba/agunechemba.github.io"
         issue-term="pathname"
@@ -36,4 +35,7 @@ layout: default
         async>
 </script>
 <!-- End Installing Utterances for comment-->
+  
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  
 </article>
