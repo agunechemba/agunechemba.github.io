@@ -34,3 +34,11 @@ Objects help you organize information neatly. Instead of having lots of separate
 
 ## In a Nutshell
 Objects are like magical backpacks that hold labeled information. They help you keep things organized and make your code cleaner and more fun to work with. So, the next time you need to store information, think of an object—your very own JavaScript backpack! 🎒✨
+
+## Review Questions
+
+1. Describe an object in JavaScript using a real-life analogy.
+2. What term is used to describe the names given to values in an object?
+3. How can you add a new piece of information to an existing object in JavaScript?
+4. What is one way objects help improve code organization?
+5. How do you retrieve the value of a specific property from an object?
