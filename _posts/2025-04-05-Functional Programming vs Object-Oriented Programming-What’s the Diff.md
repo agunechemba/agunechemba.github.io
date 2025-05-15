@@ -57,3 +57,10 @@ So, what sets these two paradigms apart?
 - Functional Programming: Pure functions, immutability, and composition are key.
 - Object-Oriented Programming: Encapsulation, inheritance, and polymorphism are the big players.
 - JavaScript supports both paradigms, so you can choose the best approach for your project. Happy coding!
+
+## Review Questions:
+1. What is a key characteristic of functions in functional programming?
+2. How does object-oriented programming package up data and behavior?
+3. What are the key principles of functional programming mentioned in the text?
+4. What are the key principles of object-oriented programming mentioned in the text?
+5. What does JavaScript support in terms of programming paradigms, according to the text?
