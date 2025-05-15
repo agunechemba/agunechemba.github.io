@@ -32,3 +32,10 @@ console.log(anArray.foo, anObject.foo); // outputs: undefined bar
 As we can see, both anArray and anObject can be accessed using the same bracket notation.
 
 This is because, under the hood, anArray is actually an object.
+
+## Review Questions:
+1. What type of data structure are arrays in JavaScript, under the hood?
+2. How can you access properties in both objects and arrays in JavaScript?
+3. What happens when you try to access a property that doesn't exist in an array, but does exist in an object that mimics an array?
+4. What property do both arrays and array-like objects have in common?
+5. Why is understanding the underlying nature of arrays important in JavaScript, according to the text?
