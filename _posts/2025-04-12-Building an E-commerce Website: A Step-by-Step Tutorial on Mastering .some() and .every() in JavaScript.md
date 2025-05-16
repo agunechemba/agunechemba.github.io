@@ -94,3 +94,14 @@ Here are some practical applications of .some() and .every() in our e-commerce e
 
 By understanding and applying .some() and .every(), you can write more efficient and effective code in your JavaScript projects.
 
+## Review Questions
+
+**1.** What does the `.some()` method return if at least one element in the array meets the condition?
+
+**2.** In the e-commerce example, why does `products.every(product => product.inStock)` return `false`?
+
+**3.** Which method would you use to check if **all** items in a shopping cart are valid (e.g., in stock and priced correctly)?
+
+**4.** How is the metaphor of “friends at a party with a drink” related to the `.some()` method?
+
+**5.** What’s a real-world use case for using `.some()` in an e-commerce site?
