@@ -55,4 +55,18 @@ Think of these dots as tools that make your JavaScript code more:
 
 **Readable:** These dots, when used correctly, can make your code cleaner and easier to understand.
 
+## Review Questions
+
+1. What is the purpose of the rest parameter (...) when defining a function?
+
+2. In the processItems function, what will otherItems contain when you call processItems("gears", "bolts", "screws", "washers", "nails")?
+
+3. How is the spread syntax (...) used when calling a function with an array of values?
+
+4. What’s the key difference between rest and spread syntax in terms of where they are used?
+
+5. Why can using the rest and spread syntax make your JavaScript code more efficient and readable?
+
+---
+
 So, young coders, master these “magic dots,” and you’ll be building powerful JavaScript machines in no time! Keep experimenting, and have fun!
