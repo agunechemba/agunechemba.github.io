@@ -1,12 +1,12 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- Background Music -->
+<!-- Background Music Disabled
 <audio autoplay loop volume="0.2">
   <source src="/mp3/song.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
-
+-->
 <style>
   body {
     margin: 0;
@@ -169,10 +169,7 @@
 
 ---
 
-## <span class="emoji">&#128077; </span>For weekly insights and practical tutorials <span class="emoji">&#128071;</span>
-
-
-
+<!-- Start of Subscribe form-->
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
@@ -182,7 +179,7 @@
 </style>
 <div id="mc_embed_signup">
     <form action="https://github.us13.list-manage.com/subscribe/post?u=dd2b3218fc9ed6ffb2bb5cad0&amp;id=058cc63af0&amp;f_id=00361eedf0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <div id="mc_embed_signup_scroll"><h2>Subscribe!</h2>
+        <div id="mc_embed_signup_scroll"><h2>👉 Subscribe for Weekly Updates</h2>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
             <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
         <div id="mce-responses" class="clear foot">
@@ -203,11 +200,9 @@
 </form>
 </div>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-
+<!-- End of Subscribe form-->
 
 ---
 
-
-
 <a id="my-blog"></a>
-## Recent Blogs <span class="emoji"> &#x1F447; &#x1F447; &#x1F447; &#x1F447;</span>
+# **Recent**<span class="emoji"> &#x1F447; &#x1F447; &#x1F447; &#x1F447;</span>
