@@ -27,3 +27,15 @@ So, how do we check if these boxes are equal? There are two ways to do this: abs
 **Strict Equality (===):** This is like checking if both boxes are not only empty but also the same type. Null and undefined boxes are different types, so they’re not strictly equal.
 
 So, the next time you’re faced with a null or undefined value, just remember: it’s not just an empty box – it’s a box with a specific meaning!
+
+## Review Questions
+
+**1.** In the empty box analogy, what does `undefined` represent?
+
+**2.** What is the main difference between `null` and `undefined` in terms of intention?
+
+**3.** What will `null == undefined` return in JavaScript?
+
+**4.** Why does `null === undefined` return `false`?
+
+**5.** Which value (`null` or `undefined`) is typically used to indicate that a variable has not yet been assigned a value?
