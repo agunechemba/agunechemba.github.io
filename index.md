@@ -208,11 +208,9 @@
 
 <!-- Another subscribe form from google -->
 
-<iframe 
-  src="http://agunechemba.surepath.ng/" 
-  style="width: 100%; height: 100vh; border: none;" 
-  title="Agunechemba Site">
-</iframe>
+<iframe src="http://agunechemba.surepath.ng/" title="Agunechemba Site"> </iframe>
+<iframe src="http://agunechemba.surepath.ng/" title="Agunechemba Site"></iframe>
+
 
 
 
