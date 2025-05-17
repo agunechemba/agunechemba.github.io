@@ -40,7 +40,7 @@ console.log(uppercaseString); // Output: HELLO, WORLD!
 
 Which code correctly converts `"hello, world!"` to uppercase?
 
-* A. `console.log("hello, world!".toUpperCase());` ✅
+* A. `console.log("hello, world!".toUpperCase());` 
 * B. `console.log("hello, world!".toLowerCase());`
 * C. `console.log("hello, world!".charAt(0).toUpperCase());`
 * D. `console.log("hello, world!".replace("hello", "HELLO"));`
@@ -52,7 +52,7 @@ Which code correctly converts `"hello, world!"` to uppercase?
 Does `toUpperCase()` modify the original string?
 
 * A. Yes, it modifies the original string.
-* B. **No, it returns a new string with the converted characters.** ✅
+* B. No, it returns a new string with the converted characters.
 * C. It depends on the browser.
 * D. It only modifies strings that are stored in variables.
 
