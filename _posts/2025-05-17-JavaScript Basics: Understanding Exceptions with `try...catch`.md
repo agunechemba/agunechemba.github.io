@@ -1,6 +1,6 @@
 ## 💥 JavaScript Basics: Understanding Exceptions with `try...catch`
 
-![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_goal_keeper_catching_a_ball_in.jpeg)
+![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_goal_keeper_catching_a_ball_in-e1747503403307.jpeg)
 
 When coding in JavaScript, sometimes errors happen—maybe a user inputs wrong data, or a file doesn’t load. Instead of letting your whole program crash, JavaScript gives you a way to handle errors smoothly using **`try...catch`**.
 
