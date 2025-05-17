@@ -46,16 +46,16 @@ In the end, the `Object` in JavaScript is more than just a data structure—it�
 
 ---
 
+
 ## Review Questions:
 
 ---
 
 **1. What does it mean when an object in JavaScript is described as a “null-prototype object”?**
 A. It has no keys or values
-B. It inherits only from Array.prototype
-C. It does not inherit from Object.prototype
+B. It inherits only from `Array.prototype`
+C. It does not inherit from `Object.prototype`
 D. It cannot be modified after creation
-
 
 ---
 
@@ -65,7 +65,6 @@ B. `Object.modify()`
 C. `Object.assign()`
 D. `__proto__`
 
-
 ---
 
 **3. What does the `delete` operator do in JavaScript?**
@@ -74,7 +73,6 @@ B. Removes a property from an object
 C. Uninstalls JavaScript from the browser
 D. Reverts an object to its original state
 
-
 ---
 
 **4. What is a major risk of modifying `Object.prototype`?**
@@ -82,7 +80,6 @@ A. It slows down the program permanently
 B. It deletes all object methods
 C. It can cause unexpected behavior in all objects
 D. It creates memory leaks in all browsers
-
 
 ---
 
