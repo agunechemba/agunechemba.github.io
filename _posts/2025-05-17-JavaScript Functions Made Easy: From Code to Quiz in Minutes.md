@@ -32,7 +32,7 @@ This function takes one number, squares it, and prints the result. Easy!
 
 Let’s try a function that works with two numbers instead of one:
 
-```js
+```
 // Define a function
 function add(a, b) {
   return a + b;
