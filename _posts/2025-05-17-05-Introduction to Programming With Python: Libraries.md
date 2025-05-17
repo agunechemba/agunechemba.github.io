@@ -1,4 +1,4 @@
-## 05-Introduction to Programming With Python: Libraries
+## 06-Introduction to Programming With Python: Libraries
 
 This video introduces libraries in Python, explaining how to import and use pre-written code modules to extend the functionality of your programs, and demonstrates the use of modules like `random`, `statistics`, and `sys`.
 
