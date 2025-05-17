@@ -1,6 +1,6 @@
 # JavaScript Objects Simplified: A Summary of MDN Web Docs via DeepSeek AI
 
-<img src ="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/screenshot.png?w=1024">
+![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/screenshot.png?w=1024)
 
 ---
 
