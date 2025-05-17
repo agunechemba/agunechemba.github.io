@@ -130,7 +130,7 @@
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Agunechemba Ekene Display Picture">
 
-  <h1><i class="fa-light fa-gear-code"></i><br> Agunechemba Ekene</h1>
+  <h1><i class="fa-duotone fa-solid fa-code"></i><br> Agunechemba Ekene</h1>
   
   <h2><span class="emoji">🙌</span> The Celebrated Tech Trainer</h2>
 
