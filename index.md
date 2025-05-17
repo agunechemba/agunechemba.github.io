@@ -208,8 +208,8 @@
 
 <!-- Another subscribe form from google -->
 
-<iframe src="http://agunechemba.surepath.ng/" title="Agunechemba Site"> </iframe>
-<iframe src="http://agunechemba.surepath.ng/" title="Agunechemba Site"></iframe>
+
+
 
 
 
