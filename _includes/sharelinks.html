@@ -5,17 +5,18 @@
   #share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
   #share-buttons > div:hover {cursor: pointer;}
   #share-buttons > div.facebook:hover > svg {fill: #3B5998;}
-  #share-buttons > div.x:hover > svg {fill: #55ACEE;}
+  #share-buttons > div.x-share:hover > svg {fill: #000000;}
   #share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
   #share-buttons > div.gplus:hover > svg {fill: #dd4b39;}
   #share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
   #share-buttons > div.instagram:hover > svg {fill: #C73B92;}
   #share-buttons > div.facebook > svg {height: 18px; margin-top: 9px;}
-  #share-buttons > div.twitter > svg {height: 20px; margin-top: 8px;}
+  #share-buttons > div.x-share > svg {height: 20px; margin-top: 8px;}
   #share-buttons > div.linkedin > svg {height: 19px; margin-top: 7px;}
   #share-buttons > div.pinterest > svg {height: 20px; margin-top: 9px;}
   #share-buttons > div.gplus > svg {height: 17px; margin-top: 9px; position: relative; left: 1px;}
   #share-buttons > div.mail > svg {height: 14px; margin-top: 11px;}
+  #share-buttons > div.whatsapp:hover > svg {fill: #25D366;}
 </style>
 
 {% assign safeurl = site.url | append: page.url | url_encode %}
@@ -23,23 +24,29 @@
 {% assign safetitlepre = "[Blog] " | append: page.author | append: " - " | url_encode %}
 
 <span style="color: silver;">Share on: </span><div id="share-buttons">
-  <div class="facebook" title="Share this on Facebook"    onclick="window.open('http://www.facebook.com/share.php?u={{ safeurl }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
-  <div class="twitter"  title="Share this on Twitter"     onclick="window.open('https://twitter.com/intent/tweet?url={{ safeurl }}&text={{ safetitle }}&via={{ site.twitter_username }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
-  <div class="linkedin" title="Share this on Linkedin"    onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ safeurl }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
-  <div class="gplus"    title="Share this on Google Plus" onclick="window.open('https://plus.google.com/share?url={{ safeurl }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1437 913q0 208-87 370.5t-248 254-369 91.5q-149 0-285-58t-234-156-156-234-58-285 58-285 156-234 234-156 285-58q286 0 491 192l-199 191q-117-113-292-113-123 0-227.5 62t-165.5 168.5-61 232.5 61 232.5 165.5 168.5 227.5 62q83 0 152.5-23t114.5-57.5 78.5-78.5 49-83 21.5-74h-416v-252h692q12 63 12 122zm867-122v210h-209v209h-210v-209h-209v-210h209v-209h210v209h209z"/></svg></div>
-  <div class="mail"     title="Share this through Email"  onclick="window.open('mailto:?&body={{ safeurl }}&subject={{ safetitlepre }}{{ safetitle }}','popup','width=600,height=600'); return false;">
-    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+  <div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u={{ safeurl }}','popup','width=600,height=600'); return false;">
+    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg>
+  </div>
 
-<div class="x-share" title="Share this on X" onclick="window.open('https://x.com/intent/tweet?url={{ safeurl }}&text={{ safetitle }}&via={{ site.twitter_username }}','popup','width=600,height=600'); return false;">
-  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-    <path d="M4.25 3h3.2l4.3 6.1L16.6 3h3.15l-5.93 7.9L20.25 21H17l-4.47-6.37L7.5 21H4.36l6.26-8.37L4.25 3Zm3.52 1.5h-.82l11.3 15h.82L7.77 4.5Z"/>
-  </svg>
+  <div class="x-share" title="Share this on X" onclick="window.open('https://x.com/intent/tweet?url={{ safeurl }}&text={{ safetitle }}&via={{ site.twitter_username }}','popup','width=600,height=600'); return false;">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+      <path d="M4.25 3h3.2l4.3 6.1L16.6 3h3.15l-5.93 7.9L20.25 21H17l-4.47-6.37L7.5 21H4.36l6.26-8.37L4.25 3Zm3.52 1.5h-.82l11.3 15h.82L7.77 4.5Z"/>
+    </svg>
+  </div>
+
+  <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ safeurl }}','popup','width=600,height=600'); return false;">
+    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg>
+  </div>
+
+  <div class="gplus" title="Share this on Google Plus" onclick="window.open('https://plus.google.com/share?url={{ safeurl }}','popup','width=600,height=600'); return false;">
+    <svg viewBox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1437 913q0 208-87 370.5t-248 254-369 91.5q-149 0-285-58t-234-156-156-234-58-285 58-285 156-234 234-156 285-58q286 0 491 192l-199 191q-117-113-292-113-123 0-227.5 62t-165.5 168.5-61 232.5 61 232.5 165.5 168.5 227.5 62q83 0 152.5-23t114.5-57.5 78.5-78.5 49-83 21.5-74h-416v-252h692q12 63 12 122zm867-122v210h-209v209h-210v-209h-209v-210h209v-209h210v209h209z"/></svg>
+  </div>
+
+  <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body={{ safeurl }}&subject={{ safetitlepre }}{{ safetitle }}','popup','width=600,height=600'); return false;">
+    <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg>
+  </div>
+  <div class="whatsapp" title="Share this on WhatsApp" onclick="window.open('https://api.whatsapp.com/send?text={{ safetitle }}%20{{ safeurl }}','popup','width=600,height=600'); return false;">
+  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#d5d5d5">
+    <path d="M16.003 2.504c-7.456 0-13.5 6.043-13.5 13.5 0 2.376.616 4.698 1.78 6.749l-1.863 6.672 6.827-1.797c1.967 1.073 4.188 1.643 6.75 1.643h.005c7.456 0 13.5-6.043 13.5-13.5 0-3.612-1.407-7.008-3.963-9.565-2.556-2.556-5.952-3.702-9.536-3.702zm.003 2.238c2.824 0 5.482 1.1 7.482 3.1s3.1 4.658 3.1 7.482c0 5.819-4.762 10.581-10.581 10.581h-.004c-2.042 0-4.028-.594-5.725-1.708l-.41-.262-4.053 1.067 1.123-4.023-.267-.413c-1.077-1.666-1.646-3.591-1.646-5.609 0-5.819 4.762-10.581 10.581-10.581zm-3.215 7.27c-.146-.324-.298-.331-.437-.337-.114-.005-.245-.005-.376-.005s-.344.049-.523.245c-.18.197-.686.67-.686 1.633s.702 1.892.799 2.022c.098.13 1.351 2.156 3.33 2.938.466.18.83.286 1.114.366.468.134.894.115 1.23.07.375-.05 1.154-.472 1.316-.927.162-.456.162-.846.113-.927-.05-.082-.18-.13-.375-.23s-1.154-.57-1.333-.635c-.18-.066-.313-.098-.443.098s-.508.634-.623.765c-.114.13-.233.147-.428.049-.196-.098-.83-.306-1.581-.978-.585-.52-.978-1.164-1.093-1.36-.114-.195-.012-.299.085-.393.087-.086.196-.229.294-.344.098-.114.13-.195.196-.326.066-.13.033-.245-.016-.344-.05-.098-.443-1.07-.623-1.464z"/></svg>
 </div>
-
-  
-  
 </div>
