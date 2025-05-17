@@ -125,6 +125,30 @@
     border-top: 1px solid #ddd;
     margin: 25px 0;
   }
+
+
+
+
+
+
+
+
+
+
+  .form-container {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically if height set */
+    height: 100vh;           /* full viewport height */
+    padding: 20px;
+  }
+  iframe {
+    border: none;
+    max-width: 600px;        /* limit form width */
+    width: 100%;
+    height: 500px;
+  }
+  
 </style>
 
 <div class="container">
@@ -170,7 +194,16 @@
 
 ---
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-SjXpTy8yqiEKrZqW7zaL__5yvOZ9MT-tjcwVCKbcBRfHhw/viewform?embedded=true" width="100%" height="428" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+<style>
+  
+</style>
+
+<div class="form-container">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-SjXpTy8yqiEKrZqW7zaL__5yvOZ9MT-tjcwVCKbcBRfHhw/viewform?embedded=true"></iframe>
+</div>
+
 
 
 
