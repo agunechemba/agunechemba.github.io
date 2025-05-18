@@ -2,7 +2,7 @@
 
 ![JavaScript replace() Function](https://agunechembaekene.wordpress.com/wp-content/uploads/2024/10/6015105009924031167.jpg?w=1024)
 
-### 🔍 What is `replace()`?
+## 🔍 What is `replace()`?
 
 JavaScript’s `replace()` function lets you search for a string or pattern and swap it with something new. Simple, right? But it gets *way* more powerful when you dive deeper.
 
