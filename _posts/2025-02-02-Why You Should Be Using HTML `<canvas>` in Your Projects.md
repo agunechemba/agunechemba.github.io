@@ -64,7 +64,7 @@ No library needed. Just HTML and JavaScript.
 
 Canvas gives you creative freedom, power, and performance—all in one tag. Watch the tutorial below and start building cool stuff:
 
-## 📺 [Watch Tutorial on YouTube](https://youtu.be/Yvz_axxWG4Y?si=AVIwW8yO5qJ7m_43)
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Yvz_axxWG4Y?si=FMnpsvJarvw8D81y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
