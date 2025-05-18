@@ -1,5 +1,11 @@
 # 🧠 *The Code Breakthrough at IBM:* John Backus and the Invention of the Compiler
 
+
+![John Backus and Team in 2025](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/john_backus_and_his_friends_in_2025.jpeg)
+
+> The journey started in 1953, but the ripple continues today.
+
+
 ---
 
 ### ❄️ A Cold Morning, A Hot Idea
@@ -66,11 +72,3 @@ Thanks to him:
 * Programming became human-friendly.
 * Software development accelerated.
 * Modern languages (like Python, Java, and C++) became possible.
-
----
-
-### 📸 Then & Now
-
-![John Backus and Team in 2025](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/john_backus_and_his_friends_in_2025.jpeg)
-
-> The journey started in 1953, but the ripple continues today.
