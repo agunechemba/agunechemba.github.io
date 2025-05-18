@@ -1,6 +1,6 @@
 # WordPress.org: More Than a CMS — It’s a Powerful Framework
 
-![Ekene](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/WordPress_Logotype_Arternative.svg/1504px-WordPress_Logotype_Arternative.svg.png)
+![Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2023/03/8ateee3magfzsaaaaasuvork5cyii.png)
 
 WordPress.org is widely known as a Content Management System (CMS), and it’s incredibly user-friendly for building websites and blogs. But if you dig deeper, you’ll find it’s also a robust **framework** — and recognizing this changes how you see its true power.
 
