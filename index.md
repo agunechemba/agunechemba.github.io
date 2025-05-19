@@ -126,26 +126,27 @@
     <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> youth to cultivate an engineering mindset.</p>
   </div>
 
-  <button class="toggle-button"><i class="fas fa-laptop-code"></i> Projects & Services</button>
+  <button class="toggle-button"><i class="fas fa-laptop-code"></i> What I do</button>
   <div class="toggle-content">
-  <p>Some of my notable web application design and management projects include:</p>
-    <ul>
-    <li>clasamenergy.com</li>
-    <li>hfsh.com.ng</li>
-    <li>surepath.ng</li>
-    <li>shalommedical.com.ng</li>
-    <li>clasamschools.com</li>  
-    </ul>
-    <p>Also set up and managage professional business emails for companies and schools.</p>
+  <ul>
+  <li>Software Development</li>
+  <li>System Administration</li>
+  <li>Tech Training</li>
+  <li>Technical Advisory</li>
+  <li>Graphics Design</li>
+  <li>Tech Blogging</li>
+  <li>Web Design</li>
+</ul>
   </div>
 
+
+<!--
   <button class="toggle-button"><i class="fas fa-school"></i> Current Role</button>
   <div class="toggle-content">
-    
 <p>Currently, I teach programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>. I also write <a href="#my-blog">blog posts</a>, build youth coding bootcamps and organize competitions.</p> 
 <p>Additionally, I train workers in organizations that use IT packages and give professional and career talks at schools.</p>
-
   </div>
+  -->
 
   <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
   <div class="toggle-content">
