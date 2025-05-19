@@ -116,7 +116,7 @@
 
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
-  <div class="title"><i class="fas fa-code"></i> Agunechemba Ekene</div>
+  <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
   <div class="subtitle">The Celebrated Tech Trainer</div>
 
   <!-- Toggle Buttons & Sections -->
