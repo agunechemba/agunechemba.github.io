@@ -163,7 +163,7 @@
     <a href="mailto:agunechemba@yahoo.com"><i class="fas fa-envelope"></i> agunechemba@yahoo.com </a>
   </div>
 
-  <a class="blog-link" href="#my-blog"><i class="fas fa-blog"></i> Visit My Blog</a>
+  <a class="toggle-content contact-links" href="#my-blog"><i class="fas fa-blog"></i> Visit My Blog</a>
 </div>
 
 <!-- JavaScript for Toggle -->
