@@ -120,21 +120,21 @@
   <div class="subtitle">The Celebrated Tech Trainer</div>
 
   <!-- Toggle Buttons & Sections -->
-  <button class="toggle-button"><i class="fas fa-rocket"></i> <span class="counter" id="year-counter">0</span> Experience & Reach</button>
+  <button class="toggle-button"><i class="fas fa-rocket"></i> <span class="counter" id="year-counter">0</span> Years Experience </button>
   <div class="toggle-content">
-    <p><span class="counter" id="year-counter">0</span>+ years sparking coding passion in learners across <strong>Nigeria, UK, and US</strong>.</p>
-    <p>Organizing coding competitions & mentoring youth to think like engineers.</p>
+    <p>Sparking coding passion in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and <strong>US</strong> for years.</p>
+    <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> youth to cultivate an engineering mindset.</p>
   </div>
 
   <button class="toggle-button"><i class="fas fa-laptop-code"></i> Projects & Services</button>
   <div class="toggle-content">
-    <p>I manage and maintain websites and emails for:</p>
+  <p>Some of my notable web application design and management projects include:</p>
     <ul>
-      <li>hfsh.com.ng</li>
-      <li>surepath.ng</li>
-      <li>shalommedical.com.ng</li>
-      <li>clasamenergy.com</li>
-      <li>clasamschools.com</li>
+    <li>clasamenergy.com</li>
+    <li>hfsh.com.ng</li>
+    <li>surepath.ng</li>
+    <li>shalommedical.com.ng</li>
+    <li>clasamschools.com</li>  
     </ul>
     <p>Also set up and managage professional business emails for companies and schools.</p>
   </div>
