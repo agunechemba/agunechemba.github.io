@@ -132,8 +132,10 @@
 
   <button class="toggle-button"><i class="fas fa-school"></i> Current Role</button>
   <div class="toggle-content">
-    <p>Currently teaching programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.</p>
-    <p>Also writing blog posts and building youth coding bootcamps and competitions.</p>
+<p>Currently teaching programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.</p>
+<p>Also writing blog posts and building youth coding bootcamps and competitions.</p>
+<p>I also train workers at organisations that use IT packages, and I give professional and career talks at schools.</p>
+
   </div>
 
   <button class="toggle-button"><i class="fas fa-cogs"></i> My Tech Skills</button>
@@ -152,7 +154,7 @@
     <a href="mailto:agunechemba@yahoo.com"><i class="fas fa-envelope"></i> agunechemba@yahoo.com </a>
   </div>
 
-  <a class="blog-link" href="#my-blog" target="_blank"><i class="fas fa-blog"></i> Visit My Blog</a>
+  <a class="blog-link" href="#my-blog"><i class="fas fa-blog"></i> Visit My Blog</a>
 </div>
 
 <!-- JavaScript for Toggle -->
