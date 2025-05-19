@@ -126,14 +126,30 @@
     <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> teenagers to cultivate an engineering mindset.</p>
   </div>
 
-  <button class="toggle-button"><i class="fas fa-laptop-code"></i> What I do</button>
+  <button class="toggle-button"><i class="fas fa-laptop-code"></i>My Current Projects</button>
   <div class="toggle-content">
   <ul>
-  <li>Web Design</li>
-  <li>Tech Training</li>
-  <li>Technical Advisory</li>
-  <li>Software Development</li> 
-  </ul>
+  <li>
+    <a href="https://github.com/agunechemba/login-page-with-credentials/tree/main" target="_blank">
+      GitHub: Login Page with Credentials
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/agunechemba/students-attendance-management-system" target="_blank">
+      GitHub: Students Attendance Management System
+    </a>
+  </li>
+  <li>
+    <a href="https://scratch.mit.edu/projects/1042315093/editor" target="_blank">
+      Scratch Project: Animation/Interactive Design
+    </a>
+  </li>
+  <li>
+    <a href="https://agunechemba.github.io/2025/04/19/01-Introduction-to-Programming-With-Python-Introduction-CS50-Agunechemba-Ekene.html" target="_blank">
+      Blog Post: Introduction to Programming with Python (CS50 Style)
+    </a>
+  </li>
+</ul>
   </div>
 
 
