@@ -120,7 +120,7 @@
   <div class="subtitle">The Celebrated Tech Trainer</div>
 
   <!-- Toggle Buttons & Sections -->
-  <button class="toggle-button"><i class="fas fa-rocket"></i> Experience & Reach</button>
+  <button class="toggle-button"><i class="fas fa-rocket"></i> <span class="counter" id="year-counter">0</span> Experience & Reach</button>
   <div class="toggle-content">
     <p><span class="counter" id="year-counter">0</span>+ years sparking coding passion in learners across <strong>Nigeria, UK, and US</strong>.</p>
     <p>Organizing coding competitions & mentoring youth to think like engineers.</p>
