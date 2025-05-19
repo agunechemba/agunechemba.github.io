@@ -123,7 +123,7 @@
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span class="counter" id="year-counter">0</span> Years Experience </button>
   <div class="toggle-content">
     <p>Sparking coding passion in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and <strong>US</strong> for years.</p>
-    <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> youth to cultivate an engineering mindset.</p>
+    <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> teenager to cultivate an engineering mindset.</p>
   </div>
 
   <button class="toggle-button"><i class="fas fa-laptop-code"></i> What I do</button>
@@ -148,7 +148,7 @@
   <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
 <div class="toggle-content">
 <ul>
-  <li><strong>Tech Training:</strong> Kids & Teens (8–16 years)</li>
+  <li><strong>Tech Training:</strong> Kids & Teens </li>
   <li><strong>Animation:</strong> HTML Canvas</li>
   <li><strong>Web Development:</strong> JavaScript</li>
   <li><strong>Robotics:</strong> Arduino, Python</li>
