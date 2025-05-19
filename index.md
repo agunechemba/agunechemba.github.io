@@ -121,11 +121,13 @@
   <div class="toggle-content">
     <p>I manage and maintain websites and emails for:</p>
     <ul>
+      <li>hfsh.com.ng</li>
       <li>surepath.ng</li>
+      <li>shalommedical.com.ng</li>
       <li>clasamenergy.com</li>
       <li>clasamschools.com</li>
     </ul>
-    <p>Also set up professional business emails for companies and schools.</p>
+    <p>Also set up and managage professional business emails for companies and schools.</p>
   </div>
 
   <button class="toggle-button"><i class="fas fa-school"></i> Current Role</button>
@@ -145,9 +147,9 @@
 
   <button class="toggle-button"><i class="fas fa-handshake"></i> Let's Connect</button>
   <div class="toggle-content contact-links">
-    <a href="tel:+2349066115252"><i class="fas fa-phone"></i>Call: +234 90 6611 5252</a>
-    <a href="https://wa.link/qyy63j" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp: +234 90 6611 5252</a>
-    <a href="mailto:agunechemba@yahoo.com"><i class="fas fa-envelope"></i>Email: agunechemba@yahoo.com</a>
+    <a href="tel:+2349066115252"><i class="fas fa-phone"></i> +234 90 6611 5252 </a>
+    <a href="https://wa.link/qyy63j" target="_blank"><i class="fab fa-whatsapp"></i> +234 90 6611 5252 </a>
+    <a href="mailto:agunechemba@yahoo.com"><i class="fas fa-envelope"></i> agunechemba@yahoo.com </a>
   </div>
 
   <a class="blog-link" href="#my-blog" target="_blank"><i class="fas fa-blog"></i> Visit My Blog</a>
