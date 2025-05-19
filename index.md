@@ -103,6 +103,15 @@
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
   }
+
+
+
+  /* This styles the years of experience counter */
+  .counter {
+      font-size: 2em;
+      font-weight: bold;
+    }
+  
 </style>
 
 <div class="container">
@@ -113,7 +122,7 @@
   <!-- Toggle Buttons & Sections -->
   <button class="toggle-button"><i class="fas fa-rocket"></i> Experience & Reach</button>
   <div class="toggle-content">
-    <p><strong>15+ years</strong> sparking coding passion in learners across <strong>Nigeria, UK, and US</strong>.</p>
+    <p><span class="counter" id="year-counter">0</span>+ years sparking coding passion in learners across <strong>Nigeria, UK, and US</strong>.</p>
     <p>Organizing coding competitions & mentoring youth to think like engineers.</p>
   </div>
 
@@ -180,6 +189,31 @@
 </script>
 
 
+
+<!-- Javascript for years of experience -->
+<script>
+  const startYear = 2009; // change this to your actual start year
+  const currentYear = new Date().getFullYear();
+  const years = currentYear - startYear;
+
+  const counter = document.getElementById('year-counter');
+  let count = 0;
+
+  const updateCount = () => {
+    const speed = 200; // lower = faster animation
+    const increment = years / speed;
+
+    if (count < years) {
+      count += increment;
+      counter.innerText = Math.ceil(count);
+      requestAnimationFrame(updateCount);
+    } else {
+      counter.innerText = years;
+    }
+  };
+
+  updateCount();
+</script>
 
 
 <!-- Start of Subscribe form-->
