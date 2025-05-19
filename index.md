@@ -129,14 +129,11 @@
   <button class="toggle-button"><i class="fas fa-laptop-code"></i> What I do</button>
   <div class="toggle-content">
   <ul>
-  <li>Software Development</li>
-  <li>System Administration</li>
+  <li>Web Design</li>
   <li>Tech Training</li>
   <li>Technical Advisory</li>
-  <li>Graphics Design</li>
-  <li>Tech Blogging</li>
-  <li>Web Design</li>
-</ul>
+  <li>Software Development</li> 
+  </ul>
   </div>
 
 
@@ -149,13 +146,14 @@
   -->
 
   <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
-  <div class="toggle-content">
-    <ul>
-      <li><strong>Web Development:</strong> JavaScript</li>
-      <li><strong>Animation:</strong> HTML Canvas</li>
-      <li><strong>Robotics:</strong> Arduino, Python</li>
-    </ul>
-  </div>
+<div class="toggle-content">
+<ul>
+  <li><strong>Tech Training:</strong> Kids & Teens (8–16 years)</li>
+  <li><strong>Animation:</strong> HTML Canvas</li>
+  <li><strong>Web Development:</strong> JavaScript</li>
+  <li><strong>Robotics:</strong> Arduino, Python</li>
+</ul>
+</div>
 
   <button class="toggle-button"><i class="fas fa-handshake"></i> Let's Connect</button>
   <div class="toggle-content contact-links">
