@@ -142,17 +142,17 @@
   <button class="toggle-button"><i class="fas fa-school"></i> Current Role</button>
   <div class="toggle-content">
     
-<p>Currently, I teach programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>. I also write <a href="#my-blog">blog posts</a> and build youth coding bootcamps and organize competitions.</p> 
+<p>Currently, I teach programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>. I also write <a href="#my-blog">blog posts</a>, build youth coding bootcamps and organize competitions.</p> 
 <p>Additionally, I train workers in organizations that use IT packages and give professional and career talks at schools.</p>
 
   </div>
 
-  <button class="toggle-button"><i class="fas fa-cogs"></i> My Tech Skills</button>
+  <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
   <div class="toggle-content">
     <ul>
-      <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
-      <li><strong>Programming:</strong> Python, JavaScript</li>
-      <li><strong>Robotics:</strong> Arduino, C++, Python</li>
+      <li><strong>Web Development:</strong> JavaScript</li>
+      <li><strong>Animation:</strong> HTML Canvas</li>
+      <li><strong>Robotics:</strong> Arduino, Python</li>
     </ul>
   </div>
 
