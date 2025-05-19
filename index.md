@@ -133,7 +133,7 @@
   <button class="toggle-button"><i class="fas fa-school"></i> Current Role</button>
   <div class="toggle-content">
     
-<p>Currently, I teach programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>. I also write blog posts and build youth coding bootcamps and organize competitions.</p> 
+<p>Currently, I teach programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>. I also write <a href="#my-blog">blog posts</a> and build youth coding bootcamps and organize competitions.</p> 
 <p>Additionally, I train workers in organizations that use IT packages and give professional and career talks at schools.</p>
 
   </div>
