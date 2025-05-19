@@ -123,7 +123,7 @@
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span class="counter" id="year-counter">0</span> Years Experience </button>
   <div class="toggle-content">
     <p>Sparking coding passion in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and <strong>US</strong> for years.</p>
-    <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> teenager to cultivate an engineering mindset.</p>
+    <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> teenagers to cultivate an engineering mindset.</p>
   </div>
 
   <button class="toggle-button"><i class="fas fa-laptop-code"></i> What I do</button>
