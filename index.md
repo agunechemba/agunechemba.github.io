@@ -1,169 +1,179 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- Background Music Disabled
-<audio autoplay loop volume="0.2">
-  <source src="/mp3/song.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
--->
+<!-- Styles -->
 <style>
   body {
     margin: 0;
-    padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #f9f9f9;
+    background: #eef3f8;
     color: #333;
   }
 
   .container {
-    max-width: 800px;
-    margin: 60px auto;
-    padding: 40px;
-    background: #ffffff;
-    border-radius: 14px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
-    animation: fadeIn 1.5s ease-in;
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  h1, h2 {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 20px;
     text-align: center;
   }
 
-  h1 {
-    color: #00bfff;
-    animation: pulseColor 3s infinite;
-  }
-
-  h1 i {
-    margin-right: 10px;
-    animation: spin 3s linear infinite;
-  }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  @keyframes pulseColor {
-    0%, 100% { color: #00bfff; }
-    50% { color: #0078d7; }
-  }
-
-  h2 span.emoji {
-    display: inline-block;
-    animation: bounce 1.5s infinite;
-  }
-
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-5px); }
-  }
-
-  .container img {
-    display: block;
-    margin: 0 auto 20px auto;
-    border-radius: 50%;
+  .profile-img {
     width: 120px;
-    animation: glow 2s infinite alternate;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #00bfff;
+    margin-bottom: 20px;
   }
 
-  @keyframes glow {
-    from { box-shadow: 0 0 10px #00bfff; }
-    to { box-shadow: 0 0 20px #0078d7; }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00bfff;
   }
 
-  a {
+  .subtitle {
+    font-size: 16px;
     color: #0078d7;
-    text-decoration: none;
+    margin-bottom: 30px;
+    font-style: italic;
   }
 
-  a:hover {
-    text-decoration: underline;
-  }
-
-  ul {
-    list-style: square;
-    padding-left: 20px;
-  }
-
-  .button {
-    display: inline-block;
-    margin: 8px 5px;
-    padding: 12px 20px;
+  .toggle-button {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
     border: none;
     border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
+    text-align: left;
+    position: relative;
+  }
+
+  .toggle-button i {
+    margin-right: 10px;
+  }
+
+  .toggle-button::after {
+    content: "\f0d7";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .toggle-button.active::after {
+    transform: rotate(180deg);
+  }
+
+  .toggle-content {
+    display: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+
+  .toggle-content ul {
+    padding-left: 20px;
+    list-style: square;
+  }
+
+  .contact-links a, .blog-link {
+    display: inline-block;
+    margin: 10px 8px;
+    padding: 12px 20px;
+    border-radius: 30px;
     background: linear-gradient(45deg, #00c6ff, #0072ff);
-    color: white;
+    color: #fff;
     font-weight: bold;
     text-decoration: none;
-    transition: all 0.4s ease;
-    animation: pulse 2s infinite;
+    transition: 0.3s ease;
   }
 
-  .button:hover {
+  .contact-links a:hover, .blog-link:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(0, 114, 255, 0.4);
+    box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
   }
-
-  @keyframes pulse {
-    0%, 100% {
-      box-shadow: 0 0 10px #00c6ff, 0 0 20px #0072ff;
-    }
-    50% {
-      box-shadow: 0 0 25px #00c6ff, 0 0 35px #0072ff;
-    }
-  }
-
-  hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin: 25px 0;
-  }  
 </style>
 
 <div class="container">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Agunechemba Ekene Display Picture">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
+  <div class="title"><i class="fas fa-code"></i> Agunechemba Ekene</div>
+  <div class="subtitle">The Celebrated Tech Trainer</div>
 
-  <h1><i class="fa-duotone fa-solid fa-code"></i><br> Agunechemba Ekene</h1>
-  
-  <h2><span class="emoji">🙌</span> The Celebrated Tech Trainer</h2>
-
-  <p>For <strong>15+ years</strong>, I've loved igniting coding passion in young minds worldwide, teaching online to students across <strong>Nigeria, the UK, and the US</strong>, and even running exciting competitions in Lagos.</p>
-
-  <p>As a side hustle, I also handle <strong>web administration</strong> and have hosted sites like <strong>surepath.ng, clasamenergy.com, clasamschools.com</strong>, and managed <strong>business email hosting</strong> for various organisations.</p>
-
-  <p>I love sharing tech tips and tricks in my <strong><a href="#my-blog">blog</a></strong>.</p>
-
-  <p>Right now, I'm having a ton of fun <strong><a href="#my-blog">blogging</a></strong>, training, and teaching computer programming at 
-    <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.
-  </p>
-
-  <p style="font-style:italic;">I am basically building the future, one line of code at a time!</p>
-
-  <hr>
-
-  <h2><span class="emoji">💻</span> My Expertise</h2>
-  <ul>
-    <li><strong>Web development</strong> (HTML, CSS, JavaScript)</li>
-    <li><strong>Programming</strong> (Python, JavaScript)</li>
-    <li><strong>Robotics</strong> (Arduino, C++, Python)</li>
-  </ul>
-
-  <hr>
-
-  <h2><span class="emoji">🤝</span> Let's Connect</h2>
-  <div style="text-align: center;">
-    <a class="button" href="tel:+2349066115252" target="_blank"><i class="fas fa-phone"></i> Call Me</a>
-    <a class="button" href="https://wa.link/qyy63j" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-    <a class="button" href="mailto:agunechemba@yahoo.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+  <!-- Toggle Buttons & Sections -->
+  <button class="toggle-button"><i class="fas fa-rocket"></i> Experience & Reach</button>
+  <div class="toggle-content">
+    <p><strong>15+ years</strong> sparking coding passion in learners across <strong>Nigeria, UK, and US</strong>.</p>
+    <p>Organizing coding competitions & mentoring youth to think like engineers.</p>
   </div>
+
+  <button class="toggle-button"><i class="fas fa-laptop-code"></i> Projects & Services</button>
+  <div class="toggle-content">
+    <p>I manage and maintain websites and emails for:</p>
+    <ul>
+      <li>surepath.ng</li>
+      <li>clasamenergy.com</li>
+      <li>clasamschools.com</li>
+    </ul>
+    <p>Also set up professional business emails for companies and schools.</p>
+  </div>
+
+  <button class="toggle-button"><i class="fas fa-school"></i> Current Role</button>
+  <div class="toggle-content">
+    <p>Currently teaching programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>.</p>
+    <p>Also writing blog posts and building youth coding bootcamps and competitions.</p>
+  </div>
+
+  <button class="toggle-button"><i class="fas fa-cogs"></i> My Tech Skills</button>
+  <div class="toggle-content">
+    <ul>
+      <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Programming:</strong> Python, JavaScript</li>
+      <li><strong>Robotics:</strong> Arduino, C++, Python</li>
+    </ul>
+  </div>
+
+  <button class="toggle-button"><i class="fas fa-handshake"></i> Let's Connect</button>
+  <div class="toggle-content contact-links">
+    <a href="tel:+2349066115252"><i class="fas fa-phone"></i> Call</a>
+    <a href="https://wa.link/qyy63j" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    <a href="mailto:agunechemba@yahoo.com"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+
+  <a class="blog-link" href="https://agunechembaekene.wordpress.com" target="_blank"><i class="fas fa-blog"></i> Visit My Blog</a>
 </div>
+
+<!-- JavaScript for Toggle -->
+<script>
+  const buttons = document.querySelectorAll('.toggle-button');
+  const contents = document.querySelectorAll('.toggle-content');
+
+  buttons.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((otherBtn, j) => {
+        if (i !== j) {
+          contents[j].style.display = 'none';
+          otherBtn.classList.remove('active');
+        }
+      });
+
+      const content = contents[i];
+      const isOpen = content.style.display === 'block';
+      content.style.display = isOpen ? 'none' : 'block';
+      btn.classList.toggle('active', !isOpen);
+    });
+  });
+</script>
 
 
 
