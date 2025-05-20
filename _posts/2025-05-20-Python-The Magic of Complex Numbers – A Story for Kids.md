@@ -56,7 +56,6 @@ Tobi grinned. “Now I know! Complex numbers are like a mix of real life and a b
 
 ## 🧠 Review Questions
 
-Sure, here’s the **practice-style version** of the review questions — like a mini worksheet:
 
 ---
 
