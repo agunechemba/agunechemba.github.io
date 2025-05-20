@@ -1,21 +1,17 @@
-## 01-Introduction to Programming With Python: Introduction
+# 01 – Introduction to Programming with Python
 
-Harvard University's renowned CS50 series brings you a comprehensive and accessible **Introduction to Programming with Python.**
+Welcome to **Introduction to Programming with Python**, a beginner-friendly course project curated by **Agunechemba Ekene**. Designed to help young and curious minds grasp the fundamentals of programming, this course is based on Harvard University's renowned CS50 series.
 
-This full course is your launchpad to mastering the fundamentals of coding using one of the most versatile and in-demand programming languages today.
+Over the next **eleven weeks**, you’ll explore Python — one of the most versatile and in-demand programming languages — through a structured, easy-to-follow curriculum. Whether you're starting from scratch or have some experience, this course will guide you step-by-step, with review questions to help reinforce what you learn.
 
-Whether you're a complete beginner or have some prior experience, this course, thoughtfully curated and enhanced with review questions to solidify your understanding, will guide you step-by-step **over the next eleven weeks.**
+Make sure to **sign in with your email** and stick with the same address throughout the course to save your progress. Also, **subscribe to our mailing list** and **join our Telegram channel** so you never miss an update.
 
-To ensure your progress is saved, remember to sign in with your email and consistently use the same email address throughout the course.
+At the end of all **eleven modules**, you’ll earn a **certificate** to celebrate your achievement!
 
-This is a weekly course, so make sure you don't miss any updates by subscribing to our mailing list and joining our Telegram channel!
+This introductory video builds on core programming and computer science concepts, setting the stage for real-world problem-solving with Python.
 
-Upon successfully completing all **eleven modules,** you'll also be entitled to earn a **certificate**, a fantastic way to recognize your achievement!
+Let’s get started!
 
-
-This video introduces CS50's Introduction to Programming with Python, and it serves as a focused exploration of Python programming, building upon the broader concepts of computer science and programming introduced in CS50 itself.
-
-By the end, you'll have the skills to tackle real-world programming challenges in various fields.
 
 ---
 
