@@ -17,6 +17,11 @@ linkedin_username: "agunechembaekene"
 youtube_username: "agunechemba_ekene"
 #googleplus_username: +username
 
+
+site:
+  logo: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png # I added this myself
+
+
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
