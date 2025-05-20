@@ -58,7 +58,7 @@ So, **4 + 8l** is **not** a complex number because Python doesn’t know what `l
 
 Here’s a simple Python program that lets you type any number, and it tells you what type it is!
 
-```python
+```
 # Number Explorer - Understand your numbers!
 
 user_input = input("Enter a number (try int, float, or complex like 2+3j): ")
