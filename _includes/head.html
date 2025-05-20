@@ -9,13 +9,6 @@
 <!-- Favicon -->
 <link rel="icon" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-icon-40-x-40-1.png" type="image/png">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{{ page.title | escape }}" />
-<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
-<meta name="twitter:image" content="{{ page.og_image | default: site.default_og_image | absolute_url }}" />
-
-
 <!-- Facebook & LinkedIn (Open Graph) -->
 <meta property="og:title" content="{{ page.title | escape }}" />
 <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
@@ -23,25 +16,37 @@
 <meta property="og:type" content="article" />
 <meta property="og:image" content="{{ page.og_image | default: site.default_og_image | absolute_url }}" />
 
-<!-- Google (Schema.org Structured Data) -->
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | escape }}" />
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+<meta name="twitter:image" content="{{ page.og_image | default: site.default_og_image | absolute_url }}" />
+
+<!-- Google / SEO: Structured Data (JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Agunechemba Ekene",
-  "url": "https://agunechemba.github.io",
-  "jobTitle": "Tech Trainer",
-  "description": "Learn to code from Ekene – tech trainer for young minds and adults.",
-  "image": "https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-icon-40-x-40-1.png",
-  "sameAs": [
-    "https://www.linkedin.com/in/agunechembaekene/",
-    "https://x.com/agunechemba_e",
-    "https://github.com/agunechemba",
-    "https://www.instagram.com/agunechemba.ekene/",
-    "https://web.facebook.com/agunechemba.ekene"
-  ]
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  "image": "{{ page.og_image | default: site.default_og_image | absolute_url }}",
+  "url": "{{ page.url | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "Agunechemba Ekene"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Agunechemba EKene",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | absolute_url }}"
+    }
+  }
 }
 </script>
+
 
 <!-- End - I added this part to enhance my website SEO -->
   
