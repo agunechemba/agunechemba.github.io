@@ -1,4 +1,4 @@
-## How Google Hired Eric Schmidt: Keep Your Friends For Friendship, But Work With The Skilled And Competent- R Green
+## How Google Hired Eric Schmidt: Keep Your Friends For Friendship, But Work With The Skilled And Competent- Robert Greene
 
 ![Robert Green Quote](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/unnamed.jpg?w=300)
 
