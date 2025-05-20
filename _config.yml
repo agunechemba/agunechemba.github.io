@@ -2,7 +2,7 @@ title: "Home"
 author: "Agunechemba Ekene"
 description: "Agunechemba Ekene: The Celebrated Tech Trainer" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
-default_og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png # I added this myself
+default_og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png # I added this myself
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -19,7 +19,7 @@ youtube_username: "agunechemba_ekene"
 
 
 site:
-  logo: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png # I added this myself
+  logo: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png # I added this myself
 
 
 #########################################################################################
