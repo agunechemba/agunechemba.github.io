@@ -22,32 +22,6 @@
 <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
 <meta name="twitter:image" content="{{ page.og_image | default: site.default_og_image | absolute_url }}" />
 
-<!-- Google / SEO: Structured Data (JSON-LD) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ page.title | escape }}",
-  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
-  "image": "{{ page.og_image | default: site.default_og_image | absolute_url }}",
-  "url": "{{ page.url | absolute_url }}",
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "author": {
-    "@type": "Person",
-    "name": "Agunechemba Ekene"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Agunechemba EKene",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.logo | absolute_url }}"
-    }
-  }
-}
-</script>
-
-
 <!-- End - I added this part to enhance my website SEO -->
   
   <!-- Begin SEO -->
