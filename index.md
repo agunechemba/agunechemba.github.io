@@ -122,8 +122,9 @@
   <!-- Toggle Buttons & Sections -->
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span class="counter" id="year-counter">0</span> Years Experience </button>
   <div class="toggle-content">
-    <p>Sparking coding passion in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and <strong>US</strong> for years.</p>
-    <p>Organizing coding <strong>competitions</strong> and <strong>mentoring</strong> teenagers to cultivate an engineering mindset.</p>
+<p>I spark a deep passion for coding in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects.</p>
+<p>As the founder of <strong>Pepe Programming Hub</strong> and the mind behind <strong>Firstac Academy</strong>, I also run annual free <strong>summer boot camps</strong> for young minds aged 10–16. From physical classes at Clasam Schools in Lagos to online sessions with global learners, I’ve mentored hundreds of teenagers—helping them build both strong coding skills and an <strong>engineering mindset</strong>.</p>
+<p>I organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
   </div>
 
   <button class="toggle-button"><i class="fas fa-laptop-code"></i>My Current Projects</button>
@@ -131,22 +132,22 @@
   <ul>
   <li>
     <a href="https://github.com/agunechemba/login-page-with-credentials/tree/main" target="_blank">
-      GitHub: Login Page with Credentials
+      <strong>GitHub:</strong> Login Page with Credentials
     </a>
   </li>
   <li>
     <a href="https://github.com/agunechemba/students-attendance-management-system" target="_blank">
-      GitHub: Students Attendance Management System
+      <strong>GitHub:</strong> Students Attendance Management System
     </a>
   </li>
   <li>
     <a href="https://scratch.mit.edu/projects/1042315093/editor" target="_blank">
-      Scratch Project: Animation/Interactive Design
+      <strong>Scratch Project:</strong> Animation/Interactive Design
     </a>
   </li>
   <li>
     <a href="https://agunechemba.github.io/2025/04/19/01-Introduction-to-Programming-With-Python-Introduction-CS50-Agunechemba-Ekene.html" target="_blank">
-      Blog Post: Introduction to Programming with Python (CS50 Style)
+      <strong>Blog Post:</strong> Introduction to Programming with Python (CS50 Style)
     </a>
   </li>
 </ul>
@@ -207,7 +208,7 @@
 
 <!-- Javascript for years of experience -->
 <script>
-  const startYear = 2009; // change this to your actual start year
+  const startYear = 2010; // change this to your actual start year
   const currentYear = new Date().getFullYear();
   const years = currentYear - startYear;
 
