@@ -10,11 +10,11 @@
 <link rel="icon" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-icon-40-x-40-1.png" type="image/png">
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Agunechemba Ekene | Tech Trainer">
-<meta name="twitter:description" content="Learn to code from Ekene – tech trainer for young minds and adults.">
-<meta name="twitter:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-icon-40-x-40-1.png">
-<meta name="twitter:site" content="@agunechemba_e">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | escape }}" />
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+<meta name="twitter:image" content="{{ page.og_image | default: site.default_og_image | absolute_url }}" />
+
 
 <!-- Facebook & LinkedIn (Open Graph) -->
 <meta property="og:title" content="{{ page.title | escape }}" />
