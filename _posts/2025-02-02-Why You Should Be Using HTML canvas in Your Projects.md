@@ -1,4 +1,4 @@
-# 🎮 Why You Should Be Using HTML `<canvas>` in Your Projects
+# 🎮 Why You Should Be Using HTML `canvas` in Your Projects
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2024/11/beautify-picture-2.png?w=720" alt="" class="wp-image-1778" />
 
