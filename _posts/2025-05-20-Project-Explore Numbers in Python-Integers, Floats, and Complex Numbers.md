@@ -101,12 +101,7 @@ print("\nThanks for exploring numbers with me!")
 2. Write an example of a floating-point number.
 3. Why does Python use the letter **j** for imaginary numbers instead of **i**?
 4. Is `4 + 8l` a complex number? Why or why not?
-5. What will this code print?
-
-```python
-type(7.5)
-```
-
+5. What will this code print? `type(7.5)`
 6. If you type `3+4j` into the Number Explorer, what will it show as the imaginary part?
 
 ---
