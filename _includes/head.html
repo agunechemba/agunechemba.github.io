@@ -17,11 +17,11 @@
 <meta name="twitter:site" content="@agunechemba_e">
 
 <!-- Facebook & LinkedIn (Open Graph) -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Agunechemba Ekene | Tech Trainer">
-<meta property="og:description" content="Learn to code from Ekene – tech trainer for young minds and adults.">
-<meta property="og:url" content="https://agunechemba.github.io">
-<meta property="og:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-icon-40-x-40-1.png">
+<meta property="og:title" content="{{ page.title | escape }}" />
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="{{ page.og_image | default: site.default_og_image | absolute_url }}" />
 
 <!-- Google (Schema.org Structured Data) -->
 <script type="application/ld+json">
