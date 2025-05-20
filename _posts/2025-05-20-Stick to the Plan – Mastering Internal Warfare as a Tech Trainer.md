@@ -1,6 +1,6 @@
-![Mike Tyson - Agunechemba](https://andscape.com/wp-content/uploads/2018/12/BusterDouglas.jpg?w=1296)
-
 # Stick to the Plan – Mastering Internal Warfare as a Tech Trainer
+
+![Mike Tyson - Agunechemba](https://andscape.com/wp-content/uploads/2018/12/BusterDouglas.jpg?w=1296)
 
 When working with difficult learners, frustrating team members, or chaotic clients, never lose your cool.  
 Treat distractions like bugs in the code—don't panic, debug calmly.
