@@ -146,7 +146,7 @@
     </a>
   </li>
   <li>
-    <a href="https://agunechemba.github.io/2025/04/19/01-Introduction-to-Programming-With-Python-Introduction-CS50-Agunechemba-Ekene.html" target="_blank">
+    <a href="https://agunechemba.github.io/2025/04/12/01-Introduction-to-Programming-With-Python-Introduction-CS50-Agunechemba-Ekene.html" target="_blank">
       <strong>Blog Post:</strong> Introduction to Programming with Python (CS50 Style)
     </a>
   </li>
