@@ -1,4 +1,4 @@
-# JavaScript Objects Simplified: A Summary of MDN Web Docs via DeepSeek AI
+# JavaScript Objects Simplified: A Summary of MDN Web Docs
 
 ![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/screenshot.png?w=1024)
 
