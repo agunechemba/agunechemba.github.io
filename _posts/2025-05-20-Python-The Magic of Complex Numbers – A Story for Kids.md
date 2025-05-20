@@ -57,10 +57,6 @@ Tobi grinned. “Now I know! Complex numbers are like a mix of real life and a b
 ## 🧠 Review Questions
 
 
----
-
-## ✍️ Practice Time: Complex Numbers
-
 ### 1. Fill in the blanks
 
 A complex number has two parts: a \_\_\_\_\_\_\_\_\_\_ part and an \_\_\_\_\_\_\_\_\_\_ part.
