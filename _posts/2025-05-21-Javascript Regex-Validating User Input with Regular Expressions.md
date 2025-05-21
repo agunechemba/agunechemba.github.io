@@ -124,17 +124,6 @@ That gets messy fast. RegEx handles all those rules in **just one line** — cle
 
 ---
 
-## 🧪 **Challenge Task (Try It!)**
-
-Write RegEx patterns for:
-
-* A name field that only allows letters (no numbers or symbols)
-* A ZIP code that must be 6 digits long (e.g. Nigerian postal codes)
-
-Drop your answers in the comments or test them out online!
-
----
-
 ## ✍️ Summary
 
 | Field        | RegEx Purpose                                       |
@@ -145,7 +134,6 @@ Drop your answers in the comments or test them out online!
 
 ---
 
-Happy coding! 🎉
 Whether you're validating Nigerian numbers or building global platforms, RegEx will save you time and boost your form’s reliability.
 
 
