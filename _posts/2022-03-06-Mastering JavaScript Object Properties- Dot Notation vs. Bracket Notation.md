@@ -1,4 +1,4 @@
-# 🔍 Mastering JavaScript Object Properties: Dot Notation vs. Bracket Notation (With Emojis, Digits & More!)
+# 🔍 Mastering JavaScript Object Properties: Dot Notation vs. Bracket Notation (With Emojis, Digits and More!)
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/a_glass_box_with_the_text_js-edited.jpeg" alt="" class="wp-image-1997" />
 
