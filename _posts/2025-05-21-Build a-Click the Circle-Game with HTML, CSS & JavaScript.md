@@ -1,4 +1,4 @@
-# 🎯 Build a "Click the Circle" Game with HTML, CSS & JavaScript
+# 🎯 Build a "Click the Circle" Game with HTML, CSS, JavaScript
 
 ![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/african_child_learner_building_click_the_circle.jpeg)
 
