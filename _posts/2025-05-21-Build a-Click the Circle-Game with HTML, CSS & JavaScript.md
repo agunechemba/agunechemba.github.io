@@ -1,6 +1,10 @@
 # 🎯 Build a "Click the Circle" Game with HTML, CSS & JavaScript
 
-![Ekene Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/click-the-circle-game-.png)
+<iframe height="300" style="width: 100%;" scrolling="no" title="Click the Circle Game" src="https://codepen.io/agunechemba/embed/yyymaRP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/agunechemba/pen/yyymaRP">
+  Click the Circle Game</a> by Agunechemba Ekene (<a href="https://codepen.io/agunechemba">@agunechemba</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 Want to make a fun little web game? In this tutorial, we’ll build a simple **"Click the Circle"** game using just **HTML, CSS, and JavaScript**. The goal? Click as many circles as you can before time runs out!
 
@@ -263,11 +267,3 @@ startCountdown();
 * Make the game harder over time.
 * Add a "miss" counter for missed clicks.
 
----
-
-
-<iframe height="300" style="width: 100%;" scrolling="no" title="Click the Circle Game" src="https://codepen.io/agunechemba/embed/yyymaRP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/agunechemba/pen/yyymaRP">
-  Click the Circle Game</a> by Agunechemba Ekene (<a href="https://codepen.io/agunechemba">@agunechemba</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
