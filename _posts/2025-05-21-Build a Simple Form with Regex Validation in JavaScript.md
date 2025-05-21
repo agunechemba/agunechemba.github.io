@@ -13,7 +13,7 @@ Let’s jump in!
 
 Start with a simple form in your HTML:
 
-```html
+```
 <form id="myForm">
   <label>
     Name:
@@ -46,7 +46,7 @@ Start with a simple form in your HTML:
 
 Make it look clean with CSS:
 
-```css
+```
 body {
   font-family: sans-serif;
   padding: 2rem;
@@ -84,7 +84,7 @@ button {
 
 Here’s the main part — validating the input using regex:
 
-```js
+```
 const form = document.getElementById("myForm");
 
 form.addEventListener("submit", function (e) {
