@@ -185,3 +185,12 @@ You’ll see error messages instantly when you submit invalid data.
 Regex validation in forms is essential for better user experience and cleaner data. This simple example is a great way to start understanding regex and JavaScript form handling.
 
 Try customizing and expanding it — trust me, you’ll learn tons fast.
+
+
+---
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="regex form project" src="https://codepen.io/agunechemba/embed/jEEgbMo?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/agunechemba/pen/jEEgbMo">
+  regex form project</a> by Agunechemba Ekene (<a href="https://codepen.io/agunechemba">@agunechemba</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
