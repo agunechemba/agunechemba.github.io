@@ -1,4 +1,4 @@
-## 🎙📸🎥 Capture Sounds, Photos &amp; Videos with HTML
+## 🎙📸🎥 Capture Sounds, Photos and Videos with HTML
 
 ![media capture with HTML](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/pepe-edited.png)
 
