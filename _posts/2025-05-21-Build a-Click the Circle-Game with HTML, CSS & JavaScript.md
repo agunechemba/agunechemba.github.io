@@ -262,3 +262,10 @@ startCountdown();
 * Change the circle size randomly!
 * Make the game harder over time.
 * Add a "miss" counter for missed clicks.
+
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Click the Circle Game" src="https://codepen.io/agunechemba/embed/yyymaRP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/agunechemba/pen/yyymaRP">
+  Click the Circle Game</a> by Agunechemba Ekene (<a href="https://codepen.io/agunechemba">@agunechemba</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
