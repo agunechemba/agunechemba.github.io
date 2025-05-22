@@ -191,3 +191,10 @@ You've created a lightweight contact form using:
 * and a neat SVG animation (for success feedback).
 
 Perfect for portfolios, feedback pages, or school projects.
+
+## Review Questions
+1. How does the CSS animation get triggered after the form is submitted successfully?
+2. What SVG element is used to display the checkmark animation on form submission?
+3. In the JavaScript, which class is added to show the success animation, and how is it removed or hidden?
+4. Explain why disabling the send button during form submission is important.
+5. How would you modify the Google Apps Script to include an additional field like "Phone Number"?
