@@ -174,10 +174,9 @@
 
 <button class="toggle-button"><i class="fas fa-handshake"></i> Let's Connect</button>
 <div class="toggle-content contact-links">
-  <a href="tel:+2349066115252"><i class="fas fa-phone"></i> +234 90 6611 5252 </a>
   <a href="https://wa.link/qyy63j" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp </a>
   <a href="mailto:agunechemba@yahoo.com"><i class="fas fa-envelope"></i> Email </a>
-  <a href="https://https://t.me/agunechemba_hub" target="_blank"><i class="fab fa-telegram"></i> Telegram </a>
+  <a href="https://t.me/agunechemba_hub" target="_blank"><i class="fab fa-telegram"></i> Telegram </a>
   <a href="https://facebook.com/agunechemba.ekene" target="_blank"><i class="fab fa-facebook"></i> Facebook </a>
   <a href="https://linkedin.com/in/agunechembaekene/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a>
   <a href="https://x.com/agunechemba_e" target="_blank"><i class="fab fa-x-twitter"></i> X (Twitter) </a>
