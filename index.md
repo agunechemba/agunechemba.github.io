@@ -298,14 +298,31 @@ function searchPageLive() {
   const query = document.getElementById("search-box").value.trim().toLowerCase();
   if (!query) return;
 
-  const elements = document.querySelectorAll("body *:not(script):not(style):not(iframe):not(.search-bar *)");
-
-  elements.forEach(el => {
-    if (el.children.length === 0 && el.textContent.toLowerCase().includes(query)) {
-      const regex = new RegExp(`(${query})`, "gi");
-      el.innerHTML = el.textContent.replace(regex, '<mark>$1</mark>');
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode: node => {
+      // Exclude scripts, styles, iframes, and search bar text
+      if (
+        node.parentNode.closest("script, style, iframe, .search-bar") ||
+        !node.nodeValue.trim()
+      ) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      return NodeFilter.FILTER_ACCEPT;
     }
   });
+
+  let node;
+  while ((node = walker.nextNode())) {
+    const idx = node.nodeValue.toLowerCase().indexOf(query);
+    if (idx > -1) {
+      const range = document.createRange();
+      range.setStart(node, idx);
+      range.setEnd(node, idx + query.length);
+
+      const mark = document.createElement("mark");
+      range.surroundContents(mark);
+    }
+  }
 }
 
 function clearHighlights() {
@@ -318,6 +335,8 @@ function clearHighlights() {
 }
 
 document.getElementById("search-box").addEventListener("input", searchPageLive);
+
+
 </script>
 
 
