@@ -412,6 +412,7 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 
 
 <!-- Start of Subscribe form-->
+<br><br>
 <div style="text-align: center;">
 <h1><strong>Contact</strong></h1>
 <h4><em>Send me a DM or request a tutorial</em></h4>
