@@ -292,13 +292,13 @@ mark {
 
 <!--This is Search Function-->
 <script>
-function searchPage() {
-  clearHighlights(); // Remove old highlights
+function searchPageLive() {
+  clearHighlights();
 
   const query = document.getElementById("search-box").value.trim().toLowerCase();
   if (!query) return;
 
-  const elements = document.querySelectorAll("body *:not(script):not(style):not(iframe)");
+  const elements = document.querySelectorAll("body *:not(script):not(style):not(iframe):not(.search-bar *)");
 
   elements.forEach(el => {
     if (el.children.length === 0 && el.textContent.toLowerCase().includes(query)) {
@@ -317,12 +317,7 @@ function clearHighlights() {
   });
 }
 
-document.getElementById("search-box").addEventListener("keypress", function (e) {
-  if (e.key === "Enter") {
-    searchPage();
-  }
-});
-
+document.getElementById("search-box").addEventListener("input", searchPageLive);
 </script>
 
 
