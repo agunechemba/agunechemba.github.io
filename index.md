@@ -234,13 +234,18 @@
 
 <!-- Start of Subscribe form-->
 
-<iframe 
-  src="https://agunechemba.surepath.ng/" 
-  title="Agunechemba" 
-  width="100%" 
-  height="600" 
-  frameborder="0">
-</iframe>
+<div style="text-align: center;">
+<h1>Contact</h1>
+<h4>Send me a DM or request any kind of tutorial</h4>
+  <iframe 
+    src="https://agunechemba.surepath.ng/" 
+    title="Agunechemba" 
+    width="100%" 
+    height="600" 
+    frameborder="0">
+  </iframe>
+</div>
+
 
 <!-- End of Subscribe form-->
 
