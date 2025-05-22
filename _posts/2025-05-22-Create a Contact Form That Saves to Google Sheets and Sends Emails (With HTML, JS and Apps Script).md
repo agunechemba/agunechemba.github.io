@@ -157,3 +157,10 @@ You just created a no-backend form system with:
 * HTML/CSS/JS for the front end.
 
 Perfect for feedback forms, contact pages, or project demos.
+
+## Review Questions
+1. What Google Apps Script function handles the form submission from your HTML form?
+2. How do you connect your HTML form’s fetch request to the Google Apps Script web app URL?
+3. In the Apps Script, how do you save form inputs into the Google Sheet?
+4. What method is used to send emails to both you and the form submitter?
+5. How does the JavaScript change the send button text to “Sent” after a successful submission?
