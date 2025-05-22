@@ -3,6 +3,11 @@
 
 <!-- Styles -->
 <style>
+
+  html {
+  scroll-behavior: smooth;
+}
+
   body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
