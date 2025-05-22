@@ -11,7 +11,7 @@ Here are the main ones you need to know:
 
 #### ➕ Addition (`+`)
 
-```python
+```
 print(1 + 1)  # Output: 2
 ```
 
@@ -19,7 +19,7 @@ print(1 + 1)  # Output: 2
 
 #### ➖ Subtraction (`-`)
 
-```python
+```
 print(2 - 1)  # Output: 1
 ```
 
@@ -27,7 +27,7 @@ print(2 - 1)  # Output: 1
 
 #### ✖️ Multiplication (`*`)
 
-```python
+```
 print(2 * 2)  # Output: 4
 ```
 
@@ -35,7 +35,7 @@ print(2 * 2)  # Output: 4
 
 #### ➗ Division (`/`)
 
-```python
+```
 print(4 / 2)  # Output: 2.0
 ```
 
@@ -43,7 +43,7 @@ print(4 / 2)  # Output: 2.0
 
 #### 🧹 Modulus (`%`)
 
-```python
+```
 print(4 % 3)  # Output: 1
 ```
 
@@ -51,7 +51,7 @@ print(4 % 3)  # Output: 1
 
 #### 🔼 Exponentiation (`**`)
 
-```python
+```
 print(4 ** 2)  # Output: 16
 ```
 
@@ -59,7 +59,7 @@ print(4 ** 2)  # Output: 16
 
 #### 🔻 Floor Division (`//`)
 
-```python
+```
 print(4 // 2)  # Output: 2
 ```
 
@@ -73,41 +73,41 @@ These are shortcuts for updating the value of a variable:
 
 Let's say:
 
-```python
+```
 age = 8
 ```
 
 #### `+=`
 
-```python
+```
 age += 1  # Same as age = age + 1
 print(age)  # Output: 9
 ```
 
 #### `-=`
 
-```python
+```
 age -= 2
 print(age)  # Output: 7
 ```
 
 #### `*=`
 
-```python
+```
 age *= 2
 print(age)  # Output: 14
 ```
 
 #### `/=`
 
-```python
+```
 age /= 2
 print(age)  # Output: 7.0
 ```
 
 #### `%=`
 
-```python
+```
 age %= 5
 print(age)  # Output: 2
 ```
