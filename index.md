@@ -235,8 +235,8 @@
 <!-- Start of Subscribe form-->
 
 <div style="text-align: center;">
-<h1>Contact</h1>
-<h4>Send me a DM or request any kind of tutorial</h4>
+<h1><strong>Contact</strong></h1>
+<h4><em>Send me a DM or request a tutorial</em></h4>
   <iframe 
     src="https://agunechemba.surepath.ng/" 
     title="Agunechemba" 
