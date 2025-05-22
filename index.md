@@ -105,6 +105,12 @@
   }
 
 
+  .blog-link {
+  color: #fff !important;
+}
+
+
+
 
   /* This styles the years of experience counter */
   .counter {
