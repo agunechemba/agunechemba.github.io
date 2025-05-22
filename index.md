@@ -389,7 +389,7 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 
 <!--Search input-->
 <div class="search-bar">
-  <input type="text" id="search-box" placeholder="Search this page..." />
+  <input type="text" id="search-box" placeholder="Search blog..." />
   <button onclick="searchPage()">Search</button>
   <!--<button onclick="clearHighlights()">Clear</button>--removed the clear button-->
 </div>
