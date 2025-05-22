@@ -118,6 +118,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+  
+
+
 /*This styles the search bar*/
   .search-bar {
   max-width: 500px;
@@ -160,6 +172,20 @@ mark {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
   /* This styles the years of experience counter */
   .counter {
       font-size: 2em;
@@ -168,6 +194,12 @@ mark {
   
 </style>
 
+
+
+
+
+
+<!--This is the body-->
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
   <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
@@ -240,6 +272,20 @@ mark {
 
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- JavaScript for Toggle -->
 <script>
   const buttons = document.querySelectorAll('.toggle-button');
@@ -261,6 +307,18 @@ mark {
     });
   });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -290,39 +348,37 @@ mark {
 </script>
 
 
-<!--This is Search Function-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Javascript for Search Function-->
 <script>
-function searchPageLive() {
-  clearHighlights();
+function searchPage() {
+  clearHighlights(); // Remove old highlights
 
   const query = document.getElementById("search-box").value.trim().toLowerCase();
   if (!query) return;
 
-  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
-    acceptNode: node => {
-      // Exclude scripts, styles, iframes, and search bar text
-      if (
-        node.parentNode.closest("script, style, iframe, .search-bar") ||
-        !node.nodeValue.trim()
-      ) {
-        return NodeFilter.FILTER_REJECT;
-      }
-      return NodeFilter.FILTER_ACCEPT;
+  const elements = document.querySelectorAll("body *:not(script):not(style):not(iframe)");
+
+  elements.forEach(el => {
+    if (el.children.length === 0 && el.textContent.toLowerCase().includes(query)) {
+      const regex = new RegExp(`(${query})`, "gi");
+      el.innerHTML = el.textContent.replace(regex, '<mark>$1</mark>');
     }
   });
-
-  let node;
-  while ((node = walker.nextNode())) {
-    const idx = node.nodeValue.toLowerCase().indexOf(query);
-    if (idx > -1) {
-      const range = document.createRange();
-      range.setStart(node, idx);
-      range.setEnd(node, idx + query.length);
-
-      const mark = document.createElement("mark");
-      range.surroundContents(mark);
-    }
-  }
 }
 
 function clearHighlights() {
@@ -334,10 +390,24 @@ function clearHighlights() {
   });
 }
 
-document.getElementById("search-box").addEventListener("input", searchPageLive);
-
-
+document.getElementById("search-box").addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    searchPage();
+  }
+});
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -353,12 +423,23 @@ document.getElementById("search-box").addEventListener("input", searchPageLive);
     frameborder="0">
   </iframe>
 </div>
-
-
 <!-- End of Subscribe form-->
 
 
-<!-- End Installing Utterances for comment-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Start of Subscribe form-- This is from mailchimp, and has been commented out---
 <div id="mc_embed_shell">
@@ -391,7 +472,7 @@ document.getElementById("search-box").addEventListener("input", searchPageLive);
 </form>
 </div>
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
- --- End of Subscribe form-->
+ --- End of Subscribe form-- This is from mailchimp, and has been commented out-->
 
 
 
@@ -399,7 +480,20 @@ document.getElementById("search-box").addEventListener("input", searchPageLive);
 
 
 
+
+
+<!--this anchors down to the post secction-->
 <a id="my-blog"></a>
+
+
+
+
+
+
+
+
+
+
 
 <!--Search input-->
 <div class="search-bar">
@@ -409,9 +503,5 @@ document.getElementById("search-box").addEventListener("input", searchPageLive);
 </div>
 
 
-<div class="search-bar">
-  <input type="text" id="search-box" placeholder="Search this page..." />
-  <button onclick="searchPageLive()">Search</button>
-</div>
 
 
