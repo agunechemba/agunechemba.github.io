@@ -117,6 +117,49 @@
 
 
 
+
+/*This styles the search bar*/
+  .search-bar {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  width: 60%;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.search-bar button:hover {
+  transform: scale(1.05);
+}
+
+mark {
+  background: yellow;
+  color: black;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+
+
+
   /* This styles the years of experience counter */
   .counter {
       font-size: 2em;
@@ -247,26 +290,44 @@
 </script>
 
 
-<!--Search Function-->
+<!--This is Search Function-->
 <script>
 function searchPage() {
-  const query = document.getElementById("search-box").value.toLowerCase();
-  const bodyText = document.body.innerHTML;
-  
+  clearHighlights(); // Remove old highlights
+
+  const query = document.getElementById("search-box").value.trim().toLowerCase();
   if (!query) return;
 
-  const regex = new RegExp(query, "gi");
+  const elements = document.querySelectorAll("body *:not(script):not(style):not(iframe)");
 
-  document.body.innerHTML = bodyText.replace(regex, (match) => {
-    return `<mark>${match}</mark>`;
+  elements.forEach(el => {
+    if (el.children.length === 0 && el.textContent.toLowerCase().includes(query)) {
+      const regex = new RegExp(`(${query})`, "gi");
+      el.innerHTML = el.textContent.replace(regex, '<mark>$1</mark>');
+    }
   });
 }
+
+function clearHighlights() {
+  const marks = document.querySelectorAll("mark");
+  marks.forEach(mark => {
+    const parent = mark.parentNode;
+    parent.replaceChild(document.createTextNode(mark.textContent), mark);
+    parent.normalize();
+  });
+}
+
+document.getElementById("search-box").addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    searchPage();
+  }
+});
+
 </script>
 
 
 
 <!-- Start of Subscribe form-->
-
 <div style="text-align: center;">
 <h1><strong>Contact</strong></h1>
 <h4><em>Send me a DM or request a tutorial</em></h4>
@@ -327,5 +388,9 @@ function searchPage() {
 <a id="my-blog"></a>
 
 <!--Search input-->
-<input type="text" id="search-box" placeholder="Search this page..." />
-<button onclick="searchPage()">Search</button>
+<div class="search-bar">
+  <input type="text" id="search-box" placeholder="Search this page..." />
+  <button onclick="searchPage()">Search</button>
+  <button onclick="clearHighlights()">Clear</button>
+</div>
+
