@@ -16,7 +16,7 @@ In this tutorial, you’ll learn to do just that using **HTML**, **JavaScript**,
 
 Create a file called `form.html` and paste the code below:
 
-```html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -89,7 +89,7 @@ Create a file called `form.html` and paste the code below:
 
 ### Paste this script:
 
-```javascript
+```
 function doPost(e) {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
 
