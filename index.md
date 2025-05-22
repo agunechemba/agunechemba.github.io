@@ -408,3 +408,10 @@ document.getElementById("search-box").addEventListener("input", searchPageLive);
   <!--<button onclick="clearHighlights()">Clear</button>--removed the clear button-->
 </div>
 
+
+<div class="search-bar">
+  <input type="text" id="search-box" placeholder="Search this page..." />
+  <button onclick="searchPageLive()">Search</button>
+</div>
+
+
