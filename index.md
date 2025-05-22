@@ -247,6 +247,24 @@
 </script>
 
 
+<!--Search Function-->
+<script>
+function searchPage() {
+  const query = document.getElementById("search-box").value.toLowerCase();
+  const bodyText = document.body.innerHTML;
+  
+  if (!query) return;
+
+  const regex = new RegExp(query, "gi");
+
+  document.body.innerHTML = bodyText.replace(regex, (match) => {
+    return `<mark>${match}</mark>`;
+  });
+}
+</script>
+
+
+
 <!-- Start of Subscribe form-->
 
 <div style="text-align: center;">
@@ -307,3 +325,7 @@
 
 
 <a id="my-blog"></a>
+
+<!--Search input-->
+<input type="text" id="search-box" placeholder="Search this page..." />
+<button onclick="searchPage()">Search</button>
