@@ -1,4 +1,4 @@
-# Arithmetic Operators in Python - A Beginner's Guide**
+# Arithmetic Operators in Python - A Beginner's Guide
 ![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_clean_and_modern_flat_style_illustration_of.jpeg)
 
 When you're working with numbers in Python, you'll often need to perform basic arithmetic operations. Python makes this super easy with built-in operators.
