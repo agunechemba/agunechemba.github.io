@@ -176,6 +176,19 @@ mark {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--Start-This is the body-->
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
@@ -254,119 +267,6 @@ mark {
 
 
 
-
-<!--Start-JavaScript for Toggle -->
-<script>
-  const buttons = document.querySelectorAll('.toggle-button');
-  const contents = document.querySelectorAll('.toggle-content');
-
-  buttons.forEach((btn, i) => {
-    btn.addEventListener('click', () => {
-      buttons.forEach((otherBtn, j) => {
-        if (i !== j) {
-          contents[j].style.display = 'none';
-          otherBtn.classList.remove('active');
-        }
-      });
-
-      const content = contents[i];
-      const isOpen = content.style.display === 'block';
-      content.style.display = isOpen ? 'none' : 'block';
-      btn.classList.toggle('active', !isOpen);
-    });
-  });
-</script>
-<!--End-JavaScript for Toggle -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--Start-Javascript for years of experience -->
-<script>
-  const startYear = 2010; // change this to your actual start year
-  const currentYear = new Date().getFullYear();
-  const years = currentYear - startYear;
-
-  const counter = document.getElementById('year-counter');
-  let count = 0;
-
-  const updateCount = () => {
-    const speed = 200; // lower = faster animation
-    const increment = years / speed;
-
-    if (count < years) {
-      count += increment;
-      counter.innerText = Math.ceil(count);
-      requestAnimationFrame(updateCount);
-    } else {
-      counter.innerText = years;
-    }
-  };
-
-  updateCount();
-</script>
-<!--End-Javascript for years of experience -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--Start-Javascript for Search Function-->
-<script>
-function searchPage() {
-  clearHighlights(); // Remove old highlights
-
-  const query = document.getElementById("search-box").value.trim().toLowerCase();
-  if (!query) return;
-
-  const elements = document.querySelectorAll("body *:not(script):not(style):not(iframe)");
-
-  elements.forEach(el => {
-    if (el.children.length === 0 && el.textContent.toLowerCase().includes(query)) {
-      const regex = new RegExp(`(${query})`, "gi");
-      el.innerHTML = el.textContent.replace(regex, '<mark>$1</mark>');
-    }
-  });
-}
-
-function clearHighlights() {
-  const marks = document.querySelectorAll("mark");
-  marks.forEach(mark => {
-    const parent = mark.parentNode;
-    parent.replaceChild(document.createTextNode(mark.textContent), mark);
-    parent.normalize();
-  });
-}
-
-document.getElementById("search-box").addEventListener("keypress", function (e) {
-  if (e.key === "Enter") {
-    searchPage();
-  }
-});
-</script>
-
-<!--End-Javascript for Search Function-->
 
 
 
@@ -531,4 +431,132 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Start-JavaScript for Toggle -->
+<script>
+  const buttons = document.querySelectorAll('.toggle-button');
+  const contents = document.querySelectorAll('.toggle-content');
+
+  buttons.forEach((btn, i) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((otherBtn, j) => {
+        if (i !== j) {
+          contents[j].style.display = 'none';
+          otherBtn.classList.remove('active');
+        }
+      });
+
+      const content = contents[i];
+      const isOpen = content.style.display === 'block';
+      content.style.display = isOpen ? 'none' : 'block';
+      btn.classList.toggle('active', !isOpen);
+    });
+  });
+</script>
+<!--End-JavaScript for Toggle -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Start-Javascript for years of experience -->
+<script>
+  const startYear = 2010; // change this to your actual start year
+  const currentYear = new Date().getFullYear();
+  const years = currentYear - startYear;
+
+  const counter = document.getElementById('year-counter');
+  let count = 0;
+
+  const updateCount = () => {
+    const speed = 200; // lower = faster animation
+    const increment = years / speed;
+
+    if (count < years) {
+      count += increment;
+      counter.innerText = Math.ceil(count);
+      requestAnimationFrame(updateCount);
+    } else {
+      counter.innerText = years;
+    }
+  };
+
+  updateCount();
+</script>
+<!--End-Javascript for years of experience -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Start-Javascript for Search Function-->
+<script>
+function searchPage() {
+  clearHighlights(); // Remove old highlights
+
+  const query = document.getElementById("search-box").value.trim().toLowerCase();
+  if (!query) return;
+
+  const elements = document.querySelectorAll("body *:not(script):not(style):not(iframe)");
+
+  elements.forEach(el => {
+    if (el.children.length === 0 && el.textContent.toLowerCase().includes(query)) {
+      const regex = new RegExp(`(${query})`, "gi");
+      el.innerHTML = el.textContent.replace(regex, '<mark>$1</mark>');
+    }
+  });
+}
+
+function clearHighlights() {
+  const marks = document.querySelectorAll("mark");
+  marks.forEach(mark => {
+    const parent = mark.parentNode;
+    parent.replaceChild(document.createTextNode(mark.textContent), mark);
+    parent.normalize();
+  });
+}
+
+document.getElementById("search-box").addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    searchPage();
+  }
+});
+</script>
+
+<!--End-Javascript for Search Function-->
 
