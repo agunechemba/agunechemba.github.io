@@ -9,7 +9,7 @@ Want to make your website look clean and clickable when shared on Facebook? Here
 1. **Open your HTML file** (usually `index.html`).
 2. In the `<head>...</head>` section, drop in these Open Graph meta tags:
 
-```html
+```
 <!-- Facebook / Open Graph -->
 <meta property="og:title" content="Your Website Title" />
 <meta property="og:description" content="A short description of your page." />
@@ -20,7 +20,7 @@ Want to make your website look clean and clickable when shared on Facebook? Here
 
 ## ✅ Real-Life Example
 
-```html
+```
 <head>
   <meta charset="UTF-8" />
   <title>Agunechemba – Celebrated Tech Trainer</title>
