@@ -1,9 +1,9 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- Styles -->
 <style>
-
+/*Start-This styles the elements that are not styled using in-line*/
+  
   html {
   scroll-behavior: smooth;
 }
@@ -130,7 +130,7 @@
   
 
 
-/*This styles the search bar*/
+/*Start-This styles the search bar*/
   .search-bar {
   max-width: 500px;
   margin: 0 auto 30px;
@@ -168,6 +168,7 @@ mark {
   padding: 2px 4px;
   border-radius: 4px;
 }
+  /*End-This styles the search bar*/
 </style>
 
 
@@ -175,7 +176,7 @@ mark {
 
 
 
-<!--This is the body-->
+<!--Start-This is the body-->
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
   <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
@@ -238,6 +239,7 @@ mark {
 <a class="blog-link" href="#my-blog"><i class="fas fa-blog"></i> <span>Visit My Blog</span></a>
 
 </div>
+<!--End-This is the body-->
 
 
 
@@ -253,7 +255,7 @@ mark {
 
 
 
-<!-- JavaScript for Toggle -->
+<!--Start-JavaScript for Toggle -->
 <script>
   const buttons = document.querySelectorAll('.toggle-button');
   const contents = document.querySelectorAll('.toggle-content');
@@ -274,6 +276,7 @@ mark {
     });
   });
 </script>
+<!--End-JavaScript for Toggle -->
 
 
 
@@ -288,8 +291,7 @@ mark {
 
 
 
-
-<!-- Javascript for years of experience -->
+<!--Start-Javascript for years of experience -->
 <script>
   const startYear = 2010; // change this to your actual start year
   const currentYear = new Date().getFullYear();
@@ -313,6 +315,7 @@ mark {
 
   updateCount();
 </script>
+<!--End-Javascript for years of experience -->
 
 
 
@@ -329,8 +332,7 @@ mark {
 
 
 
-
-<!--Javascript for Search Function-->
+<!--Start-Javascript for Search Function-->
 <script>
 function searchPage() {
   clearHighlights(); // Remove old highlights
@@ -364,6 +366,7 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 });
 </script>
 
+<!--End-Javascript for Search Function-->
 
 
 
@@ -378,31 +381,10 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 
 
 
-<!-- Start of Subscribe form-->
-<br><br>
-<div style="text-align: center;">
-<h1><strong>Contact</strong></h1>
-<h4><em>Send me a DM or request a tutorial</em></h4>
-  <iframe 
-    src="https://agunechemba.surepath.ng/" 
-    title="Agunechemba" 
-    width="100%" 
-    height="600" 
-    frameborder="0">
-  </iframe>
-</div>
 
-
-
-
-
-
-
-<!--Another form-->
 <!--Start: This Section is for the Contact Form-->
-
-<body style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
-
+<h1 style="text-align: center;">📬 Contact Me</h1>
+<h4 style="text-align: center;">📚 Request a tutorial or 📩 send me a DM</h4>
   <form id="contactForm" style="max-width: 400px; margin: auto;">
     <input type="text" name="name" placeholder="Your Name" required 
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
@@ -467,7 +449,6 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
   </script>
 </body>
 <!--End: This Section is for the Contact Form-->
-<!-- End of Subscribe form-->
 
 
 
