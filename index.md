@@ -191,6 +191,84 @@ mark {
       font-size: 2em;
       font-weight: bold;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* This style is for the form*/
+* {
+      box-sizing: border-box;
+      }
+   body {
+       font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+   }
+
+     
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    button {
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .sent {
+      background-color: #28a745 !important;
+    }
+
+    /* Success animation styles */
+    .success-animation {
+      display: none;
+      margin: 20px auto;
+      width: 100px;
+      height: 100px;
+    }
+
+    .success-animation svg {
+      width: 100px;
+      height: 100px;
+    }
+
+    .success-animation.show {
+      display: block;
+      animation: pop 0.5s ease-in-out;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0); opacity: 0; }
+      60% { transform: scale(1.2); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+  
+
   
 </style>
 
@@ -424,6 +502,66 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
     frameborder="0">
   </iframe>
 </div>
+
+
+
+
+
+
+
+<!--Another form-->
+<body>
+
+<!--<h2>Contact Us</h2>-->
+
+<form id="contactForm">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit" id="submitBtn">Send</button>
+</form>
+
+<div class="success-animation" id="successAnimation">
+  <svg viewBox="0 0 52 52">
+    <path fill="none" stroke="#28a745" stroke-width="5" d="M14 27l7 7 16-16"/>
+    <circle fill="none" stroke="#28a745" stroke-width="5" cx="26" cy="26" r="24"/>
+  </svg>
+</div>
+
+<script>
+  const form = document.getElementById('contactForm');
+  const button = document.getElementById('submitBtn');
+  const animation = document.getElementById('successAnimation');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    button.disabled = true;
+    button.textContent = 'Sending...';
+
+    const data = new FormData(form);
+
+    fetch('https://script.google.com/macros/s/AKfycby9V4kcg4XEIqry_wq6V6sbLnVCPxx1XZLK-1BUJ2jlEOsOHIH94b7BefdqbCMfRBYi/exec', {
+      method: 'POST',
+      body: data
+    })
+    .then(res => res.text())
+    .then(response => {
+      button.textContent = 'Sent';
+      button.classList.add('sent');
+      form.reset();
+      animation.classList.add('show');
+    })
+    .catch(error => {
+      alert('Error: ' + error.message);
+      button.disabled = false;
+      button.textContent = 'Send';
+    });
+  });
+</script>
+
+</body>
+
+
 <!-- End of Subscribe form-->
 
 
