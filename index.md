@@ -383,6 +383,7 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 
 
 <!--Start: This Section is for the Contact Form-->
+<body style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
 <h1 style="text-align: center;">📬 Contact Me</h1>
 <h4 style="text-align: center;">📚 Request a tutorial or 📩 send me a DM</h4>
   <form id="contactForm" style="max-width: 400px; margin: auto;">
@@ -404,6 +405,7 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
       <circle fill="none" stroke="#28a745" stroke-width="5" cx="26" cy="26" r="24"/>
     </svg>
   </div>
+  </body>
 
   <script>
     const form = document.getElementById('contactForm');
@@ -447,7 +449,6 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
     `;
     document.head.appendChild(styleSheet);
   </script>
-</body>
 <!--End: This Section is for the Contact Form-->
 
 
