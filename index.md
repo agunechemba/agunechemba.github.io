@@ -215,15 +215,6 @@ mark {
 </ul>
   </div>
 
-
-<!--
-  <button class="toggle-button"><i class="fas fa-school"></i> Current Role</button>
-  <div class="toggle-content">
-<p>Currently, I teach programming at <a href="https://clasamschools.com/" target="_blank">Clasam Schools</a>. I also write <a href="#my-blog">blog posts</a>, build youth coding bootcamps and organize competitions.</p> 
-<p>Additionally, I train workers in organizations that use IT packages and give professional and career talks at schools.</p>
-  </div>
-  -->
-
   <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
 <div class="toggle-content">
 <ul>
@@ -408,58 +399,74 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 
 
 <!--Another form-->
-<body>
+<!--Start: This Section is for the Contact Form-->
 
-<!--<h2>Contact Us</h2>-->
+<body style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
 
-<form id="contactForm">
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
-  <textarea name="message" placeholder="Your Message" required></textarea>
-  <button type="submit" id="submitBtn">Send</button>
-</form>
+  <form id="contactForm" style="max-width: 400px; margin: auto;">
+    <input type="text" name="name" placeholder="Your Name" required 
+      style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
+    <input type="email" name="email" placeholder="Your Email" required 
+      style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
+    <textarea name="message" placeholder="Your Message" required 
+      style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;"></textarea>
+    <button type="submit" id="submitBtn" 
+      style="width: 100%; padding: 12px; font-size: 16px; background: #007BFF; color: white; border: none; cursor: pointer; box-sizing: border-box;">
+      Send
+    </button>
+  </form>
 
-<div class="success-animation" id="successAnimation">
-  <svg viewBox="0 0 52 52">
-    <path fill="none" stroke="#28a745" stroke-width="5" d="M14 27l7 7 16-16"/>
-    <circle fill="none" stroke="#28a745" stroke-width="5" cx="26" cy="26" r="24"/>
-  </svg>
-</div>
+  <div id="successAnimation" style="display: none; margin: 20px auto; width: 100px; height: 100px;">
+    <svg viewBox="0 0 52 52" style="width: 100px; height: 100px;">
+      <path fill="none" stroke="#28a745" stroke-width="5" d="M14 27l7 7 16-16"/>
+      <circle fill="none" stroke="#28a745" stroke-width="5" cx="26" cy="26" r="24"/>
+    </svg>
+  </div>
 
-<script>
-  const form = document.getElementById('contactForm');
-  const button = document.getElementById('submitBtn');
-  const animation = document.getElementById('successAnimation');
+  <script>
+    const form = document.getElementById('contactForm');
+    const button = document.getElementById('submitBtn');
+    const animation = document.getElementById('successAnimation');
 
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    button.disabled = true;
-    button.textContent = 'Sending...';
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      button.disabled = true;
+      button.textContent = 'Sending...';
 
-    const data = new FormData(form);
+      const data = new FormData(form);
 
-    fetch('https://script.google.com/macros/s/AKfycby9V4kcg4XEIqry_wq6V6sbLnVCPxx1XZLK-1BUJ2jlEOsOHIH94b7BefdqbCMfRBYi/exec', {
-      method: 'POST',
-      body: data
-    })
-    .then(res => res.text())
-    .then(response => {
-      button.textContent = 'Sent';
-      button.classList.add('sent');
-      form.reset();
-      animation.classList.add('show');
-    })
-    .catch(error => {
-      alert('Error: ' + error.message);
-      button.disabled = false;
-      button.textContent = 'Send';
+      fetch('https://script.google.com/macros/s/AKfycby9V4kcg4XEIqry_wq6V6sbLnVCPxx1XZLK-1BUJ2jlEOsOHIH94b7BefdqbCMfRBYi/exec', {
+        method: 'POST',
+        body: data
+      })
+      .then(res => res.text())
+      .then(response => {
+        button.textContent = 'Sent';
+        button.style.backgroundColor = '#28a745';
+        form.reset();
+        animation.style.display = 'block';
+        animation.style.animation = 'pop 0.5s ease-in-out';
+      })
+      .catch(error => {
+        alert('Error: ' + error.message);
+        button.disabled = false;
+        button.textContent = 'Send';
+      });
     });
-  });
-</script>
 
+    // Animate success
+    const styleSheet = document.createElement("style");
+    styleSheet.innerText = `
+      @keyframes pop {
+        0% { transform: scale(0); opacity: 0; }
+        60% { transform: scale(1.2); opacity: 1; }
+        100% { transform: scale(1); }
+      }
+    `;
+    document.head.appendChild(styleSheet);
+  </script>
 </body>
-
-
+<!--End: This Section is for the Contact Form-->
 <!-- End of Subscribe form-->
 
 
