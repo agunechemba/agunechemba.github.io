@@ -384,8 +384,8 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
 
 <!--Start: This Section is for the Contact Form-->
 <div style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
-<h1 style="text-align: center;">📬 Contact Me</h1>
-<h4 style="text-align: center;">📚 Request a tutorial or 📩 send me a DM</h4>
+<strong><h1 style="text-align: center;">📬 Contact Me</h1></strong>
+<em><h4 style="text-align: center;">📚 Request a tutorial || 📩 Send me a DM</h4></em>
   <form id="contactForm" style="max-width: 400px; margin: auto;">
     <input type="text" name="name" placeholder="Your Name" required 
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
@@ -449,6 +449,7 @@ document.getElementById("search-box").addEventListener("keypress", function (e) 
     `;
     document.head.appendChild(styleSheet);
   </script>
+
 <!--End: This Section is for the Contact Form-->
 
 
