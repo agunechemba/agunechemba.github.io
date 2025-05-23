@@ -1,6 +1,6 @@
 # 🎯 How to Set a Facebook Preview Image for Your Website
 
-![Agunechemba Ekene](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png)
+![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a-man-sharing-a-facebook-post-on-a-wide-screen-.jpeg)
 
 Want to make your website look clean and clickable when shared on Facebook? Here’s how to set that *preview image* (you know, the image + title + description that pops up in the link preview). Best part? It’s super simple if you're working with plain ol' HTML.
 
