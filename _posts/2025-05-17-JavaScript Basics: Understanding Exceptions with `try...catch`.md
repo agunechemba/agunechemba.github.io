@@ -95,6 +95,3 @@ A) It only runs if no errors occur
 B) It is used to define a variable
 C) It catches and handles errors thrown in the `try` block
 D) It throws errors
-
-
-![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/chatgpt-image-may-17-2025-06_20_21-pm-1.png)
