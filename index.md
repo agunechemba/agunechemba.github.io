@@ -285,7 +285,7 @@ mark {
 <!--Start: This Section is for the Contact Form-->
 <div style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
 <h1 style="text-align: center;">📬 <strong>Contact Me</strong></h1>
-<h4 style="text-align: center;">📚 <em>Request a tutorial</em>  || 📩 <em>Send me a DM</em></h4>
+<h6 style="text-align: center;">📚 <em>Request a tutorial</em>  || 📩 <em>Send me a DM</em></h6>
   <form id="contactForm" style="max-width: 400px; margin: auto;">
     <input type="text" name="name" placeholder="Your Name" required 
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
