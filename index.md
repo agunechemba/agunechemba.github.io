@@ -168,108 +168,6 @@ mark {
   padding: 2px 4px;
   border-radius: 4px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  /* This styles the years of experience counter */
-  .counter {
-      font-size: 2em;
-      font-weight: bold;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* This style is for the form*/
-* {
-      box-sizing: border-box;
-      }
-   body {
-       font-family: Arial, sans-serif;
-      padding: 40px;
-      text-align: center;
-   }
-
-     
-    body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      text-align: center;
-    }
-    form {
-      max-width: 400px;
-      margin: auto;
-    }
-    input, textarea, button {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 15px;
-      font-size: 16px;
-    }
-    button {
-      background: #007BFF;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    .sent {
-      background-color: #28a745 !important;
-    }
-
-    /* Success animation styles */
-    .success-animation {
-      display: none;
-      margin: 20px auto;
-      width: 100px;
-      height: 100px;
-    }
-
-    .success-animation svg {
-      width: 100px;
-      height: 100px;
-    }
-
-    .success-animation.show {
-      display: block;
-      animation: pop 0.5s ease-in-out;
-    }
-
-    @keyframes pop {
-      0% { transform: scale(0); opacity: 0; }
-      60% { transform: scale(1.2); opacity: 1; }
-      100% { transform: scale(1); }
-    }
-  
-
-  
 </style>
 
 
@@ -284,7 +182,7 @@ mark {
   <div class="subtitle">The Celebrated Tech Trainer</div>
 
   <!-- Toggle Buttons & Sections -->
-  <button class="toggle-button"><i class="fas fa-rocket"></i> <span class="counter" id="year-counter">0</span> Years Experience </button>
+  <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Experience </button>
   <div class="toggle-content">
 <p>I spark a deep passion for coding in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects.</p>
 <p>As the founder of <strong>Pepe Programming Hub</strong> and the mind behind <strong>Firstac Academy</strong>, I also run annual free <strong>summer boot camps</strong> for young minds aged 10–16. From physical classes at Clasam Schools in Lagos to online sessions with global learners, I’ve mentored hundreds of teenagers—helping them build both strong coding skills and an <strong>engineering mindset</strong>.</p>
