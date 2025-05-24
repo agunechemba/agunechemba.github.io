@@ -55,6 +55,4 @@ Today, I’m proud to be a success in the **tech-ed** business, training over a 
 
 Teachers might not always show you the path to crazy success, but they teach you **how not to fail**. They give you the foundation to stand on.
 
----
-
 **Keep grinding. Keep building. Remember where you started.**
