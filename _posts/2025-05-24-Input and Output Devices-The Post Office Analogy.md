@@ -1,6 +1,6 @@
 # 🧠 Input and Output Devices: The Post Office Analogy
 
-![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_animated_picture_of_a_boy_and.jpeg)
+<center>![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_animated_picture_of_a_boy_and.jpeg)</center>
 
 Imagine a **post office** in a busy city. Every day, people come in to **send** and **receive** letters and packages. In this analogy, your **computer is the post office**, and the way it communicates with the outside world is through **input** and **output** devices.
 
