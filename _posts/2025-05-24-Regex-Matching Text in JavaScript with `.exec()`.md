@@ -38,7 +38,7 @@ This means:
 
 ### 🎯 Visual Example:
 
-```text
+```
 String:   f  o  o  1  2  3  b  a  r
 Index:    0  1  2  3  4  5  6  7  8
 Match:          1  2  3  b  a  r
@@ -51,7 +51,7 @@ Match:          1  2  3  b  a  r
 
 What if we want to find **all** the times a letter appears? Let’s use a **loop**!
 
-```js
+```
 var re = /a/g;
 var result;
 
