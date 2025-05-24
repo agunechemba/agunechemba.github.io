@@ -1,4 +1,4 @@
-# My Journey From School Labs to Tech Trainer Hustle
+# My Journey From School Labs to Celebrated Tech Trainer
 
 <center>
   <figure>
@@ -46,7 +46,7 @@ I use my projects — big and small — mostly to train and inspire learners fro
 
 ## Scaling Up: Training, Impact, and Big Dreams
 
-Today, I’m proud to be a success in the tech-ed business, training over a hundred learners both online and face-to-face. Looking ahead, I’m excited about the opportunity to collaborate with bigger personalities and brands like Brendan Eich, Google, Microsoft, and MIT to make an even greater impact.
+Today, I’m proud to be a success in the **tech-ed** business, training over a hundred learners both online and face-to-face. Looking ahead, I’m excited about the opportunity to collaborate with bigger personalities and brands like Brendan Eich, Google, Microsoft, and MIT to make an even greater impact.
 
 
 ---
