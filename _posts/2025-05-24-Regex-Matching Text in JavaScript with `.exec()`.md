@@ -1,6 +1,9 @@
 # 🔍 Regex: Matching Text in JavaScript with `.exec()`
 
-![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_cat_holding_a_gun_to_execute.jpeg)
+<div style="text-align: center;">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_cat_holding_a_gun_to_execute.jpeg" alt="Ekene Agunechemba" />
+</div>
+
 
 ### 👋 Hey there, young coder!
 
