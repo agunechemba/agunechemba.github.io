@@ -1,6 +1,6 @@
 # 07-Introduction to Programming With Python: Unit Tests
 
-###Video Summary:
+### Video Summary:
 
 This video introduces the concept of unit testing in Python, demonstrating how to write tests for functions using both manual assertions and the pytest framework to ensure code reliability.
 
