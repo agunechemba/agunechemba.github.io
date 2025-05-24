@@ -23,7 +23,7 @@ That means: “Yes, it’s there” or “No, it’s not.”
 
 ### Example:
 
-```js
+```
 var re = /cat/;
 console.log(re.test("The cat is here"));  // true
 console.log(re.test("No animal here"));   // false
@@ -43,7 +43,7 @@ console.log(re.test("No animal here"));   // false
 
 ### Example:
 
-```js
+```
 var re = /c(at)/;
 var result = re.exec("The cat is here");
 
@@ -62,7 +62,7 @@ console.log(result.index);   // 4 (match starts at index 4)
 
 ### Example:
 
-```js
+```
 var sentence = "The cat is here";
 var result = sentence.match(/cat/);
 
@@ -71,7 +71,7 @@ console.log(result[0]); // "cat"
 
 Want to find **all** matches? Add the `g` flag:
 
-```js
+```
 var str = "cat, bat, hat";
 console.log(str.match(/at/g));  // ["at", "at", "at"]
 ```
@@ -106,7 +106,7 @@ console.log(str.match(/at/g));  // ["at", "at", "at"]
 
 3. What will this return?
 
-   ```js
+   ```
    /cat/.test("I have a dog.")
    ```
 
@@ -117,7 +117,7 @@ console.log(str.match(/at/g));  // ["at", "at", "at"]
 
 4. What does this return?
 
-   ```js
+   ```
    "cat, bat, hat".match(/at/g)
    ```
 
@@ -128,7 +128,7 @@ console.log(str.match(/at/g));  // ["at", "at", "at"]
 
 5. In this code:
 
-   ```js
+   ```
    var re = /d(o)g/;
    var result = re.exec("My dog runs");
 
