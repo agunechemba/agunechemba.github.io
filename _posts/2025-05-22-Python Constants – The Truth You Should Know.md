@@ -1,6 +1,9 @@
 # 📘 Python Constants – The Truth You Should Know
 
-![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_young_black_boy_smiling_and_has.jpeg)
+
+<div style="text-align: center;">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_young_black_boy_smiling_and_has.jpeg" alt="Ekene Agunechemba" />
+</div>
 
 
 When you're coding in Python, sometimes you want a variable that never changes — like the size of a window, or the value of Pi.
