@@ -3,7 +3,7 @@
 <center>
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_animated_picture_of_a_boy_and.jpeg" alt="Ekene Agunechemba">
 </center>
-<br>
+<br><br>
 
 Imagine a **post office** in a busy city. Every day, people come in to **send** and **receive** letters and packages. In this analogy, your **computer is the post office**, and the way it communicates with the outside world is through **input** and **output** devices.
 
