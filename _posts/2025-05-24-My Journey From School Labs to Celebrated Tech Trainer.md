@@ -6,7 +6,7 @@
     <figcaption>Ekene Agunechemba at DHFIS, Lagos</figcaption>
   </figure>
 </center>
-
+<br>
 
 Growing up in Lagos, I was lucky to attend **Meu Victory Comprehensive College**, Ona-ara Street, Idimu — a school that actually had computers in the lab, back when most Nigerian schools taught computer studies on a blackboard.
 
