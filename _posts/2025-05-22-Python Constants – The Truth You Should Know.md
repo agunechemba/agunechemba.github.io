@@ -6,7 +6,6 @@
 </div>
 <br><br>
 
-
 When you're coding in Python, sometimes you want a variable that never changes — like the size of a window, or the value of Pi.
 
 Well, **bad news first**: Python doesn’t have built-in constant protection. That means anyone (including you!) can reassign a value even if it’s *meant* to be constant.
