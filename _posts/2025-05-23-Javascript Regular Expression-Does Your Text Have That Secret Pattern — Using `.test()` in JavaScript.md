@@ -1,7 +1,9 @@
 # 🔍 Javascript Regular Expression: Does Your Text Have That Secret Pattern? — Using `.test()` in JavaScript
 
+<div style="text-align: center;">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_little_albino_boy_searching_through_a.jpeg" alt="Agunechemba Ekene" />
+</div>
 
-![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_little_albino_boy_searching_through_a.jpeg)
 
 Hey there, fellow coder! Ever wanted to check if a word, number, or secret pattern exists in a chunk of text — without caring *where* it is? Just a simple “yes” or “no” answer?
 
