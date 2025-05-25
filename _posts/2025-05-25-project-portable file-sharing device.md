@@ -16,6 +16,8 @@ The device uses a **USB flash drive as external storage**, so all files you see 
 
 Whether you're a student, teacher, developer, or just someone who loves tinkering with Raspberry Pi, this project is for you.
 
+I'm also open to fresh ideas that can make this project work easier, faster, or smarter. If you have suggestions or improvements, I'd love to hear them!
+
 You’re free to build and improve it — but **credit goes to me, Ekene Agunechemba**, as the original creator of this solution.
 For questions, collaborations, or shout-outs, feel free to reach me at: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
 
