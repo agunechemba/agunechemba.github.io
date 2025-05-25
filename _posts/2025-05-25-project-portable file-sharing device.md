@@ -2,8 +2,12 @@
 
 
 <div style="text-align: center;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/ekene_agu_a_raspberry_pi_4_in_a_protective_case_with_a_usb_f_b50514fc-ce17-492a-8edf-48702f129470.png" alt="Raspberry Pi in a Case">
+  <img 
+    src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/ekene_agu_a_raspberry_pi_4_in_a_protective_case_with_a_usb_f_b50514fc-ce17-492a-8edf-48702f129470.png" 
+    alt="Raspberry Pi in a Case" 
+    style="width: 100%; height: auto;">
 </div>
+
 
 
 ---
