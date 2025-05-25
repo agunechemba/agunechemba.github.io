@@ -1,7 +1,7 @@
 # 🔍 Javascript Regular Expression: Does Your Text Have That Secret Pattern? — Using `.test()` in JavaScript
 
 <div style="text-align: center;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_little_albino_boy_searching_through_a.jpeg" alt="Agunechemba Ekene" />
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_little_albino_boy_searching_through_a.jpeg" alt="Agunechemba Ekene"  style="width: 100%; height: auto;">
 </div>
 <br><br>
 
