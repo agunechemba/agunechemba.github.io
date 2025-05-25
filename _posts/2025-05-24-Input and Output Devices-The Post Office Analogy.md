@@ -1,7 +1,7 @@
 # 🧠 Input and Output Devices: The Post Office Analogy
 
 <center>
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_animated_picture_of_a_boy_and.jpeg" alt="Ekene Agunechemba">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_animated_picture_of_a_boy_and.jpeg" alt="Ekene Agunechemba" style="width: 100%; height: auto;">
 </center>
 <br><br>
 
