@@ -11,7 +11,7 @@
 
 Growing up in Lagos, I was lucky to attend **Meu Victory Comprehensive College**, Ona-ara Street, Idimu — a school that actually had computers 🖥️ in the lab, back when most Nigerian schools were teaching computer studies on the blackboard 🧑🏽‍🏫.
 
-In the early 2000s, I got my first email on **Yahoo** 📧 (yeah, before Gmail was even popular) and spent hours on **Yahoo Messenger** 💬 chatting with friends using slang like **“asl”** — age, sex, location. Simple times but those little things got me hooked on tech.
+In the early 2000s, I got my first email on **Yahoo** (yeah, before Gmail was even popular) and spent hours on **Yahoo Messenger** 💬 chatting with friends using slang like **“asl”** — age, sex, location. Simple times but those little things got me hooked on tech.
 
 ---
 
@@ -47,7 +47,7 @@ I use my projects — big and small — mostly to train and inspire learners fro
 
 ## Scaling Up: Training, Impact, and Big Dreams 📈
 
-Today, I’m proud to be a success in the **tech-ed** business 💼, training over a hundred learners both online and face-to-face. Looking ahead, I’m excited about the opportunity to collaborate with big personalities and brands like **Brendan Eich**, **Google**, **Microsoft**, and **MIT** 🤝 to make an even greater impact.
+Today, I’m proud to be a success in the **tech-ed** business, training over a hundred learners both online and face-to-face. Looking ahead, I’m excited about the opportunity to collaborate with big personalities and brands like **Brendan Eich**, **Google**, **Microsoft**, and **MIT** 🤝 to make an even greater impact.
 
 ---
 
