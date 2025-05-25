@@ -1,7 +1,7 @@
 # 🧩 Python Enums: Making Code More Readable
 
 <center>
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_black_board_with_a_shiny_text.jpeg" alt="A blackboard with shiny text">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_black_board_with_a_shiny_text.jpeg" alt="A blackboard with shiny text" style="width: 100%; height: auto;">
 </center>
 
 <br>
