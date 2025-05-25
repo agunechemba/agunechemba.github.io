@@ -2,7 +2,7 @@
 
 
 <p style="text-align:center;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/chatgpt-image-may-25-2025-10_17_19-am.png" />
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_comic_image_of_3_little_friends.jpeg" alt="Ekene Agunechemba"/>
 </p>
 
 ---
