@@ -1,7 +1,7 @@
 # 🔧 Create a Contact Form That Saves to Google Sheets and Sends Emails (With HTML, JS and Apps Script)
 
 <div style="text-align: center;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/screenshot-2025-05-22-14.52.53.png" alt="Ekene Agunechemba" />
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/screenshot-2025-05-22-14.52.53.png" alt="Ekene Agunechemba"  style="width: 100%; height: auto;">
 </div>
 <br><br>
 
