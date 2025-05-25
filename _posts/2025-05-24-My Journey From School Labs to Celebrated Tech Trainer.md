@@ -2,7 +2,7 @@
 
 <center>  
   <figure>  
-    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/me-at-dhfis.jpg" alt="Ekene Agunechemba at DHFIS">  
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/me-at-dhfis.jpg" alt="Ekene Agunechemba at DHFIS"  style="width: 100%; height: auto;">  
     <figcaption>📍 Ekene Agunechemba at DHFIS, Lagos</figcaption>  
   </figure>  
 </center>
