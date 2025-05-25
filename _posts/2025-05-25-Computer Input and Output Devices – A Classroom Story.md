@@ -2,7 +2,7 @@
 
 
 <p style="text-align:center;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_comic_image_of_3_little_friends.jpeg" alt="Ekene Agunechemba"/>
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_comic_image_of_3_little_friends.jpeg" alt="Ekene Agunechemba"  style="width: 100%; height: auto;">
 </p>
 
 ---
