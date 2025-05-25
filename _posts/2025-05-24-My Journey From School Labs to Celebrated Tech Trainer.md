@@ -9,7 +9,7 @@
 
 ---
 
-Growing up in Lagos, I was lucky to attend **Meu Victory Comprehensive College**, Ona-ara Street, Idimu — a school that actually had computers 🖥️ in the lab, back when most Nigerian schools were teaching computer studies on the blackboard 🧑🏽‍🏫.
+Growing up in Lagos, I attended **Meu Victory Comprehensive College**, Ona-ara Street, Idimu — a school that actually had computers 🖥️ in the lab, back when most Nigerian schools were teaching computer studies on the blackboard 🧑🏽‍🏫.
 
 In the early 2000s, I got my first email on **Yahoo** (yeah, before Gmail was even popular) and spent hours on **Yahoo Messenger** 💬 chatting with friends using slang like **“asl”** — age, sex, location. Simple times but those little things got me hooked on tech.
 
