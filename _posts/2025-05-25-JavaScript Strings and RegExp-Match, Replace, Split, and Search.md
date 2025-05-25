@@ -8,6 +8,8 @@
   >
 </div>
 
+---
+
 
 Regular Expressions (RegExp) are patterns used to match character combinations in strings. JavaScript provides helpful string methods that accept RegExp as input to **find, replace, split, or search** inside strings.
 
