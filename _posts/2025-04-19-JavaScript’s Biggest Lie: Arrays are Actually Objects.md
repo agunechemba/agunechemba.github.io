@@ -1,6 +1,7 @@
 ## JavaScript’s Biggest Lie: Arrays are Actually Objects
 
-![Liers Meme](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/a09dcd43d9726c2d06b3fbfda51e328d.jpg)
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/a09dcd43d9726c2d06b3fbfda51e328d.jpg" alt="Liers Meme" style="width: 100%;">
+
 
 ***
 
