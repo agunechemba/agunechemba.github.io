@@ -1,4 +1,4 @@
-## Today marks 50 years since Paul Allen and I officially started Microsoft By Bill Gates | April 4, 2025
+# Today marks 50 years since Paul Allen and I officially started Microsoft By Bill Gates | April 4, 2025
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bill_Gates%2C_September_2024.jpg/250px-Bill_Gates%2C_September_2024.jpg" alt="Bill Gates" style="width: 100%;">
 
