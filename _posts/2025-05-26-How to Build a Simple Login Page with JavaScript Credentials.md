@@ -1,4 +1,4 @@
-# 🧑‍💻 How to Build a Simple Login Page with JavaScript Credentials
+# 🧑‍💻 Project: Building a Simple Login Page with JavaScript Credentials
 
 <p style="text-align: center;">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_little_girl_opening_a_large_door.jpeg" style="width: 100%;">
