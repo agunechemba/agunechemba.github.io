@@ -1,6 +1,7 @@
 ## Building an E-commerce Website: A Step-by-Step Tutorial on Mastering .some() and .every() in JavaScript
 
-![E commerce meme](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/7b443e871eb1018ca35d329ade7790a2.jpg)
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/7b443e871eb1018ca35d329ade7790a2.jpg" alt="E-commerce Meme" style="width: 100%;">
+
 
 When working with arrays in JavaScript, it’s often necessary to check if certain conditions are met for some or all elements. This is where the .some() and .every() methods come in – two powerful tools that can help you simplify your code and improve your workflow.
 
