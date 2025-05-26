@@ -4,8 +4,8 @@
   <img 
     src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_rabbit_working_with_js_regex_code.jpeg" 
     alt="A rabbit working with JS RegEx code" 
-     style="width: 100%; height: auto;""
-  >
+    style="width: 100%; height: auto;"
+    >
 </div>
 
 ---
