@@ -1,4 +1,4 @@
-## Building an E-commerce Website: A Step-by-Step Tutorial on Mastering .some() and .every() in JavaScript
+# Building an E-commerce Website: A Step-by-Step Tutorial on Mastering .some() and .every() in JavaScript
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/7b443e871eb1018ca35d329ade7790a2.jpg" alt="E-commerce Meme" style="width: 100%;">
 
