@@ -212,7 +212,7 @@ mark {
     </a>
   </li>
   <li>
-    <a href="https://github.com/agunechemba/login-page-with-credentials/tree/main" target="_blank">
+    <a href="https://agunechemba.github.io/2025/05/26/How-to-Build-a-Simple-Login-Page-with-JavaScript-Credentials.html" target="_blank">
       <strong>GitHub:</strong> Login Page with Credentials
     </a>
   </li>
