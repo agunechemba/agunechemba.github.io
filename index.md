@@ -206,14 +206,14 @@ mark {
   <button class="toggle-button"><i class="fas fa-laptop-code"></i>My Current Projects</button>
   <div class="toggle-content">
   <ul>
-  <li>
-    <a href="https://github.com/agunechemba/login-page-with-credentials/tree/main" target="_blank">
-      <strong>GitHub:</strong> Login Page with Credentials
+     <li>
+    <a href="https://agunechemba.github.io/2025/05/25/project-portable-file-sharing-device.html" target="_blank">
+      <strong>GitHub:</strong> Portable File-Sharing Device
     </a>
   </li>
   <li>
-    <a href="https://github.com/agunechemba/students-attendance-management-system" target="_blank">
-      <strong>GitHub:</strong> Students Attendance Management System
+    <a href="https://github.com/agunechemba/login-page-with-credentials/tree/main" target="_blank">
+      <strong>GitHub:</strong> Login Page with Credentials
     </a>
   </li>
   <li>
