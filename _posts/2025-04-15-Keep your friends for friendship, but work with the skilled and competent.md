@@ -1,6 +1,7 @@
 ## How Google Hired Eric Schmidt: Keep Your Friends For Friendship, But Work With The Skilled And Competent- Robert Greene
 
-![Robert Green Quote](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/unnamed.jpg?w=300)
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/unnamed.jpg?w=300" alt="Robert Greene Quote" style="width: 100%;">
+
 
 Many mistake friendship for partnership. But success demands results, not emotion. Your friends might lack the skill or drive. Yet out of loyalty, you tolerate mediocrity. That’s how businesses fail and relationships sour.
 
