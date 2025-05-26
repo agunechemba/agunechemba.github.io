@@ -10,7 +10,8 @@ Friendship runs on emotion. Work runs on execution. Mixing both carelessly ruins
 
 ## Google Founders Hiring Eric Schmidt
 
-![Google Founders Hiring Eric Schmidt](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/unnamed-1.jpg?w=300)
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/unnamed-1.jpg?w=300" alt="Google Founders Hiring Eric Schmidt" style="width: 100%;">
+
 
 Larry Page and Sergey Brin were not only brilliant minds, but they were also close collaborators, visionaries who turned a Stanford project into the world’s most powerful search engine.
 But here’s what separates genius from mastery: They knew when to let go.
