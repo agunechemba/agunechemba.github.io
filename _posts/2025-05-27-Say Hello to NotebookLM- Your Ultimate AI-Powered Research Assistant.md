@@ -121,10 +121,6 @@ From transcripts to book quotes, NotebookLM helps you make sense of everything a
 
 ---
 
-Sure! Here’s the revised ending with a paragraph and link included:
-
----
-
 If you're looking for a smarter way to handle all that information in your life, **NotebookLM is worth checking out**. I’ve found it to be a really helpful way to stay organized and focused — and I think you might too. 🚀
 
 👉 You can try it out for yourself here: [https://notebooklm.google](https://notebooklm.google)
