@@ -1,6 +1,6 @@
 # 🧠 Python Lesson: Built-in Math Functions and Utility Modules
 
-![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an-educational-illustration-showing-a-python-code-editor-with-highlighted-functions-like-abs-roun.jpeg)
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_house_built_in_a_bottle.jpeg" width="100%">
 
 In this lesson, we’re diving into **Python’s built-in math helpers** and some important **math-related modules**. You’ll learn how to handle numbers the Pythonic way!
 
