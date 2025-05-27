@@ -95,7 +95,7 @@ cat(?! dog)
 
 ## 🧪 Practice Questions
 
-Try writing RegEx patterns to solve the following challenges. Answers below (no peeking… unless you need a hint!).
+Try writing RegEx patterns to solve the following challenges.
 
 ---
 
