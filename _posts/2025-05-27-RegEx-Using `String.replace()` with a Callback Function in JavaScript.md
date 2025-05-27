@@ -28,7 +28,7 @@ Let’s see this in action 👇
 
 **Goal:** Replace the first `"Some"` with `"Start"` and the second with `"End"`.
 
-```javascript
+```
 const text = "Some string Some";
 
 const result = text.replace(/Some/g, (match, offset, fullString) => {
@@ -53,7 +53,7 @@ console.log(result); // "Start string End"
 
 **Goal:** Replace `{name}` and `{surname}` in a template with values from an object.
 
-```javascript
+```
 const template = "My name is {surname}, {name} {surname}";
 const data = { name: "John", surname: "Doe" };
 
