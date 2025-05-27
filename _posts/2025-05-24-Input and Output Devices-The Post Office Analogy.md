@@ -55,8 +55,6 @@ Rico is your **output device**—he **takes information from the computer and de
 By understanding Gina and Rico, you’ll always remember what input and output devices do. 😉
 
 
-Sure, Ken! Here are 5 review questions (no multiple choice) based on the blog analogy:
-
 ---
 
 ## 📝 Review Questions
