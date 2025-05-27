@@ -14,7 +14,7 @@
 
 ## 📁 Introduction
 
-This project is my original idea — a **Portable File-Sharing Device** that turns your Raspberry Pi into a Wi-Fi hotspot and local web server, capable of serving files directly from a USB flash drive. The goal is simple: **no internet needed** — just power it up, connect to the hotspot, and access your files via a browser at `http://192.168.4.1`.
+A **Portable File-Sharing Device** that turns your Raspberry Pi into a Wi-Fi hotspot and local web server, capable of serving files directly from a USB flash drive. The goal is simple: **no internet needed** — just power it up, connect to the hotspot, and access your files via a browser at `http://192.168.4.1`.
 
 The device uses a **USB flash drive as external storage**, so all files you see and download through the browser are stored **outside the Raspberry Pi**, keeping things clean and easily swappable.
 
@@ -22,7 +22,7 @@ Whether you're a student, teacher, developer, or just someone who loves tinkerin
 
 I'm also open to fresh ideas that can make this project work easier, faster, or smarter. If you have suggestions or improvements, I'd love to hear them!
 
-You’re free to build and improve it — but **credit goes to me, Ekene Agunechemba**, as the original creator of this solution.
+You’re free to build and improve it — and **credit goes to me, Ekene Agunechemba**, as the original creator of this solution.
 For questions, collaborations, or shout-outs, feel free to reach me at: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
 
 Let’s build something useful!
