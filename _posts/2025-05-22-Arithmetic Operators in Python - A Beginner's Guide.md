@@ -134,8 +134,6 @@ Now you're ready to do some math with Python like a pro!
 
 ## Review Questions
 
-Here are 5 beginner-friendly practice questions to add at the end of your guide:
-
 ---
 
 ### 🧠 Practice Questions
