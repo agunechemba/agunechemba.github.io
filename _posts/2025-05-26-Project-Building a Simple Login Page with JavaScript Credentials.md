@@ -189,8 +189,6 @@ form.addEventListener('submit', (e) => {
 
 Try these to test your understanding:
 
-### 📝 Practice Questions
-
 1. **Validation Upgrade:**
    Add a check that alerts the user if their password is less than 6 characters.
 
