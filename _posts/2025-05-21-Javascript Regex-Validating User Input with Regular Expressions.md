@@ -1,4 +1,4 @@
-# Javascript Regex: Validating User Input with Regular Expressions (RegEx) — A Nigerian Scenario 🇳🇬
+# JS REGEX 02: Validating User Input with Regular Expressions (RegEx) — A Nigerian Scenario 🇳🇬
 
 ![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_illustration_of_a_nigerian_web_developer.jpeg)
 
