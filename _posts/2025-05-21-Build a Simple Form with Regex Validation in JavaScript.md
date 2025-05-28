@@ -1,4 +1,4 @@
-# Build a Simple Form with Regex Validation in JavaScript
+# JS REGEX 03: Build a Simple Form with Regex Validation in JavaScript
 
 ![Ekene Agu](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/imagine_a_colorful_playful_web_developer_s_desk.jpeg)
 
