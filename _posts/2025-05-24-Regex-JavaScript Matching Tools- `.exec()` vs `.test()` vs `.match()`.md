@@ -1,4 +1,4 @@
-# 🔍 Regex: JavaScript Matching Tools: `.exec()` vs `.test()` vs `.match()`
+# JS REGEX 06: JavaScript Matching Tools `.exec()` vs `.test()` vs `.match()`
 
 <div style="text-align: center;">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_confused_cat.jpeg" alt="Ekene Agunechemba" style="width: 100%; height: auto;">
