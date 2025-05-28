@@ -1,4 +1,4 @@
-# 🎯 JavaScript Strings and RegExp: Match, Replace, Split, and Search
+# JS REGEX 07: Match, Replace, Split, and Search
 
 <div style="text-align: center;">
   <img 
