@@ -1,4 +1,4 @@
-# 🎯 Mastering Special RegEx Tricks: Captures, Groups and Peeks
+# JS REGEX 08: Mastering Special RegEx Tricks: Captures, Groups and Peeks
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_african_hunter_with_a_bright_flashlight.jpeg" alt="An African hunter with a bright flashlight" style="width:100%;">
 
