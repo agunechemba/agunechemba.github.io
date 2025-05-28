@@ -1,4 +1,4 @@
-# Javascript: The Regex Rangers - Quest for the Perfect Match
+# JS REGEX 01: The Regex Rangers - Quest for the Perfect Match
 
 ![Regex-Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/imagine_a_colorful_cartoon_style_digital_illustration_of.jpeg)
 
