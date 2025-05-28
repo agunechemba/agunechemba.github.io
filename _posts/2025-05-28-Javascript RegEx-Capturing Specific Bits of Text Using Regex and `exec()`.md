@@ -1,4 +1,4 @@
-# 🎯 Javascript RegEx: Capturing Specific Bits of Text Using Regex and `exec()`
+# JS REGEX 10: Capturing Specific Bits of Text Using Regex and `exec()`
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_young_black_boy_sqeezing_a_big.jpeg" style="width: 100%;" alt="Young Black Boy Squeezing a Big Object">
 
