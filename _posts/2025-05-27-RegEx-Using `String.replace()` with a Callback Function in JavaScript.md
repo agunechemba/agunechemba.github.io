@@ -1,4 +1,4 @@
-# 🔁 RegEx: Using `String.replace()` with a Callback Function in JavaScript
+# JS REGEX 09: Using `String.replace()` with a Callback Function in JavaScript
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_child_replace_a_white_floor_tile.jpeg" width="100%" alt="Child replacing a white floor tile">
 
