@@ -1,6 +1,10 @@
 # Adventures in Regex Land: My Journey Learning JavaScript Patterns
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/agu-ekene.jpeg" alt="Agu Ekene" width="100%">
+<center>
+        <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/agu-ekene.png"
+             alt="Agu Ekene"
+             width="auto">
+    </center>
 
 Regular expressions are **patterns used to match character combinations in strings**.  I remember when I first saw something like `/\w+@\w+\.\w+/` in code – it looked like hieroglyphics!  I was baffled. But over time I learned that regex are just tools for searching and slicing up text. In JavaScript, you can create a `RegExp` object in two ways.  For example, the literal syntax `/pattern/flags` is the simplest, and the constructor `new RegExp("pattern", "flags")` works too.  Both compile to the same thing. (MDN explains it like this: *“The literal notation takes a pattern between two slashes, followed by optional flags... The constructor function takes either a string or a RegExp object and a string of flags”*.)  In practice, I often start with the literal form, and use `RegExp()` only when I need to build a pattern from a variable string.
 
