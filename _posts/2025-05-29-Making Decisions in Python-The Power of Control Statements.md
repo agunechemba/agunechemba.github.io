@@ -14,7 +14,7 @@ In Python, a **boolean** is either `True` or `False`. These values are super use
 
 Here’s a basic example:
 
-```python
+```
 condition = True
 if condition == True:
     print("The condition")
@@ -23,7 +23,7 @@ if condition == True:
 
 If `condition` is `True`, Python runs the indented code block. This block of code (with the 4 spaces in front) is what we call a **code block**. Once the indentation ends, Python knows the block is done.
 
-```python
+```
 condition = True
 if condition == True:
     print("The condition")
@@ -39,7 +39,7 @@ Only the first two lines are part of the `if`. The last line runs no matter what
 
 What if the condition is not true? That’s where `else` comes in.
 
-```python
+```
 condition = False
 if condition == True:
     print("The condition")
@@ -59,7 +59,7 @@ What if you have more than two roads to choose from?
 
 Python gives us `elif`, which stands for “else if”. You can chain many `elif` conditions between your `if` and `else`.
 
-```python
+```
 condition = False
 name = "Roger"
 
@@ -89,7 +89,7 @@ In this example:
 
 Sometimes, you want to choose between two values quickly. Python has a neat inline way to do that:
 
-```python
+```
 a = 2
 result = 2 if a == 0 else 3
 print(result)  # 3
