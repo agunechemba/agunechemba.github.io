@@ -16,9 +16,8 @@ Here’s how to create a payment link that you or your customers can use to comp
 2. **Create your payment link**
    Use this format:
 
-   ```
-   https://login.remita.net/remita/onepage/payment/init.reg?rrr={rrr}&channel=CARD,USSD,ENAIRA,TRANSFER
-   ```
+
+> https://login.remita.net/remita/onepage/payment/init.reg?rrr={rrr}&channel=CARD,USSD,ENAIRA,TRANSFER
 
    Replace `{rrr}` with the actual 12-digit RRR you generated (no dashes).
 
@@ -27,11 +26,11 @@ Here’s how to create a payment link that you or your customers can use to comp
 
    Your payment link will look like this:
 
-   ```
-   https://login.remita.net/remita/onepage/payment/init.reg?rrr=250008291303&channel=CARD,USSD,ENAIRA,TRANSFER
-   ```
 
-4. **Share the link**
+   > https://login.remita.net/remita/onepage/payment/init.reg?rrr=250008291303&channel=CARD,USSD,ENAIRA,TRANSFER
+   
+
+5. **Share the link**
    Send it to your customer, student, or client. They’ll be able to choose their preferred payment channel—**Card, USSD, eNaira, or Bank Transfer**.
 
 ---
