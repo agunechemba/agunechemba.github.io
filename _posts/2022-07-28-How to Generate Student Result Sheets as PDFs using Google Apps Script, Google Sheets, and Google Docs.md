@@ -39,7 +39,7 @@ Let’s get started!
 1. Go to [Google Docs](https://docs.google.com) and create a new document.
 2. Write a basic result format using **placeholders** like this:
 
-```
+<div>
 STUDENT RESULT SHEET
 
 Name: &#123;&#123;Name&#125;&#125;
@@ -51,7 +51,7 @@ Scores:
 
 Total: &#123;&#123;Total&#125;&#125;
 
-```
+</div>
 
 3. Save it as **Result Template** (or any name you like).
 4. Copy the **Document ID** from the URL.
