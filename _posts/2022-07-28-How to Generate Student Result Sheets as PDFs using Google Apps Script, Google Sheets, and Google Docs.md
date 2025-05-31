@@ -58,11 +58,11 @@ Total: &#123;&#123;Total&#125;&#125;
 
    Example URL:
 
-   ```
+   <pre>
    https://docs.google.com/document/d/1AbCDeFGHIJKlmnoPQRS4567xyz890/edit
                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
                                        👆 This is your Doc ID
-   ```
+   </pre>
 
 You’ll need this Doc ID for the script.
 
@@ -74,7 +74,7 @@ You’ll need this Doc ID for the script.
 2. Click on `Extensions > Apps Script`.
 3. Delete the default code and paste this:
 
-```javascript
+```
 function generateResultSheets() {
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
   const data = sheet.getDataRange().getValues();
