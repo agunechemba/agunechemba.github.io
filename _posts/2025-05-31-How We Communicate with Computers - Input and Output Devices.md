@@ -1,7 +1,16 @@
 # How We Communicate with Computers: Input and Output Devices
 
 
-Input and output devices are essential for interacting with a computer system. **Input devices** send data to the computer, allowing users to control or communicate with it. Common examples include the **keyboard**, **mouse**, **scanner**, **joystick**, **microphone**, **light pen**, and **webcam**. On the other hand, **output devices** receive data from the computer and help it respond to users. These include the **monitor**, **printer**, **plotter**, **speakers**, **headphones**, and **projector**. Together, these devices make it possible for humans and computers to work together effectively.
+Input and output devices are essential for interacting with a computer system. **Input devices** send data to the computer, allowing users to control or communicate with it. 
+
+Common examples include the **keyboard**, **mouse**, **scanner**, **joystick**, **microphone**, **light pen**, and **webcam**.
+
+On the other hand, **output devices** receive data from the computer and help it respond to users.
+
+These include the **monitor**, **printer**, **plotter**, **speakers**, **headphones**, and **projector**.
+
+Together, these devices make it possible for humans and computers to work together effectively.
+
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/DuYF3uD9AYQ?si=hl6LOHaYz_1DI1Cy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
