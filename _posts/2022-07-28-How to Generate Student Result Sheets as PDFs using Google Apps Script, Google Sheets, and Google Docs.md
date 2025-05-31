@@ -42,14 +42,15 @@ Let’s get started!
 ```
 STUDENT RESULT SHEET
 
-Name: {{Name}}
+Name: &#123;&#123;Name&#125;&#125;
 
 Scores:
-- Math: {{Math}}
-- English: {{English}}
-- Science: {{Science}}
+- Math: &#123;&#123;Math&#125;&#125;
+- English: &#123;&#123;English&#125;&#125;
+- Science: &#123;&#123;Science&#125;&#125;
 
-Total: {{Total}}
+Total: &#123;&#123;Total&#125;&#125;
+
 ```
 
 3. Save it as **Result Template** (or any name you like).
