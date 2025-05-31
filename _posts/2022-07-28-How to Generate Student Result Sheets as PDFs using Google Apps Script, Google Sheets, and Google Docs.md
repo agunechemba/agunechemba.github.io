@@ -1,5 +1,7 @@
 # 📝 How to Generate Student Result Sheets as PDFs using Google Apps Script, Google Sheets, and Google Docs
 
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_black_guy_working_on_a_computer.jpeg" width="100%">
+
 Creating personalized **student result sheets** manually can be tedious. But with **Google Sheets**, **Google Docs**, and a little **Apps Script magic**, you can automate the whole process—generate **custom PDF reports** in seconds!
 
 ---
@@ -58,7 +60,7 @@ Total: {{Total}}
    ```
    https://docs.google.com/document/d/1AbCDeFGHIJKlmnoPQRS4567xyz890/edit
                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                             👈 This is your Doc ID
+                                       👆 This is your Doc ID
    ```
 
 You’ll need this Doc ID for the script.
