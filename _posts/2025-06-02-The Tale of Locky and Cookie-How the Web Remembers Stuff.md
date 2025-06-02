@@ -1,4 +1,4 @@
-# 🍪💾 The Tale of Locky & Cookie: How the Web Remembers Stuff
+# 🍪💾 The Tale of Locky and Cookie: How the Web Remembers Stuff
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/two_friends_locky_and_cookie_hiding_shawarma.jpeg" style="width: 100%;">
 
