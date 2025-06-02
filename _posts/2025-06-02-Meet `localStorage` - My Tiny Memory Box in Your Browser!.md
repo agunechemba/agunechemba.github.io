@@ -2,7 +2,7 @@
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_storage_box_in_the_style_of.jpeg" width="100%">
 
-👋 Hello, young coder! I’m the **JavaScript code** that lives on your favorite website. Today, I want to tell you about something super cool your web browser gives me—a **tiny memory box** called `localStorage`.
+👋 Hello! I’m the **JavaScript code** that lives on your favorite website. Today, I want to tell you about something super cool your web browser gives me—a **tiny memory box** called `localStorage`.
 
 Yup, it’s like having a small treasure chest in your browser where I (JavaScript) can keep little notes and treasures just for you!
 
