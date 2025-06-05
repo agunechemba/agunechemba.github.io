@@ -1,6 +1,6 @@
 # Keeping State in the Browser: A Mini-Lesson on `sessionStorage`
 
-
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_loud_speaker_with_the_vibration_of.jpeg" width="100%">
 
 
 Imagine you’re teaching a class and you hand every learner a personal notepad when they walk in. They can scribble reminders for themselves—but as soon as they leave the room, the notepad goes into the recycle bin. That notepad is the perfect real-world metaphor for the browser’s **`sessionStorage`** object.
