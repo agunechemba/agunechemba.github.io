@@ -1,4 +1,4 @@
-# 🎬 The Tale of Vee the Video Player and the Forgotten Volume
+# 🎬 JavaScript localStorage: The Tale of Vee the Video Player and the Forgotten Volume
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_wizard_whispering_to_a_young_boy.jpeg" width="100%">
 
