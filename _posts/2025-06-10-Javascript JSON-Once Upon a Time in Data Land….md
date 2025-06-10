@@ -1,7 +1,7 @@
 # 🏰 Javascript JSON: Once Upon a Time in Data Land…
 
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_knight_holding_an_armor.jpeg" width="100">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_knight_holding_an_armor.jpeg" width="100%">
 
 Hello, young coders! Gather ‘round for a tale from the kingdom of **Data Land**, where information travels faster than the royal falcons and every citizen speaks a language called **JSON** (pronounced “jay-son”).
 
