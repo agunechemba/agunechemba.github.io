@@ -12,7 +12,7 @@ Hello, young coders! Gather ‘round for a tale from the kingdom of **Data Land*
 Long ago, King JavaScript needed a way to send messages that *people* could read **and** that royal computers could quickly understand. So the court scribes invented **J**ava**S**cript **O**bject **N**otation — a *scroll* that is **lightweight** and crystal-clear.
 But remember this royal decree:
 
-> **A JSON scroll is **always** just a *string* of text — never a JavaScript object itself.**
+> **A JSON scroll is always just a *string* of text — never a JavaScript object itself.**
 
 ---
 
