@@ -2,7 +2,7 @@
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/imagine_tiny_little_binary_bulbs.jpeg" width="100%">
 
-Welcome to the exciting world of computers! In this opening section—**1.1: Introduction**—we begin a journey that strips away the mystery surrounding how computers work. Though they often seem like complex machines, at their core, computers are built upon one of the simplest systems in mathematics: the **binary number system**.
+Welcome to the exciting world of computers! In this opening section, we begin a journey that strips away the mystery surrounding how computers work. Though they often seem like complex machines, at their core, computers are built upon one of the simplest systems in mathematics: the **binary number system**.
 
 ---
 
