@@ -1,4 +1,4 @@
-# 05-Binary Systems and Hexadecimal: The Tale of Bit and Byte:- Guardians of Memoryland
+# 05-Binary Systems and Hexadecimal: The Tale of Bit and Byte; Guardians of Memoryland
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_group_of_people_with_binary_speech-2.jpeg" width="100%">
 
