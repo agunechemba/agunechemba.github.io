@@ -2,10 +2,6 @@
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/3-genderless-wizards.jpeg" width="100%">
 
-Alright! Pull up a bean bag and let’s dive into another exciting Python adventure 🐍. Today, I’ve got a tale about **Sets**—not the movie set 🎬, not your school math set 🧮 (well, kinda yes), but *Python sets*. And don’t worry, we’ll bring in Roger, Syd, and Luna again for the fun!
-
----
-
 ### 🧙‍♂️ *The Tale of the Mystic Sets*
 
 Once upon a time in the magical land of Pythonia, there lived three wizards: **Roger**, **Syd**, and **Luna**. These wizards were always up to cool tricks, and today, they discovered a powerful magical object called a **Set**.
