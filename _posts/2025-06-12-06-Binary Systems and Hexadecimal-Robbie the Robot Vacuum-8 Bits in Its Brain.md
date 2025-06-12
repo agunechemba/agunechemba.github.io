@@ -1,4 +1,4 @@
-# 06-Binary Systems and Hexadecimal: Robbie the Robot Vacuum:- 8 Bits in Its Brain!
+# 06-Binary Systems and Hexadecimal: Robbie the Robot Vacuum; 8 Bits in Its Brain!
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a-human-like-computer-who-is-confused.jpeg" width="100%">
 
