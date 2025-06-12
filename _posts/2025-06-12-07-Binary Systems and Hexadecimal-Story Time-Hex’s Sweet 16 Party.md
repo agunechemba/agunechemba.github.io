@@ -1,4 +1,4 @@
-# 07-Binary Systems and Hexadecimal: Story Time:- Hex’s Sweet 16 Party
+# 07-Binary Systems and Hexadecimal: Story Time; Hex’s Sweet 16 Party
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/anime-of-16-friends-at-a-closed-party-1.jpeg" width="100%">
 
