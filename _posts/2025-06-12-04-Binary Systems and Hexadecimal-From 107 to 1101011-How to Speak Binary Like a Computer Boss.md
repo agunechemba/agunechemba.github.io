@@ -1,4 +1,4 @@
-# 04-Binary Systems and Hexadecimal: From 107 to 1101011:- How to Speak Binary Like a Computer Boss
+# 04-Binary Systems and Hexadecimal: From 107 to 1101011; How to Speak Binary Like a Computer Boss
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_group_of_people_with_binary_speech-1-1.jpeg" width="100%">
 
