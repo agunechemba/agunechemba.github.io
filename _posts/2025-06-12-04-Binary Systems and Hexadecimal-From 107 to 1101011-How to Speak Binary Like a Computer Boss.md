@@ -63,7 +63,7 @@ So, 107 in binary = **1101011** again.
 
 ---
 
-## 🧠 TL;DR Recap
+## 🧠 Recap
 
 * Computers speak **binary** (just 1s and 0s).
 * Denary = regular numbers like 107.
@@ -84,8 +84,3 @@ Let’s see if you’re the next binary beast 👾
 3. What’s the value of the 5th digit from the right in a binary number?
 4. Which method do you prefer and why?
 5. Convert **15** to binary using *both* methods. Do you get the same result?
-
----
-
-🎉 That’s a wrap, little coder!
-Wanna level up? Try converting your birth year, house number, or even your crush's name to binary (well... the letters anyway 😜).
