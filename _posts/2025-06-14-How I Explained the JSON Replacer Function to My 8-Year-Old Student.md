@@ -48,7 +48,7 @@ It helps you **filter out** and **change** data before it becomes a JSON string.
 
 I gave him this object:
 
-```js
+```
 const user = {
   name: "Joe",
   points: 14.9,
@@ -58,7 +58,7 @@ const user = {
 
 Then I showed him how to **remove the name** and **round the numbers** down:
 
-```js
+```
 const cleanedUser = JSON.stringify(user, (key, value) =>
   key === 'name'
     ? undefined  // hide the name
@@ -68,7 +68,7 @@ const cleanedUser = JSON.stringify(user, (key, value) =>
 
 He typed it in, hit Run, and smiled when he saw:
 
-```json
+```
 {"points":14,"level":31}
 ```
 
@@ -83,7 +83,7 @@ Next, I gave him a real-world challenge.
 
 We had this:
 
-```js
+```
 const paymentDetails = {
   creditCardNumber: "4111 1111 1111 1234",
   transactionAmount: 89.95
@@ -97,7 +97,7 @@ I asked, “What if we want to:
 
 Here’s how we did it:
 
-```js
+```
 const safeJSON = JSON.stringify(paymentDetails, (key, value) => {
   if (key === "creditCardNumber") return undefined;
   if (typeof value === "number") return Math.floor(value);
@@ -107,7 +107,7 @@ const safeJSON = JSON.stringify(paymentDetails, (key, value) => {
 
 💥 Output:
 
-```json
+```
 {"transactionAmount":89}
 ```
 
@@ -123,7 +123,7 @@ Then I shared a bonus tip. Sometimes, you don’t want to write a full function.
 
 Let’s say we had:
 
-```js
+```
 const spaceship = {
   name: "Falcon X",
   fuel: "Hydrogen",
@@ -134,13 +134,13 @@ const spaceship = {
 
 And we only want the name and speed. We write:
 
-```js
+```
 const filtered = JSON.stringify(spaceship, ["name", "speed"]);
 ```
 
 And the result?
 
-```json
+```
 {"name":"Falcon X","speed":"23,000 km/h"}
 ```
 
