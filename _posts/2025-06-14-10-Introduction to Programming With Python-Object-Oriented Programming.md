@@ -1,0 +1,7 @@
+# 10-Introduction to Programming With Python: Object-Oriented Programming
+
+This video, "CS50P - Lecture 8 - Object-Oriented Programming," introduces OOP in Python, contrasting it with procedural and functional programming to demonstrate its effectiveness in solving common programming challenges. The lecture progresses from basic scripting to more structured code using functions and then dictionaries for better data organization and semantic clarity. It delves into advanced OOP concepts like operator overloading, explaining how existing operators can be customized for classes, though new operators cannot be defined. Ultimately, the video highlights OOP as a robust approach for designing well-structured and maintainable code, particularly beneficial for complex projects.
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/e4fwY9ZsxPw?si=uhibDxZ-nAG7P2Yu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbJR57BNSO1Jy5W8NkNMHg4WSMgNlGUHKj5FUAVIXMAcSi-A/viewform?embedded=true" width="100%" height="2178" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
