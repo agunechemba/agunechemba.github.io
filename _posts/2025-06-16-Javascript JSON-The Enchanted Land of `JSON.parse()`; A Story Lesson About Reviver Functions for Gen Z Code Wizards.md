@@ -34,7 +34,7 @@ Some scrolls… **pretend to be normal but hide secrets inside**. 😨
 
 Imagine this scroll:
 
-```json
+```
 {
   "name": "Robo",
   "age": "12",
@@ -177,7 +177,7 @@ D. With its eyes closed 😵‍💫
 
 Revive this scroll so `"age"` becomes a number and `_secret` vanishes into the shadows:
 
-```js
+```
 let scroll = '{"name":"Nova","age":"14","_secret":"🕵️"}';
 
 let result = JSON.parse(scroll, function (key, value) {
