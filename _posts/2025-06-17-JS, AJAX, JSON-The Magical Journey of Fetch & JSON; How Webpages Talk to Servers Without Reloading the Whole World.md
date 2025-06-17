@@ -1,4 +1,4 @@
-# 🧙🏽‍♂️ JS, AJAX, JSON: The Magical Journey of Fetch & JSON; How Webpages Talk to Servers Without Reloading the Whole World
+# 🧙🏽‍♂️ JS, AJAX, JSON: The Magical Journey of Fetch and JSON; How Webpages Talk to Servers Without Reloading the Whole World
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_young_gamer_playing_a_game.jpeg" width="100%">
 ---
