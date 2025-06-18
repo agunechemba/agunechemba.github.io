@@ -1,4 +1,4 @@
-# 🎨 Blog-Lesson: “Loading... Please Wait!” – The Magical World of AJAX Preloaders; For curious young coders and creative minds 🧠✨
+# 🎨 JS, AJAX: “Loading... Please Wait!” – The Magical World of AJAX Preloaders; For curious young coders and creative minds 🧠✨
 
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_rat_loading_bags_into_a_big.jpeg" width="100%">
