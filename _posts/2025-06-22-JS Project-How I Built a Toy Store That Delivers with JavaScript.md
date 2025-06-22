@@ -1,4 +1,4 @@
-# JS Project: 🧸📡 How I Built a Toy Store That Delivers with JavaScript
+# JS Project: How I Built a Toy Store That Delivers with JavaScript
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_toy_collection.jpeg" width="100%">
 
