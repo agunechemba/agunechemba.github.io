@@ -14,7 +14,7 @@ Zino needed a way to **ask** the toy store to send him the toys, **without stepp
 
 This was an **old but reliable bird** that never failed. Zino would write a little scroll (code) to send the bird on its way:
 
-```javascript
+```
 const xhttp = new XMLHttpRequest(); // Make a new bird!
 xhttp.onload = function () {
   if (this.status === 200) {
@@ -44,7 +44,7 @@ Later that week, Zino’s tech-savvy friend Lami visited. “Why not use the *dr
 
 Zino’s eyes lit up. With a few lines, he could send a **drone** to fetch the store’s home page:
 
-```javascript
+```
 fetch("https://example.com")
   .then(response => response.text()) // Get the message inside
   .then(data => {
