@@ -1,4 +1,4 @@
-# 🏬📦 JS: "The Tale of the Toy Store Request" — Understanding HTTP GET Requests
+# 🏬📦 JS: The Tale of the Toy Store Request; Understanding HTTP GET Requests
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/gemini_generated_image_5s9hog5s9hog5s9h.png" width="100%">
 
