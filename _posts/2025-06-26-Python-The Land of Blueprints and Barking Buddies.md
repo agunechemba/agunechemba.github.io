@@ -1,6 +1,6 @@
 # 🏗️ Python: The Land of Blueprints and Barking Buddies 🐾
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_little_cartoon_girl_making_a_robot.jpeg" width="100">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_little_cartoon_girl_making_a_robot.jpeg" width="100%">
 
 Once upon a time in the colorful town of **Codeville**, there was a magical workshop where toys, pets, and gadgets were made—not from wood or metal—but from something even cooler: **blueprints made of code!** 💻✨
 
