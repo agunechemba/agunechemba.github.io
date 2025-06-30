@@ -68,30 +68,6 @@ string.toLowerCase();
 
 ---
 
-## 🎓 Let's Practice Together
-
-Here’s a little JavaScript riddle:
-
-```js
-const originalString = "Hello, World!";
-const lowercaseString = originalString.toLowerCase();
-console.log(lowercaseString);
-```
-
-### What do you think the computer will say?
-
-**A.** `"Hello, World!"`
-**B.** `"hello, WORLD!"`
-**C.** `"hello, world!"`
-**D.** `"HELLO, WORLD!"`
-
-<details>
-  <summary>🎉 Click here for the answer!</summary>
-  ✅ **C.** `"hello, world!"` — because `.toLowerCase()` makes everything lowercase.
-</details>
-
----
-
 ## ✏️ Practice Time: Review Questions
 
 Let’s see what you remember!
