@@ -1,4 +1,4 @@
-# 🏗️ Python: The Land of Blueprints and Barking Buddies 🐾
+# 🏗️ Python Classes: The Land of Blueprints and Barking Buddies 🐾
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_little_cartoon_girl_making_a_robot.jpeg" width="100%">
 
