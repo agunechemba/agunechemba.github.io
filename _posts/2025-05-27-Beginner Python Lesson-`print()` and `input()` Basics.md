@@ -1,4 +1,4 @@
-# 🐍 Beginner Python Lesson: `print()` and `input()` Basics
+# 🐍 Python Input: Beginner Python Lesson; `print()` and `input()` Basics
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/the_word_input_and_print_printed_on.jpeg" width="100%">
 
