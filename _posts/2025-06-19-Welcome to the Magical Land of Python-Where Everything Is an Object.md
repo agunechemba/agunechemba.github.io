@@ -1,4 +1,4 @@
-# 💡 Welcome to the Magical Land of Python: Where Everything Is an Object! 🐍✨
+# 💡 Python Object: Welcome to the Magical Land of Python; Where Everything Is an Object! 🐍✨
 
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/random_objects_on_an_empty_street.jpeg" width="100%">
