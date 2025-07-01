@@ -1,4 +1,4 @@
-# 🧮 Project: Explore Numbers in Python-Integers, Floats, and Complex Numbers!
+# 🧮 Python Numbers: Explore Numbers in Python-Integers, Floats, and Complex Numbers!
 
 ![Agunechemba Ekene](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/magical_looking_complex_character_with_a.jpeg)
 
