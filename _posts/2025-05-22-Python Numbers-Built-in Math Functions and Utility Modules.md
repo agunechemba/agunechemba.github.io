@@ -1,4 +1,4 @@
-# 🧠 Python Lesson: Built-in Math Functions and Utility Modules
+# 🧠 Python Numbers: Built-in Math Functions and Utility Modules
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_house_built_in_a_bottle.jpeg" width="100%">
 
