@@ -1,4 +1,4 @@
-# 📘 Python Tuples for Young Learners — A Fun and Friendly Guide
+# 📘 Python Tuples: For Young Learners — A Fun and Friendly Guide
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_basket_with_an_apple_and_a.jpeg" width="100%">
 
