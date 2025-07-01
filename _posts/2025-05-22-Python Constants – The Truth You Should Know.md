@@ -1,4 +1,4 @@
-# 📘 Python Constants – The Truth You Should Know
+# 📘 Python Constants: The Truth You Should Know
 
 
 <div style="text-align: center;">
