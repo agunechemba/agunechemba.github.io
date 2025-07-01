@@ -1,4 +1,4 @@
-### 🧠 Booleans in Python: Think Light Switch!
+### 🧠 Python Booleans: Think Light Switch!
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/python.png" alt="Python">
 
