@@ -1,4 +1,4 @@
-# 🧙‍♂️ The Magic of Python Sets: A Wizard’s Guide to Unordered Power
+# 🧙‍♂️ Python Sets: A Wizard’s Guide to Unordered Power
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/3-genderless-wizards.jpeg" width="100%">
 
