@@ -1,4 +1,4 @@
-# 🌟 Python: The Magic of Complex Numbers – A Story for Kids
+# 🌟 Python Numbers: The Magic of Complex Numbers – A Story for Kids
 
 ![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_funny_yoruba_boy_named_tobi_in.jpeg)
 
