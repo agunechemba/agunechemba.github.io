@@ -1,4 +1,4 @@
-# 🧮 Let's Learn About Numbers in Python!
+# 🧮Python Numbers: Let's Learn About Numbers in Python!
 
 ![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/imagine_a_magical_looking_complex_character_with_a.jpeg)
 
