@@ -1,4 +1,4 @@
-# 🧠 Making Decisions in Python: The Power of Control Statements
+# 🧠 Python Control Statements: Making Decisions in Python; The Power of Control Statements
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_little_girl_holding_a_map_and.jpeg" width="100%">
 
