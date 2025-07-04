@@ -1,4 +1,4 @@
-# 🧠 Index: JavaScript RegEx
+# Index: JavaScript RegEx
 
 *Follow my 11-day journey exploring the magic of JavaScript Regular Expressions!*
 
