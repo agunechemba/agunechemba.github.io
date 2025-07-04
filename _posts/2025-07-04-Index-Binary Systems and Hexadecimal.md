@@ -73,5 +73,5 @@ This series is perfect for:
 
 ## 📌 Bookmark This Page
 
-Keep this index bookmarked so you can jump into any chapter of Binary Land whenever you like!
+Keep this index bookmarked so you can jump into any chapter whenever you like!
 Happy learning, coder explorer! 🧠💡💻
