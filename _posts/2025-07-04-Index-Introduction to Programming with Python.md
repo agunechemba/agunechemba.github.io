@@ -1,6 +1,8 @@
 # Index: Introduction to Programming with Python
 
-Welcome to the index page for the "Introduction to Programming with Python" series! Below you'll find a curated list of all the posts in this series, designed to guide you through fundamental programming concepts using Python.
+Welcome to the index page for the "Introduction to Programming with Python" series!
+
+Below you'll find a curated list of all the posts in this series, designed to guide you through fundamental programming concepts using Python.
 
 ---
 
