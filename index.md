@@ -203,29 +203,34 @@ mark {
 <p>I organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
   </div>
 
-  <button class="toggle-button"><i class="fas fa-laptop-code"></i>My Current Projects</button>
+  <button class="toggle-button"><i class="fas fa-laptop-code"></i>Lesson Series</button>
   <div class="toggle-content">
   <ul>
+    <!--List of Lesson Series-->
+    <!--First Lesson-->
      <li>
-    <a href="https://agunechemba.github.io/2025/05/25/project-portable-file-sharing-device.html" target="_blank">
-      <strong>GitHub:</strong> Portable File-Sharing Device
+    <a href="https://agunechemba.github.io/2025/07/04/Index-JavaScript-RegEx.html" target="_blank">
+      <strong>JavaScript:</strong> Regular Expressions
     </a>
   </li>
+    <!--Second Lesson-->
   <li>
-    <a href="https://agunechemba.github.io/2025/05/26/Project-Building-a-Simple-Login-Page-with-JavaScript-Credentials.html" target="_blank">
-      <strong>GitHub:</strong> Login Page with Credentials
+    <a href="https://agunechemba.github.io/2025/07/04/Index-Introduction-to-Programming-with-Python.html" target="_blank">
+      <strong>Python:</strong> Introduction to Programming with Python
     </a>
   </li>
+    <!--Third Lesson-->
   <li>
-    <a href="https://scratch.mit.edu/projects/1042315093/editor" target="_blank">
-      <strong>Scratch Project:</strong> Animation/Interactive Design
+    <a href="https://agunechemba.github.io/2025/07/04/Index-Binary-Systems-and-Hexadecimal.html" target="_blank">
+      <strong>Number System:</strong> Binary Systems and Hexadecimal
     </a>
   </li>
+    <!--Forth Lesson--Uncomment to use this---duplicate to add more lesson series
   <li>
     <a href="https://agunechemba.github.io/2025/04/12/01-Introduction-to-Programming-With-Python-Introduction-CS50-Agunechemba-Ekene.html" target="_blank">
       <strong>Course Curation:</strong> Introduction to Programming with Python (CS50)
     </a>
-  </li>
+  </li> -->
 </ul>
   </div>
 
