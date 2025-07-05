@@ -1,5 +1,7 @@
 # Index: JavaScript RegEx
 
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_child_replace_a_white_floor_tile.jpeg" width="100%" alt="Child replacing a white floor tile">
+
 *Follow my 11-day journey exploring the magic of JavaScript Regular Expressions!*
 
 ---
