@@ -1,4 +1,4 @@
-# 🏡 Python Variables: A Fun Story About Global and Local Variables
+# 🏡 Python Variable Scope: A Fun Story About Global and Local Variables
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/pop_mart_labubu_the_monsters_exciting_macaron.jpg" width="100%">
 
@@ -127,7 +127,11 @@ Here's a quick wrap-up of our journey through the Python House:
 ## 🧠 Let’s Review!
 
 **1. What is a global variable in Python?**
+
 **2. What is a local variable in Python?**
+
 **3. What happens if you try to use a local variable outside its function?**
+
 **4. Can a function change a global variable without using the `global` keyword?**
+
 **5. Why is it important to know where your "toys" (variables) are in your program?**
