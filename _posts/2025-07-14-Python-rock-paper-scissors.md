@@ -1,9 +1,7 @@
-# ✂️🪨📄 Python: Let's Code Rock, Paper, Scissors!
+# ✂️🪨📄 Python Project: Let's Code Rock, Paper, Scissors!
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/animations_playing_rock_paper_scissors_game.jpeg" width="100%">
 
-
-## 🍿 Story Time: Zuri's Challenge
 
 Zuri, an 11-year-old coding explorer, had just finished learning about **if-else statements** and **functions** in Python. She loved making her code *do stuff*—like asking questions and reacting with smart answers.
 
@@ -30,7 +28,7 @@ Simple, right? You and the computer each pick one secretly. Then — *Boom!* —
 ## 👨🏽‍🍳 Cooking Up the Code: Full Python Game
 
 
-```python
+```
 import random
 
 def play_game():
@@ -62,7 +60,7 @@ play_game()
 
 ---
 
-## 🧒🏽 How to Explain the Code to Kids
+## 🧒🏽 Code Explanation
 
 Let’s break it down like we’re baking a delicious cake together! 🎂
 
@@ -114,13 +112,6 @@ if user_choice == computer_choice:
 
 If both picked the same, it’s a tie. Otherwise, we check who beats who!
 
----
-
-## 🧠 Real Talk: Why This Game is Powerful for Learning
-
-* It teaches **input**, **conditions**, and **random choices** — core Python skills.
-* It brings coding to life through **interaction and logic battles**.
-* It’s just plain fun — and can be upgraded later with **scoreboards**, **loops**, or even **graphics**!
 
 ---
 
