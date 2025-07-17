@@ -1,4 +1,4 @@
-# 🍪 Understanding JavaScript Generators: The Magical Cookie Maker of JavaScript!
+# 🍪 JavaScript Generator Functions: The Magical Cookie Maker
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/a_pig_who_stole_a_chocolate_cookie.jpg" width="100%">
 
