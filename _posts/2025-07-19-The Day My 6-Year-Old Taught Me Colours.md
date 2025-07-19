@@ -1,4 +1,4 @@
-# 🎨 personal Blog: The Day My 6-Year-Old Taught Me Colours
+# 🎨 Personal Blog: The Day My 6-Year-Old Taught Me Colours
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/a_small_garden_with_unwanted_trash_nylons_cottons.jpg" width="100%">
 
