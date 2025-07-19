@@ -1,4 +1,4 @@
-# 🎨 The Day My 6-Year-Old Taught Me Colours
+# 🎨 personal Blog: The Day My 6-Year-Old Taught Me Colours
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/a_small_garden_with_unwanted_trash_nylons_cottons.jpg" width="100%">
 
@@ -30,7 +30,9 @@ I started pointing to objects around the room: books, toys, wrappers, baskets, e
 She named them *all*.
 
 > *“That’s teal.”*
+
 > *“This is peach.”*
+
 > *“Daddy, that’s not yellow—it’s mustard!”*
 
 At some point, I honestly couldn’t argue anymore.
@@ -49,7 +51,9 @@ We were in my small garden, picking up unwanted trash—nylons, cottons, little 
 Then I tried to turn it into a game: I pointed with my stick and called out colours.
 
 > *“Pick up that red nylon.”*
+
 > *“Get that white one there.”*
+
 > *“Now the black wrapper near the leaf.”*
 
 She followed every single instruction.
