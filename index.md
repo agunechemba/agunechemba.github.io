@@ -279,7 +279,7 @@ mark {
 
 
 
-<!--Start: Subscribe form from Hyvor Talk-->
+<!--Start: Subscribe form from Hyvor Talk--
 <script async src="https://talk.hyvor.com/embed/newsletter.js" type="module"></script>
 <hyvor-talk-newsletter website-id="13744"></hyvor-talk-newsletter>
 <!--End: Subscribe form from Hyvor Talk-->
