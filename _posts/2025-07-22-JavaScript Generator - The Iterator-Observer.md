@@ -15,7 +15,7 @@ I still remember the first time I used a generator. At that point, I only saw it
 
 Something like this:
 
-```js
+```
 function* produceValues() {
   yield 1;
   yield 2;
@@ -42,7 +42,7 @@ At first, this sounded odd. How could a function accept input *while it’s runn
 
 But here's what I tried:
 
-```js
+```
 function* greetGenerator() {
   const name = yield "What's your name?";
   console.log(`Hello, ${name}!`);
@@ -71,7 +71,7 @@ I was already tired of writing deeply nested `.then()` calls. Even `async/await`
 
 So I gave it a go. I wrote this:
 
-```js
+```
 function fetchUser() {
   return new Promise((resolve) => {
     setTimeout(() => resolve({ id: 1, name: "Ekene" }), 1000);
@@ -87,7 +87,7 @@ function fetchPosts(userId) {
 
 And then, I wrote my generator like this:
 
-```js
+```
 function* loadData() {
   const user = yield fetchUser();
   console.log("User:", user);
@@ -105,7 +105,7 @@ It *looked* synchronous, but it was fully asynchronous. That’s when I realized
 
 This little helper changed everything:
 
-```js
+```
 function spawn(genFunc) {
   const gen = genFunc();
 
@@ -133,7 +133,7 @@ function spawn(genFunc) {
 
 And using it:
 
-```js
+```
 spawn(function* () {
   const user = yield fetchUser();
   const posts = yield fetchPosts(user.id);
