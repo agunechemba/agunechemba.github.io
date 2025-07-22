@@ -12,7 +12,7 @@ Instead, it had a secret: it could **pause and wait**, give you a cookie **one b
 
 In JavaScript, we tell the computer, *“Hey, this is going to be a magical cookie maker!”* by writing:
 
-```js
+```
 function* cookieMaker() {
   yield "Chocolate Chip Cookie 🍪";
   yield "Oatmeal Raisin Cookie 🍪";
@@ -27,7 +27,7 @@ Now, when we **start** this generator, it doesn’t immediately give us all thre
 It gives us something better:
 🎮 A **remote control** (called an **iterator**).
 
-```js
+```
 const cookies = cookieMaker();
 ```
 
@@ -39,13 +39,13 @@ Now `cookies` holds our magical **remote**, and we can press the `next()` button
 
 Let’s press the button!
 
-```js
+```
 console.log(cookies.next());
 ```
 
 🎉 Output:
 
-```js
+```
 { value: 'Chocolate Chip Cookie 🍪', done: false }
 ```
 
@@ -53,37 +53,37 @@ console.log(cookies.next());
 
 When we press again:
 
-```js
+```
 console.log(cookies.next());
 ```
 
 Output:
 
-```js
+```
 { value: 'Oatmeal Raisin Cookie 🍪', done: false }
 ```
 
 And again:
 
-```js
+```
 console.log(cookies.next());
 ```
 
 Output:
 
-```js
+```
 { value: 'Peanut Butter Cookie 🍪', done: false }
 ```
 
 One more time?
 
-```js
+```
 console.log(cookies.next());
 ```
 
 Output:
 
-```js
+```
 { value: undefined, done: true }
 ```
 
@@ -95,13 +95,13 @@ Output:
 
 Let’s say you only want one cookie and no more. You can politely tell the cookie maker:
 
-```js
+```
 cookies.return("I’m full!");
 ```
 
 This will return:
 
-```js
+```
 { value: "I’m full!", done: true }
 ```
 
@@ -115,7 +115,7 @@ Imagine one cookie got burnt!
 
 You can tell the cookie maker:
 
-```js
+```
 cookies.throw(new Error("Burnt cookie!"));
 ```
 
@@ -131,7 +131,7 @@ Let’s say the cookie maker pauses and asks: *“What flavor should the next co
 
 You can send it an ingredient like this:
 
-```js
+```
 function* customCookieMaker() {
   const flavor = yield "What flavor do you want?";
   yield `Here’s your ${flavor} cookie! 🍪`;
@@ -144,7 +144,7 @@ console.log(custom.next("Strawberry")); // Answer: Strawberry
 
 Output:
 
-```js
+```
 { value: 'What flavor do you want?', done: false }
 { value: 'Here’s your Strawberry cookie! 🍪', done: false }
 ```
@@ -161,7 +161,7 @@ Sometimes, our cookie maker might say:
 
 So we use:
 
-```js
+```
 function* sprinkleChef() {
   yield "Rainbow Sprinkles 🌈";
   yield "Chocolate Sprinkles 🍫";
@@ -183,7 +183,7 @@ When we run `bigChef()`, we’ll get all the steps — including those from `spr
 Tired of pressing `next()` again and again? 😅
 Just say:
 
-```js
+```
 for (let cookie of cookieMaker()) {
   console.log(cookie);
 }
@@ -209,7 +209,7 @@ Generators were the first way JavaScript handled **pauses in time** without free
 
 These days, JavaScript uses **`async` and `await`** for that. But guess what? `async/await` was inspired by generators!
 
-```js
+```
 async function bakeCookies() {
   const delivery = await getChocolateChips();
   console.log(`Baking with ${delivery}!`);
