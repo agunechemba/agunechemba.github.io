@@ -1,6 +1,6 @@
-# 📱 How I Discovered Find Hub — And Why It's a Game-Changer for Android Users
+# 📱 How I Discovered Google Find Hub — And Why It's a Game-Changer for Android Users
 
-<imd src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/istockphoto-1283281188-1024x1024-1.jpg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/istockphoto-1283281188-1024x1024-1.jpg" width="100%">
 
 Just three hours ago, I got an email from Google that immediately caught my attention: *"Introducing Find Hub – a smarter way to locate and protect your Android devices."*
 
