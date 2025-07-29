@@ -1,6 +1,6 @@
 # 🎯 JavaScript Promisifying: Ordering Akara with a Callback vs a Promise
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/imagine_a_wall_written_ai_can_remix.jpg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/akara.jpeg" width="100%">
 
 ### 🍽️ The Callback Way: Mama Akara's Corner
 
