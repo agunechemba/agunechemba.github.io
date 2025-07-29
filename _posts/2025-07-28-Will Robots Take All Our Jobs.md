@@ -1,7 +1,6 @@
 # 🤖 Will Robots Take All Our Jobs? A Conversation Worth Having…
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/akara.jpeg" width="100%">
-
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/imagine_a_wall_written_ai_can_remix.jpg" width="100%">
 
 The other day, I was walking down a quiet street, headphone in, lost in thought. The sky was grey, but my mind was spinning fast, like a browser with 30 tabs open.
 
