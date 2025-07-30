@@ -1,4 +1,4 @@
-🧰 Hidden Computer Hacks Your IT Technician Doesn’t Want You to Know!
+# 🧰 Hidden Computer Hacks Your IT Technician Doesn’t Want You to Know!
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/slow-computer.jpg" width="100%">
 
