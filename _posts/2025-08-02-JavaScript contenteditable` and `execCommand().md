@@ -1,6 +1,6 @@
 # 📝 JavaScript contenteditable` and `execCommand(): How to Build a Mini Text Editor.
 
-<img src="" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/typist-cat.jpg" width="100%">
 
 Imagine building your own basic **text editor** right inside a web page—where users can type, highlight, and style text using buttons like **bold**, **italic**, or even **insert a link**.
 
