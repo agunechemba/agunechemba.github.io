@@ -56,7 +56,7 @@ Want updates, reminders, and direct interaction with trainers?
 
 Click the button below to sign up:
 
-👉 [**Register for Free on Google Form**](https://docs.google.com/forms/d/e/1FAIpQLSfSd1mRVW-h4aLwZyTTww5hnSufNU0mxLSa86f7H0TmwtsEXA/viewform){\:target="\_blank"}
+👉 [**Register for Free on Google Form**](https://docs.google.com/forms/d/e/1FAIpQLSfSd1mRVW-h4aLwZyTTww5hnSufNU0mxLSa86f7H0TmwtsEXA/viewform)
 
 
 ---
