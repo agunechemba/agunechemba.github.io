@@ -1,5 +1,7 @@
 # 🧮 Python Beginner Project: Building a Simple Calculator
 
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/the_word_input_and_print_printed_on.jpeg" width="100%">
+
 In this lesson, we’ll build a **simple calculator** using Python. It will perform **basic arithmetic operations**: addition, subtraction, multiplication, and division.
 
 Let’s walk through the project.
