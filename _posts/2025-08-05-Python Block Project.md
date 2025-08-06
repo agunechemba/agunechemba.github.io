@@ -17,6 +17,8 @@ Here’s the code we’ll be working with:
 ---
 
 > Text Version
+
+
 ```
 #Start code here
 import random
