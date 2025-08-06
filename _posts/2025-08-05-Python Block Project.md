@@ -8,11 +8,13 @@ In this lesson, we’ll walk through a complete beginner-friendly version of the
 
 Here’s the code we’ll be working with:
 
-```
+
+---
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/guess-the-number.png" width="100%">
 
-```
+
+---
 
 > Text Version
 ```
