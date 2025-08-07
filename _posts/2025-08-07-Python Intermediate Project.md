@@ -1,4 +1,4 @@
-# 🎮 Python Project: Build a Number Guessing Game in Python!
+# 🎮 Python Intermediate Project: Build a Number Guessing Game in Python!
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/guess-the-number.jpg" width="100%">
 
