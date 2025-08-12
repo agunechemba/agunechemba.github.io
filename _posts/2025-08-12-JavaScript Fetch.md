@@ -1,6 +1,6 @@
 # JavaScript Fetch: The Web’s Instant Messenger
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/fetch.jpg" width="100">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/fetch.jpg" width="100%">
 
 Imagine you’re scrolling through your favorite social media feed. You tap “Show More Posts,” and **BAM!**—new posts appear instantly without that irritating full-page reload. No flickering screen, no losing your spot, no waiting for everything to reload like it’s 2003.
 
