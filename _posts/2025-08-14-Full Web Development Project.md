@@ -1,6 +1,6 @@
 # Full Web Development Project – Daily Devotional Web Application
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/daily-devotional.jpg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/daily-devotion.png" width="100%">
 
 The **Daily Devotional Web Application** is a dynamic, database-driven platform designed to deliver daily spiritual devotionals to users while giving exclusive content management rights to a small group of trusted administrators.
 
