@@ -1,4 +1,4 @@
-# JavaScript Variable Coercion and Conversion
+# JavaScript Variable Coercion and Conversion: When Numbers Become Strings and Truth Turns Falsy
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/js-coersion.jpg" width="100%">
 
