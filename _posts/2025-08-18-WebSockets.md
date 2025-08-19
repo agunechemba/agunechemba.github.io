@@ -37,13 +37,14 @@ This "always-on" connection is the key to modern web applications. WebSockets el
 
 ### ✍️ Fill-in-the-Gap Questions
 
-1. Before WebSockets, websites relied on a method called \_\_\_\_\_\_\_\_\_\_, where the browser repeatedly asked the server if there were any updates.
-2. Polling is inefficient because it wastes both \_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_.
-3. WebSockets create a persistent connection, often compared to a \_\_\_\_\_\_\_\_\_\_ call instead of sending letters.
-4. Once a WebSocket connection is established, \_\_\_\_\_\_\_\_\_\_ side(s) can send messages at any time.
-5. In a WebSocket setup, the \_\_\_\_\_\_\_\_\_\_ (in the browser) is responsible for initiating the connection.
-6. The client’s connection request asks the server to "\_\_\_\_\_\_\_\_\_\_" the communication from normal HTTP to a WebSocket.
-7. A WebSocket server can be written in languages such as \_\_\_\_\_\_\_\_\_\_, \_\_\_\_\_\_\_\_\_\_, or \_\_\_\_\_\_\_\_\_\_.
-8. JavaScript running in the browser cannot act as a server because it cannot \_\_\_\_\_\_\_\_\_\_ for incoming connections.
-9. Real-time applications like chat apps, online games, and \_\_\_\_\_\_\_\_\_\_ rely on WebSockets for instant updates.
-10. The biggest advantage of WebSockets over polling is that the connection stays \_\_\_\_\_\_\_\_\_\_, eliminating unnecessary delays.
+
+1.  Before WebSockets, websites relied on a method called **__________**, where the browser repeatedly asked the server if there were any updates.
+2.  Polling is inefficient because it wastes both **__________** and **__________**.
+3.  WebSockets create a persistent connection, often compared to a **__________** call instead of sending letters.
+4.  Once a WebSocket connection is established, **__________** side(s) can send messages at any time.
+5.  In a WebSocket setup, the **__________** (in the browser) is responsible for initiating the connection.
+6.  The client’s connection request asks the server to “**__________**” the communication from normal HTTP to a WebSocket.
+7.  A WebSocket server can be written in languages such as **__________**, **__________**, or **__________**.
+8.  JavaScript running in the browser cannot act as a server because it cannot **__________** for incoming connections.
+9.  Real-time applications like chat apps, online games, and **__________** rely on WebSockets for instant updates.
+10. The biggest advantage of WebSockets over polling is that the connection stays **__________**, eliminating unnecessary delays.
