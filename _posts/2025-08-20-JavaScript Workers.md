@@ -1,6 +1,6 @@
 # 🛠️ JavaScript Workers: Your Background Helpers
 
-<img src="" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/js-worker.jpg" width="100%">
 
 Imagine you’re running a small restaurant. You’re the **chef** (that’s your JavaScript code). Customers keep coming in with orders, and you’re busy cooking. But one customer suddenly asks for a **slow-cooked dish that takes 30 minutes**.
 
