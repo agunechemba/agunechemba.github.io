@@ -24,7 +24,7 @@ Workers solve this by giving you **background threads**—extra helpers—so you
 
 Making a worker is like hiring that assistant.
 
-```javascript
+```
 // main.js
 let worker = new Worker("worker.js");
 ```
@@ -39,13 +39,13 @@ You can send messages to your worker, and it can send messages back—like passi
 
 ### From the main script:
 
-```javascript
+```
 worker.postMessage("Start the task!");
 ```
 
 ### Inside worker.js:
 
-```javascript
+```
 onmessage = function(event) {
   console.log("Worker received:", event.data);
   // Do the heavy task
@@ -56,7 +56,7 @@ onmessage = function(event) {
 
 ### Back in main.js:
 
-```javascript
+```
 worker.onmessage = function(event) {
   console.log("Message from worker:", event.data);
 };
@@ -71,7 +71,7 @@ Suppose you’re building an app that applies filters to large images (like Inst
 * Without workers: the page freezes until the filter is applied.
 * With workers: the filter is applied in the background, while the user can still scroll, type, or click.
 
-```javascript
+```
 // main.js
 worker.postMessage(hugeImageData);
 
