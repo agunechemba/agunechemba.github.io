@@ -239,7 +239,7 @@ mark {
 <ul>
   <li><strong>Tech Training:</strong> Kids & Teens </li>
   <li><strong>Animation:</strong> HTML Canvas</li>
-  <li><strong>Web Development:</strong> JavaScript</li>
+  <li><strong>Web Development:</strong> Front End</li>
   <li><strong>Robotics:</strong> Arduino, Python</li>
 </ul>
 </div>
