@@ -1,4 +1,4 @@
-# JavaScript Creational Design Patterns: blueprints for making objects
+# JavaScript Creational Design Patterns: Blueprints for Making Objects Using Javascript Vanilla Code
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/javascript-creational-design-patterns-1.jpg" width="100%">
 
