@@ -44,7 +44,7 @@ In the example above, `team_name` is a global variable. The `show_team()` functi
 
 A variable in the **local scope** is created **inside a function**. It's like a private notebook 🤫 that only that function can see and use. Once the function finishes its execution, the local variable is destroyed and no longer exists.
 
-```python
+```
 def create_score():
     # 'player_score' is created in the local scope of 'create_score'
     player_score = 100
