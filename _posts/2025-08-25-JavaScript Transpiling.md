@@ -1,6 +1,6 @@
 # ⚙️ JavaScript Transpiling: Translate Your Slangs
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/javascript-transpiling.jpg" width="100%>
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/javascript-transpiling.jpg" width="100%">
 
 Imagine you’re writing a letter in **modern English slang** (“That’s lit, fam!”). Now, you want your great-grandparents to read it—but they only understand **old-fashioned English**. You’d need to “translate” your slang into words they understand.
 
