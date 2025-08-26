@@ -199,7 +199,7 @@ mark {
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Experience </button>
   <div class="toggle-content">
 <p>I spark a deep passion for coding in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects.</p>
-<p>As the founder of <strong>Pepe Programming Hub</strong> and the mind behind <strong>Firstac Academy</strong>, I also run annual free <strong>summer boot camps</strong> for young minds aged 10–16. From physical classes at Clasam Schools in Lagos to online sessions with global learners, I’ve mentored hundreds of teenagers—helping them build both strong coding skills and an <strong>engineering mindset</strong>.</p>
+<p>As the founder of <a href="https://pepe.name.ng/"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I also run annual free <strong>summer boot camps</strong> for young minds aged 10–16. From physical classes at Clasam Schools in Lagos to online sessions with global learners, I’ve mentored hundreds of teenagers—helping them build both strong coding skills and an <strong>engineering mindset</strong>.</p>
 <p>I organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
   </div>
 
