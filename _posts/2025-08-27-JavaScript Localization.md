@@ -1,6 +1,6 @@
 # 🌍 JavaScript Localization: Make Your App Feel Like It Was Made for Everyone!
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/javascript-localization.jpg" width="100">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/javascript-localization.jpg" width="100%">
 
 Imagine you’re building a website that’s used by people all around the world. A visitor in **Nigeria** might want English or Yoruba, while someone in **France** wants French, and someone in **Japan** expects Japanese.
 
