@@ -222,7 +222,6 @@ function localize() {
 1. Localization is often shortened to \_\_\_\_\_\_\_\_\_\_.
 2. The JavaScript object that tells us the user’s preferred language is \_\_\_\_\_\_\_\_\_\_.
 3. The method `__________` is used to format numbers and dates in a region-friendly way.
-4. To format `5000` into Japanese Yen, we can pass `"__________"` as the currency code.
-5. One popular library for managing translations in JavaScript is \_\_\_\_\_\_\_\_\_\_.
-6. The `"en-US"` code means English language, used in the country \_\_\_\_\_\_\_\_\_\_.
-7. Localization ensures apps feel natural to people from different \_\_\_\_\_\_\_\_\_\_.
+4. One popular library for managing translations in JavaScript is \_\_\_\_\_\_\_\_\_\_.
+5. The `"en-US"` code means English language, used in the country \_\_\_\_\_\_\_\_\_\_.
+6. Localization ensures apps feel natural to people from different \_\_\_\_\_\_\_\_\_\_.
