@@ -94,9 +94,6 @@ If you want to enter (get a property) or bring a friend (set a property), the gu
 A Proxy lets you **control and customize how objects behave** without changing the original object.
 It’s like having **superpowers over your objects**—you can spy, block, or transform their behavior.
 
----
-
-✅ **Now I’ll give you 10 fill-in-the-gap review questions.**
 
 ---
 
