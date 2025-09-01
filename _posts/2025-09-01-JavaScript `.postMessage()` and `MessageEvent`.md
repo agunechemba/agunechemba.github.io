@@ -1,4 +1,4 @@
-JavaScript `.postMessage()` and `MessageEvent`: Why do we need it?
+# JavaScript `.postMessage()` and `MessageEvent`: Why do we need it?
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/js-.postmessage-and-messageevent-.jpg" width="100%">
 
