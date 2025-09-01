@@ -1,6 +1,6 @@
 # Celebrating Excellence: Okiri Emmanuel Emerges as the Star of the Python Bootcamp!
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/okiri.jpg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/okiri.png" width="100%">
 
 August 2025 will forever be a memorable month for the learners who participated in the **Python Bootcamp**, but one name stood out among them all – **Okiri Emmanuel**. In a cohort of 11 passionate learners, Emmanuel distinguished himself by achieving the **highest score in the final assessment**, proving that dedication, curiosity, and hard work truly pay off.
 
