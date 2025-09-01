@@ -10,7 +10,7 @@ As part of this elite recognition, Emmanuel now enjoys **two free Bootcamps annu
 
 The **Python Bootcamp** was an intense and rewarding experience, designed to transform beginners into proficient coders through hands-on practice, real-world projects, and collaborative learning. It was **expertly coordinated by Agunechemba Ekene**, a seasoned tech trainer with a passion for empowering learners from all backgrounds.
 
-This life-changing Bootcamp was proudly **[sponsored by Pepe Programming Hub](https://pepe.name.ng/)**, an organization committed to creating opportunities for learners to thrive in the tech industry through world-class training and mentorship.
+This life-changing Bootcamp was proudly sponsored by **[Pepe Programming Hub](https://pepe.name.ng/)**, an organization committed to creating opportunities for learners to thrive in the tech industry through world-class training and mentorship.
 
 Once again, congratulations to **Okiri Emmanuel** for this outstanding achievement! Your success is an inspiration to every aspiring programmer out there. We can’t wait to see the amazing things you’ll build in the future.
 
