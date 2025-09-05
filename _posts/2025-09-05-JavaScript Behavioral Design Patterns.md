@@ -36,7 +36,7 @@ Imagine YouTube subscriptions.
 
 * You (the user) subscribe to a channel.
 * When the channel uploads a video, **all subscribers get notified**.
-  In code: one object (the subject) notifies many others (observers).
+* In code: one object (the subject) notifies many others (observers).
 
 ---
 
@@ -46,7 +46,7 @@ Think about playing a video game with multiple difficulty modes.
 
 * Easy, Normal, Hard are different **strategies**.
 * You can switch strategies without changing the entire game.
-  In code: you can swap algorithms or methods depending on the situation.
+* In code: you can swap algorithms or methods depending on the situation.
 
 ---
 
@@ -56,7 +56,7 @@ Imagine using a TV remote.
 
 * Each button (command) tells the TV what to do: turn on, increase volume, change channel.
 * The remote doesn’t care *how* the TV works inside, it just sends commands.
-  In code: separate the object that issues requests from the one that executes them.
+* In code: separate the object that issues requests from the one that executes them.
 
 ---
 
@@ -66,7 +66,7 @@ Think about browsing songs on Spotify.
 
 * You click **next** to go through the playlist one by one.
 * You don’t care how the playlist is stored, you just move through items easily.
-  In code: provides a way to access items in a collection without knowing its internal details.
+* In code: provides a way to access items in a collection without knowing its internal details.
 
 ---
 
