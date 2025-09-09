@@ -93,7 +93,7 @@ When your “callback” (like pressing Play) runs, it doesn’t need the entire
 
 ---
 
-✅ Now let’s do **10 review fill-in-the-gap questions**:
+### ✅ Review Questions:
 
 1. A normal iterator provides items \_\_\_\_\_\_\_\_\_\_.
 2. An async iterator provides items that may take \_\_\_\_\_\_\_\_\_\_ to arrive.
