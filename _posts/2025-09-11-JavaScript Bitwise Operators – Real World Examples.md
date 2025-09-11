@@ -94,13 +94,13 @@ Imagine two robot brothers, Bit and Byte. They live in a world made of binary co
 
 ### **Review Questions**
 
-1.  Bitwise operators work directly on **binary** numbers.
-2.  The AND (`&`) operator only returns 1 if **both** sides are 1.
-3.  The OR (`|`) operator returns 1 if **at least one** side is 1.
-4.  The XOR (`^`) operator returns 1 only if the two sides are **different**.
-5.  The NOT (`~`) operator **flips** all the bits.
-6.  Shifting left (`<<`) is the same as multiplying by **2**.
-7.  Shifting right (`>>`) is the same as dividing by **2**.
-8.  A real-world use of bitwise operators is handling file **permissions** (read, write, execute).
-9.  Mixing RGB values for **colors** uses bitwise operations.
-10. The robot brothers in the story are named **Bit** and **Byte**.
+1.  Bitwise operators work directly on \_\_\_\_\_\_\_\_\_\_ numbers.
+2.  The AND (`&`) operator only returns 1 if \_\_\_\_\_\_\_\_\_\_ sides are 1.
+3.  The OR (`|`) operator returns 1 if \_\_\_\_\_\_\_\_\_\_ side(s) is 1.
+4.  The XOR (`^`) operator returns 1 only if the two sides are \_\_\_\_\_\_\_\_\_\_.
+5.  The NOT (`~`) operator \_\_\_\_\_\_\_\_\_\_ all the bits.
+6.  Shifting left (`<<`) is the same as multiplying by \_\_\_\_\_\_\_\_\_\_.
+7.  Shifting right (`>>`) is the same as dividing by \_\_\_\_\_\_\_\_\_\_.
+8.  A real-world use of bitwise operators is handling file \_\_\_\_\_\_\_\_\_\_ (read, write, execute).
+9.  Mixing RGB values for \_\_\_\_\_\_\_\_\_\_ uses bitwise operations.
+10. The robot brothers in the story are named \_\_\_\_\_\_\_\_\_\_ and \_\_\_\_\_\_\_\_\_\_.
