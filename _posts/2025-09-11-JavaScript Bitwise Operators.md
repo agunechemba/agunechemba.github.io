@@ -1,5 +1,7 @@
 # ⚡ JavaScript Bitwise Operators: The Story of Two Robot Brothers
 
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/robot-handshake-code-dance_simple_compose.jpg" width="100%">
+
 Bitwise operators are like special language rules for computers, letting them talk directly to the smallest pieces of data: the **bits** (1s and 0s). Instead of thinking about entire numbers, these operators focus on the individual ones and zeros, performing super-fast calculations. Think of it like a master chef who knows how to work with individual ingredients (the bits) rather than just whole meals (the numbers). This direct manipulation is why they're so fast and efficient.
 
 ---
