@@ -1,4 +1,4 @@
-#🔋 JavaScript Battery Status API: How it works in JavaScript
+# 🔋 JavaScript Battery Status API: How it works in JavaScript
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/battery-api-infographic.jpg" width="100%">
 
