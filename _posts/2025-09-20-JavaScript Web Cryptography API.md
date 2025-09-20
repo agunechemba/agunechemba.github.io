@@ -109,7 +109,7 @@ Once you have a key, you can encrypt a message before sending it. Only someone w
 4. The method `crypto.getRandomValues()` generates strong \_\_\_\_\_\_ numbers.
 5. The function `crypto.subtle.digest("SHA-256", data)` is used to create a \_\_\_\_\_\_ of data.
 6. Encrypting a message scrambles it, while \_\_\_\_\_\_ makes it readable again.
-7. WhatsApp uses ******-to-****** encryption to keep chats private.
+7. WhatsApp uses \_\_\_\_\_\_ -to- \_\_\_\_\_\_ encryption to keep chats private.
 8. The Web Crypto API provides tools for generating keys, encrypting data, and making digital \_\_\_\_\_\_.
 9. Using `Math.random()` for security is bad because it is not truly \_\_\_\_\_\_.
 10. The Web Crypto API helps keep passwords, payments, and messages \_\_\_\_\_\_.
