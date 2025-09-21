@@ -2,7 +2,6 @@
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/digital-security-battle.jpg" width="100%">
 
-### 📖 Story Introduction
 
 Imagine your school’s online portal. Students log in with their ID and password to check results, upload homework, or message teachers.
 
