@@ -1,4 +1,4 @@
-# 🌍 JavaScript Same-Origin Policy & Cross-Origin Communication
+# 🌍 JavaScript Same-Origin Policy and Cross-Origin Communication
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/secure-web-connections.jpg" width="100%">
 
