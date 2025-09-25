@@ -1,4 +1,4 @@
-# 🐞 Debugging Techniques in JavaScript:
+# 🐞 Debugging Techniques in JavaScript: Techniques To Understanding Your Program
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/debugging-lagos-bus-adventure.jpg" width="100%">
 
