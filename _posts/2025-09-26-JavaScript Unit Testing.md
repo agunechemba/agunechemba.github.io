@@ -62,7 +62,7 @@ assert(result == 25, "add(5, 20) should return 25...");
 
 JavaScript isn’t just about simple functions — modern apps rely heavily on **Promises** for asynchronous work. Testing them requires a bit more setup.
 
-The book’s example uses a combination of popular testing tools:
+Popular testing tools:
 
 * **Mocha** → A test runner (organizes and runs tests).
 * **Chai** → An assertion library (human-readable checks).
