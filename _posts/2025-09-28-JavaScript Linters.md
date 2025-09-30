@@ -1,4 +1,4 @@
-# ✨ JavaScript Linters: The Proofreaders!
+# ✨ JavaScript Linters: How To Make Your Code Look Professional.
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/coding-classroom-chaos.jpg" width="100%">
 
