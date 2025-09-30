@@ -1,4 +1,4 @@
-# 🚫 Anti-Patterns in JavaScript: Good Patterns Make The Journey Is Smoother
+# 🚫 Anti-Patterns in JavaScript: Good Patterns Make The Journey Smoother
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/chaotic-lagos-bus-scene.jpg" width="100%">
 
