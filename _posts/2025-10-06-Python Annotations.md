@@ -1,4 +1,4 @@
-## 🧭 Python Annotations: Making Python Code Self-descriptive And Type-friendly)*
+## 🧭 Python Annotations: Making Python Code Self-descriptive And Type-friendly
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/python-annotations-explained.jpg" width="100%">
 
