@@ -255,9 +255,13 @@ except Exception as e:
 ### ⚙️ Best Practices for Handling Exceptions
 
 ✅ Catch only what you expect.
+
 ✅ Always close files and network connections (use `finally` or `with`).
+
 ✅ Never silently ignore exceptions.
+
 ✅ Use specific exception types — not `except:` by itself.
+
 ✅ Document your exceptions using **docstrings**.
 
 ---
