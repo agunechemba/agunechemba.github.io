@@ -1,6 +1,6 @@
 # 🧑‍🔧 Python Arguments: How Python Accepts Arguments from the Command Line
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/a_python_taking_instructions_from_a_little.jpeg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/inventive-playtime.jpg" width="100%">
 
 In a town of clinking gears and glowing circuits lived **Ada**, a young inventor whose mind danced with code. Her masterpiece? A loyal, talkative robot dog named **Barky**. 🐶
 
