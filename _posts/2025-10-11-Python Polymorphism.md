@@ -30,8 +30,6 @@ Python, being a dynamic language, supports **polymorphism naturally** — you ju
 
 ### 🐶🐱 Example: Dog and Cat
 
-Let’s revisit the example from your source:
-
 ```python
 class Dog:
     def eat(self):
