@@ -215,8 +215,11 @@ for x in [1, 2, 3]:
 ### 💎 Benefits of List Comprehensions
 
 ✅ **Conciseness** — Shorter code, fewer lines.
+
 ✅ **Readability** — Expresses intent clearly when used well.
+
 ✅ **Performance** — Often faster than traditional `for` loops.
+
 ✅ **Elegance** — Pythonic and modern approach to iteration.
 
 ---
