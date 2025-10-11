@@ -132,8 +132,11 @@ This is *runtime polymorphism* — the behavior depends on the object at runtime
 ### 🧱 Why It’s Important
 
 ✅ **Reusability:** You can use the same function or method name across different classes.
+
 ✅ **Extensibility:** You can add new types (new classes) without changing existing code.
+
 ✅ **Readability:** Your code becomes cleaner and easier to maintain.
+
 
 In short, **you write code once and use it with any object that follows the same interface**.
 
