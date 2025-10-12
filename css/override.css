@@ -1,8 +1,17 @@
 /* ======================================
-   Post Navigation (Light + Dark Mode)
+   🌗 Jekyll Blog Styles (Light + Dark Mode)
    ====================================== */
 
 /* Base styling */
+body {
+  background-color: #ffffff;
+  color: #222;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Horizontal line */
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -10,7 +19,9 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* Post navigation links */
+/* ==============================
+   🧭 Post Navigation
+   ============================== */
 .post_navi {
   display: flex;
   margin-top: 40px;
@@ -21,7 +32,7 @@ hr {
 
 .post_navi-label {
   font-size: 0.8em;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .post_navi .post_navi-item {
@@ -30,7 +41,7 @@ hr {
   position: relative;
   color: inherit !important;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, opacity 0.3s ease;
 }
 
 .post_navi .nav_prev {
@@ -57,13 +68,46 @@ hr {
   opacity: 0.3;
 }
 
-/* Hover states */
 .post_navi .post_navi-item:hover {
   opacity: 0.8;
 }
 
 /* ==============================
-   🌙 Dark Mode
+   💻 Code Styling
+   ============================== */
+
+/* Inline and block code - Light mode */
+code,
+pre {
+  font-family: Consolas, "Courier New", monospace;
+  background-color: #f5f5f5;
+  color: #222;
+  border-radius: 6px;
+}
+
+/* Inline code */
+code {
+  padding: 0.2em 0.4em;
+  font-size: 0.95em;
+}
+
+/* Code block */
+pre {
+  padding: 1em;
+  overflow-x: auto;
+  line-height: 1.5;
+  margin: 1.2em 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure pre > code inherits correctly */
+pre code {
+  background: none;
+  color: inherit;
+}
+
+/* ==============================
+   🌙 Dark Mode Styles
    ============================== */
 @media (prefers-color-scheme: dark) {
   body {
@@ -75,6 +119,7 @@ hr {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 
+  /* Post navigation */
   .post_navi {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     background-color: #121212;
@@ -98,5 +143,48 @@ hr {
 
   a:hover {
     color: #9cd6ff;
+  }
+
+  /* Code blocks */
+  code,
+  pre {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  pre {
+    border-radius: 8px;
+  }
+
+  code {
+    color: #f0f0f0;
+  }
+
+  /* Optional syntax highlight colors */
+  pre code .keyword,
+  code .keyword {
+    color: #569cd6;
+  }
+
+  pre code .string,
+  code .string {
+    color: #ce9178;
+  }
+
+  pre code .number,
+  code .number {
+    color: #b5cea8;
+  }
+
+  pre code .comment,
+  code .comment {
+    color: #6a9955;
+    font-style: italic;
+  }
+
+  pre code .function,
+  code .function {
+    color: #dcdcaa;
   }
 }
