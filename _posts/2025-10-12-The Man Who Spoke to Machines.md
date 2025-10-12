@@ -16,7 +16,7 @@ Let me tell you about him.
 
 ### 🧑‍💻 Meeting Dennis — Through Code, Not in Person
 
-No, I never met Dennis Ritchie in real life. He lived long before I began my journey as a programming teacher in Lagos, Nigeria. But the moment I wrote my very first line of **C code**, I felt as though he was right there, whispering,
+No, I never met Dennis Ritchie in real life. He lived long before I began my journey as a programming trainer. But the moment I wrote my very first line of **C code**, I felt as though he was right there, whispering,
 
 > “Keep it simple. Make it work. Then make it beautiful.”
 
