@@ -58,6 +58,6 @@ That’s the same philosophy I share with my learners today on my training platf
 
 Dennis never tried to be a superstar. He didn’t chase awards, though he earned many — including the **Turing Award** (the Nobel Prize of computing).
 
-He passed away in **2011**, quietly, just as he lived. But his ideas live on — in every modern operating system, every line of C code, and in every young mind learning to code today.
+He passed away on **October 12, 2011**, quietly, just as he lived. But his ideas live on — in every modern operating system, every line of C code, and in every young mind learning to code today.
 
 Whenever I see a learner finally get their first program running — that magical *“It works!”* moment — I remember Dennis Ritchie. Because in some way, he helped make that moment possible.
