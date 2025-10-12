@@ -1,4 +1,4 @@
-# 🌙 Creating Dark Mode for Your Website — Step-by-Step Guide
+# 🌙 Creating Dark Mode for Your Website: Step-by-Step Guide
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/gemini_generated_image_t05j0rt05j0rt05j.jpg" width="100%">
 
