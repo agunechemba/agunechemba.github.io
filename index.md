@@ -2,136 +2,157 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
-/*Start-This styles the elements that are not styled using in-line*/
-  
-  html {
+/* ==========================================
+   🌗 HOME PAGE (Light + Dark Mode Support)
+   ========================================== */
+
+/* Smooth scroll */
+html {
   scroll-behavior: smooth;
 }
 
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #eef3f8;
-    color: #333;
+/* Light mode variables (default) */
+:root {
+  --bg-color: #eef3f8;
+  --text-color: #333;
+  --primary-gradient: linear-gradient(45deg, #00c6ff, #0072ff);
+  --button-shadow: rgba(0, 114, 255, 0.4);
+  --card-bg: #fff;
+  --card-shadow: rgba(0, 0, 0, 0.05);
+  --mark-bg: yellow;
+  --mark-text: black;
+}
+
+/* Dark mode variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #0e0e0e;
+    --text-color: #e0e0e0;
+    --primary-gradient: linear-gradient(45deg, #0072ff, #0048ff);
+    --button-shadow: rgba(0, 123, 255, 0.3);
+    --card-bg: #1a1a1a;
+    --card-shadow: rgba(255, 255, 255, 0.05);
+    --mark-bg: #ffee58;
+    --mark-text: #000;
   }
+}
 
-  .container {
-    max-width: 650px;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: center;
-  }
+/*Start-This styles the elements that are not styled using in-line*/
 
-  .profile-img {
-    width: 120px;
-    border-radius: 50%;
-    box-shadow: 0 0 15px #00bfff;
-    margin-bottom: 20px;
-  }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.4s ease, color 0.4s ease;
+}
 
-  .title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #00bfff;
-  }
+.container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
 
-  .subtitle {
-    font-size: 16px;
-    color: #0078d7;
-    margin-bottom: 30px;
-    font-style: italic;
-  }
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #00bfff;
+  margin-bottom: 20px;
+}
 
-  .toggle-button {
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-    padding: 15px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    background: linear-gradient(45deg, #00c6ff, #0072ff);
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
-    text-align: left;
-    position: relative;
-  }
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00bfff;
+}
 
-  .toggle-button i {
-    margin-right: 10px;
-  }
+.subtitle {
+  font-size: 16px;
+  color: #0078d7;
+  margin-bottom: 30px;
+  font-style: italic;
+}
 
-  .toggle-button::after {
-    content: "\f0d7";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    right: 20px;
-    transition: transform 0.3s ease;
-  }
+.toggle-button {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: var(--primary-gradient);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px var(--button-shadow);
+  text-align: left;
+  position: relative;
+}
 
-  .toggle-button.active::after {
-    transform: rotate(180deg);
-  }
+.toggle-button i {
+  margin-right: 10px;
+}
 
-  .toggle-content {
-    display: none;
-    padding: 15px;
-    margin-bottom: 10px;
-    text-align: left;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  }
+.toggle-button::after {
+  content: "\f0d7";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.3s ease;
+}
 
-  .toggle-content ul {
-    padding-left: 20px;
-    list-style: square;
-  }
+.toggle-button.active::after {
+  transform: rotate(180deg);
+}
 
-  .contact-links a, .blog-link {
-    display: inline-block;
-    margin: 10px 8px;
-    padding: 12px 20px;
-    border-radius: 30px;
-    background: linear-gradient(45deg, #00c6ff, #0072ff);
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.3s ease;
-  }
+.toggle-content {
+  display: none;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 0 10px var(--card-shadow);
+  transition: background 0.4s ease, color 0.4s ease;
+}
 
-  .contact-links a:hover, .blog-link:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
-  }
+.toggle-content ul {
+  padding-left: 20px;
+  list-style: square;
+}
 
+.contact-links a,
+.blog-link {
+  display: inline-block;
+  margin: 10px 8px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  background: var(--primary-gradient);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
 
-  .blog-link {
+.contact-links a:hover,
+.blog-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px var(--button-shadow);
+}
+
+.blog-link {
   color: #fff !important;
 }
 
+/* ======================================
+   🔍 Search Bar Styling
+   ====================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-/*Start-This styles the search bar*/
-  .search-bar {
+.search-bar {
   max-width: 500px;
   margin: 0 auto 30px;
   text-align: center;
@@ -144,6 +165,9 @@
   border: 1px solid #ccc;
   outline: none;
   font-size: 16px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .search-bar button {
@@ -151,7 +175,7 @@
   margin-left: 10px;
   border: none;
   border-radius: 25px;
-  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  background: var(--primary-gradient);
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -163,12 +187,13 @@
 }
 
 mark {
-  background: yellow;
-  color: black;
+  background: var(--mark-bg);
+  color: var(--mark-text);
   padding: 2px 4px;
   border-radius: 4px;
 }
-  /*End-This styles the search bar*/
+
+/* End of dark-mode-compatible styles */
 </style>
 
 
@@ -206,31 +231,21 @@ mark {
   <button class="toggle-button"><i class="fas fa-laptop-code"></i>Lesson Series</button>
   <div class="toggle-content">
   <ul>
-    <!--List of Lesson Series-->
-    <!--First Lesson-->
      <li>
     <a href="https://agunechemba.github.io/2025/07/04/Index-JavaScript-RegEx.html" target="_blank">
       <strong>JavaScript:</strong> Regular Expressions
     </a>
   </li>
-    <!--Second Lesson-->
   <li>
     <a href="https://agunechemba.github.io/2025/07/04/Index-Introduction-to-Programming-with-Python.html" target="_blank">
       <strong>Python:</strong> Introduction to Programming with Python
     </a>
   </li>
-    <!--Third Lesson-->
   <li>
     <a href="https://agunechemba.github.io/2025/07/04/Index-Binary-Systems-and-Hexadecimal.html" target="_blank">
       <strong>Number System:</strong> Binary Systems and Hexadecimal
     </a>
   </li>
-    <!--Forth Lesson--Uncomment to use this---duplicate to add more lesson series
-  <li>
-    <a href="https://agunechemba.github.io/2025/04/12/01-Introduction-to-Programming-With-Python-Introduction-CS50-Agunechemba-Ekene.html" target="_blank">
-      <strong>Course Curation:</strong> Introduction to Programming with Python (CS50)
-    </a>
-  </li> -->
 </ul>
   </div>
 
@@ -255,9 +270,24 @@ mark {
 </div>
 
 <a class="blog-link" href="#my-blog"><i class="fas fa-blog"></i> <span>Visit My Blog</span></a>
-
 </div>
 <!--End-This is the body-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
