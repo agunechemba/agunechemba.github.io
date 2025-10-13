@@ -35,14 +35,14 @@ Here’s how it works in practice:
 ```
 
 
-<pre><code>
+```css
 .box-example {
   background-color: lightblue;
   border: 5px solid darkblue;
   padding: 20px;
   margin: 30px;
 }
-</code></pre>
+```
 
 
 ✨ Breakdown:
