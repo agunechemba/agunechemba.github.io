@@ -309,86 +309,86 @@ mark {
 
 
 
-<!--Start: Subscribe form from Hyvor Talk--
-<script async src="https://talk.hyvor.com/embed/newsletter.js" type="module"></script>
-<hyvor-talk-newsletter website-id="13744"></hyvor-talk-newsletter>
-<!--End: Subscribe form from Hyvor Talk-->
 
 
 
-
-
-<!--Start: This Section is for the Contact Form-->
+<!-- Start: Simplified Contact Form (Name, Email, Phone) -->
 <div style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
-<h2 style="text-align: center;">📬 <strong>Contact Me</strong></h2>
-<h5 style="text-align: center;">📚<em>Request a tutorial </em>  • 📩<em>Send me a DM</em></h5>
+  <h2 style="text-align: center;">📞 <strong>Get in Touch</strong></h2>
+  <h5 style="text-align: center;">💬 <em>Fill out your details below</em></h5>
+
   <form id="contactForm" style="max-width: 400px; margin: auto;">
+    <!-- Name -->
     <input type="text" name="name" placeholder="Your Name" required 
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
+
+    <!-- Email -->
     <input type="email" name="email" placeholder="Your Email" required 
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
-    <textarea name="message" placeholder="Your Message" required 
-      style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;"></textarea>
+
+    <!-- Phone -->
+    <input type="tel" name="phone" placeholder="Your Phone Number" required 
+      pattern="[0-9+ ]+" title="Enter a valid phone number"
+      style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
+
     <button type="submit" id="submitBtn" 
       style="width: 100%; padding: 12px; font-size: 16px; background: #007BFF; color: white; border: none; cursor: pointer; box-sizing: border-box;">
       Send
     </button>
   </form>
 
+  <!-- Success Animation -->
   <div id="successAnimation" style="display: none; margin: 20px auto; width: 100px; height: 100px;">
     <svg viewBox="0 0 52 52" style="width: 100px; height: 100px;">
       <path fill="none" stroke="#28a745" stroke-width="5" d="M14 27l7 7 16-16"/>
       <circle fill="none" stroke="#28a745" stroke-width="5" cx="26" cy="26" r="24"/>
     </svg>
   </div>
-  <br><br>
-  </div>
+</div>
 
-  <script>
-    const form = document.getElementById('contactForm');
-    const button = document.getElementById('submitBtn');
-    const animation = document.getElementById('successAnimation');
+<script>
+  const form = document.getElementById('contactForm');
+  const button = document.getElementById('submitBtn');
+  const animation = document.getElementById('successAnimation');
 
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      button.disabled = true;
-      button.textContent = 'Sending...';
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    button.disabled = true;
+    button.textContent = 'Sending...';
 
-      const data = new FormData(form);
+    const data = new FormData(form);
 
-      fetch('https://script.google.com/macros/s/AKfycby9V4kcg4XEIqry_wq6V6sbLnVCPxx1XZLK-1BUJ2jlEOsOHIH94b7BefdqbCMfRBYi/exec', {
-        method: 'POST',
-        body: data
-      })
-      .then(res => res.text())
-      .then(response => {
-        button.textContent = 'Sent';
-        button.style.backgroundColor = '#28a745';
-        form.reset();
-        animation.style.display = 'block';
-        animation.style.animation = 'pop 0.5s ease-in-out';
-      })
-      .catch(error => {
-        alert('Error: ' + error.message);
-        button.disabled = false;
-        button.textContent = 'Send';
-      });
+    fetch('https://script.google.com/macros/s/AKfycbz13cOdGj_BV1zCUj422TT9jQ_2wgw6BlQMSh8skvjA10EiXizQDYzZBV1GI84xeEQ1/exec', {
+      method: 'POST',
+      body: data
+    })
+    .then(res => res.text())
+    .then(response => {
+      button.textContent = 'Sent';
+      button.style.backgroundColor = '#28a745';
+      form.reset();
+      animation.style.display = 'block';
+      animation.style.animation = 'pop 0.5s ease-in-out';
+    })
+    .catch(error => {
+      alert('Error: ' + error.message);
+      button.disabled = false;
+      button.textContent = 'Send';
     });
+  });
 
-    // Animate success
-    const styleSheet = document.createElement("style");
-    styleSheet.innerText = `
-      @keyframes pop {
-        0% { transform: scale(0); opacity: 0; }
-        60% { transform: scale(1.2); opacity: 1; }
-        100% { transform: scale(1); }
-      }
-    `;
-    document.head.appendChild(styleSheet);
-  </script>
-
-<!--End: This Section is for the Contact Form-->
-
+  // Animate success
+  const styleSheet = document.createElement("style");
+  styleSheet.innerText = `
+    @keyframes pop {
+      0% { transform: scale(0); opacity: 0; }
+      60% { transform: scale(1.2); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+  `;
+  document.head.appendChild(styleSheet);
+</script>
+<!-- End: Simplified Contact Form (Name, Email, Phone) -->
 
 
 
