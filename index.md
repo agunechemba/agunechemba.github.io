@@ -27,7 +27,7 @@ html {
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #0e0e0e;
-    --text-color: #e0e0e0;
+    --text-color: #7A7A7A;
     --primary-gradient: linear-gradient(45deg, #0072ff, #0048ff);
     --button-shadow: rgba(0, 123, 255, 0.3);
     --card-bg: #1a1a1a;
