@@ -1,6 +1,6 @@
 # 🎉 CSS Made Simple: A Beginner’s Guide to Styling the Web With Project
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/floating-profile-cards.jpg" width="">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/floating-profile-cards.jpg" width="100%">
 
 When you first write HTML, your web page looks a little plain—black text on a white background, with elements stacked like a grocery list. But what if you want to turn that list into a beautifully designed poster? Or style it so neatly that it looks like a polished app interface? That’s where **CSS (Cascading Style Sheets)** comes in.
 
@@ -40,11 +40,10 @@ Here’s how it works in practice:
   border: 5px solid darkblue;
   padding: 20px;
   margin: 30px;
-&#123;
+&#125;
 </pre>
 
-
-✨ Breakdown:
+✨ **Breakdown:**
 
 * The light blue background fills the content and padding.
 * The **20px padding** keeps the text from hugging the border.
@@ -67,9 +66,9 @@ This is exactly how **CSS selectors** work. They tell the browser *which element
 
 There are three essential types you’ll use daily:
 
-1. **Element Selector** – Styles *all* elements of one type. (Like telling *all students* to do something.)
-2. **Class Selector** – Styles elements with the same class name. (Like asking all students *wearing red* to do something.)
-3. **ID Selector** – Styles one unique element with a specific ID. (Like calling one student, *Seyi*, by name.)
+1. **Element Selector** – Styles *all* elements of one type.
+2. **Class Selector** – Styles elements with the same class name.
+3. **ID Selector** – Styles one unique element with a specific ID.
 
 Example:
 
@@ -83,24 +82,24 @@ Example:
 
 ```css
 /* 1. Element Selector */
-p {
+p &#123;
   color: green;
-}
+&#125;
 
 /* 2. Class Selector */
-.important-text {
+.important-text &#123;
   font-weight: bold;
   font-size: 20px;
-}
+&#125;
 
 /* 3. ID Selector */
-#special-heading {
+#special-heading &#123;
   text-align: center;
   border-bottom: 2px solid orange;
-}
+&#125;
 ```
 
-✨ Breakdown:
+✨ **Breakdown:**
 
 * All `<p>` paragraphs turn green.
 * Only paragraphs with the **class "important-text"** become bold and larger.
@@ -134,26 +133,26 @@ Example:
 ```
 
 ```css
-body {
+body &#123;
   background-color: #f0f0f0; /* Light gray background */
-}
+&#125;
 
-.blog-title {
+.blog-title &#123;
   color: #333333;
   font-family: "Georgia", serif;
   font-size: 40px;
   text-align: center;
-}
+&#125;
 
-p {
+p &#123;
   color: #555555;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-}
+&#125;
 ```
 
-✨ Breakdown:
+✨ **Breakdown:**
 
 * The `body` gets a soft gray background.
 * The blog title uses a classy Georgia font, centered, with large text.
@@ -187,22 +186,22 @@ Example: A simple navigation bar.
 ```
 
 ```css
-.navbar {
+.navbar &#123;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #333;
   padding: 10px;
-}
+&#125;
 
-.navbar a {
+.navbar a &#123;
   color: white;
   text-decoration: none;
   padding: 10px;
-}
+&#125;
 ```
 
-✨ Breakdown:
+✨ **Breakdown:**
 
 * `display: flex;` makes the navbar a flex container.
 * `justify-content: space-around;` evenly spaces the links across the row.
@@ -211,7 +210,6 @@ Example: A simple navigation bar.
 The result? A professional-looking, evenly spaced menu in just a few lines of CSS.
 
 ---
-
 
 ## 🌟 Project: Personal Profile Card Page
 
@@ -258,31 +256,31 @@ A webpage with:
 
 ```css
 /* 1. General Page Styling (Colors & Typography) */
-body {
+body &#123;
   font-family: "Arial", sans-serif;
   background-color: #f0f0f5;
   margin: 0;
   padding: 0;
-}
+&#125;
 
 /* Page Title */
-.page-title {
+.page-title &#123;
   text-align: center;
   color: #333;
   font-size: 40px;
   margin: 20px;
-}
+&#125;
 
 /* 2. Flexbox Layout */
-.container {
+.container &#123;
   display: flex;
   justify-content: center;   /* Centers card horizontally */
   align-items: center;       /* Centers card vertically */
   height: 90vh;              /* Makes container full screen height */
-}
+&#125;
 
 /* 3. Profile Card (Box Model) */
-.card {
+.card &#123;
   background-color: white;
   border: 2px solid #ddd;
   border-radius: 10px;
@@ -291,40 +289,40 @@ body {
   width: 300px;
   text-align: center;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-}
+&#125;
 
 /* Profile Picture */
-.profile-pic {
+.profile-pic &#123;
   border-radius: 50%;   /* Makes image circular */
   border: 3px solid #333;
   margin-bottom: 15px;
-}
+&#125;
 
 /* 4. Selectors in Action */
-#name {
+#name &#123;
   font-size: 24px;
   color: #444;
   margin: 10px 0;
-}
+&#125;
 
-.description {
+.description &#123;
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
-}
+&#125;
 
-.btn {
+.btn &#123;
   background-color: #333;
   color: white;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-}
+&#125;
 
-.btn:hover {
+.btn:hover &#123;
   background-color: #555;  /* Changes color when hovered */
-}
+&#125;
 ```
 
 ---
@@ -353,16 +351,19 @@ body {
 
 ---
 
-
 ## 📝 Review Time!
 
-1. In the Box Model, the \_\_\_\_\_\_\_\_\_\_ is the actual content like text or an image.
-2. The space between content and the border is called \_\_\_\_\_\_\_\_\_\_.
-3. The outermost layer of the box, separating elements from one another, is the \_\_\_\_\_\_\_\_\_\_.
-4. The CSS selector that targets **all elements of a type** is called the \_\_\_\_\_\_\_\_\_\_ selector.
-5. A selector that starts with a `.` is known as a \_\_\_\_\_\_\_\_\_\_ selector.
-6. A selector that starts with `#` is used to style \_\_\_\_\_\_\_\_\_\_ elements.
-7. The CSS property used to set the color of text is \_\_\_\_\_\_\_\_\_\_.
-8. The CSS property that defines the font style family is \_\_\_\_\_\_\_\_\_\_.
-9. To evenly distribute flex items along the main axis, you use the property \_\_\_\_\_\_\_\_\_\_.
+1. In the Box Model, the **__________** is the actual content like text or an image.
+2. The space between content and the border is called **__________**.
+3. The outermost layer of the box, separating elements from one another, is the **__________**.
+4. The CSS selector that targets **all elements of a type** is called the **__________** selector.
+5. A selector that starts with a `.` is known as a **__________** selector.
+6. A selector that starts with `#` is used to style **__________** elements.
+7. The CSS property used to set the color of text is **__________**.
+8. The CSS property that defines the font style family is **__________**.
+9. To evenly distribute flex items along the main axis, you use the property **__________**.
 10. To make a container flexible, you set `display: __________;`.
+
+---
+
+Would you like me to format this version for **WordPress-friendly HTML** (so all code blocks render beautifully with syntax highlighting)?
