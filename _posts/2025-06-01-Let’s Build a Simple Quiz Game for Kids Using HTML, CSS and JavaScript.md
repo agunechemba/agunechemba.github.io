@@ -36,38 +36,38 @@ Let’s start by creating the structure of the quiz game.
 📝 Create a new file and name it: `index.html`
 Then, add the following code:
 
-```
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Kids Quiz Game</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Kids Quiz Game&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-  <div class="quiz-container">
-    <h1>🎉 Fun Quiz Time!</h1>
-    <div id="question">Question will appear here</div>
+  &lt;div class="quiz-container"&gt;
+    &lt;h1&gt;🎉 Fun Quiz Time!&lt;/h1&gt;
+    &lt;div id="question"&gt;Question will appear here&lt;/div&gt;
 
-    <div id="answer-buttons" class="btn-grid">
-      <button class="btn">Answer 1</button>
-      <button class="btn">Answer 2</button>
-      <button class="btn">Answer 3</button>
-    </div>
+    &lt;div id="answer-buttons" class="btn-grid"&gt;
+      &lt;button class="btn"&gt;Answer 1&lt;/button&gt;
+      &lt;button class="btn"&gt;Answer 2&lt;/button&gt;
+      &lt;button class="btn"&gt;Answer 3&lt;/button&gt;
+    &lt;/div&gt;
 
-    <div id="feedback"></div>
-    <button id="next-btn" class="next-btn">Next Question</button>
-  </div>
+    &lt;div id="feedback"&gt;&lt;/div&gt;
+    &lt;button id="next-btn" class="next-btn"&gt;Next Question&lt;/button&gt;
+  &lt;/div&gt;
 
-  <script src="script.js"></script>
-</body>
-</html>
-```
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 ### ✅ What’s happening here?
 
 * We created a container for the quiz.
-* We added a heading (`<h1>`) and a place to show questions.
+* We added a heading (`&lt;h1&gt;`) and a place to show questions.
 * There’s a section for **3 answer buttons**.
 * There’s a **"Next Question"** button to move to the next quiz item.
 * We linked a **CSS file** (for colors and layout) and a **JavaScript file** (for the brain logic).
@@ -81,7 +81,7 @@ Now, let’s style our game to make it fun and friendly for children.
 📝 Create a new file called: `style.css`
 Then, add the following code:
 
-```
+<pre>
 body {
   background-color: #fffbe6;
   font-family: Comic Sans MS, cursive, sans-serif;
@@ -143,7 +143,7 @@ h1 {
   margin-top: 10px;
   font-size: 18px;
 }
-```
+</pre>
 
 ### ✅ What’s happening here?
 
@@ -167,7 +167,7 @@ We will tell the game:
 📝 Create a new file called: `script.js`
 Then, add this code:
 
-```
+<pre>
 const questions = [
   {
     question: "What color is the sky?",
@@ -248,13 +248,13 @@ nextBtn.addEventListener("click", () => {
 function endQuiz() {
   questionEl.textContent = "🎉 Great job! You finished the quiz.";
   answerButtons.innerHTML = "";
-  feedback.innerHTML = `🌟 Your Score: <strong>${score}</strong> out of <strong>${questions.length}</strong>`;
+  feedback.innerHTML = `🌟 Your Score: &lt;strong&gt;${score}&lt;/strong&gt; out of &lt;strong&gt;${questions.length}&lt;/strong&gt;`;
   feedback.style.color = "blue";
   nextBtn.style.display = "none";
 }
 
 showQuestion();
-```
+</pre>
 
 ### ✅ What’s happening here?
 
@@ -263,7 +263,7 @@ showQuestion();
 * When an answer is clicked, it checks if it’s correct.
 * It gives instant feedback (Correct ✅ or Oops ❌).
 * After each question, kids can click **"Next Question"**.
-* At the end, the game shows a **“Great job!”** message and shows your score.
+* At the end, the game shows a **“Great job!”** message and the score.
 
 ---
 
@@ -274,13 +274,28 @@ showQuestion();
    * `index.html`
    * `style.css`
    * `script.js`
-
 2. Open `index.html` in your browser.
 
+If everything works, you just built a working **Quiz Game for Kids!**
+
+---
 
 ## 💡 Challenge
 
 1. Change the colour of the option buttons in the quiz project.
 2. Add as many questions as you can to the quiz project.
 
+---
 
+## 🧩 Review — Fill in the Gaps
+
+1. The main HTML file of this project is called `__________.html`.
+2. The quiz game shows one question at a time using __________.
+3. In CSS, we used the `background-color` property to set the page’s __________.
+4. The “Next Question” button is hidden at first using `display: __________`.
+5. The list of all quiz items is stored in a JavaScript __________.
+6. In JavaScript, the function that checks if an answer is correct is called `__________`.
+7. The user’s total score is stored in a variable called `__________`.
+8. The feedback for correct and wrong answers is displayed in the element with id `__________`.
+9. To make buttons respond when clicked, we use the method `add__________Listener`.
+10. At the end of the quiz, the function that displays the final message is `__________()`.
