@@ -1,9 +1,13 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <style>
 /* ==========================================
-   🌗 HOME PAGE (Light + Dark Mode Support)
+   📖 HOME PAGE — Calm Old Book Theme
+   (Gentle Light Mode Only)
    ========================================== */
 
 /* Smooth scroll */
@@ -11,42 +15,29 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Light mode variables (default) */
+/* ========= 🌞 Color Variables ========= */
 :root {
-  --bg-color: #eef3f8;
-  --text-color: #333;
-  --primary-gradient: linear-gradient(45deg, #00c6ff, #0072ff);
-  --button-shadow: rgba(0, 114, 255, 0.4);
-  --card-bg: #fff;
-  --card-shadow: rgba(0, 0, 0, 0.05);
-  --mark-bg: yellow;
-  --mark-text: black;
+  --bg-color: #F7F3E9; /* Old book parchment */
+  --text-color: #2C2C2C; /* Charcoal ink text */
+  --accent-color: #B8860B; /* Antique gold */
+  --accent-hover: #DAA520; /* Warm golden hover */
+  --card-bg: #FAF7EF; /* Slightly brighter for cards */
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --button-shadow: rgba(184, 134, 11, 0.3);
+  --mark-bg: #FFF8DC; /* Cream highlight */
+  --mark-text: #000;
 }
 
-/* Dark mode variables */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #0e0e0e;
-    --text-color: #9A9A9A;
-    --primary-gradient: linear-gradient(45deg, #0072ff, #0048ff);
-    --button-shadow: rgba(0, 123, 255, 0.3);
-    --card-bg: #1a1a1a;
-    --card-shadow: rgba(255, 255, 255, 0.05);
-    --mark-bg: #ffee58;
-    --mark-text: #000;
-  }
-}
-
-/*Start-This styles the elements that are not styled using in-line*/
-
+/* ========= 🧠 Base Styles ========= */
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Georgia", "Times New Roman", serif;
   background: var(--bg-color);
   color: var(--text-color);
   transition: background 0.4s ease, color 0.4s ease;
 }
 
+/* ========= 🏠 Container ========= */
 .container {
   max-width: 650px;
   margin: 40px auto;
@@ -54,26 +45,29 @@ body {
   text-align: center;
 }
 
+/* ========= 👤 Profile ========= */
 .profile-img {
   width: 120px;
   border-radius: 50%;
-  box-shadow: 0 0 15px #00bfff;
+  box-shadow: 0 0 15px rgba(184, 134, 11, 0.4);
   margin-bottom: 20px;
 }
 
 .title {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
-  color: #00bfff;
+  color: var(--accent-color);
+  margin-bottom: 5px;
 }
 
 .subtitle {
   font-size: 16px;
-  color: #0078d7;
+  color: #8B4513;
   margin-bottom: 30px;
   font-style: italic;
 }
 
+/* ========= 🎛️ Toggle Buttons ========= */
 .toggle-button {
   display: block;
   width: 100%;
@@ -82,7 +76,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background: var(--primary-gradient);
+  background: linear-gradient(45deg, #B8860B, #DAA520);
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -109,6 +103,12 @@ body {
   transform: rotate(180deg);
 }
 
+.toggle-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--button-shadow);
+}
+
+/* ========= 📜 Toggle Content ========= */
 .toggle-content {
   display: none;
   padding: 15px;
@@ -118,6 +118,8 @@ body {
   border-radius: 12px;
   box-shadow: 0 0 10px var(--card-shadow);
   transition: background 0.4s ease, color 0.4s ease;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 .toggle-content ul {
@@ -125,13 +127,14 @@ body {
   list-style: square;
 }
 
+/* ========= 🔗 Buttons & Links ========= */
 .contact-links a,
 .blog-link {
   display: inline-block;
   margin: 10px 8px;
   padding: 12px 20px;
   border-radius: 30px;
-  background: var(--primary-gradient);
+  background: linear-gradient(45deg, #B8860B, #DAA520);
   color: #fff;
   font-weight: bold;
   text-decoration: none;
@@ -148,10 +151,7 @@ body {
   color: #fff !important;
 }
 
-/* ======================================
-   🔍 Search Bar Styling
-   ====================================== */
-
+/* ========= 🔍 Search Bar ========= */
 .search-bar {
   max-width: 500px;
   margin: 0 auto 30px;
@@ -175,7 +175,7 @@ body {
   margin-left: 10px;
   border: none;
   border-radius: 25px;
-  background: var(--primary-gradient);
+  background: linear-gradient(45deg, #B8860B, #DAA520);
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -184,8 +184,10 @@ body {
 
 .search-bar button:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 8px var(--button-shadow);
 }
 
+/* ========= ✨ Marked Text ========= */
 mark {
   background: var(--mark-bg);
   color: var(--mark-text);
@@ -193,24 +195,23 @@ mark {
   border-radius: 4px;
 }
 
-/* End of dark-mode-compatible styles */
-
-
-
-/*input fix for mobile*/
+/* ========= 📱 Input Fields ========= */
 input {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+/* ========= 🌿 Responsive ========= */
+@media (max-width: 600px) {
+  .toggle-button {
+    font-size: 15px;
   }
 
-@media (prefers-color-scheme: dark) {
-input {
-      background-color: #222;
-      color: #fff;
-      border: 1px solid #555;
-    }
+  .search-bar input {
+    width: 70%;
   }
-
+}
 </style>
 
 
