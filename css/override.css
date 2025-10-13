@@ -1,169 +1,171 @@
 /* ===========================================
-    🌗 Jekyll Blog — Auto Light & Dark Mode
-    (Respects User's System Preference)
-    =========================================== */
+   🌗 Jekyll Blog — Auto Light & Dark Mode
+   (Respects User's System Preference)
+   =========================================== */
 
 /* ========= 🌞 Base Light Mode ========= */
 :root {
-  --bg-color: #ffffff;
-  --text-color: #222;
-  --border-color: rgba(0, 0, 0, 0.1);
-  --accent-color: #007acc;
-  --accent-hover: #005fa3;
-  --code-bg: #f5f5f5;
-  --code-text: #222;
-  --inline-border: rgba(0, 0, 0, 0.05);
+  --bg-color: #ffffff;
+  --text-color: #222;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --accent-color: #007acc;
+  --accent-hover: #005fa3;
+  --code-bg: #f5f5f5;
+  --code-text: #222;
+  --inline-border: rgba(0, 0, 0, 0.05);
 }
 
 /* ========= 🌙 Dark Mode Variables ========= */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #0e0e0e;
-    --text-color: #e0e0e0;
-    --border-color: rgba(255, 255, 255, 0.1);
-    --accent-color: #58a6ff;
-    --accent-hover: #9cd6ff;
-    --code-bg: #1e1e1e;
-    --code-text: #dcdcdc;
-    --inline-border: rgba(255, 255, 255, 0.1);
-  }
+  :root {
+    --bg-color: #0e0e0e;
+    --text-color: #e0e0e0;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --accent-color: #58a6ff;
+    --accent-hover: #9cd6ff;
+    --code-bg: #1e1e1e;
+    --code-text: #dcdcdc;
+    --inline-border: rgba(255, 255, 255, 0.1);
+  }
 }
 
 /* ========= 🧠 Global Styles ========= */
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.6;
-  transition: background-color 0.4s ease, color 0.4s ease;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 /* ========= ⎯⎯ Horizontal Rule ========= */
 hr {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  border: none;
-  border-top: 1px solid var(--border-color);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid var(--border-color);
 }
 
 /* ========= 🧭 Post Navigation ========= */
 .post_navi {
-  display: flex;
-  margin-top: 40px;
-  border-top: 1px solid var(--border-color);
-  padding-top: 20px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  margin-top: 40px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .post_navi-label {
-  font-size: 0.8em;
-  opacity: 0.6;
+  font-size: 0.8em;
+  opacity: 0.6;
 }
 
 .post_navi .post_navi-item {
-  padding: 0 2.2em;
-  width: 50%;
-  position: relative;
-  color: inherit !important;
-  text-decoration: none;
-  transition: color 0.3s ease, opacity 0.3s ease;
+  padding: 0 2.2em;
+  width: 50%;
+  position: relative;
+  color: inherit !important;
+  text-decoration: none;
+  transition: color 0.3s ease, opacity 0.3s ease;
 }
 
 .post_navi .nav_prev {
-  text-align: left;
+  text-align: left;
 }
 
 .post_navi .nav_next {
-  text-align: right;
+  text-align: right;
 }
 
 .post_navi .nav_prev .post_navi-arrow {
-  left: 0;
+  left: 0;
 }
 
 .post_navi .nav_next .post_navi-arrow {
-  right: 0;
+  right: 0;
 }
 
 .post_navi .post_navi-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5em;
-  opacity: 0.3;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+  opacity: 0.3;
 }
 
 .post_navi .post_navi-item:hover {
-  opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* ========= 💻 Code Formatting ========= */
 
 /* Inline code (`...`) */
 code {
-  font-family: Consolas, "Courier New", monospace;
-  background-color: var(--code-bg);
-  color: var(--code-text);
-  border-radius: 6px;
-  padding: 0.2em 0.45em;
-  font-size: 0.95em;
-  white-space: nowrap;
-  border: 1px solid var(--inline-border);
+  font-family: Consolas, "Courier New", monospace;
+  background-color: var(--code-bg);
+  color: var(--code-text);
+  border-radius: 6px;
+  padding: 0.2em 0.45em;
+  font-size: 0.95em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border: 1px solid var(--inline-border);
 }
 
 /* Code blocks (```...```) */
 pre {
-  background-color: var(--code-bg);
-  color: var(--code-text);
-  font-family: Consolas, "Courier New", monospace;
-  border-radius: 8px;
-  padding: 1em;
-  overflow-x: auto;
-  line-height: 1.5;
-  margin: 1.2em 0;
-  border: 1px solid var(--border-color);
+  background-color: var(--code-bg);
+  color: var(--code-text);
+  font-family: Consolas, "Courier New", monospace;
+  border-radius: 8px;
+  padding: 1em;
+  overflow-x: auto;
+  line-height: 1.5;
+  margin: 1.2em 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border: 1px solid var(--border-color);
 }
 
 pre code {
-  background: none;
-  color: inherit;
-  border: none;
-  white-space: pre-wrap; /* ✨ FIX APPLIED HERE: This allows the code to wrap inside the <pre> block. */
+  background: none;
+  color: inherit;
+  border: none;
 }
 
 /* ========= 🔡 Syntax Highlights ========= */
 pre code .keyword,
 code .keyword {
-  color: #569cd6;
+  color: #569cd6;
 }
 
 pre code .string,
 code .string {
-  color: #ce9178;
+  color: #ce9178;
 }
 
 pre code .number,
 code .number {
-  color: #b5cea8;
+  color: #b5cea8;
 }
 
 pre code .comment,
 code .comment {
-  color: #6a9955;
-  font-style: italic;
+  color: #6a9955;
+  font-style: italic;
 }
 
 pre code .function,
 code .function {
-  color: #dcdcaa;
+  color: #dcdcaa;
 }
 
 /* ========= 🔗 Links ========= */
 a {
-  color: var(--accent-color);
-  transition: color 0.3s ease;
+  color: var(--accent-color);
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--accent-hover);
+  color: var(--accent-hover);
 }
