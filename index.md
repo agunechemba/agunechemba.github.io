@@ -350,7 +350,7 @@ input {
 
     <button type="submit" id="submitBtn" 
       style="width: 100%; padding: 12px; font-size: 16px; background: #007BFF; color: white; border: none; cursor: pointer; box-sizing: border-box;">
-      Send
+      Request
     </button>
   </form>
 
