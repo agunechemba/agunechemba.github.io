@@ -35,14 +35,12 @@ Here’s how it works in practice:
 ```
 
 <pre>
-```
 .box-example &#123;
   background-color: lightblue;
   border: 5px solid darkblue;
   padding: 20px;
   margin: 30px;
 &#123;
-```
 </pre>
 
 
