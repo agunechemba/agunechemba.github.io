@@ -194,6 +194,23 @@ mark {
 }
 
 /* End of dark-mode-compatible styles */
+
+
+
+/*input fix for mobile*/
+input {
+    background-color: #fff;
+    color: #000;
+  }
+
+@media (prefers-color-scheme: dark) {
+input {
+      background-color: #222;
+      color: #fff;
+      border: 1px solid #555;
+    }
+  }
+
 </style>
 
 
