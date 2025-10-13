@@ -1,9 +1,9 @@
 # 🎯 Build a "Click the Circle" Game with HTML, CSS and JavaScript
 
-![Ekene Agunechemba](https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/african_child_learner_building_click_the_circle.jpeg)
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/african_child_learner_building_click_the_circle.jpeg" width="100%">
 
-
-Want to make a fun little web game? In this tutorial, we’ll build a simple **"Click the Circle"** game using just **HTML, CSS, and JavaScript**. The goal? Click as many circles as you can before time runs out!
+Want to make a fun little web game? In this tutorial, we’ll build a simple **"Click the Circle"** game using just **HTML, CSS, and JavaScript**.
+The goal? Click as many circles as you can before time runs out!
 
 ---
 
@@ -11,55 +11,56 @@ Want to make a fun little web game? In this tutorial, we’ll build a simple **"
 
 Start with your HTML. This lays out the game's structure.
 
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Click the Circle Game</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <h1>🎯 Click the Circle Game</h1>
-  <p>
-    Score: <span id="score">0</span> |
-    High Score: <span id="high-score">0</span> |
-    Time Left: <span id="timer">30</span>s
-  </p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;
+  &lt;title&gt;Click the Circle Game&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;🎯 Click the Circle Game&lt;/h1&gt;
+  &lt;p&gt;
+    Score: &lt;span id="score"&gt;0&lt;/span&gt; |
+    High Score: &lt;span id="high-score"&gt;0&lt;/span&gt; |
+    Time Left: &lt;span id="timer"&gt;30&lt;/span&gt;s
+  &lt;/p&gt;
 
-  <!-- Countdown before game starts -->
-  <div id="countdown-start">
-    <h2 id="countdown-number">3</h2>
-  </div>
+  &lt;!-- Countdown before game starts --&gt;
+  &lt;div id="countdown-start"&gt;
+    &lt;h2 id="countdown-number"&gt;3&lt;/h2&gt;
+  &lt;/div&gt;
 
-  <!-- Game area -->
-  <div id="game-area">
-    <div id="circle"></div>
-  </div>
+  &lt;!-- Game area --&gt;
+  &lt;div id="game-area"&gt;
+    &lt;div id="circle"&gt;&lt;/div&gt;
+  &lt;/div&gt;
 
-  <!-- Game over screen -->
-  <div id="game-over">
-    <h2>Game Over! 🎮</h2>
-    <p>Your Final Score: <span id="final-score">0</span></p>
-    <button onclick="restartGame()">Play Again</button>
-  </div>
+  &lt;!-- Game over screen --&gt;
+  &lt;div id="game-over"&gt;
+    &lt;h2&gt;Game Over! 🎮&lt;/h2&gt;
+    &lt;p&gt;Your Final Score: &lt;span id="final-score"&gt;0&lt;/span&gt;&lt;/p&gt;
+    &lt;button onclick="restartGame()"&gt;Play Again&lt;/button&gt;
+  &lt;/div&gt;
 
-  <!-- Click sound -->
-  <audio id="click-sound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"></audio>
+  &lt;!-- Click sound --&gt;
+  &lt;audio id="click-sound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"&gt;&lt;/audio&gt;
 
-  <script src="script.js"></script>
-</body>
-</html>
-```
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
 ---
 
 ## 🎨 2. Add Some Style with CSS
 
-Save this in a file called `style.css`. This makes the game look neat and centered.
+Save this in a file called **`style.css`**.
+This makes the game look neat and centered.
 
-```
+<pre>
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -134,15 +135,16 @@ h1 {
   color: #ff6f00;
   font-weight: bold;
 }
-```
+</pre>
 
 ---
 
 ## ⚙️ 3. Game Logic with JavaScript
 
-Now for the magic! This JavaScript file (`script.js`) controls the countdown, scoring, movement, and game over logic.
+Now for the magic!
+This JavaScript file (**`script.js`**) controls the countdown, scoring, movement, and game-over logic.
 
-```
+<pre>
 const circle = document.getElementById('circle');
 const scoreDisplay = document.getElementById('score');
 const timerDisplay = document.getElementById('timer');
@@ -235,7 +237,7 @@ function restartGame() {
 
 circle.style.display = 'none';
 startCountdown();
-```
+</pre>
 
 ---
 
@@ -251,24 +253,40 @@ startCountdown();
 
 ## ✅ Final Touch
 
-* Save the HTML as `index.html`
-* Save the CSS as `style.css`
-* Save the JS as `script.js`
-* Open `index.html` in your browser and start clicking!
+* Save the HTML as **index.html**
+* Save the CSS as **style.css**
+* Save the JS as **script.js**
+* Open `index.html` in your browser and start clicking! 🎯
 
 ---
 
 ## 🚀 Challenge
 
-* Change the circle size randomly!
+Try improving your game!
+
+* Change the circle size randomly.
 * Make the game harder over time.
-* Add a "miss" counter for missed clicks.
+* Add a “miss” counter for missed clicks.
 
 ---
+
 <iframe height="300" style="width: 100%;" scrolling="no" title="Click the Circle Game" src="https://codepen.io/agunechemba/embed/yyymaRP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/agunechemba/pen/yyymaRP">
   Click the Circle Game</a> by Agunechemba Ekene (<a href="https://codepen.io/agunechemba">@agunechemba</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
+---
 
+### 🧩 Review Questions (Fill-in-the-Gap)
+
+1. The main game circle is created using a `<______>` element with the ID `circle`.
+2. The CSS `border-radius: 50%` makes the element look like a ______.
+3. The game’s total playtime is controlled by the variable `__________` in JavaScript.
+4. The game stores the best score in the browser using `__________`.
+5. When you click the circle, the variable `__________` increases by 1.
+6. The countdown before the game starts begins at the number ______.
+7. The circle moves to random positions every ______ seconds.
+8. The function that restarts the game is named `__________`.
+9. The game area is defined by the element with ID `__________`.
+10. The button that lets you play again appears only when the game is ______.
