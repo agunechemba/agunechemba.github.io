@@ -33,7 +33,7 @@ Here’s how it works in practice:
 ```html
 <h1 class="box-example">The Box Model is Awesome!</h1>
 ```
-
+<pre>
 ```css
 .box-example {
   background-color: lightblue;
@@ -42,6 +42,7 @@ Here’s how it works in practice:
   margin: 30px;
 }
 ```
+</pre>
 
 ✨ Breakdown:
 
