@@ -28,11 +28,11 @@ Think of it like a **toolbox** for security. The main tools are:
 
 ## ⚡ Example – Generating Random Numbers
 
-```
+<pre>
 const array = new Uint32Array(5);
 window.crypto.getRandomValues(array);
 console.log(array);
-```
+</pre>
 
 👉 This makes 5 strong random numbers that can be used for passwords or keys.
 
@@ -42,7 +42,7 @@ console.log(array);
 
 Hashing is like turning your password into a fingerprint that can’t easily be reversed.
 
-```
+<pre>
 async function hashPassword(password) {
   const encoder = new TextEncoder();
   const data = encoder.encode(password);
@@ -52,7 +52,7 @@ async function hashPassword(password) {
 }
 
 hashPassword("mypassword123").then(console.log);
-```
+</pre>
 
 👉 If you type `"mypassword123"`, you’ll get a long scrambled string like
 `ef92b...` (a hash). That’s what gets stored, not your real password.
@@ -63,14 +63,14 @@ hashPassword("mypassword123").then(console.log);
 
 Websites can lock (encrypt) your data and unlock (decrypt) it only if they have the right key.
 
-```
-// Simplified idea: Using AES (Advanced Encryption Standard)
+<pre>
+  // Simplified idea: Using AES (Advanced Encryption Standard)
 const key = await crypto.subtle.generateKey(
   { name: "AES-GCM", length: 256 },
   true,
   ["encrypt", "decrypt"]
 );
-```
+</pre>
 
 Once you have a key, you can encrypt a message before sending it. Only someone with the same key can decrypt it.
 
