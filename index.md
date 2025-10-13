@@ -331,8 +331,8 @@ input {
 
 <!-- Start: Simplified Contact Form (Name, Email, Phone) -->
 <div style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
-  <h2 style="text-align: center;">📞 <strong>Get in Touch</strong></h2>
-  <h5 style="text-align: center;">💬 <em>Fill out your details below</em></h5>
+  <h2 style="text-align: center;">📞 <strong>Join PPH</strong></h2>
+  <h5 style="text-align: center;">💬 <em>Get 2 Free Bootcamps Every Year</em></h5>
 
   <form id="contactForm" style="max-width: 400px; margin: auto;">
     <!-- Name -->
