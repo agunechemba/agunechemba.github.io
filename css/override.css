@@ -15,16 +15,16 @@
   --inline-border: rgba(0, 0, 0, 0.05);
 }
 
-/* ========= 🌙 Dark Mode Variables ========= */
+/* ========= 🌙 Dark Mode Variables (Charcoal + Blue) ========= */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #343541;
-    --text-color: #ECECF1;
+    --bg-color: #2B2B2B; /* Charcoal dark background */
+    --text-color: #3DA9FC; /* Soft readable blue text */
     --border-color: rgba(255, 255, 255, 0.1);
-    --accent-color: #10A37F;
-    --accent-hover: #00C896;
-    --code-bg: #1e1e1e;
-    --code-text: #dcdcdc;
+    --accent-color: #00BFFF; /* Bright sky-blue accent */
+    --accent-hover: #1E90FF; /* Deeper hover blue */
+    --code-bg: #1E1E1E; /* Deep charcoal for code blocks */
+    --code-text: #89CFF0; /* Lighter blue for code text */
     --inline-border: rgba(255, 255, 255, 0.1);
   }
 }
