@@ -1,41 +1,30 @@
 /* ===========================================
-   🌗 Jekyll Blog — Auto Light & Dark Mode
-   (Respects User's System Preference)
+   📖 Jekyll Blog — Calm Old Book Theme
+   (Gentle Light Mode Only)
    =========================================== */
 
-/* ========= 🌞 Base Light Mode ========= */
+/* ========= 🌞 Base Color Palette ========= */
 :root {
-  --bg-color: #F2F2F3;
-  --text-color: #202123;
+  --bg-color: #F7F3E9; /* Warm parchment background */
+  --text-color: #2C2C2C; /* Charcoal ink-like text */
   --border-color: rgba(0, 0, 0, 0.1);
-  --accent-color: #10A37F;
-  --accent-hover: #00C896;
-  --code-bg: #f5f5f5;
-  --code-text: #222;
+  --accent-color: #B8860B; /* Antique gold accent */
+  --accent-hover: #DAA520; /* Soft golden hover */
+  --code-bg: #FAF7EF; /* Slightly brighter for code area */
+  --code-text: #333; /* Deep ink tone for code */
   --inline-border: rgba(0, 0, 0, 0.05);
-}
-
-/* ========= 🌙 Dark Mode Variables (Charcoal + Blue) ========= */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #2B2B2B; /* Charcoal dark background */
-    --text-color: #3DA9FC; /* Soft readable blue text */
-    --border-color: rgba(255, 255, 255, 0.1);
-    --accent-color: #00BFFF; /* Bright sky-blue accent */
-    --accent-hover: #1E90FF; /* Deeper hover blue */
-    --code-bg: #1E1E1E; /* Deep charcoal for code blocks */
-    --code-text: #89CFF0; /* Lighter blue for code text */
-    --inline-border: rgba(255, 255, 255, 0.1);
-  }
 }
 
 /* ========= 🧠 Global Styles ========= */
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.6;
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.7;
   transition: background-color 0.4s ease, color 0.4s ease;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
 }
 
 /* ========= ⎯⎯ Horizontal Rule ========= */
@@ -58,6 +47,7 @@ hr {
 .post_navi-label {
   font-size: 0.8em;
   opacity: 0.6;
+  font-style: italic;
 }
 
 .post_navi .post_navi-item {
@@ -75,14 +65,6 @@ hr {
 
 .post_navi .nav_next {
   text-align: right;
-}
-
-.post_navi .nav_prev .post_navi-arrow {
-  left: 0;
-}
-
-.post_navi .nav_next .post_navi-arrow {
-  right: 0;
 }
 
 .post_navi .post_navi-arrow {
@@ -136,34 +118,35 @@ pre code {
 /* ========= 🔡 Syntax Highlights ========= */
 pre code .keyword,
 code .keyword {
-  color: #569cd6;
+  color: #8B4513; /* Brownish ink tone */
 }
 
 pre code .string,
 code .string {
-  color: #ce9178;
+  color: #A0522D; /* Rustic sienna */
 }
 
 pre code .number,
 code .number {
-  color: #b5cea8;
+  color: #6B8E23; /* Olive green */
 }
 
 pre code .comment,
 code .comment {
-  color: #6a9955;
+  color: #708090; /* Muted gray comment */
   font-style: italic;
 }
 
 pre code .function,
 code .function {
-  color: #dcdcaa;
+  color: #B8860B; /* Golden tone for functions */
 }
 
 /* ========= 🔗 Links ========= */
 a {
   color: var(--accent-color);
   transition: color 0.3s ease;
+  text-decoration: underline dotted;
 }
 
 a:hover {
