@@ -33,16 +33,19 @@ Here’s how it works in practice:
 ```html
 <h1 class="box-example">The Box Model is Awesome!</h1>
 ```
-<pre>
 ```css
 .box-example {
+
   background-color: lightblue;
+
   border: 5px solid darkblue;
+
   padding: 20px;
+
   margin: 30px;
 }
 ```
-</pre>
+
 
 ✨ Breakdown:
 
