@@ -18,11 +18,11 @@
 /* ========= 🌙 Dark Mode Variables ========= */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #0e0e0e;
-    --text-color: #9A9A9A;
+    --bg-color: #343541;
+    --text-color: #ECECF1;
     --border-color: rgba(255, 255, 255, 0.1);
-    --accent-color: #58a6ff;
-    --accent-hover: #9cd6ff;
+    --accent-color: #10A37F;
+    --accent-hover: #00C896;
     --code-bg: #1e1e1e;
     --code-text: #dcdcdc;
     --inline-border: rgba(255, 255, 255, 0.1);
