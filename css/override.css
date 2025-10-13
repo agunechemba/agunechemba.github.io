@@ -22,9 +22,15 @@ body {
   font-family: "Georgia", "Times New Roman", serif;
   line-height: 1.7;
   transition: background-color 0.4s ease, color 0.4s ease;
+  margin: 0;
+  padding: 2em; /* optional, can also put on container */
+}
+
+.container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto; /* centers the content */
   padding: 2em;
+  text-align: center;
 }
 
 /* ========= ⎯⎯ Horizontal Rule ========= */
