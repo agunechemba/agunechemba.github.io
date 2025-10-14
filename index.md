@@ -250,7 +250,7 @@ input {
   <div class="toggle-content">
   <ul>
      <li>
-    <a href="https://agunechemba.name.ng/2025/10/14/Python-Bootcamp-Revision-Hub-2025.html" target="_blank">
+    <a href="https://agunechemba.name.ng/2025/10/14/Python-Bootcamp-Revision.html" target="_blank">
       <strong>Python:</strong> 2025 August Bootcamp
     </a>
   </li>
