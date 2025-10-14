@@ -3,6 +3,7 @@
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/functional-programming.png" width="100%">
 
 Hey devs! 👋
+
 Every programmer eventually faces a fascinating fork in the road: **Functional Programming (FP)** or **Object-Oriented Programming (OOP)**. Both paradigms aim to make code more modular, maintainable, and scalable—but they approach the goal from completely different angles.
 
 Let’s break them down using **JavaScript** as our testbed. By the end, you’ll not only understand their conceptual differences but also know when and how to use each one effectively.
