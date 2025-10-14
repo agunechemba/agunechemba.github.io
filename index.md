@@ -250,6 +250,11 @@ input {
   <div class="toggle-content">
   <ul>
      <li>
+    <a href="https://agunechemba.name.ng/2025/10/14/Python-Bootcamp-Revision-Hub-2025.html" target="_blank">
+      <strong>Python:</strong> 2025 August Bootcamp
+    </a>
+  </li>
+     <li>
     <a href="https://agunechemba.github.io/2025/07/04/Index-JavaScript-RegEx.html" target="_blank">
       <strong>JavaScript:</strong> Regular Expressions
     </a>
