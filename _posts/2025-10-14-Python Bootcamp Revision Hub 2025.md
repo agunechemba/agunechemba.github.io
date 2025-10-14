@@ -1,29 +1,14 @@
 # 🐍 Python Bootcamp Revision Hub
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/pepe.png" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/pepe-programming-hub.jpg" width="100%">
 
 Welcome back, Python learners! 🎉
-This page serves as your **official revision index** for the **August Python Bootcamp**.
-It’s your quick access point to every lesson — from understanding data types to building interactive Python projects.
 
----
+This page serves as your **official revision index** for the **August Python Bootcamp**.
 
 ## 🚀 Bootcamp Summary
 
-### 🎯 Bootcamp Goals
-
-During this Python Bootcamp, you learned how to:
-
-* Understand Python’s core data types and structures.
-* Control the flow of logic with conditional statements and loops.
-* Write clean, reusable code using functions.
-* Build real, working programs — from simple calculators to guessing games.
-
-By the end, you discovered how code is not just syntax but *a creative language for solving problems.*
-
----
-
-## 1️⃣ [Python Data Types](https://agunechemba.name.ng/2025/05/10/Python-Data-Types.html)
+## 1 [Python Data Types](https://agunechemba.name.ng/2025/05/10/Python-Data-Types.html)
 
 Everything in Python is built from **data types** — they’re the foundation of every variable you create.
 This lesson explores:
@@ -37,7 +22,7 @@ It’s where we began understanding *how Python stores and interprets informatio
 
 ---
 
-## 2️⃣ [Python Control Statements](https://agunechemba.name.ng/2025/05/29/Python-Control-Statements.html)
+## 2 [Python Control Statements](https://agunechemba.name.ng/2025/05/29/Python-Control-Statements.html)
 
 Logic gives your program direction.
 This lesson shows how to **control the flow** of your code with:
@@ -50,7 +35,7 @@ By mastering control statements, you learned how your program “decides” what
 
 ---
 
-## 3️⃣ [Python Functions](https://agunechemba.name.ng/2025/06/12/Python-Functions.html)
+## 3 [Python Functions](https://agunechemba.name.ng/2025/06/12/Python-Functions.html)
 
 Functions are like little machines in your code — they take input, perform a task, and return a result.
 Here we covered:
@@ -64,7 +49,7 @@ This lesson taught you how to **organize your code logically** and avoid repetit
 
 ---
 
-## 4️⃣ [Python Block Project — Guess the Number Game](https://agunechemba.name.ng/2025/08/05/Python-Block-Project.html)
+## 4 [Python Block Project — Guess the Number Game](https://agunechemba.name.ng/2025/08/05/Python-Block-Project.html)
 
 Time to apply your new skills!
 This beginner project used control flow and loops to create a fun guessing game.
@@ -79,7 +64,7 @@ It was your first taste of turning logic into an *interactive* experience.
 
 ---
 
-## 5️⃣ [Python Beginner Project — Simple Calculator](https://agunechemba.name.ng/2025/08/06/Python-Beginner-Project.html)
+## 5 [Python Beginner Project — Simple Calculator](https://agunechemba.name.ng/2025/08/06/Python-Beginner-Project.html)
 
 Next, we built a calculator — a practical project combining everything you had learned.
 The lesson reinforced:
@@ -93,7 +78,7 @@ This helped you see how even simple programs can be neatly structured and user-f
 
 ---
 
-## 6️⃣ [Python Intermediate Project — Number Guessing (with Limited Tries)](https://agunechemba.name.ng/2025/08/07/Python-Intermediate-Project.html)
+## 6 [Python Intermediate Project — Number Guessing (with Limited Tries)](https://agunechemba.name.ng/2025/08/07/Python-Intermediate-Project.html)
 
 Your final challenge took the earlier guessing game to the next level.
 You added:
@@ -109,28 +94,7 @@ It was a demonstration of **problem-solving, user experience design, and modular
 
 ## 🎬 Watch the Bootcamp Playlist on YouTube
 
-Sometimes, seeing code in action helps everything click faster.
-To reinforce what you’ve learned, visit our **official Python Bootcamp YouTube playlist** — where each lesson is explained step by step with live examples and demonstrations.
-
 🎥 Watch here: [**Python Bootcamp Video Lessons Playlist**](https://www.youtube.com/playlist?list=PLRAUwNWZSmGOABAeKDbqikNgVdr6RZ0AQ)
-
-You can pause, replay, and practice along at your own pace.
-It’s your on-demand classroom — available anytime, anywhere!
-
----
-
-## 🌟 Review Time
-
-After revising these lessons, you should be able to:
-
-* Explain how data moves through a Python program
-* Write functions confidently
-* Handle logic, loops, and conditions smoothly
-* Build small but complete Python projects on your own
-
-Keep experimenting — that’s how programming sticks!
-
----
 
 ## 🌐 What’s Next?
 
