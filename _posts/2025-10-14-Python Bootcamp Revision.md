@@ -1,4 +1,4 @@
-# 🐍 Python Bootcamp Revision Hub
+# 🐍 Python Bootcamp Revision: The Official Revision Index For The August 2025 Python Bootcamp
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/pepe-programming-hub.jpg" width="100%">
 
