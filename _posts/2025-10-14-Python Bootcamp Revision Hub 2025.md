@@ -1,5 +1,7 @@
 # 🐍 Python Bootcamp Revision Hub
 
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/pepe.png" width="100%">
+
 Welcome back, Python learners! 🎉
 This page serves as your **official revision index** for the **August Python Bootcamp**.
 It’s your quick access point to every lesson — from understanding data types to building interactive Python projects.
