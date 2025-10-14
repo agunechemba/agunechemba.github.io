@@ -54,7 +54,7 @@ Want updates, reminders, and direct interaction with trainers?
 
 ---
 
-#### Fill the form below or visit [pepe.name.ng](https://pepe.name.ng) to register.
+### Fill the form below or visit [pepe.name.ng](https://pepe.name.ng) to register.
 
 ---
 
