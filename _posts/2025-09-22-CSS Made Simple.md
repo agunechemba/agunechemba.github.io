@@ -2,364 +2,483 @@
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/09/floating-profile-cards.jpg" width="100%">
 
-When you first write HTML, your web page looks a little plain—black text on a white background, with elements stacked like a grocery list. But what if you want to turn that list into a beautifully designed poster? Or style it so neatly that it looks like a polished app interface? That’s where **CSS (Cascading Style Sheets)** comes in.
+# 🌟 LESSON 1: The CSS Box Model
 
-CSS is the language that brings life, beauty, and organization to your web pages. Think of it as the clothing, colors, and posture you give to the raw body of HTML. Without CSS, your page has bones. With CSS, it gains skin, clothes, and personality.
+Think of every element on a webpage as being inside an invisible rectangular box. This box isn’t just about the content you see; it also includes the **padding**, **border**, and **margin** around that content.
+This concept is called the **CSS Box Model** — the very foundation of web layout design.
 
-In this lesson, I’ll walk through four powerful CSS foundations:
+### 🧩 Components of the Box Model
 
-1. **The Box Model** 📦
-2. **Selectors** 🎯
-3. **Colors & Typography** 🎨
-4. **Flexbox Layout** 🖼️
+1. **Content:**
+   The actual text or image inside the element.
 
-Let’s unwrap these step by step.
+2. **Padding:**
+   The space between the content and the border. It creates breathing room *inside* the box.
 
----
+3. **Border:**
+   The line surrounding the padding (if any). Borders can have width, color, and style.
 
-## 1. The CSS Box Model 📦
+4. **Margin:**
+   The space *outside* the box — separating it from other elements.
 
-Imagine every HTML element as a gift box. Yes, even a single word or image is sitting inside a neat little box. This is called the **CSS Box Model**, and understanding it is like learning how packages are wrapped, padded, and placed under a Christmas tree.
+### 📏 Visual Representation
 
-The box has **four main parts**:
+```
++---------------------------+
+|        Margin             |
+|  +---------------------+  |
+|  |      Border         |  |
+|  | +-----------------+ |  |
+|  | |    Padding      | |  |
+|  | | +-------------+ | |  |
+|  | | |  Content    | | |  |
+|  | | +-------------+ | |  |
+|  | +-----------------+ |  |
+|  +---------------------+  |
++---------------------------+
+```
 
-1. **Content** – The gift itself. This could be your text, image, or link.
-2. **Padding** – The bubble wrap or tissue paper between the gift and the box walls. It adds breathing space *inside* the box.
-3. **Border** – The cardboard box itself. You can change how thick or stylish it is.
-4. **Margin** – The space between your box and the other boxes around it. Think of this as the air gap under the Christmas tree so the gifts don’t bump into each other.
+### 🧪 Example Code
 
-Here’s how it works in practice:
-
-<pre>
-&lt;h1 class="box-example"&gt;The Box Model is Awesome!&lt;/h1&gt;
-</pre>
-
-<pre>
-.box-example {
-  background-color: lightblue;
-  border: 5px solid darkblue;
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+  width: 200px;
   padding: 20px;
+  border: 5px solid blue;
   margin: 30px;
+  background-color: lightyellow;
 }
-</pre>
+</style>
+</head>
+<body>
 
-✨ **Breakdown:**
+<div class="box">I am inside the box model!</div>
 
-* The light blue background fills the content and padding.
-* The **20px padding** keeps the text from hugging the border.
-* The **5px dark blue border** outlines the box.
-* The **30px margin** creates space between this heading and other elements.
+</body>
+</html>
+```
 
-Once you master the Box Model, you’ll find it much easier to adjust layouts without frustration.
+### 💡 Note:
+
+If you want the total size (width + padding + border) to stay consistent, use:
+
+```css
+box-sizing: border-box;
+```
+
+This makes layout management easier because padding and borders are included in the total width/height.
 
 ---
 
-## 2. CSS Selectors 🎯
+### 🧠 Review Fill-Gap Questions (Lesson 1)
 
-Now imagine being a teacher in a classroom. You want to give instructions:
-
-* “All students, open your books.”
-* “Students wearing red, stand up.”
-* “Seyi, please come forward.”
-
-This is exactly how **CSS selectors** work. They tell the browser *which elements* should follow your styling rules.
-
-There are three essential types you’ll use daily:
-
-1. **Element Selector** – Styles *all* elements of one type.
-2. **Class Selector** – Styles elements with the same class name.
-3. **ID Selector** – Styles one unique element with a specific ID.
-
-Example:
-
-<pre>
-&lt;h1&gt;My Class&lt;/h1&gt;
-&lt;p&gt;Hello everyone, this is a normal paragraph.&lt;/p&gt;
-&lt;p class="important-text"&gt;This is a very important message!&lt;/p&gt;
-&lt;p class="important-text"&gt;Another important point.&lt;/p&gt;
-&lt;h2 id="special-heading"&gt;This heading is unique.&lt;/h2&gt;
-</pre>
-
-<pre>
-/* 1. Element Selector */
-p {
-  color: green;
-}
-
-/* 2. Class Selector */
-.important-text {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-/* 3. ID Selector */
-#special-heading {
-  text-align: center;
-  border-bottom: 2px solid orange;
-}
-</pre>
-
-✨ **Breakdown:**
-
-* All `<p>` paragraphs turn green.
-* Only paragraphs with the **class "important-text"** become bold and larger.
-* The unique `id="special-heading"` gets centered with a border.
-
-Selectors let you “call out” exactly who should follow your CSS rules—no more, no less.
+1. The CSS _______ model describes how the size of an element is calculated.
+2. The space between the content and the border is called _______.
+3. The space outside the border is known as _______.
+4. The _______ surrounds the padding and can have style, width, and color.
+5. To include padding and borders in the element’s total width, use _______.
+6. In the box model, the innermost part is the _______.
+7. _______ adds space between an element and its neighbors.
+8. The property `box-sizing` accepts the value _______ to simplify layouts.
+9. Borders are placed _______ the padding.
+10. The default `box-sizing` in CSS is _______.
 
 ---
 
-## 3. Colors & Typography 🎨
+# 🎯 LESSON 2: CSS Selectors
 
-What’s the first thing you notice about a web page? Usually, it’s the **colors** and the **fonts**. These two give personality to your design.
+Selectors are like the “address system” of CSS. They tell the browser *which* element(s) to style.
 
-* **Colors** catch the eye.
-* **Typography** (fonts, sizes, spacing) makes your text readable and beautiful.
+### 🧭 Basic Selectors
 
-Some useful CSS properties:
+1. **Element Selector:**
+   Targets all elements of a given type.
 
-* `color`: sets text color.
-* `background-color`: sets background color.
-* `font-family`: chooses the typeface (e.g., Arial, Georgia).
-* `font-size`: adjusts text size.
-* `font-weight`: makes text bold or light.
-* `text-align`: aligns text left, right, center, or justified.
+   ```css
+   p { color: blue; }
+   ```
+2. **Class Selector:**
+   Targets elements with a specific class name.
 
-Example:
+   ```css
+   .highlight { background: yellow; }
+   ```
+3. **ID Selector:**
+   Targets a single element with a specific ID.
 
-<pre>
-&lt;h1 class="blog-title"&gt;My Awesome Blog Post&lt;/h1&gt;
-&lt;p&gt;This is the first paragraph of my blog post.&lt;/p&gt;
-</pre>
+   ```css
+   #header { font-size: 24px; }
+   ```
+4. **Universal Selector:**
+   Targets *all* elements.
 
-<pre>
-body {
-  background-color: #f0f0f0; /* Light gray background */
-}
+   ```css
+   * { box-sizing: border-box; }
+   ```
+5. **Group Selector:**
+   Style multiple selectors together.
 
-.blog-title {
-  color: #333333;
-  font-family: "Georgia", serif;
-  font-size: 40px;
-  text-align: center;
-}
+   ```css
+   h1, h2, h3 { color: green; }
+   ```
 
-p {
-  color: #555555;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-}
-</pre>
+### 🎯 Combinators
 
-✨ **Breakdown:**
+1. **Descendant Selector:**
 
-* The `body` gets a soft gray background.
-* The blog title uses a classy Georgia font, centered, with large text.
-* The paragraph uses a clean sans-serif font with good line spacing for easier reading.
+   ```css
+   div p { color: gray; }
+   ```
 
-Good design is all about balance: easy-to-read fonts, clear hierarchy, and colors that complement each other.
+   (Targets `<p>` inside `<div>`)
+
+2. **Child Selector:**
+
+   ```css
+   div > p { color: red; }
+   ```
+
+   (Targets only direct children)
+
+3. **Adjacent Sibling:**
+
+   ```css
+   h2 + p { margin-top: 0; }
+   ```
+
+   (Targets the first `<p>` right after an `<h2>`)
+
+4. **Attribute Selector:**
+
+   ```css
+   input[type="text"] { border: 1px solid blue; }
+   ```
 
 ---
 
-## 4. Layout with Flexbox 🖼️
+### 🧠 Review Fill-Gap Questions (Lesson 2)
 
-Now let’s talk about arranging items on a page. Before **Flexbox**, positioning things like menus or grids was a nightmare—lots of floats and hacks. Flexbox simplified everything.
+1. The selector that targets all elements is called the _______ selector.
+2. A class selector begins with a _______.
+3. An ID selector begins with a _______.
+4. To style multiple selectors at once, we use a _______ separated list.
+5. The descendant selector is written as _______.
+6. To style an element that is a direct child, use the _______ symbol.
+7. Attribute selectors use _______ brackets.
+8. `h2 + p` selects the _______ sibling paragraph after an h2.
+9. `div p` styles only paragraphs _______ a div.
+10. The ID selector is meant for _______ elements per page.
 
-When you set `display: flex;` on a container, all its direct children automatically arrange themselves neatly along a main axis (horizontal) and a cross axis (vertical).
+---
 
-With Flexbox, you can:
+# 🖋️ LESSON 3: Colors & Typography
 
-* Distribute items evenly (`justify-content`)
-* Align them vertically (`align-items`)
-* Rearrange them without complex CSS tricks
+Color and typography bring your design to life. They define the *mood*, *tone*, and *readability* of your site.
 
-Example: A simple navigation bar.
+---
 
-<pre>
-&lt;nav class="navbar"&gt;
-  &lt;a href="#"&gt;Home&lt;/a&gt;
-  &lt;a href="#"&gt;About&lt;/a&gt;
-  &lt;a href="#"&gt;Services&lt;/a&gt;
-  &lt;a href="#"&gt;Contact&lt;/a&gt;
-&lt;/nav&gt;
-</pre>
+### 🎨 Colors in CSS
 
-<pre>
-.navbar {
+There are several ways to specify colors:
+
+1. **Named Colors**
+
+   ```css
+   color: red;
+   background-color: lightblue;
+   ```
+
+2. **Hexadecimal**
+
+   ```css
+   color: #ff5733;
+   ```
+
+3. **RGB / RGBA**
+
+   ```css
+   color: rgb(255, 87, 51);
+   background-color: rgba(0, 0, 0, 0.2); /* with transparency */
+   ```
+
+4. **HSL / HSLA**
+
+   ```css
+   color: hsl(200, 70%, 50%);
+   ```
+
+---
+
+### ✍️ Typography Properties
+
+1. **font-family**
+
+   ```css
+   font-family: 'Arial', sans-serif;
+   ```
+2. **font-size**
+
+   ```css
+   font-size: 18px;
+   ```
+3. **font-weight**
+
+   ```css
+   font-weight: bold;
+   ```
+4. **line-height**
+
+   ```css
+   line-height: 1.6;
+   ```
+5. **text-align**
+
+   ```css
+   text-align: center;
+   ```
+6. **text-decoration**
+
+   ```css
+   text-decoration: underline;
+   ```
+7. **text-transform**
+
+   ```css
+   text-transform: uppercase;
+   ```
+
+---
+
+### 🧠 Review Fill-Gap Questions (Lesson 3)
+
+1. The property to set text color is _______.
+2. The color format `#ff5733` is called _______ code.
+3. `rgba` allows us to include _______ (transparency).
+4. The property `font-family` defines the _______ used.
+5. To make text bold, we use _______.
+6. To align text to the right, use _______.
+7. The property that controls spacing between lines is _______.
+8. `text-transform: uppercase;` changes all text to _______.
+9. HSL stands for Hue, Saturation, and _______.
+10. The property to remove underlines from links is _______.
+
+---
+
+# 🧱 LESSON 4: Flexbox Layout
+
+Flexbox is a modern CSS layout system that makes it easy to design flexible, responsive layouts.
+Instead of relying on floats or positioning hacks, Flexbox distributes space intelligently.
+
+---
+
+### 🧩 Key Concepts
+
+1. **Flex Container:**
+   The parent element where `display: flex;` is applied.
+2. **Flex Items:**
+   The direct children of the flex container.
+
+---
+
+### 🔧 Core Flex Properties
+
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
+
+#### `justify-content`
+
+Controls alignment *along the main axis*:
+
+* `flex-start`
+* `flex-end`
+* `center`
+* `space-between`
+* `space-around`
+* `space-evenly`
+
+#### `align-items`
+
+Controls alignment *along the cross axis*:
+
+* `flex-start`
+* `flex-end`
+* `center`
+* `baseline`
+* `stretch`
+
+#### `flex-direction`
+
+Defines the direction of flex items:
+
+* `row` (default)
+* `column`
+* `row-reverse`
+* `column-reverse`
+
+#### `flex-wrap`
+
+Allows items to wrap to the next line:
+
+```css
+flex-wrap: wrap;
+```
+
+#### `align-content`
+
+Adjusts spacing between multiple rows or columns in a wrapped layout.
+
+---
+
+### 🧪 Example Code
+
+```html
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+</div>
+
+<style>
+.container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #333;
-  padding: 10px;
+  height: 200px;
+  background-color: #eef;
 }
-
-.navbar a {
+.box {
+  background: coral;
+  padding: 20px;
   color: white;
-  text-decoration: none;
-  padding: 10px;
+  font-size: 24px;
 }
-</pre>
-
-✨ **Breakdown:**
-
-* `display: flex;` makes the navbar a flex container.
-* `justify-content: space-around;` evenly spaces the links across the row.
-* `align-items: center;` vertically centers them inside the navbar.
-
-The result? A professional-looking, evenly spaced menu in just a few lines of CSS.
+</style>
+```
 
 ---
 
-## 🌟 Project: Personal Profile Card Page
+### 🧠 Review Fill-Gap Questions (Lesson 4)
 
-A webpage with:
-
-* A nice **heading** styled with typography and colors.
-* A **profile card** that uses the box model (margin, padding, border, etc.).
-* Different **selectors** to target text, buttons, and headings.
-* A **Flexbox layout** that centers everything beautifully on the page.
-
----
-
-## 🔹 Step 1: The HTML Structure
-
-<pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Profile Card Project&lt;/title&gt;
-  &lt;link rel="stylesheet" href="styles.css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;header&gt;
-    &lt;h1 class="page-title"&gt;Welcome to My Profile Page&lt;/h1&gt;
-  &lt;/header&gt;
-
-  &lt;main class="container"&gt;
-    &lt;div class="card"&gt;
-      &lt;img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic"&gt;
-      &lt;h2 id="name"&gt;John Doe&lt;/h2&gt;
-      &lt;p class="description"&gt;A passionate web developer who loves coding, coffee, and creativity.&lt;/p&gt;
-      &lt;button class="btn"&gt;Follow Me&lt;/button&gt;
-    &lt;/div&gt;
-  &lt;/main&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+1. The property that makes an element a flex container is _______.
+2. Flex items are the _______ of a flex container.
+3. To align items horizontally, use _______.
+4. To align items vertically, use _______.
+5. The default flex direction is _______.
+6. To allow items to move to the next line, use _______.
+7. The property `align-content` only works when there are _______ lines.
+8. `justify-content: space-between;` puts space _______ items.
+9. `flex-direction: column;` stacks items _______.
+10. Flexbox helps build _______ layouts easily.
 
 ---
 
-## 🔹 Step 2: The CSS Styles (styles.css)
+# 🧩 PRACTICE PROJECT: “Profile Card Layout with Flexbox and Box Model”
 
-<pre>
-/* 1. General Page Styling (Colors & Typography) */
+
+### 🎯 Objective
+
+Create a responsive profile card that uses:
+
+* The **Box Model** for spacing and borders
+* **Selectors** for styling
+* **Colors & Typography** for appeal
+* **Flexbox** for alignment
+
+---
+
+### 🧱 HTML
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <img src="https://via.placeholder.com/150" alt="Profile Picture" class="avatar">
+  <h2 class="name">Agunechemba</h2>
+  <p class="role">Tech Trainer</p>
+  <p class="bio">Loves teaching programming and empowering learners worldwide.</p>
+  <button class="btn">Follow</button>
+</div>
+
+</body>
+</html>
+```
+
+---
+
+### 🎨 CSS (style.css)
+
+```css
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #f0f0f5;
-  margin: 0;
-  padding: 0;
-}
-
-/* Page Title */
-.page-title {
-  text-align: center;
-  color: #333;
-  font-size: 40px;
-  margin: 20px;
-}
-
-/* 2. Flexbox Layout */
-.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  font-family: 'Segoe UI', sans-serif;
 }
 
-/* 3. Profile Card (Box Model) */
 .card {
-  background-color: white;
-  border: 2px solid #ddd;
+  background: white;
+  padding: 30px;
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
-  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  width: 250px;
 }
 
-/* Profile Picture */
-.profile-pic {
+.avatar {
   border-radius: 50%;
-  border: 3px solid #333;
   margin-bottom: 15px;
 }
 
-/* 4. Selectors in Action */
-#name {
-  font-size: 24px;
-  color: #444;
-  margin: 10px 0;
+.name {
+  color: #333;
+  font-size: 22px;
 }
 
-.description {
+.role {
+  color: #777;
   font-size: 16px;
-  color: #666;
-  margin-bottom: 20px;
+}
+
+.bio {
+  margin: 15px 0;
+  line-height: 1.4;
 }
 
 .btn {
-  background-color: #333;
+  background-color: #4CAF50;
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #555;
+  background-color: #45a049;
 }
-</pre>
+```
 
 ---
 
-## 🔹 Step 3: What You’ve Practiced
+✅ **What You’ve Practiced:**
 
-✅ **Box Model:**
-
-* `.card` uses padding, margin, border, and box-shadow.
-* `.profile-pic` has a border and margin for spacing.
-
-✅ **Selectors:**
-
-* Element selector (`body`, `header`).
-* Class selector (`.page-title`, `.description`, `.btn`).
-* ID selector (`#name`).
-
-✅ **Colors & Typography:**
-
-* Background colors, font colors, and hover effects.
-* Different font sizes and families.
-
-✅ **Flexbox Layout:**
-
-* `.container` centers the card both horizontally and vertically.
-
----
-
-## 📝 Review Time!
-
-1. In the Box Model, the **__________** is the actual content like text or an image.
-2. The space between content and the border is called **__________**.
-3. The outermost layer of the box, separating elements from one another, is the **__________**.
-4. The CSS selector that targets **all elements of a type** is called the **__________** selector.
-5. A selector that starts with a `.` is known as a **__________** selector.
-6. A selector that starts with `#` is used to style **__________** elements.
-7. The CSS property used to set the color of text is **__________**.
-8. The CSS property that defines the font style family is **__________**.
-9. To evenly distribute flex items along the main axis, you use the property **__________**.
-10. To make a container flexible, you set `display: __________;`.
+* Box Model (`padding`, `margin`, `border-radius`)
+* Selectors (`.class`, `:hover`)
+* Typography (`font-family`, `color`)
+* Flexbox (`display: flex; justify-content; align-items`)
