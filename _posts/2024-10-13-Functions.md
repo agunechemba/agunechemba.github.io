@@ -1,4 +1,4 @@
-# 🌟 Functions: Undersatnding Functions with JavaScript and Scratch
+# 🌟 Functions: Understanding Functions with JavaScript and Scratch
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/functions.jpg" width="100%">
 
