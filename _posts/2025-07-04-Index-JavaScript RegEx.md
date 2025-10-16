@@ -1,8 +1,18 @@
 # Index: JavaScript RegEx
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_child_replace_a_white_floor_tile.jpeg" width="100%" alt="Child replacing a white floor tile">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/js-regex.jpg" width="100%" alt="Child replacing a white floor tile">
 
-Welcome to the **JS Regex** tutorial series. Click below to navigate to each lesson:
+### ✨ Introduction: The Secret Language of Patterns
+
+Ever looked at a messy chunk of text — like code, emails, or data — and wished you could *magically pull out* just the parts you need? That’s exactly what **Regular Expressions (RegEx)** do!
+
+RegEx is like a **superpower for your text** — a way to describe patterns so JavaScript can *find*, *extract*, *replace*, or *reformat* anything inside a string. It’s used everywhere: from validating emails to cleaning datasets, searching logs, and even reading HTML tags.
+
+In this series of lessons, we’ll uncover how RegEx works in JavaScript, one piece at a time — from simple matches to capturing groups, look-aheads, and dynamic replacements.
+
+By the end, you won’t just “use” regex — you’ll **speak its language** fluently. Ready to unlock the code behind the patterns? Let’s dive in! 🚀
+
+### Click below to navigate to each lesson:
 
 ## - [JS REGEX 01](https://agunechemba.name.ng/2025/05/18/JS-REGEX-01.html)  
 ## - [JS REGEX 02](https://agunechemba.name.ng/2025/05/19/JS-REGEX-02.html)  
