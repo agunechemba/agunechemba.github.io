@@ -335,12 +335,12 @@ input {
 
 
 
-<!-- Start: Simplified Contact Form (Name, Email, Phone) -->
+<!-- Start: Join PPH Contact Form -->
 <div style="font-family: Arial, sans-serif; padding: 40px; text-align: center; box-sizing: border-box;">
-<h2 style="text-align: center;">💻 <strong>Join PPH</strong></h2>
-<h5 style="text-align: center;">🚀 <em>2 Free Bootcamps Every Year</em></h5>
+  <h2 style="text-align: center;">💻 <strong>Join Pepe Programming Hub (PPH)</strong></h2>
+  <h5 style="text-align: center;">🚀 <em>2 Free Bootcamps Every Year</em></h5>
 
-  <form id="contactForm" style="max-width: 400px; margin: auto;">
+  <form id="joinForm" style="max-width: 400px; margin: auto;">
     <!-- Name -->
     <input type="text" name="name" placeholder="Your Name" required 
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
@@ -349,14 +349,15 @@ input {
     <input type="email" name="email" placeholder="Your Email" required 
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
 
-    <!-- Phone -->
-    <input type="tel" name="phone" placeholder="Your Phone Number" required 
-      pattern="[0-9+ ]+" title="Enter a valid phone number"
+    <!-- WhatsApp Number -->
+    <input type="tel" name="phone" placeholder="Your WhatsApp Number" required 
+      pattern="[0-9+ ]+" title="Enter a valid WhatsApp number"
       style="width: 100%; padding: 12px; margin-bottom: 15px; font-size: 16px; box-sizing: border-box;" />
 
-    <button type="submit" id="submitBtn" 
-      style="width: 100%; padding: 12px; font-size: 16px; background: #007BFF; color: white; border: none; cursor: pointer; box-sizing: border-box;">
-      Request
+    <!-- Join Button -->
+    <button type="submit" id="joinBtn" 
+      style="width: 100%; padding: 12px; font-size: 16px; background: #007BFF; color: white; border: none; cursor: pointer; box-sizing: border-box; border-radius: 5px;">
+      Join
     </button>
   </form>
 
@@ -370,14 +371,14 @@ input {
 </div>
 
 <script>
-  const form = document.getElementById('contactForm');
-  const button = document.getElementById('submitBtn');
+  const form = document.getElementById('joinForm');
+  const button = document.getElementById('joinBtn');
   const animation = document.getElementById('successAnimation');
 
   form.addEventListener('submit', e => {
     e.preventDefault();
     button.disabled = true;
-    button.textContent = 'Sending...';
+    button.textContent = 'Joining...';
 
     const data = new FormData(form);
 
@@ -387,16 +388,19 @@ input {
     })
     .then(res => res.text())
     .then(response => {
-      button.textContent = 'Sent';
+      button.textContent = 'Joined ✅';
       button.style.backgroundColor = '#28a745';
       form.reset();
       animation.style.display = 'block';
       animation.style.animation = 'pop 0.5s ease-in-out';
+
+      // 🚀 Redirect Immediately to WhatsApp group
+      window.location.href = "https://chat.whatsapp.com/EFIKn9e3cqX2dKgbjXtTd9?mode=wwc"; // <-- Replace with your WhatsApp group link
     })
     .catch(error => {
       alert('Error: ' + error.message);
       button.disabled = false;
-      button.textContent = 'Send';
+      button.textContent = 'Join';
     });
   });
 
@@ -411,7 +415,9 @@ input {
   `;
   document.head.appendChild(styleSheet);
 </script>
-<!-- End: Simplified Contact Form (Name, Email, Phone) -->
+<!-- End: Join PPH Contact Form -->
+
+
 
 
 
