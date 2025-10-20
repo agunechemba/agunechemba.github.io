@@ -210,35 +210,25 @@ In the next lesson, we’ll dive deeper — building buttons, menus, and pop-up 
 
 ---
 
-# 🧩 30 Fill-in-the-Gap Review Questions
+## 🧩 **Top 10 Fill-in-the-Gap Review Questions**
 
 1. Google Apps Script is based on the __________ programming language.
+
 2. All Google Apps run on Google’s __________ servers.
+
 3. GAS scripts are written and executed directly in the __________.
+
 4. The service used to automate Gmail is called __________.
+
 5. The function `onOpen()` runs automatically when a document is __________.
-6. VBA is mainly used for automating __________ applications.
-7. GAS runs entirely in the __________, while VBA runs locally.
-8. You can share your Google Apps Script projects because they are saved in __________.
-9. The execution time limit for a single GAS run is about __________ minutes.
-10. The central file storage app in Google Workspace is called __________.
-11. The class used to automate spreadsheets is __________.
-12. To create calendar events using GAS, we use the __________ class.
-13. The built-in function `CONCATENATE` joins two or more __________ together.
-14. A GAS project that is attached to a Sheet or Doc is called a __________ script.
-15. A standalone script appears as a separate file in __________.
-16. GAS allows developers to create custom __________ for Sheets.
-17. Google Drive files created by Google Docs have the extension __________.
-18. To build an e-mail merger app, you’d mostly use the __________ class.
-19. The term “trigger” in GAS refers to functions that run automatically based on __________.
-20. Every Google file has a unique identifier called a __________.
-21. The method used to get the current active spreadsheet is __________.
-22. The GAS feature that allows HTML integration inside Docs is called __________.
-23. GAS lets you send e-mails using either `MailApp` or __________.
-24. Scripts can’t run forever because they execute on __________ servers.
-25. To automate form submissions, you can use an “on form submit” __________.
-26. The editor used to write Apps Script code includes a built-in __________ tool.
-27. The JavaScript version mainly used in GAS is version __________.
-28. The first argument in `Browser.msgBox(title, prompt, buttons)` is the __________.
-29. A Google account is required to access and create files on __________.
-30. GAS helps users automate tasks across Google products and __________ services.
+
+6. GAS runs entirely in the __________, while VBA runs locally.
+
+7. The class used to automate spreadsheets is __________.
+
+8. A GAS project that is attached to a Sheet or Doc is called a __________ script.
+
+9. To automate form submissions, you can use an “on form submit” __________.
+
+10. GAS helps users automate tasks across Google products and __________ services.
+    
