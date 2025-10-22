@@ -236,15 +236,21 @@ input {
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
   <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
-  <div class="subtitle">The Celebrated Tech Trainer</div>
+  <div class="subtitle">The Celebrated Tech Trainer | Web Developer</div>
 
   <!-- Toggle Buttons & Sections -->
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Experience </button>
-  <div class="toggle-content">
-<p>I spark a deep passion for coding in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects.</p>
-<p>As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I also run annual free <strong>summer boot camps</strong> for young minds aged 10–16. From physical classes at Clasam Schools in Lagos to online sessions with global learners, I’ve mentored hundreds of teenagers—helping them build both strong coding skills and an <strong>engineering mindset</strong>.</p>
-<p>I organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
-  </div>
+  
+ <div class="toggle-content">
+  <p>I spark a deep passion for coding in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects.</p>
+  
+  <p>As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I host and organize <strong>two free annual bootcamps</strong>—empowering young minds aged 13–19 with practical programming experience, teamwork, and creativity. These bootcamps have trained hundreds of teenagers from across the world, helping them build strong coding skills and an <strong>engineering mindset</strong>.</p>
+  
+  <p>I organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
+  
+  <p>Beyond training, I also provide <strong>web development, administration, and management services</strong> for businesses and organizations—designing, maintaining, and managing modern, responsive websites that strengthen their digital presence and drive growth.</p>
+</div>
+
 
   <button class="toggle-button"><i class="fas fa-laptop-code"></i>Lesson Series</button>
   <div class="toggle-content">
@@ -275,10 +281,14 @@ input {
   <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
 <div class="toggle-content">
 <ul>
-  <li><strong>Tech Training:</strong> Kids & Teens </li>
   <li><strong>Animation:</strong> HTML Canvas</li>
   <li><strong>Web Development:</strong> Front End</li>
   <li><strong>Robotics:</strong> Arduino, Python</li>
+  <li><strong>Programming Languages:</strong> JavaScript, Python, Scratch</li>
+  <li><strong>App Development:</strong> Progressive Web Apps & Google Apps Script</li>
+  <li><strong>Curriculum Design:</strong> Structured coding pathways for young learners</li>
+  <li><strong>Mentorship:</strong> Guiding students to develop problem-solving and engineering mindsets</li>
+  <li><strong>Web Administration & Management:</strong> Maintenance, updates, and optimization</li>
 </ul>
 </div>
 
