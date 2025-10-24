@@ -1,6 +1,6 @@
 # 🌟 Python Functions: Meet the Code Wizard — Zino and the Magic of Functions
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/zino_a_magician_holding_a_spell_box.jpeg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/python-coding-bootcamp.jpg" width="100%">
 
 Once upon a time in **Codeville**, there lived a young wizard-in-training named **Zino**.
 He was curious, bright, and full of questions about the mysterious world of Python programming.
