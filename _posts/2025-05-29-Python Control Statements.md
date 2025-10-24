@@ -1,6 +1,6 @@
 # 🧠 Python Control Statements: Making Decisions in Python; The Power of Control Statements
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_little_girl_holding_a_map_and.jpeg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/python-coding-bootcamp.jpg" width="100%">
 
 Imagine strolling through a deep, quiet forest. You come to a fork in the road — one path to the **left**, another to the **right**. You pause, check your **map**, and decide. That simple moment of **choice** is exactly what happens in your Python programs every day.
 
