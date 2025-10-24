@@ -1,6 +1,6 @@
 # 🎮 Python Intermediate Project: Build a Number Guessing Game in Python!
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/guess-the-number.jpg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/python-coding-bootcamp.jpg" width="100%">
 
 You're sitting in a room with your friend. They say,
 *"I'm thinking of a number between 1 and 10. You have 3 chances to guess it!"*
