@@ -1,6 +1,6 @@
 # 🐍 Python Bootcamp Revision: Index For The August 2025 Python Bootcamp
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/pepe-programming-hub.jpg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/python-coding-bootcamp.jpg" width="100%">
 
 Welcome back, Python learners! 🎉
 
