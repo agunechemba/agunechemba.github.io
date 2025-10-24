@@ -1,6 +1,6 @@
 # 🎮 Python Block Project: Guess the Number Game
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/playful-coding-adventure_simple_compose.jpg" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/python-coding-bootcamp.jpg" width="100%">
 
 Have you ever wanted to build a game from scratch? Maybe you’re new to Python, or you’re teaching someone who’s just starting out. Either way, we’ve got a great little project that’s perfect for beginners—and it’s a **classic**: the **Guess the Number** game.
 
