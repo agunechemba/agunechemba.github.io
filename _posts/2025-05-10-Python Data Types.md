@@ -1,6 +1,6 @@
 # 🧠🐍 Python Data Types: Helping Python Understand What You're Working With
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/datatypes.webp" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/python-coding-bootcamp.jpg" width="100%">
 
 -----
 
