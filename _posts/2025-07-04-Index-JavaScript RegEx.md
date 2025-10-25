@@ -1,6 +1,6 @@
 # Index: JavaScript RegEx
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/js-regex.jpg" width="100%" alt="Child replacing a white floor tile">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/js-regex-1.jpg" width="100%">
 
 ### ✨ Introduction: The Secret Language of Patterns
 
