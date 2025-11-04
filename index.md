@@ -257,7 +257,7 @@ input {
   <ul>
      <li>
     <a href="https://agunechemba.name.ng/2025/11/04/Google-Apps-Script.html" target="_blank">
-      <strong>Python:</strong> 2025 August Bootcamp
+      <strong>Google Apps Script:</strong> Masterclass Series
     </a>
      </li>
      <li>
