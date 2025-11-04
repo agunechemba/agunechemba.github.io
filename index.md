@@ -256,6 +256,11 @@ input {
   <div class="toggle-content">
   <ul>
      <li>
+    <a href="https://agunechemba.name.ng/2025/11/04/Google-Apps-Script.html" target="_blank">
+      <strong>Python:</strong> 2025 August Bootcamp
+    </a>
+     </li>
+     <li>
     <a href="https://agunechemba.name.ng/2025/10/14/Python-Bootcamp-Revision.html" target="_blank">
       <strong>Python:</strong> 2025 August Bootcamp
     </a>
