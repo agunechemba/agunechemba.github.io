@@ -236,19 +236,17 @@ input {
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
   <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
-  <div class="subtitle">Tech Trainer | Web Developer</div>
+  <div class="subtitle">Software Developer || Tech Trainer</div>
 
   <!-- Toggle Buttons & Sections -->
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Experience </button>
   
  <div class="toggle-content">
-  <p>I spark a deep passion for coding in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects.</p>
-  
-  <p>As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I host and organize <strong>two free annual bootcamps</strong>—empowering young minds aged 13–19 with practical programming experience, teamwork, and creativity. These bootcamps have trained hundreds of teenagers from across the world, helping them build strong coding skills and an <strong>engineering mindset</strong>.</p>
-  
-  <p>I organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
-  
-  <p>Beyond training, I also provide <strong>web development, administration, and management services</strong> for businesses and organizations—designing, maintaining, and managing modern, responsive websites that strengthen their digital presence and drive growth.</p>
+  <p>I design, build, and manage modern, responsive websites for businesses and organizations—offering professional <strong>web development, administration, and management services</strong> that strengthen digital presence and drive business growth.</p>
+
+  <p>As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I extend my passion beyond development into teaching and community building. I host and organize <strong>two free annual bootcamps</strong> that empower young minds aged 13–19 with practical programming experience, teamwork, and creativity. These bootcamps have trained hundreds of teenagers from around the world, helping them develop strong coding skills and an <strong>engineering mindset</strong>.</p>
+
+  <p>I spark a deep passion for programming in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects. I also organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
 </div>
 
 
