@@ -236,7 +236,7 @@ input {
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
   <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
-  <div class="subtitle">Software Developer || Tech Trainer</div>
+  <div class="subtitle">Web Developer || Tech Trainer</div>
 
   <!-- Toggle Buttons & Sections -->
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Experience </button>
@@ -283,15 +283,10 @@ input {
 
   <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
 <div class="toggle-content">
-<ul>
-  <li><strong>Animation:</strong> HTML Canvas</li>
-  <li><strong>Web Development:</strong> Front End</li>
-  <li><strong>Robotics:</strong> Arduino, Python</li>
-  <li><strong>Programming Languages:</strong> JavaScript, Python, Scratch</li>
-  <li><strong>App Development:</strong> Progressive Web Apps & Google Apps Script</li>
-  <li><strong>Curriculum Design:</strong> Structured coding pathways for young learners</li>
-  <li><strong>Mentorship:</strong> Guiding students to develop problem-solving and engineering mindsets</li>
-  <li><strong>Web Administration & Management:</strong> Maintenance, updates, and optimization</li>
+<ul>  
+  <li><strong>Web Development:</strong> I design, build, maintain, update, and optimize websites for individuals and businesses.</li>   <li><strong>Programming Languages:</strong> HTML, CSS, JavaScript, TypeScript, Google Apps Script (GAS), Python, PHP, SQL, Node.js, JSON, XML, Bash, Go, Rust.</li>  
+  <li><strong>Curriculum Design:</strong> I create structured coding pathways that help young learners progress from basic to advanced programming skills.</li>  
+  <li><strong>Mentorship:</strong> I guide learners to develop strong problem-solving abilities and an engineering-oriented mindset.</li>  
 </ul>
 </div>
 
