@@ -249,8 +249,16 @@ input {
   <p>I spark a deep passion for programming in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects. I also organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
 </div>
 
+<button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
+<div class="toggle-content">
+<ul>  
+  <li><strong>Web Development:</strong> I design, build, maintain, update, and optimize websites for individuals and businesses.</li>   <li><strong>Programming Languages:</strong> HTML, CSS, JavaScript, TypeScript, Google Apps Script (GAS), Python, PHP, SQL, Node.js, JSON, XML, Bash, Go, Rust.</li>  
+  <li><strong>Curriculum Design:</strong> I create structured coding pathways that help young learners progress from basic to advanced programming skills.</li>  
+  <li><strong>Mentorship:</strong> I guide learners to develop strong problem-solving abilities and an engineering-oriented mindset.</li>  
+</ul>
+</div>
 
-  <button class="toggle-button"><i class="fas fa-laptop-code"></i>Lesson Series</button>
+<button class="toggle-button"><i class="fas fa-laptop-code"></i>Lesson Series</button>
   <div class="toggle-content">
   <ul>
      <li>
@@ -279,16 +287,8 @@ input {
     </a>
   </li>
 </ul>
-  </div>
-
-  <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
-<div class="toggle-content">
-<ul>  
-  <li><strong>Web Development:</strong> I design, build, maintain, update, and optimize websites for individuals and businesses.</li>   <li><strong>Programming Languages:</strong> HTML, CSS, JavaScript, TypeScript, Google Apps Script (GAS), Python, PHP, SQL, Node.js, JSON, XML, Bash, Go, Rust.</li>  
-  <li><strong>Curriculum Design:</strong> I create structured coding pathways that help young learners progress from basic to advanced programming skills.</li>  
-  <li><strong>Mentorship:</strong> I guide learners to develop strong problem-solving abilities and an engineering-oriented mindset.</li>  
-</ul>
 </div>
+
 
 <button class="toggle-button"><i class="fas fa-handshake"></i> Let's Connect</button>
 <div class="toggle-content contact-links">
