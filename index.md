@@ -239,26 +239,42 @@ input {
   <div class="subtitle">Web Innovator & Trainer</div>
 
   <!-- Toggle Buttons & Sections -->
-  <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Experience </button>
+  <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Innovating </button>
   
  <div class="toggle-content">
-  <p>I design, build, and manage modern, responsive websites for businesses and organizations—offering professional <strong>web development, administration, and management services</strong> that strengthen digital presence and drive business growth.</p>
+  <p>
+    I design and build web experiences that help businesses show up with style. I’m driven by the thrill of turning ideas into digital spaces that feel modern, responsive, and just a little bit ahead of the curve.
+  </p>
 
-  <p>As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I extend my passion beyond development into teaching and community building. I host and organize <strong>two free annual bootcamps</strong> that empower young minds aged 13–19 with practical programming experience, teamwork, and creativity. These bootcamps have trained hundreds of teenagers from around the world, helping them develop strong coding skills and an <strong>engineering mindset</strong>.</p>
+  <p>
+    As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I’ve taken my love for innovation far beyond the glow of the monitor. Each year, I run two free 
+    international bootcamps that bring together curious minds from around the world. Hundreds of teens have passed through these sessions.
+  </p>
 
-  <p>I spark a deep passion for programming in learners across <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong> through hands-on training, engaging challenges, and real-world projects. I also organize inter-school <strong>coding competitions</strong> and teach in a way that’s fun, practical, and relatable—because I believe every young person can become a confident, creative tech problem-solver.</p>
+  <p>
+    My training journey spans <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong>, shaping learners through practical challenges, fun exercises, and projects that make them ask, “Wait… did I really build that?”
+  </p>
 </div>
 
 <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
 <div class="toggle-content">
-<ul>  
-  <li><strong>Web Development:</strong> I design, build, maintain, update, and optimize websites for individuals and businesses.</li>   <li><strong>Programming Languages:</strong> HTML, CSS, JavaScript, TypeScript, Google Apps Script (GAS), Python, PHP, SQL, Node.js, JSON, XML, Bash, Go, Rust.</li>  
-  <li><strong>Curriculum Design:</strong> I create structured coding pathways that help young learners progress from basic to advanced programming skills.</li>  
-  <li><strong>Mentorship:</strong> I guide learners to develop strong problem-solving abilities and an engineering-oriented mindset.</li>  
+<ul>
+  <li>JavaScript</li>
+  <li>Python</li>
+  <li>Node.js</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>SQL</li>
+  <li>PHP</li>
+  <li>Google Apps Script (GAS)</li>
+  <li>Bash</li>
+  <li>JSON</li>
+  <li>XML</li>
+  <li>Arduino</li>
 </ul>
 </div>
 
-<button class="toggle-button"><i class="fas fa-laptop-code"></i>Lesson Series</button>
+<button class="toggle-button"><i class="fas fa-laptop-code"></i>Selected Series</button>
   <div class="toggle-content">
   <ul>
      <li>
@@ -292,10 +308,10 @@ input {
 
 <button class="toggle-button"><i class="fas fa-handshake"></i> Let's Connect</button>
 <div class="toggle-content contact-links">
-  <a href="https://wa.link/qyy63j" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp </a>
+  <a href="https://wa.me/2349066115252" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp </a>
   <a href="mailto:agunechemba@yahoo.com"><i class="fas fa-envelope"></i> Email </a>
-  <a href="https://t.me/agunechemba_hub" target="_blank"><i class="fab fa-telegram"></i> Telegram </a>
-  <a href="https://facebook.com/agunechemba.ekene" target="_blank"><i class="fab fa-facebook"></i> Facebook </a>
+  <!-- <a href="https://t.me/agunechemba_hub" target="_blank"><i class="fab fa-telegram"></i> Telegram </a> 
+  <a href="https://facebook.com/agunechemba.ekene" target="_blank"><i class="fab fa-facebook"></i> Facebook </a> -->
   <a href="https://linkedin.com/in/agunechembaekene/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a>
   <a href="https://x.com/agunechemba_e" target="_blank"><i class="fab fa-x-twitter"></i> X (Twitter) </a>
 </div>
