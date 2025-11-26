@@ -317,7 +317,7 @@ input {
 </div>
 
 <a class="blog-link" href="#my-blog"><i class="fas fa-blog"></i> <span>Visit My Blog</span></a>
-<a class="blog-link" href="https://pepe.name.ng"><i class="fas fa-users"></i><span>Join Pepe Programmers Hub</span></a>
+<a class="blog-link" href="https://pepe.name.ng"><i class="fas fa-users"></i> <span>Join Pepe Programmers Hub</span></a>
 </div>
 <!--End-This is the body-->
 
