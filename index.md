@@ -247,7 +247,7 @@ input {
   </p>
 
   <p>
-    As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programming Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I’ve taken my love for innovation far beyond the glow of the monitor. Each year, I run two free 
+    As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programmers Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I’ve taken my love for innovation far beyond the glow of the monitor. Each year, I run two free 
     international bootcamps that bring together curious minds from around the world. Hundreds of teens have passed through these sessions.
   </p>
 
