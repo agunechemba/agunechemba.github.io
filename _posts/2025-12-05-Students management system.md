@@ -1,5 +1,6 @@
 ## A Short Walk Through a Simple Students Management System
 
+<centre>
 <iframe width="560" height="315" 
         src="https://www.youtube.com/embed/wHL32kG-QQI" 
         title="YouTube video player" 
@@ -7,7 +8,8 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen>
 </iframe>
-
+</centre>
+        
 Every now and then, a project comes along that reminds us how much can be done with just the basics. Your **Students Management System** is exactly that kind of project—pure HTML, CSS, and JavaScript working together without noise or distraction.
 
 The idea is charmingly straightforward: create a place where student records can be added, viewed, edited, deleted, and searched—all right inside the browser. No servers, no frameworks, no complicated tooling. Just the essentials, arranged neatly.
