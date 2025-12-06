@@ -1,14 +1,14 @@
 ## A Short Walk Through a Simple Students Management System
 
-<centre>
-<iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/wHL32kG-QQI" 
-        title="YouTube video player" 
-        frameborder="0" 
+<div style="width:100%; display:flex; justify-content:center;">
+    <iframe 
+        src="https://www.youtube.com/embed/wHL32kG-QQI"
+        style="width:100%; max-width:560px; aspect-ratio:16/9; border:0;" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen>
-</iframe>
-</centre>
+    </iframe>
+</div>
+
         
 Every now and then, a project comes along that reminds us how much can be done with just the basics. Your **Students Management System** is exactly that kind of project—pure HTML, CSS, and JavaScript working together without noise or distraction.
 
