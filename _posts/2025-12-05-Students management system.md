@@ -18,6 +18,8 @@ At the heart of the system sits a small JavaScript array. Every time a user fill
 
 What makes this project delightful is how it teaches core principles without overwhelming the learner: DOM manipulation, event handling, data management, and basic UI flow. For new developers, it’s the perfect sandbox. For teachers and trainers, it’s an accessible demo that shows exactly how a simple idea becomes a working interface.
 
+---
+
 If you’d like to explore or improve it, the full source is available here:
 
 [https://github.com/agunechemba/students-management-system](https://github.com/agunechemba/students-management-system)
