@@ -24,3 +24,16 @@ Launching the Website and Next Steps
 
 ### 4:45 – 5:00 PM  
 Questions, Tips, and Closing
+
+### Watch the recording here
+
+<div style="text-align: center;">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/VIDEO_ID"
+    title="YouTube video player"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
