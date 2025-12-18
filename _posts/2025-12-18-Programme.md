@@ -1,3 +1,5 @@
+# Build and Launch Your Website with AI
+
 <div style="text-align: center;">
   <img 
     src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/11/build-and-launch-your-website-with-ai.png" 
@@ -7,8 +9,6 @@
 <br><br>
 
 # Programme
-
-## Build and Launch Your Website with AI
 
 ### 4:00 – 4:05 PM  
 Welcome and Settling In
