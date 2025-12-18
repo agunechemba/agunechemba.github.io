@@ -25,7 +25,7 @@ Launching the Website and Next Steps
 ### 4:45 – 5:00 PM  
 Questions, Tips, and Closing
 
-### Watch the recording here
+## Watch the recording here
 
 <div style="text-align: center;">
   <iframe 
