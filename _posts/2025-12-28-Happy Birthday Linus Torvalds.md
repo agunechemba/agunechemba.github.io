@@ -1,4 +1,4 @@
-# Happy Birthday Linus Torvalds: The Father Of Mordern Computers
+# Happy Birthday Linus Torvalds: The Father Of Modern Computers
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/12/linus.jpeg" width="100%">
 
