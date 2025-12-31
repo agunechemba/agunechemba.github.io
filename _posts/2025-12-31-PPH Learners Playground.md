@@ -1,6 +1,6 @@
 # From Frustration to Freedom: Why I Built a "Playground" for My Code Learners
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/12/pph-learners-playground.png" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/img_20241018_082917.jpg" width="100%">
 
 If you’ve ever stood in a room full of eager students ready to write their first line of HTML, you know the "Environment Panic."
 
