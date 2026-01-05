@@ -10,7 +10,7 @@ As a **Web Innovator and Trainer**, my goal is to show that with the right tools
 
 ### A Seamless Experience from Start to Finish
 
-The event was expertly anchored and moderated by my Co-Host, **Mathias Adama**, a Data Analyst with over 5 years of experience. Mathias kicked off the session with an inspiring introduction and brought the event to a successful close, ensuring a professional and high-energy flow throughout.
+The event was expertly anchored and moderated by my Co-Host, **[Mathias Adama](https://www.linkedin.com/in/mathias-alex-2a1873111/)**, a Data Analyst with over 5 years of experience. Mathias kicked off the session with an inspiring introduction and brought the event to a successful close, ensuring a professional and high-energy flow throughout.
 
 During the session, I was proud to introduce my "code prodigies," **Great and Ola**. Their journey into development at such a young age served as the perfect inspiration for our participants, proving that age is no barrier to technical excellence.
 
@@ -51,7 +51,7 @@ If you are ready to take your project from your laptop to the world, your first 
 
 ### Wrapping Up
 
-By the time Mathias Adama officially closed the event, the room was buzzing. Participants left feeling happy, good, and empowered. They didn't just leave with "AI code"; they left with the confidence to navigate cPanel, understand SSL, and host their own creations.
+By the time **[Mathias Adama](https://www.linkedin.com/in/mathias-alex-2a1873111/)** officially closed the event, the room was buzzing. Participants left feeling happy, good, and empowered. They didn't just leave with "AI code"; they left with the confidence to navigate cPanel, understand SSL, and host their own creations.
 
 **Ready to launch your own website without the technical headache? Visit [PPH.NAME.NG](https://pph.name.ng/) now to get started!**
 
