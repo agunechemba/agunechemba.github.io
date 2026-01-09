@@ -24,7 +24,7 @@ We broke down the mechanics of the build:
 * **CSS:** The skin.
 * **JavaScript:** The brain.
 
-Using **ChatGPT**, we generated our code, but the real magic happened at the **[PPH Learners Playground](https://pphlearnersplayground.surepath.ng/)**.
+Using **ChatGPT**, we generated our code, but the real magic happened at the **[PPH Learners Playground](https://agunechemba.name.ng/PPH-Learners-Playground/)**.
 
 I specifically developed the **PPH Learners Playground** to solve a major pain point for beginners. Often, new learners get discouraged by the stress of setting up local environments, installing code editors, or struggling to understand complex file systems on their computers. This platform allows them to **skip the stress and jump straight into coding.**
 
