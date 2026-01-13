@@ -1,4 +1,4 @@
-# Blueprints & Organization
+# Blueprints And Organization
 
 <img src="https://i.ibb.co/RT7nrYbQ/blueprint.png" width="100%">
 
