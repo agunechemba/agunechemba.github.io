@@ -25,7 +25,7 @@ Think about a game. Each character has:
 
 Without objects, you’d have variables like:
 
-```js
+```
 let name = "Hero";
 let health = 100;
 let strength = 50;
@@ -35,7 +35,7 @@ let level = 3;
 If your game has 10 characters, this becomes confusing fast.
 Instead, we can use objects:
 
-```js
+```
 const character = {
   name: "Hero",
   health: 100,
@@ -105,7 +105,7 @@ Example: `userProfile.name`
 
 Changing the value stored in a key.
 
-```js
+```
 userProfile.age = 13;
 ```
 
@@ -150,7 +150,7 @@ This makes apps dynamic and fun.
 
 Objects are made using **curly braces** `{}`:
 
-```js
+```
 const userProfile = {
   name: "Ada",
   age: 12,
@@ -167,14 +167,14 @@ const userProfile = {
 
 Use **dot notation**:
 
-```js
+```
 console.log(userProfile.name); // Ada
 console.log(userProfile.age);  // 12
 ```
 
 You can also **update data**:
 
-```js
+```
 userProfile.age += 1; // age becomes 13
 ```
 
@@ -186,7 +186,7 @@ Before the big project, try these **mini-exercises**:
 
 1. **Character Stats**
 
-```js
+```
 const hero = {
   name: "Knight",
   health: 100,
@@ -199,7 +199,7 @@ const hero = {
 
 2. **App Settings Object**
 
-```js
+```
 const settings = {
   theme: "dark",
   sound: true,
@@ -212,7 +212,7 @@ const settings = {
 
 3. **Product Info Card**
 
-```js
+```
 const product = {
   name: "Laptop",
   price: 1200,
@@ -225,13 +225,13 @@ const product = {
 
 ---
 
-## Big Project: Interactive User Profile Card
+## Project: Interactive User Profile Card
 
 Now we’ll combine **HTML, CSS, and JS** to make an interactive webpage. The user can **grow older** and **change hobbies and name** live.
 
 ### Full Code (Single File)
 
-```html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
