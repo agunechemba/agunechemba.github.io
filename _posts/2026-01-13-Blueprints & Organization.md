@@ -108,7 +108,7 @@ Every cookie made from it has the same shape.
 
 Here is a constructor:
 
-```js
+```
 function Entry(title, description) {
   this.title = title;
   this.description = description;
@@ -120,7 +120,7 @@ It only explains **how an entry should look**.
 
 To create a real object, we use the **`new` keyword**.
 
-```js
+```
 var myEntry = new Entry("My Note", "Learning JavaScript");
 ```
 
@@ -178,7 +178,7 @@ It means:
 
 Here is a simple module:
 
-```js
+```
 var EntryManager = (function () {
   var entries = [];
 
@@ -248,7 +248,7 @@ This idea works for notes, tasks, students, or items.
 
 ## HTML: Page Structure
 
-```html
+```
 <h1>My Entry App</h1>
 
 <form id="entryForm">
@@ -266,7 +266,7 @@ HTML only prepares the space.
 
 ## CSS: Simple Styling
 
-```css
+```
 body {
   font-family: Arial;
 }
@@ -284,7 +284,7 @@ CSS only handles appearance.
 
 ## JavaScript: Rendering Entries
 
-```js
+```
 function renderEntries() {
   var list = document.getElementById("entryList");
   list.innerHTML = "";
@@ -313,7 +313,7 @@ An **event** is something that happens:
 
 An **event listener** waits for an event and reacts.
 
-```js
+```
 document.getElementById("entryForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
