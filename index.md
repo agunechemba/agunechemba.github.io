@@ -243,34 +243,22 @@ input {
   
  <div class="toggle-content">
   <p>
-    I design and build web experiences that help businesses show up with style. I’m driven by the thrill of turning ideas into digital spaces that feel modern, responsive, and just a little bit ahead of the curve.
-  </p>
+  I’m a Web Innovator passionate about JavaScript and Zen. I share my work <strong>here</strong>. I design and build web experiences that help businesses show up with style.
+</p>
 
-  <p>
-    As the founder of <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programmers Hub</strong></a> and the mind behind <strong>Firstac Academy</strong>, I’ve taken my love for innovation far beyond the glow of the monitor. Each year, I run two free 
-    international bootcamps that bring together curious minds from around the world. Hundreds of teens have passed through these sessions.
-  </p>
+<p>
+  I host and occasionally cohost free international workshops that bring together curious minds from around the world. Hundreds of teens have participated. You can join <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programmers Hub (PPH)</strong></a> to stay updated.
+</p>
 
-  <p>
-    My training journey spans <strong>Nigeria</strong>, the <strong>UK</strong>, and the <strong>US</strong>, shaping learners through practical challenges, fun exercises, and projects that make them ask, “Wait… did I really build that?”
-  </p>
 </div>
 
 <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
 <div class="toggle-content">
 <ul>
-  <li>JavaScript</li>
-  <li>Python</li>
-  <li>Node.js</li>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>SQL</li>
-  <li>PHP</li>
-  <li>Google Apps Script (GAS)</li>
-  <li>Bash</li>
-  <li>JSON</li>
-  <li>XML</li>
-  <li>Arduino</li>
+  <li>Learning Management Systems (LMS)</li>
+  <li>E-commerce Platforms</li>
+  <li>Brand & Product Websites</li>
+  <li>Custom Web Applications</li>
 </ul>
 </div>
 
@@ -316,7 +304,7 @@ input {
   <a href="https://x.com/agunechemba_e" target="_blank"><i class="fab fa-x-twitter"></i> X (Twitter) </a>
 </div>
 <br>
-<a class="blog-link" href="https://pepe.name.ng"><i class="fas fa-users"></i> <span>Join Pepe Programmers Hub</span></a>
+<a class="blog-link" href="https://pepe.name.ng"><i class="fas fa-users"></i> <span>Join Pepe Programmers Hub (PPH)</span></a>
 <br>
 <a class="blog-link" href="#my-blog"><i class="fas fa-blog"></i> <span>Visit My Blog</span></a>
 </div>
