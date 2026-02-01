@@ -1,6 +1,6 @@
 # Exploring Igbo Market Days Across Communities – And How I Built a Flexible Calendar Web App
 
-<img src="https://i.ibb.co/pj9TZLBc/calender.png" width="100%">
+<img src="https://i.ibb.co/WvCjRHGz/Screenshot-2026-02-01-17-41-35.png" width="100%">
 
 Time in Igboland is different. Not in hours or minutes, but in **market days, moons, and seasons**. Growing up learning about Igbo traditions, I always found it fascinating that **Nkwo in one town could be Orie in another**, and that each community had its own way of marking time.
 
