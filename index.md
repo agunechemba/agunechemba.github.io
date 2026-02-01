@@ -307,12 +307,11 @@ input {
   <a href="https://x.com/agunechemba_e" target="_blank"><i class="fab fa-x-twitter"></i> X (Twitter) </a>
 </div>
 <br>
-<a class="blog-link" href="https://pepe.name.ng"><i class="fas fa-users"></i> <span>Join Pepe Programmers Hub (PPH)</span></a>
+<a class="blog-link" href="https://pepe.name.ng" target="_blank"><i class="fas fa-users"></i> <span>Join Pepe Programmers Hub (PPH)</span></a>
 <br>
 <a class="blog-link" href="#my-blog"><i class="fas fa-blog"></i> <span>Visit My Blog</span></a>
 </div>
 <!--End-This is the body-->
-
 
 
 
