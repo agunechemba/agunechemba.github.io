@@ -247,7 +247,10 @@ input {
 </p>
 
 <p>
-  I host and occasionally cohost free international workshops that bring together curious minds from around the world. Hundreds of teens have participated. You can join <a href="https://pepe.name.ng/" target="_blank"><strong>Pepe Programmers Hub (PPH)</strong></a> to stay updated.
+  I host and occasionally cohost free international workshops that bring together curious minds from around the world. Hundreds of teens have participated.
+</p>
+
+<p>Join <a href="https://pph.name.ng/" target="_blank"><strong>Pepe Programmers Hub (PPH)</strong></a> to stay updated.
 </p>
 
 </div>
