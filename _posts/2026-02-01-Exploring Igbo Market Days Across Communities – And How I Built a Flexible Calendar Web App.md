@@ -8,6 +8,8 @@ Recently, I decided to dig deeper into this and share it with the world. That’
 
 ---
 
+### <a href="https://agunechemba.name.ng/Ancestral-Calendar/" target="_blank">Give the app a try!</a>
+
 ## Market Days in Igbo Communities – Not as Uniform as You Think
 
 Many people assume that all Igbo communities follow the same four-day market week:
