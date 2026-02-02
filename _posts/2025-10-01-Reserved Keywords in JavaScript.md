@@ -1,6 +1,6 @@
 # 📚 Reserved Keywords in JavaScript: The Untouchable Words of JavaScript
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/02/js-reserved.png" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/02/funny.gif" width="100%">
 
 Imagine you’re playing football on a school field. There are some areas you just can’t enter — like the teachers’ stand or the referee’s zone. No matter how much you want to, those spaces are **off-limits**.
 
