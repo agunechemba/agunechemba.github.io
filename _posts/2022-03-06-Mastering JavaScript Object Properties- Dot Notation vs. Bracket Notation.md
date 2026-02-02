@@ -259,7 +259,7 @@ If your key is **crazy, user-made, or calculated**, use bracket notation.
 
 ---
 
-# 📝 Review Questions (5 Only)
+# 📝 Review Questions
 
 ### 1️⃣ Why will this cause an error?
 
