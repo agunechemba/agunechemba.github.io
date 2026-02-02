@@ -1,6 +1,6 @@
 # 🔍 Mastering JavaScript Object Properties: Dot Notation vs. Bracket Notation
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/02/1_lne8barkrwogynfy0mpfua.jpg" width="100">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/02/1_lne8barkrwogynfy0mpfua.jpg" width="100%">
 
 Alright — imagine you just joined a game where players can build their own **digital identity cards**.
 Every player can create labels like:
