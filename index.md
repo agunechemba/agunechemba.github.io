@@ -258,9 +258,9 @@ input {
 <button class="toggle-button"><i class="fas fa-cogs"></i> My Expertise</button>
 <div class="toggle-content">
 <ul>
-  <li>Learning Management Systems (LMS)</li>
-  <li>E-commerce Platforms</li>
   <li>Brand & Product Websites</li>
+  <li>E-commerce Platforms</li>
+  <li>Learning Management Systems (LMS)</li>
   <li>AI-powered Web Solutions</li>
 </ul>
 </div>
