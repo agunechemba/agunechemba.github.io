@@ -261,7 +261,7 @@ input {
   <li>Learning Management Systems (LMS)</li>
   <li>E-commerce Platforms</li>
   <li>Brand & Product Websites</li>
-  <li>Custom Web Applications</li>
+  <li>AI-powered Web Solutions</li>
 </ul>
 </div>
 
