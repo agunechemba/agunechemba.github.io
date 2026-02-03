@@ -36,6 +36,6 @@ We’ve moved past the "Setup Phase" and straight into the "Innovation Phase."
 
 I’ve hosted the playground live so you can see exactly what our learners are using. Whether you are a teacher or a curious beginner, feel free to play around:
 
-👉 **Live Editor:** [https://pphlearnersplayground.surepath.ng/](https://pphlearnersplayground.surepath.ng/)
+👉 **Live Editor:** [PPH Learners Playground](https://agunechemba.name.ng/PPH-Learners-Playground/)
 
-👉 **Github Repo:** [https://github.com/agunechemba/PPH-Learners-Playground](https://github.com/agunechemba/PPH-Learners-Playground)
+---
