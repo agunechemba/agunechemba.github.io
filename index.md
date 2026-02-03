@@ -234,9 +234,9 @@ input {
 
 <!--Start-This is the body-->
 <div class="container">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
+  <!-- <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene"> -->
   <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
-  <div class="subtitle">Web Innovator and Trainer || Passion: JavaScript and Zen </div>
+  <div class="subtitle"> &#x1F449; Web Innovator and Trainer || Passion: JavaScript and Zen </div>
 
   <!-- Toggle Buttons & Sections -->
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Innovating </button>
