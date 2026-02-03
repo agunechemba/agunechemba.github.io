@@ -236,18 +236,18 @@ input {
 <div class="container">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" class="profile-img" alt="Agunechemba Ekene">
   <div class="title"><i class="fas fa-code"></i> <br> Agunechemba Ekene</div>
-  <div class="subtitle">Web Innovator & Trainer</div>
+  <div class="subtitle">👤 Web Innovator and Trainer || Passion: JavaScript and Zen </div>
 
   <!-- Toggle Buttons & Sections -->
   <button class="toggle-button"><i class="fas fa-rocket"></i> <span id="year-counter" style="font-size: 2em; font-weight: bold;">0</span> Years Innovating </button>
   
  <div class="toggle-content">
-  <p>
-  I’m a Web Innovator passionate about JavaScript and Zen. I share my work <strong>here</strong>. I design and build web experiences that help businesses show up with style.
+<p>
+  I help businesses shine online. From website development and business email management to AI chatbots, I provide the tools and strategies needed to build a strong web presence and grow your brand.
 </p>
 
 <p>
-  I host and occasionally cohost free international workshops that bring together curious minds from around the world. Hundreds of teens have participated.
+  As a trainer, I host—and sometimes cohost—free international workshops that connect curious minds from around the world. Hundreds of teens have joined these sessions to learn, create, and innovate.
 </p>
 
 <p>Join <a href="https://pph.name.ng/" target="_blank"><strong>Pepe Programmers Hub (PPH)</strong></a> to stay updated.
