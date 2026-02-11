@@ -78,7 +78,7 @@ Objects can store not only numbers and strings but also booleans, arrays, or eve
 
 Before diving into a larger project, experimenting with smaller objects is a great way to reinforce your understanding. Here are some mini-exercises:
 
-1. **Character Stats**
+#### 1. Character Stats
 
 ```javascript
 const hero = {
@@ -91,7 +91,7 @@ const hero = {
 * Update `health` when the hero takes damage.
 * Increase `strength` after leveling up.
 
-2. **App Settings**
+#### 2. App Settings
 
 ```javascript
 const settings = {
@@ -104,7 +104,7 @@ const settings = {
 * Change the theme to `light`.
 * Turn off sound.
 
-###### 3. Product Info
+#### 3. Product Info
 
 ```javascript
 const product = {
