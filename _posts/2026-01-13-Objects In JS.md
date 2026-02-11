@@ -104,7 +104,7 @@ const settings = {
 * Change the theme to `light`.
 * Turn off sound.
 
-### 3. Product Info
+###### 3. Product Info
 
 ```javascript
 const product = {
