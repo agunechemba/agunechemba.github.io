@@ -1,4 +1,4 @@
-# Grouping Data with Objects in JavaScript
+# Understanding JavaScript Objects: Why Grouping Data Matters
 
 <img src="https://i.ibb.co/M5Cn1Lq0/objects.png" width="100%">
 
