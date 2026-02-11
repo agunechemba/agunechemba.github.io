@@ -6,6 +6,11 @@ When you organize your school bag, you don’t throw your books in one corner, y
 
 As programs grow larger, managing dozens or hundreds of individual variables can quickly become chaotic. Objects solve this problem by keeping data organized, clearly named, and easy to access or update. By learning how to use objects effectively, you’ll be able to structure your programs in a way that’s both efficient and scalable.
 
+
+## What Is An Object?
+
+A JavaScript object is a data structure used to store and organize related data as key–value pairs inside a single container.
+
 ## Why Objects Matter
 
 Consider a game where each character has a name, health points, strength, and level. Without objects, you might end up with variables like:
