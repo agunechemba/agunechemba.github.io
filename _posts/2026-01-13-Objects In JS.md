@@ -9,7 +9,7 @@ As programs grow larger, managing dozens or hundreds of individual variables can
 
 ## What Is An Object?
 
-A JavaScript object is a data structure used to store and organize related data as key–value pairs inside a single container.
+An object is a data structure used to store and organize related data as key–value pairs inside a single container.
 
 ## Why Objects Matter
 
