@@ -2,12 +2,6 @@
 
 <img src="https://i.ibb.co/Whr5Vhq/objects.png" width="100%">
 
-Here’s a refactored version of your lesson written as a narrative blog post:
-
----
-
-# Understanding JavaScript Objects: From Concept to Interactive User Profile
-
 When you organize your school bag, you don’t throw your books in one corner, your pencils in another, and your lunch somewhere else. You gather all your essentials in one place so they’re easy to carry and easy to find. In programming, objects serve a very similar purpose—they help us **group related information together** in one neat container.
 
 As programs grow larger, managing dozens or hundreds of individual variables can quickly become chaotic. Objects solve this problem by keeping data organized, clearly named, and easy to access or update. By learning how to use objects effectively, you’ll be able to structure your programs in a way that’s both efficient and scalable.
