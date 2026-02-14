@@ -1,12 +1,12 @@
-title: "🏠"
+title: "👤"
 author: "Agunechemba Ekene"
-description: "Web Innovator and Trainer, passionate about JavaScript and Zen" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "I build brands and deliver web solutions." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # commented this out --- default_og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png # I added this myself
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "agunechemba@yahoo.com"
+#email: "agunechemba@yahoo.com"
 twitter_username: "agunechemba_e"
 github_username: "agunechemba"
 linkedin_username: "agunechembaekene"
@@ -14,7 +14,7 @@ linkedin_username: "agunechembaekene"
 #flickr_username: "username"
 #instagram_username: "agunechemba.ekene"
 #pinterest_username: "username"
-youtube_username: "agunechemba_ekene"
+#youtube_username: "agunechemba_ekene"
 #googleplus_username: +username
 
 
