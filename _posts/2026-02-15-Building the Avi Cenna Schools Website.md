@@ -1,6 +1,6 @@
 # Building the Avi Cenna Schools Website – From Idea to Reality in Under an Hour
 
-<img src="" width="100%">
+<img src="https://i.ibb.co/GQxG9z3W/Avi-Cenna-school.jpg" width="100%">
 
 I recently had the incredible opportunity to work on the website for **Avi Cenna Schools** ([https://avi-cenna.com/](https://avi-cenna.com/)), and I wanted to share a bit about the journey.
 
