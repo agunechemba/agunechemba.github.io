@@ -10,4 +10,4 @@ What makes this experience exciting isn’t just the speed, but the ability to t
 
 I’m still actively building and refining the website, but I’m looking forward to sharing the final version soon. If you’d like to follow the progress, you can check it out here: [https://agunechemba.name.ng/Avi-Cenna](https://agunechemba.name.ng/Avi-Cenna/).
 
-Stay tuned—I’ll be posting the complete project once it’s ready. This has been an amazing learning experience and a proud moment in my web development journey.
+Stay tuned—I’ll be posting the complete project once it’s ready.
