@@ -1,4 +1,4 @@
-# 🧭 Python List Comprehensions: A faster, Cleaner, And Smarter Way To Create Lists In Python
+# Python List Comprehensions: A faster, Cleaner, And Smarter Way To Create Lists In Python
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/pythons-artistic-magic.jpg" width="100%">
 
