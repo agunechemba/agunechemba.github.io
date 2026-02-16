@@ -1,6 +1,6 @@
 # Why Your Business Should Not Depend Only on Social Media
 
-<img src="https://i.ibb.co/yFvTMds4/SOCIAL-MEDIA.png" width="100%">
+<img src="https://i.ibb.co/WWj3GB30/SOCIAL-MEDIA.png" width="100%">
 
 Social media is powerful for visibility, but it is not a business foundation you control. Accounts can be restricted, platforms can change policies, and outages can happen — sometimes without warning. When this happens, businesses risk losing access to their audience, content, and customer relationships overnight.
 
