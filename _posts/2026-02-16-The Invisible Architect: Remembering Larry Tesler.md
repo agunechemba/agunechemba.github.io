@@ -1,6 +1,6 @@
 # The Invisible Architect: Remembering Larry Tesler
 
-<img src="https://i.ibb.co/KxXtTyXZ/Larry-Nodes.png" width="100%">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/02/larry-t.png" width="100%">
 
 Most people don’t know his name, but everyone has used his brainpower today.
 
@@ -9,3 +9,5 @@ Today, **February 16**, we honor **Larry Tesler**, the computer scientist who ga
 His mantra was **"No Modes."** He believed software shouldn't be a maze of complex rules; it should work as intuitively as a pair of scissors and a bottle of glue. When he moved to Apple in 1980, he helped Steve Jobs shape the Macintosh into the icon of simplicity we know today.
 
 Larry passed away on this day in 2020, but his legacy is literally "pasted" into every corner of our digital lives. Next time you use a shortcut to save time, tip your hat to the man who made the digital world speak our language.
+
+<img src="https://i.ibb.co/KxXtTyXZ/Larry-Nodes.png" width="100%">
