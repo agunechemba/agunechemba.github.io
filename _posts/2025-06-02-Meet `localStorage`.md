@@ -1,4 +1,4 @@
-# Meet `localStorage`: My Tiny Memory Box in Your Browser!
+# Meet `localStorage`: The Browser’s Built-In Memory
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_storage_box_in_the_style_of.jpeg" width="100%">
 
