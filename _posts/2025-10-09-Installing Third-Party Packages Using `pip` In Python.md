@@ -1,4 +1,4 @@
-# 🧭 Installing Third-Party Packages Using `pip` In Python: Expanding Python’s Power Through Community-built Modules
+# Installing Third-Party Packages Using `pip` In Python: Expanding Python’s Power Through Community-built Modules
 
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/pips-package-adventure.jpg" width="100%">
 
