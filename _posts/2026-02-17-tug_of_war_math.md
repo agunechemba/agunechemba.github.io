@@ -12,5 +12,5 @@ Beyond gameplay, the goal is impact — making math less intimidating and more e
 
 This project is part of my ongoing work in building interactive digital experiences that educate, engage, and entertain.
 
-👉 Explore the project here: https://agunechemba.name.ng/tug-of-war/
+👉 Explore the project here: [Tug Of War](https://agunechemba.name.ng/tug-of-war/)
 
