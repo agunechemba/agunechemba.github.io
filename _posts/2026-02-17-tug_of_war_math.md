@@ -1,6 +1,6 @@
 # Turning Math Into Competition: Building the Tug Of War Math Game
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/02/tug-of-war.png" width="100%">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/MN7HZ6PuKNo?si=GrdsTBmsjlcfZbWT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 What if learning math felt like playing a game at a sports arena? That idea led to the creation of the **Tug Of War Math Game** — a two-player touch-screen experience where learning meets competition.
 
