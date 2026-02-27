@@ -3,6 +3,8 @@
 # Agunechemba Ekene
 
 #### *I build brands and deliver web solutions.*
+* **Call:** [+2349066115252](tel:+2349066115252)
+* **LinkedIn:** [agunechembaekene](https://www.linkedin.com/in/agunechembaekene)
 
 ---
 
