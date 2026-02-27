@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/GQxG9z3W/Avi-Cenna-school.jpg" width="100%">
 
-I recently had the incredible opportunity to work on the website for **Avi Cenna Schools** ([https://avi-cenna.com](https://avi-cenna.com/)), and I wanted to share a bit about the journey.
+I recently had the incredible opportunity to work on the website for **Avi Cenna Schools**, and I wanted to share a bit about the journey.
 
 The project came to me through my mentor, **Dr. Olutimo**, who was genuinely surprised by the speed and quality of what I delivered. In less than **one hour**, I managed to produce a fully functional, visually appealing website—not using pre-made templates, but **raw code**, written from scratch and refined with the help of **ChatGPT** (not premium!).
 
