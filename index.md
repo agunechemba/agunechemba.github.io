@@ -38,7 +38,7 @@
     
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-        msg.innerText = "Thank you. We will reach out to schedule your appointment.";
+        msg.innerText = "Thank you. I will reach out to schedule your appointment.";
         form.reset();
         btn.innerText = "Request Sent";
       })
