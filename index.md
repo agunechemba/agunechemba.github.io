@@ -13,12 +13,6 @@
 - Learners Management Systems
 - Personalized Web Solutions
 
----
-
-### Connect with me  
-
-
-
 <div class="callback-container">
 <form id="callbackForm">
     <input type="text" name="name" placeholder="Full Name" required class="book-input">
@@ -31,7 +25,7 @@
 
 <script>
   // Replace the URL below with your deployed Google Script URL
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzGrA_jC0DPFAkPaA2t4Z_yuloWptBr_A5gCli_qZPPyLhPUYQD-jIcVrWA3kjgxhV0/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwCcoMxwPVnxGjIhVWaoT2AtPQkKrN9_CsTGz9UtR4aBx7DXsWW2HQIOXg4ZdXRcyl8/exec';
   const form = document.getElementById('callbackForm');
   const btn = document.getElementById('submitBtn');
   const msg = document.getElementById('responseMsg');
@@ -54,13 +48,3 @@
       });
   });
 </script>
-
-
-
-
-
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+2349066115252)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=mail&logoColor=white)](https://www.linkedin.com/in/agunechembaekene/)
-
----
