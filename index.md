@@ -18,7 +18,7 @@
 <form id="callbackForm">
     <input type="text" name="name" placeholder="Full Name" required class="book-input">
     <input type="email" name="email" placeholder="Email Address" required class="book-input">
-    <input type="text" name="whatsapp" placeholder="WhatsApp Number" required class="book-input">
+    <input type="text" name="whatsapp" placeholder="Number" class="book-input">
     <button type="submit" id="submitBtn" class="book-button">Request a Call Back</button>
     <p id="responseMsg" class="post_navi-label"></p>
   </form>
