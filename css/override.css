@@ -151,7 +151,7 @@ code .function {
 /* ========= 🔗 Links ========= */
 a {
   color: var(--accent-color);
-  text-decoration: underline dotted;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
