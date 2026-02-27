@@ -18,9 +18,9 @@
 <div class="callback-container">
 <h3 class="form-title">Request a Call Back</h3>
 <form id="callbackForm">
-    <input type="text" name="name" placeholder="Full Name" required class="book-input">
-    <input type="email" name="email" placeholder="Email Address" required class="book-input">
-    <input type="text" name="whatsapp" placeholder="Number" class="book-input">
+    <input type="text" name="name" placeholder="First Name" required class="book-input">
+    <input type="email" name="email" placeholder="Email" required class="book-input">
+    <input type="text" name="whatsapp" placeholder="Phone" class="book-input">
     <button type="submit" id="submitBtn" class="book-button">Request a Call Back</button>
     <p id="responseMsg" class="post_navi-label"></p>
   </form>
