@@ -169,12 +169,13 @@ a:hover {
 /* Form Styling - Local adjustments to match your specific CSS variables */
 
 /* Added Title Styling */
-  .form-title {
+ .form-title {
     font-family: "Georgia", serif;
     color: var(--text-color);
-    font-size: 1.5rem;
+    font-size: 1.1rem;      /* Smaller, more elegant size */
     margin-bottom: 0.5rem;
-    font-weight: bold;
+    font-weight: normal;    /* Removed bold for a cleaner look */
+    letter-spacing: 0.02em; /* Subtle spacing for that printed book feel */
   }
 
   .book-input {
