@@ -16,12 +16,12 @@
 - Personalized Web Solutions
 
 <div class="callback-container">
-<h3 class="form-title">Request a Call Back</h3>
+<h3 class="form-title">Request Free Consultation</h3>
 <form id="callbackForm">
     <input type="text" name="name" placeholder="First Name" required class="book-input">
     <input type="email" name="email" placeholder="Email" required class="book-input">
     <input type="text" name="whatsapp" placeholder="Phone" class="book-input">
-    <button type="submit" id="submitBtn" class="book-button">Request a Call Back</button>
+    <button type="submit" id="submitBtn" class="book-button">Request Free Consultation</button>
     <p id="responseMsg" class="post_navi-label"></p>
   </form>
 </div>
