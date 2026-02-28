@@ -47,7 +47,7 @@
       .catch(error => {
         msg.innerText = "Something went wrong. Please try again.";
         btn.disabled = false;
-        btn.innerText = "Request a Call Back";
+        btn.innerText = "Request Free Consultation";
       });
   });
 </script>
