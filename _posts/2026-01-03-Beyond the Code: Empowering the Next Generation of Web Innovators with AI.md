@@ -30,7 +30,7 @@ I specifically developed the **PPH Learners Playground** to solve a major pain p
 
 I walked the audience through the logic **line by line**, demystifying the code so they could truly own the output.
 
-> **Check out the Live Demo:** You can see exactly what we built at **[https://event.surepath.ng/](https://event.surepath.ng/)**.
+> **Check out the Live Demo:** You can see exactly what we built at **[https://agunechemba.name.ng/practice-calculator/](https://agunechemba.name.ng/practice-calculator/)**.
 > *A quick heads-up:* If the design looks a bit "experimental," that’s because it was! We intentionally played with and "messed up" the code during the explanation to show the audience exactly how CSS and JS interact in real-time.
 
 ---
