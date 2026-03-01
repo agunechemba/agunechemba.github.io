@@ -25,6 +25,6 @@ Thanks for stopping by, and I look forward to sharing exciting content with you!
 
 **Best regards,**  
 **Agunechemba Ekene**  
-*The Celebrated Tech Trainer* 🚀
+*I Build Web Solutions.* 🚀
 
 
