@@ -2,7 +2,7 @@
 
 # Agunechemba Ekene
 
-#### *I build brands and deliver web solutions.*
+### *I Build Web Solutions.*
 * Call: **[+234 906 611 5252](tel:+2349066115252)**
 * LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
 
