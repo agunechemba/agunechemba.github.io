@@ -39,7 +39,7 @@ Later, I went back to school for another degree in **software development** 👨
 
 ## Today: Building, Training, and Leading 🚀
 
-Nowadays, I’m the brain behind **Pepe Programming Hub**; in the past, I did **Firstac Academy** and **AfroDiscourse**. I host coding competitions and build/manage websites and IT systems — but **training remains my true passion**.
+Nowadays, I’m the brain behind [**Pepe Programmers Hub**](https://pph.name.ng); in the past, I did **Firstac Academy** and **AfroDiscourse**. I host coding competitions and build/manage websites and IT systems — but **training remains my true passion**.
 
 I use my projects — big and small — mostly to train and inspire learners from all over. Watching others grow in tech through my training is what keeps me going.
 
