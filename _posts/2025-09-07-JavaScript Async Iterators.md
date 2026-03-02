@@ -14,7 +14,7 @@ You'll find async iterators useful whenever you're dealing with data that doesn'
 · Handling paginated results
 · Working with database cursors
 
-The Simple Syntax
+## The Simple Syntax
 
 The magic happens with the for await...of loop:
 
@@ -26,7 +26,7 @@ for await (const item of asyncDataSource) {
 
 This loop pauses at each iteration, waiting for the next piece of data to arrive before continuing.
 
-Creating Async Iterators
+### Creating Async Iterators
 
 The easiest way to create an async iterator is with an async generator function. Just add async before the asterisk:
 
@@ -46,9 +46,7 @@ for await (const num of numberStream()) {
 }
 ```
 
-Real-World Examples
-
-Reading a File Line by Line
+### Reading a File Line by Line
 
 Instead of loading an entire file into memory, you can process it one line at a time:
 
@@ -68,7 +66,7 @@ for await (const line of readFileLines('data.txt')) {
 }
 ```
 
-Paginated API Data
+### Paginated API Data
 
 When fetching data from an API that paginates results, async iterators make the code clean and intuitive:
 
@@ -96,7 +94,7 @@ for await (const page of fetchAllPages('/api/users')) {
 }
 ```
 
-Error Handling
+### Error Handling
 
 Since async iterators deal with promises, you can use try-catch blocks naturally:
 
@@ -114,7 +112,7 @@ try {
 }
 ```
 
-Cleaning Up
+### Cleaning Up
 
 Async iterators can also clean up after themselves. When you break out of a loop early, the iterator gets a chance to release resources:
 
@@ -132,7 +130,7 @@ async function* resourceIntensive() {
 }
 ```
 
-Why They Matter
+### Why They Matter
 
 Async iterators bridge the gap between synchronous iteration and asynchronous programming. They make asynchronous code read like synchronous code, reducing complexity and making your intentions clearer. Instead of managing complex state machines or callback chains, you can write straightforward loops that naturally express "do this for each item as it arrives."
 
