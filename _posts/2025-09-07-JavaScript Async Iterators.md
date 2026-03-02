@@ -98,7 +98,7 @@ for await (const page of fetchAllPages('/api/users')) {
 
 Since async iterators deal with promises, you can use try-catch blocks naturally:
 
-```javascript
+```
 async function* flakyGenerator() {
   // ... might throw errors
 }
@@ -116,7 +116,7 @@ try {
 
 Async iterators can also clean up after themselves. When you break out of a loop early, the iterator gets a chance to release resources:
 
-```javascript
+```
 async function* resourceIntensive() {
   const resource = await acquireResource();
   try {
