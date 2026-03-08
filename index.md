@@ -2,34 +2,24 @@
 
 #### Hi, I'm
 # Agunechemba Ekene
-#### *Your Tech Partner*
+> ### *Your Tech Partner*
 
 ---
 
-#### I bridge the gap between **your vision** and the technology you need to scale.
+### I handle the **complexities** so **you** can focus on your business.
 
-**You** shouldn't have to manage a fragmented team of developers, support staff, and consultants. **You** need one partner who understands the big picture—and knows exactly how to make your technology work for you.
+* **High-Performance Web Development** Instead of just "having a website," you get a high-speed digital asset built to capture leads and scale with your customer base.
 
----
+* **Proactive IT Management** Instead of reacting to tech failures, you get a seamless environment where your systems stay out of your way and let you work.
 
-### I handle the complexity so **you** can focus on your business.
-
-* **High-Performance Web Development**
-    Instead of just "having a website," you get a high-speed digital asset built to capture leads and scale with your customer base.
-
-* **Proactive IT Management**
-    Instead of reacting to tech failures, you get a seamless environment where your systems stay out of your way and let you work.
-
-* **Strategic Growth Consulting**
-    Instead of guessing your next tech investment, you get a clear roadmap that ensures your infrastructure grows as fast as your revenue.
+* **Strategic Growth Consulting** Instead of guessing your next tech investment, you get a clear roadmap that ensures your infrastructure grows as fast as your revenue.
 
 ---
 
-**Ready to simplify your technology?**
-**Let’s Talk:**
+**Ready to simplify your technology?** **Let’s Talk:**
 
-* Call: **[+234 906 611 5252](tel:+2349066115252)**
-* LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
+* 📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
+* 🔗 LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
 
 ---
 
