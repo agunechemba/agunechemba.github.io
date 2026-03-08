@@ -6,27 +6,26 @@
 
 ---
 
-#### I bridge the gap between **you** and the technology you need to scale.
+#### I bridge the gap between **your vision** and the technology you need to scale.
 
-**You** don't need to juggle a separate **Website Developer**, **IT Support**, and **IT Consultant**. **You** need one partner who understands it all—and knows exactly how to bring the right solutions together for you.
+**You** shouldn't have to manage a fragmented team of developers, support staff, and consultants. **You** need one partner who understands the big picture—and knows exactly how to make your technology work for you.
 
 ---
 
-### How I Help You
-I handle the complexity so **you** can focus on your vision.
+### I handle the complexity so **you** can focus on your business.
 
 * **High-Performance Web Development**
-Instead of just "hiring a dev," you get a digital presence built to convert and scale with your users.
+    Instead of just "having a website," you get a high-speed digital asset built to capture leads and scale with your customer base.
 
-* **Proactive IT Support**
-Instead of chasing bugs, you get seamless system management and zero downtime so your tech stays out of your way.
+* **Proactive IT Management**
+    Instead of reacting to tech failures, you get a seamless environment where your systems stay out of your way and let you work.
 
-* **Strategic IT Consulting**
-Instead of guessing your next move, you get a clear roadmap to ensure your business grows as fast as you do.
+* **Strategic Growth Consulting**
+    Instead of guessing your next tech investment, you get a clear roadmap that ensures your infrastructure grows as fast as your revenue.
 
 ---
 
-**Ready to simplify your stack?**
+**Ready to simplify your technology?**
 **Let’s Talk:**
 
 * Call: **[+234 906 611 5252](tel:+2349066115252)**
