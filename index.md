@@ -1,8 +1,14 @@
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Logo" width="120" height="120">
 
+#### Hi, I'm
 # Agunechemba Ekene
+#### *Your Tech Partner*
 
-#### *I build high-impact tech solutions: Custom software and web development, professional CCTV security systems, and expert computer repair, sales, and maintenance.*
+---
+
+> I bridge the gap between businesses and technology.
+
+Most companies don't need a **coder**, an **IT support**, a **security expert**, and an **IT consultant** separately. They need **one person** who understands all of it—and knows how to bring the right solutions together.
 
 * Call: **[+234 906 611 5252](tel:+2349066115252)**
 * LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
@@ -15,6 +21,8 @@
 - Software Development and Administration
 - Computer Systems Repair and Maintenance
 - Security Camera Installation and Maintenance
+
+---
 
 <!-- Start Call Back Form -->
 <div class="callback-container">
