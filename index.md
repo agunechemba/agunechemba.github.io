@@ -2,7 +2,8 @@
 
 # Agunechemba Ekene
 
-### *I Build Tech Solutions.*
+### I specialize in building and managing projects across web and software development, IT systems maintenance, and professional security camera installations.
+
 * Call: **[+234 906 611 5252](tel:+2349066115252)**
 * LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
 
