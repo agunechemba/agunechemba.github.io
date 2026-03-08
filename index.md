@@ -2,7 +2,7 @@
 
 # Agunechemba Ekene
 
-#### *I specialize in building and managing projects across web and software development, IT systems maintenance, and professional security camera installations.*
+#### *I build high-impact tech solutions: Custom software and web development, professional CCTV security systems, and expert computer repair, sales, and maintenance.*
 
 * Call: **[+234 906 611 5252](tel:+2349066115252)**
 * LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
