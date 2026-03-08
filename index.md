@@ -10,9 +10,9 @@
 
 ### My Services
   
+- Website and Mobile App Development
 - Software Development and Administration
 - Computer Systems Repair and Maintenance
-- Solar Panel Installation and Maintenance
 - Security Camera Installation and Maintenance
 
 <!-- Start Call Back Form -->
