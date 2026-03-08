@@ -22,7 +22,7 @@ Instead of just "hiring a dev," you get a digital presence built to convert and 
 Instead of chasing bugs, you get seamless system management and zero downtime so your tech stays out of your way.
 
 * **Strategic IT Consulting**
-Instead of guessing your next move, you get a clear roadmap to ensure your technology grows as fast as you do.
+Instead of guessing your next move, you get a clear roadmap to ensure your business grows as fast as you do.
 
 ---
 
