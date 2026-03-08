@@ -51,12 +51,12 @@ og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/crop
 
 <!-- Start Call Back Form -->
 <div class="callback-container">
-<h3 class="form-title">Request Free Consultation</h3>
+<h3 class="form-title">Request Call Back</h3>
 <form id="callbackForm">
     <input type="text" name="name" placeholder="First Name" required class="book-input">
     <input type="email" name="email" placeholder="Email" required class="book-input">
     <input type="text" name="whatsapp" placeholder="Phone" class="book-input">
-    <button type="submit" id="submitBtn" class="book-button">Request Free Consultation</button>
+    <button type="submit" id="submitBtn" class="book-button">Request Call Back</button>
     <p id="responseMsg" class="post_navi-label"></p>
   </form>
 </div>
@@ -82,7 +82,7 @@ og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/crop
       .catch(error => {
         msg.innerText = "Something went wrong. Please try again.";
         btn.disabled = false;
-        btn.innerText = "Request Free Consultation";
+        btn.innerText = "Request Call Back";
       });
   });
 </script>
