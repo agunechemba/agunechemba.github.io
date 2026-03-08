@@ -2,7 +2,7 @@
 
 # Agunechemba Ekene
 
-### *I Build Web Solutions.*
+### *I Build Tech Solutions.*
 * Call: **[+234 906 611 5252](tel:+2349066115252)**
 * LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
 
@@ -10,10 +10,13 @@
 
 ### My Services
   
-- E-commerce Website  
-- Bill Payment Systems
-- Learners Management Systems
-- Personalized Web Solutions
+- Website Development and Administration
+
+- Security Camera Installation and Maintenance
+
+- Solar Panel Installation and Maintenance
+
+- Computer Systems Repair and Maintenance
 
 <!-- Start Call Back Form -->
 <div class="callback-container">
