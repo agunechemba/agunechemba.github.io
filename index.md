@@ -12,8 +12,8 @@
   
 - Software Development and Administration
 - Computer Systems Repair and Maintenance
-- Security Camera Installation and Maintenance
 - Solar Panel Installation and Maintenance
+- Security Camera Installation and Maintenance
 
 <!-- Start Call Back Form -->
 <div class="callback-container">
