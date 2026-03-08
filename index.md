@@ -1,19 +1,19 @@
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Logo" width="120" height="120">
 
-*I'm*
 # Agunechemba Ekene
 
-**Your Tech Partner:** I handle the *complexities* so *you* can focus on your business.
+**Your Tech Partner**
 
-**High-Performance Web Development** Instead of just "having a website," you get a high-speed digital asset built to capture leads and scale with your customer base.
+### My Services
 
-**Proactive IT Management** Instead of reacting to tech failures, you get a seamless environment where your systems stay out of your way and let you work.
-
-**Strategic Growth Consulting** Instead of guessing your next tech investment, you get a clear roadmap that ensures your infrastructure grows as fast as your revenue.
+* **Website Development & Administration**
+* **IT Management & Support**
+* **Product & Project Management**
+* **Tech Advisory & Growth Consulting**
 
 ---
 
-**Ready to simplify your technology?** **Let’s Talk:**
+**Ready to simplify your technology?**
 
 📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
 
@@ -23,12 +23,12 @@
 
 <!-- Start Call Back Form -->
 <div class="callback-container">
-<h3 class="form-title">Request Free Consultation</h3>
+<h3 class="form-title">Request Call Back</h3>
 <form id="callbackForm">
     <input type="text" name="name" placeholder="First Name" required class="book-input">
     <input type="email" name="email" placeholder="Email" required class="book-input">
     <input type="text" name="whatsapp" placeholder="Phone" class="book-input">
-    <button type="submit" id="submitBtn" class="book-button">Request Free Consultation</button>
+    <button type="submit" id="submitBtn" class="book-button">Request Call Back</button>
     <p id="responseMsg" class="post_navi-label"></p>
   </form>
 </div>
@@ -54,7 +54,7 @@
       .catch(error => {
         msg.innerText = "Something went wrong. Please try again.";
         btn.disabled = false;
-        btn.innerText = "Request Free Consultation";
+        btn.innerText = "Request Call Back";
       });
   });
 </script>
