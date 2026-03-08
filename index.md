@@ -15,15 +15,6 @@ Most companies don't need a **coder**, an **IT support**, a **security expert**,
 
 ---
 
-### My Services
-  
-- Website and Mobile App Development
-- Software Development and Administration
-- Computer Systems Repair and Maintenance
-- Security Camera Installation and Maintenance
-
----
-
 <!-- Start Call Back Form -->
 <div class="callback-container">
 <h3 class="form-title">Request Free Consultation</h3>
