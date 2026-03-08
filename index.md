@@ -1,25 +1,23 @@
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Logo" width="120" height="120">
 
-#### Hi, I'm
+*I'm*
 # Agunechemba Ekene
-> ### *Your Tech Partner*
 
----
+**Your Tech Partner:** I handle the *complexities* so *you* can focus on your business.
 
-### I handle the **complexities** so **you** can focus on your business.
+**High-Performance Web Development** Instead of just "having a website," you get a high-speed digital asset built to capture leads and scale with your customer base.
 
-* **High-Performance Web Development** Instead of just "having a website," you get a high-speed digital asset built to capture leads and scale with your customer base.
+**Proactive IT Management** Instead of reacting to tech failures, you get a seamless environment where your systems stay out of your way and let you work.
 
-* **Proactive IT Management** Instead of reacting to tech failures, you get a seamless environment where your systems stay out of your way and let you work.
-
-* **Strategic Growth Consulting** Instead of guessing your next tech investment, you get a clear roadmap that ensures your infrastructure grows as fast as your revenue.
+**Strategic Growth Consulting** Instead of guessing your next tech investment, you get a clear roadmap that ensures your infrastructure grows as fast as your revenue.
 
 ---
 
 **Ready to simplify your technology?** **Let’s Talk:**
 
-* 📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
-* 🔗 LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
+📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
+
+🔗 LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
 
 ---
 
