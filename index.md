@@ -11,7 +11,6 @@
 * **Product & Project Management**
 * **Tech Advisory & Growth Consulting**
 
----
 
 **Ready to simplify your technology?**
 
