@@ -25,9 +25,9 @@ In JavaScript, "nullish" specifically means null or undefined. This is different
 
 ### The Difference Between ?? and ||
 
-This is where many developers get confused. The logical OR operator (||) returns the right-hand value when the left-hand value is falsy. The nullish coalescing operator (??) returns the right-hand value only when the left-hand value is nullish.
+This is where many developers get confused. The logical OR operator (\|\|) returns the right-hand value when the left-hand value is falsy. The nullish coalescing operator (??) returns the right-hand value only when the left-hand value is nullish.
 
-This means || will replace valid falsy values with your default, while ?? preserves them. When you're setting defaults for missing data, you almost always want ?? because you only want to replace values that are truly absent, not values that happen to be false, zero, or empty.
+This means \|\| will replace valid falsy values with your default, while ?? preserves them. When you're setting defaults for missing data, you almost always want ?? because you only want to replace values that are truly absent, not values that happen to be false, zero, or empty.
 
 ### When to Use Optional Chaining
 
