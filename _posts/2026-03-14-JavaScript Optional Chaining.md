@@ -20,8 +20,8 @@ This happens at each step of your chain, making it safe to write expressions lik
 
 In JavaScript, "nullish" specifically means null or undefined. This is different from "falsy" values like 0, "", false, or NaN. The distinction is crucial because:
 
-· Falsy values are often valid data (like volume set to 0)
-· Nullish values represent the absence of any value
+- Falsy values are often valid data (like volume set to 0)
+- Nullish values represent the absence of any value
 
 ### The Difference Between ?? and ||
 
