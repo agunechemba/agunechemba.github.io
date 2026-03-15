@@ -4,7 +4,7 @@
 
 **Your Tech Partner**
 
-### My Services
+## My Services
 
 * **Website Development & Administration**
 * **IT Management & Support**
@@ -12,9 +12,11 @@
 * **Tech Advisory & Growth Consulting**
 
 
-**Ready to simplify your technology?**
+## Ready to simplify your technology?
 
 📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
+
+📧 Email: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
 
 🔗 LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
 
