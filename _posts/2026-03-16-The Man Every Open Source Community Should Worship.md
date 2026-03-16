@@ -8,7 +8,7 @@ author: "Agunechemba Ekene"
 
 # The Man Every Open Source Community Should Worship: Happy Birthday Richard Stallman
 
-<img src="https://i.ibb.co/9HRyQc8d/Richard-Stallman.webp" witdth="100%">
+<img src="https://i.ibb.co/9HRyQc8d/Richard-Stallman.webp" width="100%">
 
 If you’ve ever typed a line of code in a free editor, hosted a project on GitHub, or used a Linux-based OS, you owe a debt to **Richard Stallman**.
 
