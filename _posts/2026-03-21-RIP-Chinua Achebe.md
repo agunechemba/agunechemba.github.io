@@ -3,7 +3,10 @@
 layout: post
 title: "The Flute and the Code: Why Many Programmers Are Becoming Unoka"
 date: 2026-03-21
-categories: [Tech, Culture]
+description: "Is your code an elegant escape or a tool for service? A deep dive into why modern developers are mirroring Chinua Achebe’s Unoka."
+image: https://i.ibb.co/zVyhW25w/Chinua-Achebe.png
+og_title: "The Flute and the Code: A Warning for Modern Programmers"
+og_description: "Unoka chose the flute over the farm. Are you choosing 'Clean Code' over the user's reality?"
 tags: [Software-Engineering, Tech-Culture, Chinua-Achebe, Coding-Life, Clean-Code, Product-Development, Developer-Mindset, African-Literature, Software-Architecture, Career-Growth, Tech-Leadership, Impact-Over-Elegance, Programming-Philosophy, Things-Fall-Apart, Build-For-Users]
 
 ---
