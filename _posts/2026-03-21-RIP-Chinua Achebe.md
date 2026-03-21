@@ -16,7 +16,7 @@ tags: [Software-Engineering, Tech-Culture, Chinua-Achebe, Coding-Life, Clean-Cod
      width="100%">
 <p align="center"><i>Source: Portrait of Chinua Achebe</i></p>
 
-In the book **[Things Fall Apart](https://www.amazon.com/Things-Fall-Apart-Chinua-Achebe/dp/0385474547)** Chinua Achebe’s Unoka was easy to dismiss. He sat in his hut playing his beautiful flute while other men farmed yams and went to war. He died in debt, carried to the Evil Forest.
+In the book **[Things Fall Apart](https://www.amazon.com/Things-Fall-Apart-Chinua-Achebe/dp/0385474547)**, Chinua Achebe’s Unoka was easy to dismiss. He sat in his hut playing his beautiful flute while other men farmed yams and went to war. He died in debt, carried to the Evil Forest.
 
 But Unoka is alive today. He is writing code.
 
