@@ -6,10 +6,10 @@
 
 ## My Services
 
-* **Website Development & Administration**
-* **IT Management & Support**
-* **Product & Project Management**
-* **Tech Advisory & Growth Consulting**
+* **Managing IT Systems**
+* **Developing Websites & Web Applications**
+* **Optimizing Websites for Visibility — SEO**
+* **Selling and Marketing Tech Products & Services**
 
 
 ## Ready to simplify your technology?
