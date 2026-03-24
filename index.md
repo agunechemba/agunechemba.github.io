@@ -12,7 +12,7 @@
 * **Selling and Marketing Tech Products & Services**
 
 
-## Ready to simplify your technology?
+## Connect
 
 📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
 
