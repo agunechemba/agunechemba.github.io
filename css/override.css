@@ -1,17 +1,18 @@
 /* ===========================================
-   📖 Jekyll Blog — Calm Old Book Theme
-   (Gentle Light Mode Only)
+   📖 Jekyll Blog — Midnight Ink & Parchment
+   (Refactored for Navy Tones)
    =========================================== */
 
-/* ========= 🌞 Base Color Palette ========= */
+/* ========= 🎨 Refactored Color Palette ========= */
 :root {
   --bg-color: #F7F3E9;        /* Warm parchment background */
-  --text-color: #2C2C2C;      /* Charcoal ink-like text */
-  --border-color: rgba(0, 0, 0, 0.1);
-  --accent-color: #B8860B;    /* Antique gold accent */
-  --accent-hover: #DAA520;    /* Soft golden hover */
+  --text-color: #001F3F;      /* Midnight Navy (Main Text) */
+  --border-color: rgba(0, 31, 63, 0.1);
+  --accent-color: #003366;    /* Darker Navy for links */
+  --accent-visited: #5D8AA8;  /* Air Force/Light Blue for visited links */
+  --accent-hover: #00509E;    /* Brighter Navy for hover */
   --code-bg: #FAF7EF;         /* Slightly brighter for code area */
-  --code-text: #333;           /* Deep ink tone for code */
+  --code-text: #1A2A3A;       /* Deep navy-tinted ink for code */
   --inline-border: rgba(0, 0, 0, 0.05);
 }
 
@@ -33,6 +34,22 @@ body {
   text-align: center;
 }
 
+/* ========= 🔗 Link Refactoring (No Underlines) ========= */
+a {
+  color: var(--accent-color);
+  text-decoration: none; /* Removed underlines */
+  transition: color 0.3s ease;
+}
+
+a:visited {
+  color: var(--accent-visited); /* Light blue for visited links */
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: none;
+}
+
 /* ========= ⎯⎯ Horizontal Rule ========= */
 hr {
   margin-top: 30px;
@@ -44,7 +61,7 @@ hr {
 /* ========= 🧭 Post Navigation (Stacked Arrows) ========= */
 .post_navi {
   display: flex;
-  justify-content: space-between; /* left & right items */
+  justify-content: space-between;
   margin-top: 40px;
   border-top: 1px solid var(--border-color);
   padding: 20px 0;
@@ -53,22 +70,22 @@ hr {
 
 .post_navi-item {
   display: flex;
-  flex-direction: column;    /* stack arrow above text */
-  align-items: center;       /* center horizontally */
-  width: 48%;                /* slightly less than 50% */
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
   text-decoration: none;
-  color: inherit !important;
-  transition: color 0.3s ease, opacity 0.3s ease;
+  color: var(--text-color) !important;
+  transition: opacity 0.3s ease;
 }
 
 .post_navi-item:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .post_navi-arrow {
   font-size: 2.5em;
   opacity: 0.6;
-  margin-bottom: 0.3em;     /* space between arrow and title */
+  margin-bottom: 0.3em;
 }
 
 .post_navi-label {
@@ -85,9 +102,7 @@ hr {
   text-align: center;
 }
 
-/* ========= 💻 Code Formatting ========= */
-
-/* Inline code (`...`) */
+/* ========= 💻 Code Formatting (Preserved) ========= */
 code {
   font-family: Consolas, "Courier New", monospace;
   background-color: var(--code-bg);
@@ -100,18 +115,17 @@ code {
   border: 1px solid var(--inline-border);
 }
 
-/* Code blocks (```...```) */
 pre {
   background-color: var(--code-bg);
   color: var(--code-text);
   font-family: Consolas, "Courier New", monospace;
   border-radius: 8px;
-  padding: 1em;
+  padding: 1.5em;
   overflow-x: auto;
-  line-height: 1.5;
+  line-height: 1.6; /* Improved for readability */
   margin: 1.2em 0;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  white-space: pre; /* Preserves indentation better than pre-wrap */
+  word-wrap: normal;
   border: 1px solid var(--border-color);
 }
 
@@ -119,98 +133,59 @@ pre code {
   background: none;
   color: inherit;
   border: none;
+  padding: 0;
 }
 
-/* ========= 🔡 Syntax Highlights ========= */
-pre code .keyword,
-code .keyword {
-  color: #8B4513; /* Brownish ink tone */
+/* ========= 🔡 Syntax Highlights (Optimized for Navy Theme) ========= */
+pre code .keyword, code .keyword { color: #003366; font-weight: bold; } /* Strong Navy */
+pre code .string, code .string { color: #4682B4; }  /* Steel Blue */
+pre code .number, code .number { color: #2E8B57; }  /* Deep Sea Green */
+pre code .comment, code .comment { color: #8E9AAF; font-style: italic; } /* Muted Slate */
+pre code .function, code .function { color: #005B96; } /* Royal Blue */
+
+/* ========= 📋 Form Styling ========= */
+.form-title {
+  font-family: "Georgia", serif;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
 }
 
-pre code .string,
-code .string {
-  color: #A0522D; /* Rustic sienna */
+.book-input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  font-family: "Georgia", serif;
+  background-color: var(--code-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-pre code .number,
-code .number {
-  color: #6B8E23; /* Olive green */
+.book-button {
+  background-color: var(--accent-color);
+  color: white;
+  font-family: "Georgia", serif;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 100%;
 }
 
-pre code .comment,
-code .comment {
-  color: #708090; /* Muted gray comment */
-  font-style: italic;
+.book-button:hover {
+  background-color: var(--accent-hover);
 }
 
-pre code .function,
-code .function {
-  color: #B8860B; /* Golden tone for functions */
+.callback-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-top: 1px solid var(--border-color);
 }
-
-/* ========= 🔗 Links ========= */
-a {
-  color: var(--accent-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: var(--accent-hover);
-}
-
-
-
-
-
-
-
-
-/* Form Styling - Local adjustments to match your specific CSS variables */
-
-/* Added Title Styling */
- .form-title {
-    font-family: "Georgia", serif;
-    color: var(--text-color);
-    font-size: 1.1rem;      /* Smaller, more elegant size */
-    margin-bottom: 0.5rem;
-    font-weight: normal;    /* Removed bold for a cleaner look */
-    letter-spacing: 0.02em; /* Subtle spacing for that printed book feel */
-  }
-
-  .book-input {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    margin: 15px 0;
-    font-family: "Georgia", serif;
-    background-color: var(--code-bg); /* Uses your light code background */
-    border: 1px solid var(--border-color);
-    color: var(--text-color);
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  .book-button {
-    background-color: var(--accent-color);
-    color: white;
-    font-family: "Georgia", serif;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    width: 100%;
-  }
-
-  .book-button:hover {
-    background-color: var(--accent-hover);
-  }
-
-  .callback-container {
-    max-width: 400px;
-    margin: 40px auto;
-    padding: 20px;
-    border-top: 1px solid var(--border-color);
-  }
