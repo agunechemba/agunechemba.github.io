@@ -198,12 +198,12 @@ h1.post-title,
 .header-logo a {
   color: #001F3F !important; /* Midnight Navy */
   font-family: "Georgia", serif;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: none;
   
   /* --- Spacing Adjustments --- */
-  letter-spacing: 0.03em;     /* Adds a breathable gap between letters */
-  line-height: 1.3;          /* Ensures vertical breathing room if the title wraps */
+  letter-spacing: 0.02em;     /* Adds a breathable gap between letters */
+  line-height: 1.2;          /* Ensures vertical breathing room if the title wraps */
   display: inline-block;     /* Helps spacing and transitions apply cleanly */
   margin-bottom: 0.5rem;     /* Space between title and the content below */
   
