@@ -196,22 +196,20 @@ pre code .function, code .function { color: #005B96; } /* Royal Blue */
 .site-title, 
 h1.post-title, 
 .header-logo a {
+  /* --- Page Text Colour --- */
   color: #001F3F !important; /* Midnight Navy */
+  
+  /* --- Text Spacing Only --- */
+  letter-spacing: 0.03em;     /* Adds breathability between letters */
+  line-height: 1.4;          /* Adds vertical space between wrapped lines */
+  
+  /* --- Essential Cleanup --- */
   font-family: "Georgia", serif;
-  /* font-weight: bold; */
   text-decoration: none;
-  
-  /* --- Spacing Adjustments --- */
-  letter-spacing: 0.02em;     /* Adds a breathable gap between letters */
-  line-height: 1.2;          /* Ensures vertical breathing room if the title wraps */
-  display: block;     /* Helps spacing and transitions apply cleanly */
-  margin-bottom: 0.5rem;     /* Space between title and the content below */
-  
   transition: color 0.3s ease;
 }
 
 .site-title:hover,
 h1.post-title:hover {
   color: #00509E;            /* Soft Navy hover */
-  text-decoration: none;
 }
