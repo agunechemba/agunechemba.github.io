@@ -10,6 +10,7 @@
     border: 2px solid #001F3F; 
     display: block; 
     margin: 20px auto;
+    float: left;
   ">
 
 
