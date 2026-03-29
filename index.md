@@ -1,4 +1,17 @@
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Logo" width="160" height="160">
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/displaypicturetransparent-background.png" alt="Logo" width="160" height="160">
+
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
+  alt="Profile Display" 
+  style="
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #001F3F; 
+    display: block; 
+    margin: 20px auto;
+  ">
+
 
 ### *Your Tech Partner*
 
