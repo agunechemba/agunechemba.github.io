@@ -7,11 +7,13 @@
     height: 200px; 
     border-radius: 50%; 
     object-fit: cover; 
-    border: 2px solid #001F3F; 
+    border: 2px solid none; 
     display: block; 
     margin: 20px auto;
     float: left;
   ">
+  
+  <div style="clear: both;"></div> <!-- To fix the image float-->
 
 
 ### *Your Tech Partner*
