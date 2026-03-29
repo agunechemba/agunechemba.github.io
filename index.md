@@ -1,7 +1,5 @@
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/displaypicturetransparent-background.png" alt="Logo" width="160" height="160">
-
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
-  alt="Profile Display" 
+  alt="Agunechemba | Your Tech Partner" 
   style="
     width: 200px; 
     height: 200px; 
@@ -16,7 +14,7 @@
   <div style="clear: both;"></div> <!-- To fix the image float-->
 
 
-### *Your Tech Partner*
+## *Your Tech Partner*
 
 ## My Services
 
