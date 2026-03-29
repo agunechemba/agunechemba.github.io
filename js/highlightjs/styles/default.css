@@ -1,40 +1,39 @@
-/*
-
-Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
-
+/* 
+   Midnight Library — Highlight.js Theme 
+   Refactored for Navy & Teal palette
 */
 
 .hljs {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
-  background: #F0F0F0;
+  padding: 1em;
+  background: #FAF7EF; /* Matches your --code-bg (Lighter Parchment) */
+  color: #001F3F;      /* Midnight Navy base text */
+  border-radius: 8px;
 }
 
-
-/* Base color: saturation 0; */
-
-.hljs,
+/* --- Base & Comments --- */
 .hljs-subst {
-  color: #444;
+  color: #001F3F;
 }
 
 .hljs-comment {
-  color: #888888;
+  color: #8E9AAF;      /* Muted Slate Blue for comments */
+  font-style: italic;
 }
 
+/* --- The Logic (Midnight Navy) --- */
 .hljs-keyword,
 .hljs-attribute,
 .hljs-selector-tag,
 .hljs-meta-keyword,
 .hljs-doctag,
 .hljs-name {
+  color: #001F3F;      /* Consistent Midnight Navy */
   font-weight: bold;
 }
 
-
-/* User color: hue: 0 */
-
+/* --- Data & Strings (Soft Teal/Blue) --- */
 .hljs-type,
 .hljs-string,
 .hljs-number,
@@ -43,15 +42,12 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .hljs-quote,
 .hljs-template-tag,
 .hljs-deletion {
-  color: #880000;
+  color: #20B2AA;      /* Soft Teal */
 }
 
+/* --- Variables & Sections (Air Force Blue) --- */
 .hljs-title,
-.hljs-section {
-  color: #880000;
-  font-weight: bold;
-}
-
+.hljs-section,
 .hljs-regexp,
 .hljs-symbol,
 .hljs-variable,
@@ -59,37 +55,28 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .hljs-link,
 .hljs-selector-attr,
 .hljs-selector-pseudo {
-  color: #BC6060;
+  color: #5D8AA8;      /* Matches your visited links */
 }
 
-
-/* Language color: hue: 90; */
-
-.hljs-literal {
-  color: #78A960;
-}
-
+/* --- Built-ins & Literals (Deep Sea Blue) --- */
+.hljs-literal,
 .hljs-built_in,
 .hljs-bullet,
 .hljs-code,
 .hljs-addition {
-  color: #397300;
+  color: #005B96;      /* Deep Royal Blue */
 }
 
-
-/* Meta color: hue: 200 */
-
+/* --- Metadata (Light Steel Blue) --- */
 .hljs-meta {
-  color: #1f7199;
+  color: #4682B4;
 }
 
 .hljs-meta-string {
-  color: #4d99bf;
+  color: #5D8AA8;
 }
 
-
-/* Misc effects */
-
+/* --- Font Styles --- */
 .hljs-emphasis {
   font-style: italic;
 }
