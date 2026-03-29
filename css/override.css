@@ -204,7 +204,7 @@ h1.post-title,
   /* --- Spacing Adjustments --- */
   letter-spacing: 0.02em;     /* Adds a breathable gap between letters */
   line-height: 1.2;          /* Ensures vertical breathing room if the title wraps */
-  display: inline-block;     /* Helps spacing and transitions apply cleanly */
+  display: block;     /* Helps spacing and transitions apply cleanly */
   margin-bottom: 0.5rem;     /* Space between title and the content below */
   
   transition: color 0.3s ease;
