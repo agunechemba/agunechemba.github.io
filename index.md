@@ -1,8 +1,6 @@
 <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" alt="Logo" width="120" height="120">
 
-# Agunechemba Ekene
-
-**Your Tech Partner**
+### *Your Tech Partner*
 
 ## My Services
 
