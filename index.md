@@ -42,7 +42,7 @@
 <form id="callbackForm">
     <input type="text" name="name" placeholder="First Name" required class="book-input">
     <input type="email" name="email" placeholder="Email" required class="book-input">
-    <input type="tel" name="whatsapp" placeholder="2349066115252" required class="book-input" pattern="[1-9]{1,3}[0-9]{7,12}" title="Please enter your full number including country code (e.g., 234 for Nigeria), without the + sign." />
+    <input type="tel" name="whatsapp" placeholder="Whatsapp (include country code)" required class="book-input" pattern="[1-9]{1,3}[0-9]{7,12}" title="Please enter your full number including country code (e.g., 234 for Nigeria), without the + sign." />
     <button type="submit" id="submitBtn" class="book-button">Request Call Back</button>
     <p id="responseMsg" class="post_navi-label"></p>
   </form>
