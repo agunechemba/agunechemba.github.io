@@ -44,6 +44,6 @@ Click **Generate**, and the tool creates a personalized link for every contact. 
 ## Stop Paying, Start Connecting
 This tool is open-source and is designed for the "Zen" of productivity: minimal friction, maximum impact.
 
-**[Try the Universal Sender Now](https://agunechemba.name.ng/wa-sender/)** | **[View on Browswer](https://agunechemba.name.ng/wa-sender/)**
+**[Try WhatsApp Sender Now](https://agunechemba.name.ng/wa-sender/)** | **[Try Email Sender Now](https://agunechemba.name.ng/wa-sender/email.html)**
 
 *Built for efficiency. Designed for privacy.*
