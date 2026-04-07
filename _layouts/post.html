@@ -38,12 +38,33 @@ og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/crop
 
 
 <!-- Start Installing Cusdis for comment -->
-  <div id="cusdis_thread"
+
+<div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="0a57754e-fb2e-4eaf-86c3-43d13eaedec0"
   data-page-id="{{ PAGE_ID }}"
   data-page-url="{{ PAGE_URL }}"
   data-page-title="{{ PAGE_TITLE }}"
 ></div>
+
+<script>
+  window.CUSDIS_PREVENT_INITIAL_RENDER = false; // Ensure it renders automatically
+
+  // This listener waits for Cusdis to send a 'resize' message
+  window.addEventListener('message', (e) => {
+    try {
+      const data = JSON.parse(e.data);
+      if (data.target === 'cusdis' && data.event === 'resize') {
+        const iframe = document.querySelector('#cusdis_thread iframe');
+        if (iframe) {
+          iframe.style.height = data.data + 'px';
+        }
+      }
+    } catch (err) {
+      // Ignore non-JSON messages from other scripts
+    }
+  });
+</script>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
  <!-- End Installing Cusdis for comment-->
