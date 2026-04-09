@@ -27,10 +27,10 @@ Click **Generate**, and the tool creates a personalized link for every contact. 
 
 ---
 
-## **[Try WhatsApp Sender Now](https://agunechemba.name.ng/wa-sender/)**
+## 👉🏾 **[Try WhatsApp Sender Now](https://agunechemba.name.ng/wa-sender/)**
 
 
-## **[Try Email Sender Now](https://agunechemba.name.ng/wa-sender/email.html)**
+## 👉🏾 **[Try Email Sender Now](https://agunechemba.name.ng/wa-sender/email.html)**
 
 
 *Built for efficiency. Designed for privacy.*
