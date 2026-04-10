@@ -39,3 +39,7 @@ Click **Send** to launch the message directly through your native apps. No manua
 
 
 *Built for efficiency. Designed for privacy.*
+
+#### ⚠️ CAUTION
+*Improper use may lead to WhatsApp or email account bans.*
+
