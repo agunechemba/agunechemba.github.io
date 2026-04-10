@@ -38,8 +38,6 @@ Click **Send** to launch the message directly through your native apps. No manua
 ## 👉🏾 **[Try Email Sender Now](https://agunechemba.name.ng/wa-sender/email.html)**
 
 
-*Built for efficiency. Designed for privacy.*
-
 #### ⚠️ CAUTION
 *Improper use may lead to WhatsApp or email account bans.*
 
