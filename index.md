@@ -16,12 +16,10 @@
 
 ## *Your Tech Partner*
 
-## My Services
+### What I Deliver:
 
-* **Managing IT Systems**
-* **Developing Websites & Web Applications**
-* **Optimizing Websites for Visibility — SEO**
-* **Selling and Marketing Tech Products & Services**
+* **Premium IT Hardware**
+* **Custom Software Solutions**
 
 
 ## Connect
