@@ -16,10 +16,10 @@
 
 ## *Your Tech Partner*
 
-### What I Deliver:
+### What I Offer:
 
-* **Premium IT Hardware**
-* **Custom Software Solutions**
+* **Quality Tech Hardware**
+* **Premium Software Solutions**
 
 
 ## Connect
