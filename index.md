@@ -21,8 +21,9 @@
 * **Quality Tech Hardware**
 * **Premium Software Solutions**
 
+---
 
-## Connect
+### Connect
 
 📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
 
