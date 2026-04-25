@@ -1,4 +1,4 @@
-<div style="max-width: 200px; width: 100%; margin: 20px 0; text-align: left;">
+<div style="max-width: 200px; width: 100%; margin: 20px 0; text-align: center;">
   <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
        alt="Agunechemba | Your Tech Partner" 
        style="
