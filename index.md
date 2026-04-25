@@ -14,7 +14,7 @@
   <div style="clear: both;"></div> <!-- To fix the image float-->
 
 
-## *Your Tech Partner*
+*Your Tech Partner*
 
 ### What I Offer:
 
