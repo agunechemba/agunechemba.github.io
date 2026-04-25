@@ -1,20 +1,24 @@
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
-  alt="Agunechemba | Your Tech Partner" 
-  style="
-    width: 200px; 
-    height: 200px; 
-    border-radius: 50%; 
-    object-fit: cover; 
-    border: 2px solid none; 
-    display: block; 
-    margin: 20px auto;
-    float: left;
+<div style="width: 200px; margin: 20px auto; text-align: center;">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
+       alt="Agunechemba | Your Tech Partner" 
+       style="
+         width: 200px; 
+         height: 200px; 
+         border-radius: 50%; 
+         object-fit: cover; 
+         display: block;
+         margin-bottom: 10px;
+       ">
+  <p style="
+     margin: 0; 
+     font-size: 16px; 
+     color: #555; 
+     font-style: italic;
+     font-family: sans-serif;
   ">
-  
-  <div style="clear: both;"></div> <!-- To fix the image float-->
-
-
-*Your Tech Partner*
+    Your Tech Partner
+  </p>
+</div>
 
 ### What I Offer:
 
