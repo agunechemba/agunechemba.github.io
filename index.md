@@ -1,23 +1,9 @@
-<div style="width: 200px; margin: 20px auto; text-align: left;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
-       alt="Agunechemba | Your Tech Partner" 
-       style="
-         width: 200px; 
-         height: 200px; 
-         border-radius: 50%; 
-         object-fit: cover; 
-         display: block;
-         margin-bottom: 10px;
-       ">
-  <p style="
-     margin: 0; 
-     font-size: 16px; 
-     color: #555; 
-     font-style: italic;
-     font-family: sans-serif;
-  ">
-    Your Tech Partner
-  </p>
+<div style="max-width: 200px; margin: 20px 0;">
+
+![Agunechemba | Your Tech Partner](https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png){: style="width: 100%; border-radius: 50%;"}
+
+*Your Tech Partner*{: style="display: block; font-size: 0.9rem; color: #666; margin-top: 8px;"}
+
 </div>
 
 ### What I Offer:
