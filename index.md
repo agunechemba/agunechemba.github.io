@@ -22,7 +22,7 @@
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
 
   <!-- Connect Section -->
-  <h3 style="font-size: 20px; margin-bottom: 15px;">Connect</h3>
+  <h3 style="font-size: 20px; margin-bottom: 15px;">Connect:</h3>
   
   <div style="display: flex; flex-direction: column; gap: 12px; align-items: center;">
     <a href="tel:+2349066115252" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
