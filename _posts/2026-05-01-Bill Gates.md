@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Bill Gates: Coding Without a Safety Net"
+description: "How Bill Gates built Altair BASIC and the Windows kernel using raw logic, manual memory management, and deep fundamental understanding."
+keywords: "Bill Gates, Altair BASIC, Software Engineering History, Low-level Programming, Microsoft History"
+author: "Agunechemba Ekene"
+date: 2026-05-01
+---
+
 # Bill Gates: Coding Without a Safety Net
 
 <img src="https://i.ibb.co/8gmvDmk3/main-qimg-4301acdf7028ccb8eb651e874ebf1042.png" width="100%">
