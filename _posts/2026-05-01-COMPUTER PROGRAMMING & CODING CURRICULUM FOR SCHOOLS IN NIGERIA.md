@@ -1,3 +1,5 @@
+#  COMPUTER PROGRAMMING AND CODING CURRICULUM FOR SCHOOLS IN NIGERIA
+
 <img src="https://i.ibb.co/jZw4sxPJ/curricullum.jpg" width="100%">
 
 <div style="text-align: center; font-family: sans-serif; margin: 20px 0;">
