@@ -1,44 +1,49 @@
-<div style="max-width: 200px; width: 100%; margin: 20px 0; text-align: center;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
-       alt="Agunechemba | Your Tech Partner" 
-       style="
-         width: 100%; 
-         height: auto; 
-         aspect-ratio: 1 / 1;
-         border-radius: 50%; 
-         object-fit: cover; 
-         display: block;
-         margin-bottom: 8px;
-       ">
-  <p style="
-     margin: 0; 
-     font-size: 14px; 
-     color: #555; 
-     font-style: italic;
-     font-family: sans-serif;
-  ">
-    Your Tech Partner
-  </p>
+<div style="max-width: 400px; width: 90%; margin: 0 auto; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
+
+  <!-- Profile Image & Tagline -->
+  <div style="display: inline-block; width: 150px; margin-top: 20px;">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/03/website-dp.png" 
+         alt="Agunechemba | Your Tech Partner" 
+         style="width: 100%; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; border: 2px solid #f0f0f0; object-fit: cover; display: block; margin-bottom: 10px;">
+    <p style="margin: 0; font-size: 15px; color: #666; font-style: italic;">
+      Your Tech Partner
+    </p>
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
+
+  <!-- Main Content -->
+  <h3 style="font-size: 20px; margin-bottom: 12px;">What I Offer:</h3>
+  <div style="font-size: 16px; margin-bottom: 25px;">
+    <div style="margin-bottom: 8px;">✅ Quality Tech Hardware</div>
+    <div>✅ Premium Software Solutions</div>
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
+
+  <!-- Connect Section -->
+  <h3 style="font-size: 20px; margin-bottom: 15px;">Connect</h3>
+  
+  <div style="display: flex; flex-direction: column; gap: 12px; align-items: center;">
+    <a href="tel:+2349066115252" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
+      📞 +234 906 611 5252
+    </a>
+    <a href="mailto:agunechemba@yahoo.com" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
+      📧 agunechemba@yahoo.com
+    </a>
+    <a href="https://www.linkedin.com/in/agunechembaekene" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
+      🔗 LinkedIn Profile
+    </a>
+  </div>
+  
+  <div style="margin-top: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 10px;">
+    <p style="margin: 0; font-size: 14px; margin-bottom: 5px;">Highly Rated!</p>
+    <a href="https://share.google/XVIrFxFsXMjVaxdh1" style="text-decoration: none; color: #28a745; font-weight: bold; font-size: 16px;">
+      ⭐⭐⭐⭐⭐ <br>Rate Me On Google
+    </a>
+  </div>
+
 </div>
-
-### What I Offer:
-
-* **Quality Tech Hardware**
-* **Premium Software Solutions**
-
----
-
-### Connect
-
-📞 Call: **[+234 906 611 5252](tel:+2349066115252)**
-
-📧 Email: **[agunechemba@yahoo.com](mailto:agunechemba@yahoo.com)**
-
-🔗 LinkedIn: **[agunechembaekene](https://www.linkedin.com/in/agunechembaekene)**
-
-⭐⭐⭐⭐⭐ **[Rate Me On Google!](https://share.google/XVIrFxFsXMjVaxdh1)**
-
----
 
 <!-- Start Call Back Form -->
 <div class="callback-container">
