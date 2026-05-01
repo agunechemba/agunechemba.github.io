@@ -1,3 +1,9 @@
 <img src="https://i.ibb.co/jZw4sxPJ/curricullum.jpg" width="100%">
 
-https://docs.google.com/document/d/1JsbAHKgUCBbd6PgnFQFBdqveyDiUj18WkAUIpGNNdBI/edit?usp=sharing
+<div style="text-align: center; font-family: sans-serif; margin: 20px 0;">
+  <a href="https://docs.google.com/document/d/1JsbAHKgUCBbd6PgnFQFBdqveyDiUj18WkAUIpGNNdBI/edit?usp=sharing" 
+     target="_blank" 
+     style="font-weight: bold; font-size: 1.2em; text-decoration: none; color: #1a73e8;">
+     👉 View the Computer Programming & Coding Curriculum
+  </a>
+</div>
