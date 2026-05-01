@@ -15,8 +15,8 @@
   <!-- Main Content -->
   <h3 style="font-size: 20px; margin-bottom: 12px;">What I Offer:</h3>
   <div style="font-size: 16px; margin-bottom: 25px;">
-    <div style="margin-bottom: 8px;">✅ Quality Tech Hardware</div>
-    <div>✅ Premium Software Solutions</div>
+    <div style="margin-bottom: 8px;">• Quality Tech Hardware</div>
+    <div>• Premium Software Solutions</div>
   </div>
 
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
@@ -25,20 +25,20 @@
   <h3 style="font-size: 20px; margin-bottom: 15px;">Connect</h3>
   
   <div style="display: flex; flex-direction: column; gap: 12px; align-items: center;">
-    <a href="tel:+2349066115252" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
+    <a href="tel:+2349066115252" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
       📞 +234 906 611 5252
     </a>
-    <a href="mailto:agunechemba@yahoo.com" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
+    <a href="mailto:agunechemba@yahoo.com" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
       📧 agunechemba@yahoo.com
     </a>
-    <a href="https://www.linkedin.com/in/agunechembaekene" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
+    <a href="https://www.linkedin.com/in/agunechembaekene" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #007bff; font-weight: 600; font-size: 16px;">
       🔗 LinkedIn Profile
     </a>
   </div>
   
   <div style="margin-top: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 10px;">
     <p style="margin: 0; font-size: 14px; margin-bottom: 5px;">Highly Rated!</p>
-    <a href="https://share.google/XVIrFxFsXMjVaxdh1" style="text-decoration: none; color: #28a745; font-weight: bold; font-size: 16px;">
+    <a href="https://share.google/XVIrFxFsXMjVaxdh1" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #28a745; font-weight: bold; font-size: 16px;">
       ⭐⭐⭐⭐⭐ <br>Rate Me On Google
     </a>
   </div>
