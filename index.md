@@ -13,10 +13,10 @@
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
 
   <!-- Main Content -->
-  <h3 style="font-size: 20px; margin-bottom: 12px;">What I Offer:</h3>
+  <h3 style="font-size: 20px; margin-bottom: 12px;">What I Do?:</h3>
   <div style="font-size: 16px; margin-bottom: 25px;">
-    <div style="margin-bottom: 8px;">• Quality Tech Hardware</div>
-    <div>• Premium Software Solutions</div>
+    <div style="margin-bottom: 4px;">• I sell computer hardware and software solutions.</div>
+    <div style="margin-bottom: 4px;">• I train employees and learners on the use of IT infrastructure.</div>
   </div>
 
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
