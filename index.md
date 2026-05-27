@@ -15,8 +15,8 @@
   <!-- Main Content -->
   <h3 style="font-size: 20px; margin-bottom: 12px; font-weight: bold;">Bio:</h3>
   <div style="font-size: 16px; margin-bottom: 25px;">
-    <div style="margin-bottom: 4px;">• <b>Founder:</b> Pepe Programmers Hub.</div>
-    <div style="margin-bottom: 4px;">• <b>Entrepreneur:</b> Computer Softwares & Hardwares. </div>
+    <div style="margin-bottom: 4px;"><b>Founder:</b> Pepe Programmers Hub.</div>
+    <div style="margin-bottom: 4px;"><b>Entrepreneur:</b> Computer Softwares & Hardwares. </div>
   </div>
 
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
