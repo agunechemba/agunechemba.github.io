@@ -1,4 +1,4 @@
-# The Secret Agent Inside Your Browser: The Untold Story of the Men Who Saved the Web Developers
+# Service Worker: How a Group of Frustrated Engineers Rewrote the Rules of Web Development
 
 <img src="https://i.ibb.co/fzbbBNSv/service-worker.png" width="100%">
 
