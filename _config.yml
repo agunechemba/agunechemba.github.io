@@ -2,8 +2,8 @@ title: "Agunechemba"
 author: "Agunechemba Ekene"
 description: "Your Tech Partner"
 url: "https://agunechemba.github.io"
-logo: "https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png"
-favicon: "https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png"
+logo: "https://agunechembaekene.wordpress.com/wp-content/uploads/2026/05/agunechemba-logo.png"
+favicon: "https://agunechembaekene.wordpress.com/wp-content/uploads/2026/05/agunechemba-logo.png"
 
 # Using the folded block scalar (>-) for the massive keyword list
 # Fixed: All lines are now indented exactly 2 spaces for YAML compliance
@@ -25,7 +25,7 @@ global_keywords: >-
   tech startup scaling, innovation consulting
 
 # Social Media sharing image
-default_og_image: "https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png"
+default_og_image: "https://agunechembaekene.wordpress.com/wp-content/uploads/2026/05/agunechemba-logo.png"
 
 # Minima theme social links
 email: "agunechemba@yahoo.com"

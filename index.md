@@ -2,7 +2,7 @@
 
   <!-- Profile Image & Tagline -->
   <div style="display: inline-block; width: 150px; margin-top: 20px;">
-    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png" 
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/05/agunechemba-logo.png" 
          alt="Agunechemba | Your Tech Partner" 
          style="width: 100%; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; border: 2px solid #f0f0f0; object-fit: cover; display: block; margin-bottom: 10px;">
     <p style="margin: 0; font-size: 15px; color: #666; font-style: italic;">
