@@ -15,7 +15,10 @@
   <!-- Main Content -->
   <h3 style="font-size: 20px; margin-bottom: 12px; font-weight: bold;">Bio:</h3>
   <div style="font-size: 16px; margin-bottom: 25px;">
-    <div style="margin-bottom: 4px;"><b>Founder:</b> Pepe Programmers Hub.</div>
+    <div style="margin-bottom: 4px;"><b>Founder:</b><a href="https://pph.name.ng/" target="_blank" style="color: inherit; text-decoration: none;">
+        Prime Programmers Hub &#x2197;
+    </a>
+</div>
     <div style="margin-bottom: 4px;"><b>Entrepreneur:</b> Computer Softwares & Hardwares. </div>
   </div>
 
