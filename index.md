@@ -13,9 +13,8 @@
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
 
   <!-- Main Content -->
-  <h3 style="font-size: 20px; margin-bottom: 12px; font-weight: bold;">Bio:</h3>
 <div style="font-size: 16px; margin-bottom: 25px;">
-    <div style="margin-bottom: 4px;"><b>Tech Blogger</b></div>
+    <div style="margin-bottom: 4px;"><b>Bio:</b>Tech Blogger</div>
     <div style="margin-bottom: 4px;"><b>Founder:</b><a href="https://pph.name.ng/" target="_blank" style="color: inherit; text-decoration: none;">
         Prime Programmers Hub &#x2197;
     </a>
