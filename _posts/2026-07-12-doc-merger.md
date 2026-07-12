@@ -74,6 +74,6 @@ If you encounter a generic network error message, don't panic! It almost always 
 
 ---
 
-### Have questions or want to see new features added to the merger hub? Email: *mr.agunechemba@gmail.com*
+*Have questions or want to see new features added to the merger hub? email: mr.agunechemba@gmail.com*
 
 ---
