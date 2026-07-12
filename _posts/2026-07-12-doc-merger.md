@@ -1,4 +1,4 @@
-# Doc Merger: Merge Google Sheets Data into a Single Google Doc
+# Doc Merger: Merge Spreedsheets Data into a Single Document
 
 <img src="https://i.ibb.co/B5K9fqRt/Screenshot-2026-07-12-06-58-08.png" class="block mx-auto w-[70%]">
 
