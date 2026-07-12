@@ -1,6 +1,6 @@
 # Doc Merger: Streamline Your Workflow; Merge Google Sheets Data into a Single Google Doc
 
-<img src="https://i.ibb.co/B5K9fqRt/Screenshot-2026-07-12-06-58-08.png" width="100%">
+<img src="https://i.ibb.co/B5K9fqRt/Screenshot-2026-07-12-06-58-08.png" width="70%">
 
 We’ve all been there: you have a Google Sheet packed with data—invoices, student reports, event attendees, or inventory logs—and you need to transform that data into cleanly formatted documents.
 
