@@ -78,4 +78,4 @@ If you encounter a generic network error message, don't panic! It almost always 
 
 ---
 
-### [Open Doc Merger](https://agunechemba.name.ng/docx-generator/)
+### 👉 [Open Doc Merger](https://agunechemba.name.ng/docx-generator/)
