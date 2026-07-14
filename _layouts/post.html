@@ -1,10 +1,22 @@
 ---
 layout: default
 title: "My Post"
-
-og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png <!-- I added this myself-->
-
 ---
+
+{%- comment -%}
+  Find all images by splitting the content, grab the last one, and isolate its src URL
+{%- endcomment -%}
+{%- assign post_images = content | split: '<img ' -%}
+{%- if post_images.size > 1 -%}
+  {%- assign last_image_html = post_images | last | split: '/>' | first | split: '>' | first -%}
+  {%- assign og_image_url = last_image_html | split: 'src="' | last | split: '"' | first -%}
+{%- else -%}
+  {%- comment -%} Fallback if the post has no images {%- endcomment -%}
+  {%- assign og_image_url = "https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/cropped-displaypicturetransparent-background.png" -%}
+{%- endif -%}
+
+{%- comment -%} Dynamically inject this into page.og_image so the head layout can see it {%- endcomment -%}
+{%- assign page.og_image = og_image_url -%}
 
 <link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -19,7 +31,8 @@ og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/crop
       {% assign author = page.author | default: site.author %}
       {%- if author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="share-links">
@@ -31,11 +44,9 @@ og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/crop
     {% include navlinks.html %}
   </div>
 
-   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
-  </article>
-
-
+</article>
 
 <!-- Start Installing Cusdis for comment --
 <div id="cusdis_thread"
@@ -46,5 +57,4 @@ og_image: https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/crop
   data-page-title="{{ PAGE_TITLE }}"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
- !-- End Installing Cusdis for comment-->
+<!-- End Installing Cusdis for comment -->
