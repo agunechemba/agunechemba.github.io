@@ -1,22 +1,6 @@
 ---
 layout: default
 ---
-{% comment %}
-  Look for the first image in the post content.
-  If found, secretly override page.image so the SEO gem can grab it!
-{% endcomment %}
-{% unless page.image %}
-  {% if content contains '<img' %}
-    {% assign img_parts = content | split: '<img' %}
-    {% assign img_tag = img_parts[1] | split: '>' | first %}
-    {% assign src_parts = img_tag | split: 'src="' %}
-    {% if src_parts.size > 1 %}
-      {% assign extracted_img = src_parts[1] | split: '"' | first %}
-      {% assign page.image = extracted_img %}
-    {% endif %}
-  {% endif %}
-{% endunless %}
-
 <link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
