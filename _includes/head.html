@@ -3,23 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Dynamic OG Image Extractor (Runs before SEO Gem) -->
-  {% if page.layout == "post" or page.layout == "blog-post" %}
-    {% unless page.image %}
-      {% assign img_split = page.content | split: '<img' %}
-      {% if img_split.size > 1 %}
-        {% assign img_tag = img_split[1] | split: '>' | first %}
-        {% assign src_split = img_tag | split: 'src="' %}
-        {% if src_split.size > 1 %}
-          {% assign img_url = src_split[1] | split: '"' | first %}
-          {% assign page.image = img_url %}
-        {% endif %}
-      {% endif %}
-    {% endunless %}
-  {% endif %}
-
-  <meta property="og:image" content="{{ page.image | default: page.og_image | default: site.og_image }}">
+  <meta property="og:image" content="{{ page.og_image | default: site.og_image }}">
 
   <!-- Begin Jekyll SEO (Handles Title, Description, OG, and Twitter automatically) -->
   {% seo %}
