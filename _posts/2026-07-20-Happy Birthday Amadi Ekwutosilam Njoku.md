@@ -1,10 +1,10 @@
 ---
-title: "Happy Birthday Amadi Ekwutosilam Njoku: From all of us at Prime Programmers Hub"
+title: "Happy Birthday Amadi Ekwutosilam Njoku"
 image: https://i.ibb.co/m5SRLLnP/Amadi-Ekwutosilam-Njoku.webp
 
 ---
 
-# Happy Birthday Amadi Ekwutosilam Njoku: From all of us at Prime Programmers Hub
+# Happy Birthday Amadi Ekwutosilam Njoku
 
 <figure style="max-width: 100%; margin: 0 auto; text-align: center;">
   <img src="https://i.ibb.co/m5SRLLnP/Amadi-Ekwutosilam-Njoku.webp" alt="Amadi Ekwutosilam Njoku" style="width: 100%; height: auto; display: block;">
@@ -13,7 +13,7 @@ image: https://i.ibb.co/m5SRLLnP/Amadi-Ekwutosilam-Njoku.webp
   </figcaption>
 </figure>
 
-To our dearest partner and wordsmith extraordinaire- Amadi Ekwutosilam Njoku,
+To our dearest partner and wordsmith extraordinaire- *Amadi Ekwutosilam Njoku*,
 
 You turn consonants into code, vowels into verses.
 You teach tongues, but you teach thought —
