@@ -38,7 +38,7 @@ You're core memory.
 Keep scripting greatness, Amadi.
 From all of us at Prime Programmers Hub — Happy Birthday! 🥂
 
-**Visit: [Amadi Ekwutosilam Njoku](https://amadiekwutosilamnjoku.name.ng/)**
+### Visit: [Amadi Ekwutosilam Njoku](https://amadiekwutosilamnjoku.name.ng/)
 
 ---
 
