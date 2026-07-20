@@ -23,7 +23,7 @@ He is far more than an exceptional teacher; he is a cornerstone of our shared vi
 
 As Amadi steps into a brand new year, all of us at [**Prime Programmers Hub**](https://pph.name.ng/) want to offer a few wishes: may your laughter remain the warmest variable in every room you enter—the kind of constant light that never, ever returns null.
 
-Keep scripting greatness. From everyone here at **Prime Programmers Hub** —Happy Birthday! 🥂
+Keep scripting greatness. From everyone here at [**Prime Programmers Hub**](https://pph.name.ng/) —Happy Birthday! 🥂
 
 ---
 
