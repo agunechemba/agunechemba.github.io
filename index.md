@@ -11,9 +11,8 @@
 
   <!-- Main Content -->
 <div style="font-size: 16px; margin-bottom: 25px;">
-    <div style="margin-bottom: 4px;"><b>Bio: </b>Tech Blogger</div>
-    <div style="margin-bottom: 4px;"><b>Founder:</b><a href="https://pph.name.ng/" target="_blank" style="color: inherit; text-decoration: none;">
-        Prime Programmers Hub &#x2197;
+    <div style="margin-bottom: 4px;"><b>Tech Blogger</b> || Founder:<a href="https://pph.name.ng/" target="_blank" style="color: inherit; text-decoration: none;">
+        <b>PPH</b> &#x2197;
     </a>
 </div>
 </div>
