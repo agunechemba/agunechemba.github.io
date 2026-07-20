@@ -1,8 +1,3 @@
----
-image: https://i.ibb.co/m5SRLLnP/Amadi-Ekwutosilam-Njoku.webp
-
----
-
 # Happy Birthday Amadi Ekwutosilam Njoku: From all of us at Prime Programmers Hub
 
 <figure style="max-width: 100%; margin: 0 auto; text-align: center;">
