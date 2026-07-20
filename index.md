@@ -1,7 +1,7 @@
 <div style="max-width: 400px; width: 90%; margin: 0 auto; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
 
   <!-- Profile Image & Tagline -->
-  <div style="display: inline-block; width: 150px; margin-top: 20px;">
+  <div style="display: inline-block; width: 150px; margin-top: 10px;">
     <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png" 
          alt="Agunechemba | Your Tech Partner" 
          style="width: 100%; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; border: 2px solid #f0f0f0; object-fit: cover; display: block; margin-bottom: 10px;">
