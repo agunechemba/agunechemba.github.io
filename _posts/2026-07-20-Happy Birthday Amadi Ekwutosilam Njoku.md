@@ -15,7 +15,7 @@ image: https://i.ibb.co/m5SRLLnP/Amadi-Ekwutosilam-Njoku.webp
 
 ---
 
-Today, we are reminded that the most profound architecture doesn’t live in a codebase—it lives in human thought, connection, and character. Today, we pause our builds to celebrate someone who embodies that truth: our dearest partner and wordsmith extraordinaire, *Amadi Ekwutosilam Njoku.*
+Today, we are reminded that the most profound architecture doesn’t live in a codebase—it lives in human thought, connection, and character. Today, we pause our builds to celebrate someone who embodies that truth: our dearest partner and wordsmith extraordinaire, [**Amadi Ekwutosilam Njoku.**](https://amadiekwutosilamnjoku.name.ng/)
 
 To watch Amadi work is to witness a rare kind of alchemy. He turns consonants into code and vowels into verses with effortless grace. Amadi goes much deeper—he teaches people *how* to think. In a world full of noise, that kind of clarity and depth is invaluable. 
 
