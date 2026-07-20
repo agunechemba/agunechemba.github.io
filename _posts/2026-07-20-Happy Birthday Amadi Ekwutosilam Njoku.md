@@ -12,14 +12,14 @@ image: https://i.ibb.co/m5SRLLnP/Amadi-Ekwutosilam-Njoku.webp
   </figcaption>
 </figure>
 
-To our dearest partner and wordsmith extraordinaire,
+To our dearest partner and wordsmith extraordinaire- Amadi Ekwutosilam Njoku,
 
 You turn consonants into code, vowels into verses.
 You teach tongues, but you teach thought —
 and that's the kind of alchemy we recognize.
 
 At Prime Programmers Hub, we build systems.
-You, Mazi, build souls —
+You, Amadi, build souls —
 one student, one syllable, one story at a time.
 
 Today, we celebrate more than a teacher.
@@ -34,5 +34,7 @@ the one that never returns null.
 You're not just a collaborator.
 You're core memory.
 
-Keep scripting greatness, Mazi.
+Keep scripting greatness, Amadi.
 From all of us at Prime Programmers Hub — Happy Birthday! 🥂
+
+**Visit: [Amadi Ekwutosilam Njoku](https://amadiekwutosilamnjoku.name.ng/)**
