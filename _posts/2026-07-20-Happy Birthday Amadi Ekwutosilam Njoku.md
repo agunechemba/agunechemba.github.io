@@ -13,6 +13,8 @@ image: https://i.ibb.co/m5SRLLnP/Amadi-Ekwutosilam-Njoku.webp
   </figcaption>
 </figure>
 
+---
+
 To our dearest partner and wordsmith extraordinaire- *Amadi Ekwutosilam Njoku*,
 
 You turn consonants into code, vowels into verses.
@@ -37,6 +39,8 @@ You're core memory.
 
 Keep scripting greatness, Amadi.
 From all of us at Prime Programmers Hub — Happy Birthday! 🥂
+
+---
 
 ### Visit: [Amadi Ekwutosilam Njoku](https://amadiekwutosilamnjoku.name.ng/)
 
