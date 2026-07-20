@@ -39,3 +39,7 @@ Keep scripting greatness, Amadi.
 From all of us at Prime Programmers Hub — Happy Birthday! 🥂
 
 **Visit: [Amadi Ekwutosilam Njoku](https://amadiekwutosilamnjoku.name.ng/)**
+
+---
+
+![Trending Book by Amadi: I will Not Marry](https://i.ibb.co/XZj4SFb9/I-will-not-marry.jpg)
