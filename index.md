@@ -1,14 +1,11 @@
 <div style="max-width: 400px; width: 90%; margin: 0 auto; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
 
-  <!-- Profile Image & Tagline -->
-  <div style="display: inline-block; width: 150px;">
-    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png" 
-         alt="Agunechemba | Your Tech Partner" 
-         style="width: 100%; height: auto; aspect-ratio: 1 / 1; border-radius: 50%; border: 2px solid #f0f0f0; object-fit: cover; display: block; margin-bottom: 10px;">
-    <p style="margin: 0; font-size: 15px; color: #666; font-style: italic;">
-      Your Tech Partner
-    </p>
-  </div>
+<!-- Profile Image & Tagline -->
+<div style="display: inline-block; width: 150px;">
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png" 
+       alt="Agunechemba"
+       style="width: 100%; height: auto; aspect-ratio: 1 / 1.15; border-radius: 0 0 35px 35px; object-fit: cover; object-position: top; display: block; margin-top: -15px; margin-bottom: 10px;">
+</div>
 
   <hr style="border: 0; border-top: 1px solid #eee; margin: 25px 0;">
 
