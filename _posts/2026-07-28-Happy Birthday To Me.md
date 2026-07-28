@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Another Orbit Around the Sun: A Quick Reflection"
+title: "Another Orbit Around the Sun: HBD Agunechemba"
 date: 2026-07-28
 tags: [birthday, life, tech, growth, Agunechemba Ekene]
 excerpt: "A quick 100-second reflection on another year of building, teaching, and leveling up."
 image: https://i.ibb.co/V0TT21sc/man-birthday-hat.webp
 ---
 
-# Another Orbit Around the Sun: A Quick Reflection
+# Another Orbit Around the Sun: HBD Agunechemba
 
 <img src="https://i.ibb.co/V0TT21sc/man-birthday-hat.webp" width="100%">
 
