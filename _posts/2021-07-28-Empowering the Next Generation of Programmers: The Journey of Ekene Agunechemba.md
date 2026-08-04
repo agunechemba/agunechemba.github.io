@@ -2,7 +2,7 @@
 
 ![Ekene Agunechemba - Coding Trainer](https://agunechembaekene.wordpress.com/wp-content/uploads/2024/09/trainer.png?w=1024)
 
-In today’s fast-paced tech world, few people are as passionate about empowering young minds as **Ekene Agunechemba**. A skilled computer programming and coding trainer, Ekene is on a mission to make coding **accessible, practical, and fun** for beginners.
+In today’s fast-paced tech world, few people are as passionate about empowering young minds as **Ekene Agunechemba**. A skilled computer Programmers and coding trainer, Ekene is on a mission to make coding **accessible, practical, and fun** for beginners.
 
 ---
 
@@ -12,9 +12,9 @@ During the COVID-19 lockdown, while the world paused, Ekene moved into action. H
 
 ---
 
-### 🌐 Reaching More Learners via Pepe Programming Hub & Clasam Schools
+### 🌐 Reaching More Learners via Prime Programmers Hub & Clasam Schools
 
-Today, Ekene splits his time between **physical training at Clasam Schools, Lagos**, and **online sessions through Pepe Programming Hub**, a platform he founded. His training style? Rigorous yet fun. He simplifies complex ideas and keeps learners engaged from start to finish.
+Today, Ekene splits his time between **physical training at Clasam Schools, Lagos**, and **online sessions through Prime Programmers Hub**, a platform he founded. His training style? Rigorous yet fun. He simplifies complex ideas and keeps learners engaged from start to finish.
 
 ---
 
@@ -28,7 +28,7 @@ Every year, he hosts a **free summer boot camp** for kids aged 8–12, providing
 
 ### 💡 A Trainer with Vision and Heart
 
-What makes Ekene stand out isn’t just his skill—it’s his **passion**. His friendly vibe and learner-first approach make coding enjoyable and effective. Whether it's through Firstac Academy, Pepe Programming Hub, or at Clasam Schools, he’s shaping the tech leaders of tomorrow.
+What makes Ekene stand out isn’t just his skill—it’s his **passion**. His friendly vibe and learner-first approach make coding enjoyable and effective. Whether it's through Firstac Academy, Prime Programmers Hub, or at Clasam Schools, he’s shaping the tech leaders of tomorrow.
 
 ---
 
