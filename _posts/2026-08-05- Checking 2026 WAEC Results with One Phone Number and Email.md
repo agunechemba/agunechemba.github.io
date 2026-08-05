@@ -1,5 +1,7 @@
 # Checking 2026 WAEC Results for Multiple Candidates
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Waec_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" width="100%">
+
 If you are a school coordinator, teacher, or guardian checking 2026 WASSCE results for a cohort (e.g., 26 candidates), you might want to simplify the process by routing all One-Time Passwords (OTPs) to a single phone number and email address.
 
 **The short answer:**  
