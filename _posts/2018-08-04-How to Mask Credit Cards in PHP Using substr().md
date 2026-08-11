@@ -1,6 +1,6 @@
 # How to Mask Credit Cards in PHP Using substr()
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2024/10/echo-substrhello-world-6-3-1.png?w=940" alt="" class="wp-image-1642" />
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2024/10/echo-substrhello-world-6-3-1.png?w=940" width="100%"/>
 
 If you’ve ever built an e-commerce checkout, you’ve faced this classic scenario: you need to show users which credit card they have on file, but **security** best practices mean you can’t display the full 16-digit card number.
 
