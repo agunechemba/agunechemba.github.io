@@ -19,15 +19,16 @@ function createOGMetaDescription(content, maxLength = 150) {
 }
 ```
 
-### Visualizing Each Step
+#### Given this HTML:  
+```
+<h1>Breaking News</h1>
+<p>Scientists discover <strong>revolutionary</strong> new 
+energy source that could power the entire world for 
+centuries to come.</p>
+```
+#### create a constant named `"htmlContent"` and assign the given html to it.
 
 ```
-// Given this HTML:   <h1>Breaking News</h1>
-// <p>Scientists discover <strong>revolutionary</strong> new 
-// energy source that could power the entire world for 
-// centuries to come.</p>
-// create a constant named "htmlContent" and assign the given html to it.
-
 const htmlContent = `
   <h1>Breaking News</h1>
   <p>Scientists discover <strong>revolutionary</strong> new 
@@ -36,7 +37,7 @@ const htmlContent = `
 `;
 ```
 
-// STEP 1: Remove HTML tags, replace with `'nothing'`
+#### STEP 1: Remove HTML tags, replace with `'nothing'`
 
 ```
 const plainText = content.replace(/<[^>]*>/g, '');
@@ -44,13 +45,13 @@ const plainText = content.replace(/<[^>]*>/g, '');
 // Result: "Breaking News Scientists discover revolutionary new 
 //          energy source that could power the entire world for 
 //          centuries to come."
+```
 
-// STEP 2 & 3: Check length and truncate if needed
+#### STEP 2 & 3: Check length and truncate if needed
 
+```
 const result = createOGMetaDescription(htmlContent, 60);
-
-// Result: "Breaking News Scientists discover revolutionary new energy source that could power…"
-//                                                                                ^^^ 60 chars
+// Result: "Breaking News Scientists discover revolutionary new energy source that could power....."
 ```
 
 ### How `substring()` Works Here
@@ -72,7 +73,6 @@ plainText.substring(Start index, maxLength)
 ### Real Life Example
 
 ```
-// Real life example
 const blogPost = `
   <div class="post">
     <h2>10 Best JavaScript Tips</h2>
@@ -84,5 +84,5 @@ const blogPost = `
 
 createOGMetaDescription(blogPost, 50);
 // Returns: "10 Best JavaScript Tips Here are the top 10 JavaS…"
-// NB: the substring() is used inside the initial createOGMetaDescription function.
+// NB: `substring()` is used inside the initial `createOGMetaDescription` function.
 ```
