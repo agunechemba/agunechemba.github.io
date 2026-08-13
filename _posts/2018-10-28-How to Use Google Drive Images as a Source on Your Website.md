@@ -1,6 +1,6 @@
 ### How to Use Google Drive Images as a Source on Your Website
 
-![Agunechemba](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/512px-Google_Drive_icon_%282020%29.svg.png)
+<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/3.jpg" width="100%">
 
 Using Google Drive to host images for your website is smart, but the usual public link won’t work as an image source.
 
