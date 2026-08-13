@@ -6,18 +6,6 @@ Creating personalized **student result sheets** manually can be tedious. But wit
 
 ---
 
-## 🎯 What You'll Learn
-
-By the end of this tutorial, you'll be able to:
-
-✅ Automatically generate result sheets from Google Sheets
-✅ Use a Google Docs template to format each student’s result
-✅ Save each result as a **PDF file** in your Google Drive
-
-Let’s get started!
-
----
-
 ## 📊 Step 1: Prepare Your Google Sheet
 
 1. Open [Google Sheets](https://sheets.google.com) and create a new spreadsheet.
@@ -30,11 +18,11 @@ Let’s get started!
 
 3. Rename your sheet tab to `Sheet1` (or any name you prefer—just remember to update it in the script).
 
-> 🎯 **Tip**: Add more subjects or fields as needed. Just match the placeholders in the Google Doc template (we’ll get to that next).
+> **Tip**: Add more subjects or fields as needed. Just match the placeholders in the Google Doc template (we’ll get to that next).
 
 ---
 
-## 📄 Step 2: Create the Google Docs Template
+## Step 2: Create the Google Docs Template
 
 1. Go to [Google Docs](https://docs.google.com) and create a new document.
 2. Write a basic result format using **placeholders** like this:
@@ -68,7 +56,7 @@ You’ll need this Doc ID for the script.
 
 ---
 
-## 🧑‍💻 Step 3: Add the Apps Script Code
+## Step 3: Add the Apps Script Code
 
 1. Go back to your **Google Sheet**.
 2. Click on `Extensions > Apps Script`.
@@ -116,7 +104,7 @@ function generateResultSheets() {
 
 ---
 
-## ▶️ Step 4: Run the Script
+## Step 4: Run the Script
 
 1. Click the **Run** ▶️ button.
 2. The first time you run it, Google will ask for permission—**review and allow**.
@@ -129,7 +117,7 @@ function generateResultSheets() {
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 Here’s what’s going on under the hood:
 
@@ -141,8 +129,6 @@ Here’s what’s going on under the hood:
 * **Trash the Doc copy** to keep things clean
 
 ---
-
-## ✅ Final Thoughts
 
 This setup is powerful for:
 
