@@ -3,7 +3,6 @@
 layout: post
 title: "Tug of War Math: Transforming Learning into Competition"
 description: "A two-player interactive math game built with HTML5 Canvas and JavaScript. Perfect for classrooms, touch screens, and smart boards."
-date: 2026-02-17
 tags: [Math Games, JavaScript, HTML5 Canvas, Interactive Learning, Gamification, STEM]
 keywords: "Tug of War math game, interactive math games, gamified learning, classroom math competition, touch screen games for kids, HTML5 math game, smart board activities"
 author: "Agunechemba Ekene"
