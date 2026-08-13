@@ -6,7 +6,6 @@ description: "A professional, privacy-first tool to send personalized WhatsApp m
 keywords: [WhatsApp Marketing Tool, Bulk Email Sender, Free Outreach Software, Personalized Messaging CSV, GitHub Pages Marketing Tool, Open Source Bulk Sender, WA Sender, Email Personalization]
 author: "Agunechemba Ekene"
 image: "https://i.ibb.co/qMS2Mhd1/Content-Blog-Banner-Q2-2024-1125x600-91-Whats-App-Marketing.png"
-date: 2026-04-05
 
 ---
 
