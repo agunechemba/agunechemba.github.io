@@ -18,6 +18,6 @@ With good knowledge of PWA or Progressive Web Apps, web developers can now build
 
 The good thing is that the problem was solved with just 2 files: `sw.js` and `manifest.json`. Adding these files to your project folder and linking them to your index file will make your website or web app installable on any device.
 
-[To understand how to convert your Web App into a PWA click:](https://blog.pwabuilder.com/docs/converting-your-web-app-to-a-progressive-web-app-with-pwabuilder/)
+### [To understand how to convert your Web App into a PWA click here](https://blog.pwabuilder.com/docs/converting-your-web-app-to-a-progressive-web-app-with-pwabuilder/)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are PWAs?<br><br>- Built with HTML, CSS and JavaScript<br>- Can be installed from browsers and app stores<br>- Have access to &quot;low level&quot; capabilities such as background sync<br>- Run in their own Window, outside of the browser, just like any other app<a href="https://t.co/JBCUgJCGTI">https://t.co/JBCUgJCGTI</a></p>&mdash; PWABuilder (@pwabuilder) <a href="https://x.com/pwabuilder/status/1843325347670212977?ref_src=twsrc%5Etfw">October 7, 2024</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
