@@ -1,6 +1,6 @@
 # PWA Experience: A Complete Guide For Web Developers
 
-![Alt text](https://infrequently.org/.netlify/images?url=/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/01_progressive_start.png&fm=avif&w=900)
+![Alt text](https://i.ibb.co/5hySvJ9y/pwa.png)
 
 Building solutions for web browsers were beginning to feel old-school with the trend of Android Developer and iOS Developer. But trust me, web developers are not letting this game slide.
 
@@ -21,6 +21,3 @@ The good thing is that the problem was solved with just 2 files: `sw.js` and `ma
 [To understand how to convert your Web App into a PWA click:](https://blog.pwabuilder.com/docs/converting-your-web-app-to-a-progressive-web-app-with-pwabuilder/)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What are PWAs?<br><br>- Built with HTML, CSS and JavaScript<br>- Can be installed from browsers and app stores<br>- Have access to &quot;low level&quot; capabilities such as background sync<br>- Run in their own Window, outside of the browser, just like any other app<a href="https://t.co/JBCUgJCGTI">https://t.co/JBCUgJCGTI</a></p>&mdash; PWABuilder (@pwabuilder) <a href="https://x.com/pwabuilder/status/1843325347670212977?ref_src=twsrc%5Etfw">October 7, 2024</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
-
-<img src="https://i.ibb.co/5hySvJ9y/pwa.png" width="100%">
