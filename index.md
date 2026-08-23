@@ -11,8 +11,8 @@
 
   <!-- Main Content -->
 <div style="font-size: 16px; margin-bottom: 25px;">
-    <div style="margin-bottom: 4px;"><b>Tech Blogger</b> || Founder:<a href="https://pph.name.ng/" target="_blank" style="color: inherit; text-decoration: none;">
-        <b>PPH</b> &#x2197;
+    <div style="margin-bottom: 4px;">Founder:<a href="https://pph.name.ng/" target="_blank" style="color: inherit; text-decoration: none;">
+        <b>Prime Programmers Hub</b> &#x2197;
     </a>
 </div>
 </div>
@@ -34,12 +34,12 @@
     </a>
   </div>
   
-  <div style="margin-top: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 10px;">
+  <!-- <div style="margin-top: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 10px;">
     <p style="margin: 0; font-size: 14px; margin-bottom: 5px;">Highly Rated!</p>
     <a href="https://share.google/XVIrFxFsXMjVaxdh1" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #28a745; font-weight: bold; font-size: 16px;">
       ⭐⭐⭐⭐⭐ <br>Rate Me On Google
     </a>
-  </div>
+  </div> -->
 
 </div>
 
