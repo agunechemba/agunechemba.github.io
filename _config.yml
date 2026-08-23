@@ -8,21 +8,25 @@ favicon: "https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agun
 # Using the folded block scalar (>-) for the massive keyword list
 # Fixed: All lines are now indented exactly 2 spaces for YAML compliance
 global_keywords: >-
-  Managing IT Systems, IT infrastructure, network administration,
+  Agunechemba Ekene, Agu Ekene, Ekene Agu, Emmanuel Ekene Agu,
+  Ekene Agunechemba, Prime Programmers Hub, PPH, Founder PPH,
+  Tech Blogger Lagos, Nigerian Tech Blogger, Tech Entrepreneur Nigeria,
+  IT Systems Management, IT infrastructure, network administration,
   cybersecurity audits, cloud migration, server management, disaster recovery,
   remote IT support, enterprise IT solutions, system troubleshooting,
-  Developing Websites, Web Applications, full-stack development, React.js,
-  Python Flask, WordPress, Moodle LMS, API integration, UI/UX design,
-  responsive web design, PWA, mobile-first development, headless CMS,
-  Optimizing Websites, SEO, Technical SEO, Core Web Vitals, Schema markup,
-  search engine rankings, local SEO, content strategy, Generative Engine Optimization,
-  GEO, AI search visibility, site speed optimization, Selling Tech Products,
-  Tech Marketing, B2B tech sales, SaaS marketing, lead generation,
+  Web Development, Web Applications, full-stack development, React.js,
+  Python Flask, WordPress Development, Moodle LMS, API integration,
+  UI/UX design, responsive web design, PWA, mobile-first development,
+  headless CMS, Website Optimization, SEO, Technical SEO, Core Web Vitals,
+  Schema markup, search engine rankings, local SEO Nigeria, content strategy,
+  Generative Engine Optimization, GEO, AI search visibility, site speed optimization,
+  Tech Sales, Tech Marketing, B2B tech sales, SaaS marketing, lead generation,
   digital transformation, product-led growth, software licensing,
   tech consultancy, IT procurement, technical copywriting,
   conversion rate optimization, CRO, digital ecosystem management,
   scalable web architecture, secure web portals, automation workflows,
-  tech startup scaling, innovation consulting, Blog, Blogging, Tech Blogger, Prime, Programmers, Hub, PPH, Prime Programmers Hub,
+  tech startup scaling, innovation consulting, Blogging, Tech Blogger,
+  Nigerian Tech Hub, Lagos Tech Community, Prime Programmers Hub Lagos,
 
 # Social Media sharing image
 default_og_image: "https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png"
