@@ -33,13 +33,6 @@ twitter_username: "agunechemba_e"
 github_username: "agunechemba"
 linkedin_username: "agunechembaekene"
 
-# Plugins (Necessary for GitHub Pages SEO)
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-
-
 
 # Added for daily commit - So future post will show.
 timezone: Africa/Lagos
