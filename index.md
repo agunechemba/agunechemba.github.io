@@ -33,14 +33,6 @@
       🔗 LinkedIn Profile
     </a>
   </div>
-  
-  <!-- <div style="margin-top: 30px; padding: 15px; background-color: #f9f9f9; border-radius: 10px;">
-    <p style="margin: 0; font-size: 14px; margin-bottom: 5px;">Highly Rated!</p>
-    <a href="https://share.google/XVIrFxFsXMjVaxdh1" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #28a745; font-weight: bold; font-size: 16px;">
-      ⭐⭐⭐⭐⭐ <br>Rate Me On Google
-    </a>
-  </div> -->
-
 </div>
 
 <!-- Start Call Back Form -->
