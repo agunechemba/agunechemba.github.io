@@ -1,41 +1,59 @@
-# From Frustration to Freedom: Why I Built a "Playground" for My Code Learners
+# PPH Learners Playground
 
-<img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/img_20241018_082917.jpg" width="100%">
+A lightweight, offline-first web-based code editor for Prime Programmers Hub learners. Write, debug, and preview HTML, CSS, and JavaScript instantly—no internet required.
 
-If you’ve ever stood in a room full of eager students ready to write their first line of HTML, you know the "Environment Panic."
+## ✨ Features
 
-For months, I struggled with a recurring headache: **What IDE do I give my beginners?**
+- **Three Editors in One**: Separate tabs for HTML, CSS, and JavaScript
+- **Live Preview**: See your code run instantly in the preview pane
+- **Syntax Highlighting**: Smart coloring with Prism.js (HTML, CSS, JS)
+- **Line Numbers**: Synchronized gutter that stays aligned with your code
+- **Offline Ready**: No CDNs or external dependencies
+- **Dark/Light Theme**: Automatically follows your system theme with manual toggle
+- **Export**: Download your work as a standalone HTML file
+- **Keyboard Shortcuts**: `Ctrl/Cmd + Enter` to run, `Tab` for indentation
 
-I tried the heavy hitters like VS Code, but for a 12-year-old, the sidebar, the extensions, and the complex file systems (which look different on Windows than they do on a Mac) are just noise. They want to create, not troubleshoot why their folder didn't "open" correctly. Then there’s the internet issue. Most online editors are great, but the moment the Wi-Fi drops, the lesson stops. I wanted something distraction-free, lightning-fast, and completely independent of the cloud.
+## 🛠️ Quick Start
 
-That is why I built the **PPH Learners Playground**.
+1. **Open**: Double-click `index.html` in your browser
+2. **Code**: Switch between HTML, CSS, and JS tabs
+3. **Run**: Click the **▶ Run** button or press `Ctrl/Cmd + Enter`
+4. **Theme**: Click **🌓** to toggle between System, Dark, and Light themes
+5. **Save**: Click **⬇ Download** to export your code as `index.html`
 
-### The "Zero-Drag" Philosophy
+## 📂 Project Structure
 
-When I sat down to design this, I had three non-negotiables:
+```
+PPH-Learners-Playground/
+├── index.html      # Main UI
+├── style.css       # Layout & theming
+├── script.js       # Editor logic & features
+├── prism.css       # Syntax highlighting styles
+└── prism.js        # PrismJS engine
+```
 
-1. **No Internet Required:** It had to be a "single folder" experience. If you have the files on a USB drive, you have a professional-grade editor.
-2. **OS Agnostic:** I didn't want to explain "C: drives" or "Users/Home/Desktop." I wanted a web-based interface that feels the same whether they are on a Chromebook, an old Windows laptop, or a Tablet.
-3. **Real-Time Visuals:** Highlighting has to be pretty (thanks to Prism.js!), and the preview has to be instant. Young learners need that dopamine hit of seeing their code turn into a button immediately.
+## 🎨 Theme System
 
-### Overcoming the "Textarea" Wall
+| Mode | Description |
+|------|-------------|
+| **System** | Follows your device theme |
+| **Dark** | Dark background, light text |
+| **Light** | Light background, dark text |
 
-One of the hardest parts was getting the syntax highlighting right. Standard web text boxes don't "do" colors. I had to build a layered system—a transparent typing layer on top of a colored display layer. It took some serious math to keep the line numbers and the text perfectly synced, but the result is a smooth, professional feel that respects the learner's focus.
+Your theme preference is saved automatically.
 
-### The Success Story
+## 🧠 How It Works
 
-Since deploying the **PPH Learners Playground** at **Pepe Programmers Hub**, the results have been transformative.
+The editor uses a layered approach:
+- **Top layer**: Transparent textarea for typing
+- **Bottom layer**: Highlighted code from Prism.js
+- **Sync engine**: Keeps scroll and line numbers perfectly aligned
 
-We no longer spend the first 20 minutes of class fixing path errors or waiting for "npm install" to finish. Students simply open the playground and start building. They are learning the *logic* of code rather than the *frustration* of tooling. Watching a student’s face light up as they download their work—a real, working file they made themselves—is the ultimate win.
+## 🎓 Credits
 
-We’ve moved past the "Setup Phase" and straight into the "Innovation Phase."
+Developed for **Prime Programmers Hub (PPH)** learners.  
+Maintained by **Agunechemba Ekene**.
 
 ---
 
-### Try it out!
-
-I’ve hosted the playground live so you can see exactly what our learners are using. Whether you are a teacher or a curious beginner, feel free to play around:
-
-👉 **Live Editor:** [PPH Learners Playground](https://agunechemba.name.ng/PPH-Learners-Playground/)
-
----
+*Happy Coding at PPH!* 🚀
