@@ -1,5 +1,7 @@
 # PPH Learners Playground
 
+![PPH Learners PLAYGROUND](https://i.ibb.co/wZFSQPtH/IMG-20260824-212729.jpg)
+
 A lightweight, offline-first web-based code editor for Prime Programmers Hub learners. Write, debug, and preview HTML, CSS, and JavaScript instantly—no internet required.
 
 ## Features
