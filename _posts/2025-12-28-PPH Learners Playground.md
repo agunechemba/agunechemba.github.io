@@ -2,7 +2,7 @@
 
 A lightweight, offline-first web-based code editor for Prime Programmers Hub learners. Write, debug, and preview HTML, CSS, and JavaScript instantly—no internet required.
 
-## ✨ Features
+## Features
 
 - **Three Editors in One**: Separate tabs for HTML, CSS, and JavaScript
 - **Live Preview**: See your code run instantly in the preview pane
@@ -21,7 +21,7 @@ A lightweight, offline-first web-based code editor for Prime Programmers Hub lea
 4. **Theme**: Click **🌓** to toggle between System, Dark, and Light themes
 5. **Save**: Click **⬇ Download** to export your code as `index.html`
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 PPH-Learners-Playground/
@@ -32,7 +32,7 @@ PPH-Learners-Playground/
 └── prism.js        # PrismJS engine
 ```
 
-## 🎨 Theme System
+## Theme System
 
 | Mode | Description |
 |------|-------------|
@@ -42,18 +42,14 @@ PPH-Learners-Playground/
 
 Your theme preference is saved automatically.
 
-## 🧠 How It Works
+## How It Works
 
 The editor uses a layered approach:
 - **Top layer**: Transparent textarea for typing
 - **Bottom layer**: Highlighted code from Prism.js
 - **Sync engine**: Keeps scroll and line numbers perfectly aligned
 
-## 🎓 Credits
+## Credits
 
 Developed for **Prime Programmers Hub (PPH)** learners.  
 Maintained by **Agunechemba Ekene**.
-
----
-
-*Happy Coding at PPH!* 🚀
