@@ -1,4 +1,4 @@
-# PPH Learners Playground
+# PPH Learners Playground: A Lightweight, Offline-first Web-based Code Editor
 
 ![PPH Learners PLAYGROUND](https://i.ibb.co/wZFSQPtH/IMG-20260824-212729.jpg)
 
