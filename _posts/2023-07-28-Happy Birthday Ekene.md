@@ -11,7 +11,7 @@ I was born on **July 28th**, and for many years, it was just another day. Cake. 
 
 I didn’t come from Silicon Valley. I came from **Lagos**, where Wi-Fi wasn’t free, and computer labs were rare. But I had something stronger than access: I had hunger. The kind of hunger that made me Google HTML tags at midnight. That made me wait for slow Visafone connections just to open a tutorial. That made me say *yes* to teaching, even when I was still learning myself.
 
-Somehow, that hunger turned into **Firstac Academy**. Then **Pepe Programming Hub**. Then physical classes at **Clasam Schools**. Then learners from the UK, the US, the streets of Idimu — all logging in to learn from that same boy who once edited photos on Photoshop after being trained by a photographer called **Award Photos**.
+Somehow, that hunger turned into **Firstac Academy**. Then **Prime Programming Hub**. Then physical classes at **Clasam Schools**. Then learners from the UK, the US, the streets of Idimu — all logging in to learn from that same boy who once edited photos on Photoshop after being trained by a photographer called **Award Photos**.
 
 ---
 
