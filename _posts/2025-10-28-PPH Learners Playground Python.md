@@ -27,7 +27,7 @@ The theme cycles through:
 - **🌙 Dark**
 
 
-## Try this project: [PPH-Learners-Playground-Python/](https://agunechemba.name.ng/PPH-Learners-Playground-Python/)
+## Try this project: [PPH-Learners-Playground-Python](https://agunechemba.name.ng/PPH-Learners-Playground-Python/)
 
 ## Browser Support
 
