@@ -1,4 +1,4 @@
-# 🐍 PPH Learners Playground (Python)
+# PPH Learners Playground (Python)
 
 A browser-based Python IDE with syntax highlighting, theming, and code execution using Pyodide.
 
