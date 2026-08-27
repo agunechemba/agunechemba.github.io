@@ -56,4 +56,4 @@ The editor uses a layered approach:
 Developed for **Prime Programmers Hub (PPH)** learners.  
 Maintained by **Agunechemba Ekene**.
 
-## Check it out ==> [https://agunechemba.name.ng/PPH-Learners-Playground/](https://agunechemba.name.ng/PPH-Learners-Playground/)
+## Check it out ==> [PPH-Learners-Playground](https://agunechemba.name.ng/PPH-Learners-Playground/)
