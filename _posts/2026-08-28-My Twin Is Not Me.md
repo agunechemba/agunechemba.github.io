@@ -1,4 +1,4 @@
-# My Twin Is Not Me: Symbol("me") === Symbol("me") //false
+# My Twin Is Not Me: Understanding JavaScript Symbol("id")
 
 <img src="https://i.ibb.co/21RzRnC0/Psquare.jpg" width="100%">
 
