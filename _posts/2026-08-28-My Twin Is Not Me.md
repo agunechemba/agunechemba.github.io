@@ -41,6 +41,6 @@ Not copies. Not templates. Not generic instances of a class called *Person*. But
 
 Nature never creates duplicates. It iterates, yes. It remixes. But it never clones without a difference.
 
-Does that mean programming is a simulation of reality?
+Does that mean programming is a simulation of reality.
 
 Or does it mean reality has always been the original code — and we're just now learning to read the syntax?
