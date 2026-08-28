@@ -19,7 +19,7 @@ A web application that helps you discover ancestral market days based on traditi
 
 
 **Agunechemba Ekene**
-- Website: [agunechemba.github.io](https://agunechemba.github.io)
+- Website: [agunechemba.name.ng](https://agunechemba.github.io)
 
 ## 🙏 Acknowledgments
 
