@@ -17,9 +17,7 @@ A web application that helps you discover ancestral market days based on traditi
 
 ### [Link to live site: Ancestral-Calendar](https://agunechemba.name.ng/Ancestral-Calendar/)
 
-
-**Agunechemba Ekene**
-- Website: [agunechemba.name.ng](https://agunechemba.github.io)
+- Creator: [agunechemba.name.ng](https://agunechemba.github.io)
 
 ## 🙏 Acknowledgments
 
