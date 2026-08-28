@@ -1,0 +1,48 @@
+name: Publish Scheduled Blog Posts
+
+on:
+  schedule:
+    # Runs at 09:00 UTC on the 28th of every month
+    - cron: '0 9 28 * *'
+  # Allows manual trigger for testing
+  workflow_dispatch:
+
+jobs:
+  publish-posts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Publish posts with today's date
+        run: |
+          # Get today's date in YYYY-MM-DD format
+          TODAY=$(date +'%Y-%m-%d')
+          
+          # 👇 CHANGE THIS TO YOUR ACTUAL POSTS FOLDER
+          POSTS_DIR="./_posts"
+          
+          # Find all .md or .markdown files that contain today's date in filename
+          FILES_TO_PUBLISH=$(find $POSTS_DIR \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | grep "$TODAY" || true)
+          
+          if [ -n "$FILES_TO_PUBLISH" ]; then
+            echo "📝 Found files for today:"
+            echo "$FILES_TO_PUBLISH"
+            
+            # Set up git
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            
+            # Add and commit only these files
+            echo "$FILES_TO_PUBLISH" | xargs git add
+            
+            # Commit with a meaningful message
+            git commit -m "📅 Auto-publish posts for $TODAY"
+            git push
+            
+            echo "✅ Published successfully!"
+          else
+            echo "⏳ No posts scheduled for $TODAY"
+          fi
