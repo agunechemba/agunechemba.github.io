@@ -1,4 +1,4 @@
-# Prime Programmers Hub: Algorithms to Live By-Curriculum
+# Prime Programmers Hub: "Algorithms to Live By" Curriculum
 
 ## CURRICULUM OVERVIEW
 
