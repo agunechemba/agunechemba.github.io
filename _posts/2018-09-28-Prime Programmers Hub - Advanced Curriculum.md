@@ -1,8 +1,4 @@
-# Prime Programmers Hub
-
-### Advanced Curriculum - For Advanced Students
-
----
+# Prime Programmers Hub:  Advanced Curriculum - For Advanced Students
 
 ## RECOMMENDED PREREQUISITES
 
@@ -16,8 +12,6 @@ This advanced curriculum assumes students have completed:
 # ADVANCED CURRICULUM
 
 ## FIRST TERM: Modules, Async, and Language Design
-
----
 
 ### Topic 1: Introduction to Modules
 
