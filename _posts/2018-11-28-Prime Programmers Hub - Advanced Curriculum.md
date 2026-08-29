@@ -3,7 +3,7 @@
 ## RECOMMENDED PREREQUISITES
 
 This advanced curriculum assumes students have completed:
-- JSS 1-3 curriculum (Chapters 1-9)
+- [JSS 1-3 curriculum (Chapters 1-9)](https://agunechemba.name.ng/2018/11/28/Prime-Programmers-Hub-JSS-1-3-Curriculum.html)
 - Basic understanding of JavaScript syntax
 - Familiarity with variables, functions, arrays, objects
 - Experience with if/else, loops, and basic problem-solving
