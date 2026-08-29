@@ -1964,3 +1964,5 @@ END FUNCTION
 | Exponential Backoff | 10 | Networking | Wait longer each failure |
 | AIMD | 10 | Flow control | Add slowly, drop quickly |
 | Vickrey Auction | 11 | Strategy-proof auctions | Pay second-highest bid |
+
+**Credit: [Agunechemba Ekene](https://agunechemba.name.ng/)**
