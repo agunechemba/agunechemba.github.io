@@ -17,22 +17,36 @@ jobs:
       - name: Publish posts with today's date
         run: |
           TODAY=$(date +'%Y-%m-%d')
+          DRAFTS_DIR="./_drafts"
           POSTS_DIR="./_posts"
           
-          FILES_TO_PUBLISH=$(find $POSTS_DIR \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | grep "$TODAY" || true)
+          # Create drafts folder if it doesn't exist
+          mkdir -p $DRAFTS_DIR
+          
+          # Find all .md files in _drafts that contain today's date
+          FILES_TO_PUBLISH=$(find $DRAFTS_DIR \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | grep "$TODAY" || true)
           
           if [ -n "$FILES_TO_PUBLISH" ]; then
-            echo "📝 Found files for today:"
+            echo "📝 Found drafts to publish for today:"
             echo "$FILES_TO_PUBLISH"
             
+            # Move files from _drafts to _posts
+            for file in $FILES_TO_PUBLISH; do
+              filename=$(basename "$file")
+              mv "$file" "$POSTS_DIR/$filename"
+              echo "✅ Moved: $filename"
+            done
+            
+            # Set up git
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             
-            echo "$FILES_TO_PUBLISH" | xargs git add
+            # Add and commit the moved files
+            git add $POSTS_DIR
             git commit -m "📅 Auto-publish posts for $TODAY"
             git push
             
             echo "✅ Published successfully!"
           else
-            echo "⏳ No posts scheduled for $TODAY"
+            echo "⏳ No drafts scheduled for $TODAY"
           fi
