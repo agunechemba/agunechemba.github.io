@@ -1,5 +1,4 @@
-# Prime Programmers Hub: Computer Programming Curriculum
-### JSS 1 - JSS 3
+# Prime Programmers Hub: JSS 1 - 3 Curriculum
 
 ---
 
