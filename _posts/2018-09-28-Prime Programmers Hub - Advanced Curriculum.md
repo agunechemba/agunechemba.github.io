@@ -1,5 +1,7 @@
 # Prime Programmers Hub:  Advanced Curriculum - For Advanced Students
 
+---
+
 ## RECOMMENDED PREREQUISITES
 
 This advanced curriculum assumes students have completed:
