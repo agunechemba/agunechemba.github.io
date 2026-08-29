@@ -1,8 +1,4 @@
-# Prime Programmers Hub
-## Advanced Problem-Solving & Decision-Making Curriculum
-### Based on "Algorithms to Live By" by Brian Christian & Tom Griffiths
-
----
+# Prime Programmers Hub Curriculum: Based on "Algorithms to Live By"
 
 ## CURRICULUM OVERVIEW
 
