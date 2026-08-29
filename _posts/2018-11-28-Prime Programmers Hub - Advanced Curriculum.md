@@ -1,4 +1,4 @@
-# Prime Programmers Hub:  Advanced Curriculum - For Advanced Students
+# Prime Programmers Hub:  Advanced Curriculum
 
 ## RECOMMENDED PREREQUISITES
 
