@@ -14,8 +14,6 @@ description: "JavaScript Mastery Curriculum for Young Programmers"
 
 JavaScript Mastery is a progressive, project-based curriculum designed to guide young learners (ages 8-12) from their first line of code to building professional-grade applications. Drawing from Marijn Haverbeke's acclaimed Eloquent JavaScript (4th Edition), this curriculum transforms complex programming concepts into accessible, engaging weekly lessons.
 
-### 
-
 ### **Curriculum: JavaScript Adventurer (Age 8\)**
 
 **Student Name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Age:** 8 **Source:***Eloquent JavaScript* (4th Edition) by Marijn Haverbeke
