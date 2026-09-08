@@ -1,4 +1,4 @@
-# 🟨 JS Console · PPH Playground
+# 🟨 JavaScript PPH Learners Playground
 
 A browser-based JavaScript console with syntax highlighting, theming, and code execution.
 
