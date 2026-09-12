@@ -2,7 +2,7 @@
 
 <!-- Profile Image & Tagline -->
 <div style="display: inline-block; width: 150px;">
-  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png" 
+  <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png" 
        alt="Agunechemba"
        style="width: 100%; height: auto; aspect-ratio: 1 / 1.15; border-radius: 0 0 35px 35px; object-fit: cover; object-position: top; display: block; margin-top: -15px; margin-bottom: 10px;">
 </div>
