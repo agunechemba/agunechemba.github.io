@@ -3,123 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found | Agunechemba</title>
+    <title>404 · zen · Agunechemba</title>
     <style>
+        /* ---------- ZEN PALETTE ---------- */
         :root {
-            /* Primary brand colors */
-            --primary-navy: #0f172a;
-            --accent-yellow: #facc15; /* Bright Yellow */
-            --accent-yellow-hover: #eab308; /* Darker Yellow on Hover */
-            --text-dark: #1e293b;
-            --text-muted: #64748b;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
+            --bg-sand: #faf9f7;
+            --bg-mist: #f1efe9;
+            --ink: #2e2e2e;
+            --ink-soft: #5e5e5e;
+            --stone: #cbc7bd;
+            --leaf: #8ba888;
+            --leaf-deep: #6a8a6a;
+            --paper: #ffffffd9;
+        }
+
+        /* ---------- GLOBAL RESET / RHYTHM ---------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-dark);
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: radial-gradient(circle at 30% 20%, var(--bg-mist) 0%, var(--bg-sand) 90%);
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-            padding: 20px;
+            padding: 24px;
+            color: var(--ink);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
         }
 
-        .error-container {
-            padding: 60px 40px;
-            background: var(--card-bg);
-            border-radius: 16px;
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 10px 10px -5px rgba(0, 0, 0, 0.03);
-            max-width: 480px;
+        /* ---------- CARD / ZEN GARDEN ---------- */
+        .zen-card {
+            max-width: 520px;
             width: 100%;
-            border: 1px solid #e2e8f0;
+            background: var(--paper);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 48px 48px 32px 32px;
+            padding: 56px 40px 48px;
+            box-shadow: 
+                0 30px 50px -20px rgba(0, 0, 0, 0.08),
+                0 0 0 1px rgba(255, 255, 255, 0.7) inset,
+                0 0 0 1px rgba(0, 0, 0, 0.02);
+            text-align: center;
+            transition: box-shadow 0.3s ease;
         }
 
-        /* Profile/DP Styling */
-        .profile-dp {
-            width: 130px;
-            height: 130px;
-            margin: 0 auto 30px;
+        /* soft hover – almost imperceptible */
+        .zen-card:hover {
+            box-shadow: 
+                0 35px 55px -20px rgba(0, 0, 0, 0.12),
+                0 0 0 1px rgba(255, 255, 255, 0.8) inset,
+                0 0 0 1px rgba(0, 0, 0, 0.02);
+        }
+
+        /* ---------- PORTRAIT / AVATAR ---------- */
+        .portrait {
+            width: 112px;
+            height: 112px;
+            margin: 0 auto 28px;
             display: block;
             object-fit: contain;
             border-radius: 50%;
-            border: 4px solid var(--primary-navy);
-            padding: 3px;
+            background: var(--bg-sand);
+            padding: 6px;
+            box-shadow: 
+                0 6px 14px rgba(0, 0, 0, 0.03),
+                0 0 0 1px var(--stone) inset;
+            filter: grayscale(0.15) contrast(1.02);
+            transition: filter 0.4s ease, transform 0.4s ease;
         }
 
-        h1 {
-            font-size: 80px;
-            margin: 0;
-            color: var(--primary-navy);
-            font-weight: 900;
+        .portrait:hover {
+            filter: grayscale(0) contrast(1.05);
+            transform: scale(1.01);
+        }
+
+        /* ---------- 404 : NUMBERS AS ART ---------- */
+        .error-number {
+            font-size: 92px;
+            font-weight: 400;
+            letter-spacing: -0.04em;
             line-height: 1;
-            letter-spacing: -3px;
+            color: var(--ink);
+            opacity: 0.9;
+            margin-bottom: 8px;
+            font-feature-settings: "tnum";
+            transition: opacity 0.3s;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
         }
 
-        h2 {
-            font-size: 26px;
-            margin: 10px 0 20px;
-            color: var(--primary-navy);
-            font-weight: 700;
+        /* subtle brush-stroke underline (zen) */
+        .error-number::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            background: var(--leaf);
+            opacity: 0.35;
+            margin: 8px auto 0;
+            border-radius: 4px;
         }
 
-        p {
+        /* ---------- HEADLINE ---------- */
+        .headline {
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            color: var(--ink-soft);
+            margin: 28px 0 14px;
+            font-style: italic;
+            opacity: 0.85;
+        }
+
+        /* ---------- MESSAGE ---------- */
+        .message {
             font-size: 16px;
-            color: var(--text-muted);
-            margin: 0 0 35px;
-            line-height: 1.6;
+            font-weight: 350;
+            color: var(--ink-soft);
+            max-width: 360px;
+            margin: 0 auto 36px;
+            line-height: 1.7;
+            opacity: 0.8;
+            letter-spacing: 0.01em;
         }
 
-        /* Yellow Button Styling */
-        .btn-yellow {
+        /* ---------- BUTTON / RETURN ---------- */
+        .return-btn {
             display: inline-block;
-            background-color: var(--accent-yellow);
-            color: #000;
-            padding: 14px 32px;
+            background: transparent;
+            color: var(--ink);
+            padding: 14px 38px;
             text-decoration: none;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 16px;
+            border-radius: 60px;
+            font-weight: 450;
+            font-size: 15px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            transition: all 0.2s ease-in-out;
-            box-shadow: 0 4px 6px -1px rgba(250, 204, 21, 0.3);
+            letter-spacing: 0.14em;
+            border: 1.5px solid var(--stone);
+            transition: all 0.3s cubic-bezier(0.2, 0.9, 0.3, 1);
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(4px);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
         }
 
-        .btn-yellow:hover {
-            background-color: var(--accent-yellow-hover);
+        .return-btn:hover {
+            border-color: var(--leaf);
+            background: var(--leaf);
+            color: white;
             transform: translateY(-2px);
-            box-shadow: 0 6px 12px -1px rgba(234, 179, 8, 0.4);
+            box-shadow: 0 12px 24px -12px rgba(107, 138, 106, 0.3);
+            letter-spacing: 0.16em;
         }
 
-        /* Subfooter Brand Name */
-        .brand-footer {
-            margin-top: 40px;
-            font-size: 12px;
-            color: #94a3b8;
+        /* ---------- FOOTER SIGNATURE ---------- */
+        .zen-signature {
+            margin-top: 48px;
+            font-size: 11px;
+            font-weight: 400;
+            color: #acaaa3;
             text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 600;
+            letter-spacing: 0.32em;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .zen-signature:hover {
+            opacity: 1;
+        }
+
+        /* ---------- GENTLE FLOATING (ZEN MOTION) ---------- */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-3px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .zen-card {
+            animation: float 7s ease-in-out infinite;
+        }
+
+        /* ---------- RESPONSIVE ---------- */
+        @media (max-width: 480px) {
+            .zen-card {
+                padding: 40px 24px 36px;
+                border-radius: 32px;
+            }
+
+            .error-number {
+                font-size: 72px;
+            }
+
+            .headline {
+                font-size: 20px;
+                margin-top: 24px;
+            }
+
+            .message {
+                font-size: 15px;
+                padding: 0 8px;
+            }
+
+            .portrait {
+                width: 92px;
+                height: 92px;
+            }
+
+            .return-btn {
+                padding: 12px 28px;
+                font-size: 13px;
+                letter-spacing: 0.12em;
+            }
+        }
+
+        /* reduce motion if preferred */
+        @media (prefers-reduced-motion: reduce) {
+            .zen-card {
+                animation: none;
+            }
+            .return-btn {
+                transition: none;
+            }
+            .portrait {
+                transition: none;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="error-container">
-        <!-- Display Picture -->
-        <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png" alt="Agunechemba" class="profile-dp">
+    <div class="zen-card">
+        <!-- portrait / small dp — subtle & harmonious -->
+        <img 
+            src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png" 
+            alt="Agunechemba Ekene" 
+            class="portrait"
+            loading="lazy"
+        >
         
-        <h1>404</h1>
-        <h2>This path is missing.</h2>
-        <p>The page you are looking for has either been moved, deleted, or never existed in the first place.</p>
+        <!-- large 404 with minimal brush underline -->
+        <div class="error-number">404</div>
         
-        <!-- Yellow Button explicitly linking to https://agunechemba.name.ng/ -->
-        <a href="https://agunechemba.name.ng/" class="btn-yellow">Return Home</a>
+        <!-- headline : quiet, poetic -->
+        <h2 class="headline">this path is missing</h2>
         
-        <div class="brand-footer">AGUNECHEMBA</div>
+        <!-- gentle explanation -->
+        <p class="message">
+            The page you are looking for has drifted away —<br>
+            moved, deleted, or never existed at all.
+        </p>
+        
+        <!-- home link — calm, centered, minimal -->
+        <a href="https://agunechemba.name.ng/" class="return-btn" aria-label="Return to homepage">
+            return home
+        </a>
+        
+        <!-- signature — whisper of the brand -->
+        <div class="zen-signature">agunechemba</div>
     </div>
 </body>
 </html>
