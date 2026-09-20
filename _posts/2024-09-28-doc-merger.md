@@ -25,7 +25,7 @@
 Doc Merger runs entirely in your browser. Your data is never sent to third-party servers — everything stays within your Google account.
 
 ## 🚀 Launch
-[Doc-Merger](https://agunechemba.name.ng/doc-merger/)
+### [Doc-Merger](https://agunechemba.name.ng/doc-merger/)
 
 Happy automating!
 
