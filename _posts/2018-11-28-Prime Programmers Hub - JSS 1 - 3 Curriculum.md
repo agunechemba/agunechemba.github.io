@@ -19,11 +19,6 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 **Student Name:** _______________ **Age:** 8  
 **Source:** *Eloquent JavaScript* (4th Edition) by Marijn Haverbeke
 
-**How to Use This Curriculum:**
-
-- **For the Student:** This is your guide to learning JavaScript! Each week, you'll have a page to read, some things to learn, and fun challenges to complete. Take your time, have fun, and don't be afraid to make mistakes—that's how we learn!
-- **For the Parent/Teacher:** This curriculum breaks down the complex concepts from the book into bite-sized, weekly lessons. The focus is on hands-on coding and practical application. Use the online sandbox at https://eloquentjavascript.net/code for all coding exercises. Encourage experimentation and celebrate every success!
-
 ---
 
 ## Term 1: The Basics and Your First Programs
@@ -370,11 +365,6 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 **Student Name:** _______________ **Age:** 10  
 **Source:** *Eloquent JavaScript* (4th Edition) by Marijn Haverbeke
-
-**How to Use This Curriculum:**
-
-- **For the Student:** This is your guide to becoming a more confident and skilled programmer. Each week, you'll read specific pages from the book, learn key concepts, and complete coding challenges. The projects will be more complex, and you'll start to see the bigger picture of how programs are built.
-- **For the Parent/Teacher:** This curriculum moves at a faster pace and introduces more advanced topics. Encourage the student to not just copy code but to truly understand it. The exercises at the end of each chapter in the book are essential. Use the online sandbox at https://eloquentjavascript.net/code for all coding exercises.
 
 ---
 
@@ -725,11 +715,6 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 **Student Name:** _______________ **Age:** 12  
 **Source:** *Eloquent JavaScript* (4th Edition) by Marijn Haverbeke
-
-**How to Use This Curriculum:**
-
-- **For the Student:** This is your advanced guide to mastering JavaScript. You will learn about regular expressions, build your own programming language, create a full platform game, and build a complete web application with a server and client. This is serious, professional-level programming.
-- **For the Parent/Teacher:** This curriculum covers the most challenging topics in the book. The learner should be encouraged to work independently, read the book carefully, and experiment with the code. The projects are substantial and will require multiple weeks. The exercises at the end of each chapter are critical for developing a deep understanding.
 
 ---
 
