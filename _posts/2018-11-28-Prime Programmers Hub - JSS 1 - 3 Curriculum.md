@@ -6,9 +6,7 @@ tags: [tech, tutorial, programming, PPH]
 description: "JavaScript Mastery Curriculum for Young Programmers"
 ---
 
-# PRIME PROGRAMMERS HUB
-
-# JavaScript Mastery Curriculum for Young Programmers
+# PRIME PROGRAMMERS HUB: JavaScript Mastery Curriculum for Young Programmers
 
 ## Overview
 
