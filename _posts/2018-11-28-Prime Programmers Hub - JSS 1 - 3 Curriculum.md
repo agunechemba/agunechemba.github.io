@@ -5,8 +5,9 @@ author: "Agunechemba Ekene"
 tags: [tech, tutorial, programming, PPH]
 description: "JavaScript Mastery Curriculum for Young Programmers"
 ---
+<center> <img src="https://i.ibb.co/rfKV5KDw/pph-line-transparent.png"> </center>
 
-# PRIME PROGRAMMERS HUB: JavaScript Mastery Curriculum for Young Programmers
+# PPH: JavaScript Mastery Curriculum for Young Programmers
 
 ## Overview
 
