@@ -5,12 +5,6 @@ author: "Agunechemba Ekene"
 ---
 <center> <img src="https://i.ibb.co/rfKV5KDw/pph-line-transparent.png" width="100%"> </center>
 
-# PPH: JavaScript Mastery Curriculum for Young Programmers
-
-**Date:** 2018-11-28  
-**Author:** Agunechemba Ekene
-
----
 
 ## Overview
 
