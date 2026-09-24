@@ -5,6 +5,12 @@ author: "Agunechemba Ekene"
 ---
 <center> <img src="https://i.ibb.co/rfKV5KDw/pph-line-transparent.png" width="100%"> </center>
 
+# PPH: JavaScript Mastery Curriculum for Young Programmers
+
+**Date:** 2018-11-28  
+**Author:** Agunechemba Ekene
+
+---
 
 ## Overview
 
@@ -12,9 +18,64 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
+## 📚 Table of Contents
+
+### [Curriculum: JavaScript Adventurer (Level 1)](#curriculum-javascript-adventurer-level-1)
+- [Term 1: The Basics and Your First Programs](#term-1-the-basics-and-your-first-programs)
+  - [Week 1: What is Programming?](#week-1-what-is-programming)
+  - [Week 2: Values, Types, and Numbers](#week-2-values-types-and-numbers)
+  - [Week 3: Strings and Their Magic](#week-3-strings-and-their-magic)
+  - [Week 4: True or False? (Booleans)](#week-4-true-or-false-booleans)
+  - [Week 5: Making Choices (Conditional Execution)](#week-5-making-choices-conditional-execution)
+  - [Week 6: Repeating Actions (while Loops)](#week-6-repeating-actions-while-loops)
+  - [Week 7: Repeating Actions (for Loops)](#week-7-repeating-actions-for-loops)
+  - [Week 8: Variables (or "Bindings")](#week-8-variables-or-bindings)
+  - [Week 9: Functions (Building Blocks)](#week-9-functions-building-blocks)
+  - [Week 10: Project: A Simple Clock](#week-10-project-a-simple-clock)
+  - [Week 11: Project: FizzBuzz (Part 1)](#week-11-project-fizzbuzz-part-1)
+  - [Week 12: Term Review and Showcase](#week-12-term-review-and-showcase)
+- [Term 2: Data Structures and Functional Programming](#term-2-data-structures-and-functional-programming)
+  - [Week 1: What are Data Structures?](#week-1-what-are-data-structures)
+  - [Week 2: Your First List! (Arrays)](#week-2-your-first-list-arrays)
+  - [Week 3: Playing with Arrays](#week-3-playing-with-arrays)
+  - [Week 4: Objects: Describing Things](#week-4-objects-describing-things)
+  - [Week 5: Mutability: Changing Things](#week-5-mutability-changing-things)
+  - [Week 6: The Weresquirrel's Log (Project Part 1)](#week-6-the-weresquirrels-log-project-part-1)
+  - [Week 7: Finding Data in the Log (Project Part 2)](#week-7-finding-data-in-the-log-project-part-2)
+  - [Week 8: Functions are Values](#week-8-functions-are-values)
+  - [Week 9: ForEach and Filter](#week-9-foreach-and-filter)
+  - [Week 10: Map and Reduce](#week-10-map-and-reduce)
+  - [Week 11: Project: Build a Robot! (Intro)](#week-11-project-build-a-robot-intro)
+  - [Week 12: Term Review and Showcase](#week-12-term-review-and-showcase-1)
+- [Term 3: The Browser and Interactive Projects](#term-3-the-browser-and-interactive-projects)
+  - [Week 1: Introduction to the Browser World](#week-1-introduction-to-the-browser-world)
+  - [Week 2: Your First Interactive Page](#week-2-your-first-interactive-page)
+  - [Week 3: The Document Object Model (DOM)](#week-3-the-document-object-model-dom)
+  - [Week 4: Finding and Changing Elements](#week-4-finding-and-changing-elements)
+  - [Week 5: Handling Events](#week-5-handling-events)
+  - [Week 6: The Pixel Art Editor (Getting Started)](#week-6-the-pixel-art-editor-getting-started)
+  - [Week 7: The Pixel Art Editor (Drawing)](#week-7-the-pixel-art-editor-drawing)
+  - [Week 8: The Pixel Art Editor (Tools)](#week-8-the-pixel-art-editor-tools)
+  - [Week 9: The Pixel Art Editor (Saving & Loading)](#week-9-the-pixel-art-editor-saving--loading)
+  - [Week 10: The Pixel Art Editor (Undo History)](#week-10-the-pixel-art-editor-undo-history)
+  - [Week 11: Putting it All Together & Final Polish](#week-11-putting-it-all-together--final-polish)
+  - [Week 12: Term Review and Showcase](#week-12-term-review-and-showcase-2)
+
+### [Curriculum: JavaScript Explorer (Level 2)](#curriculum-javascript-explorer-level-2)
+- [Term 1: Core Concepts and Problem Solving](#term-1-core-concepts-and-problem-solving)
+- [Term 2: The Secret Life of Objects and Modularity](#term-2-the-secret-life-of-objects-and-modularity)
+- [Term 3: Advanced Topics and Real-World Applications](#term-3-advanced-topics-and-real-world-applications)
+
+### [Curriculum: JavaScript Master (Level 3)](#curriculum-javascript-master-level-3)
+- [Term 1: Advanced Language Features and Problem Solving](#term-1-advanced-language-features-and-problem-solving)
+- [Term 2: The Browser, HTTP, and Full-Stack Development](#term-2-the-browser-http-and-full-stack-development)
+- [Term 3: Compilers and Advanced Browser Applications](#term-3-compilers-and-advanced-browser-applications)
+
+---
+
 ## Curriculum: JavaScript Adventurer (Level 1)
 
-**Student Name:** _______________ **Level:** 1  
+**Level:** 1  
 **Source:** *Eloquent JavaScript* (4th Edition) by Marijn Haverbeke
 
 ---
@@ -433,7 +494,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ## Curriculum: JavaScript Explorer (Level 2)
 
-**Student Name:** _______________ **Level:** 2  
+**Level:** 2  
 **Source:** *Eloquent JavaScript* (4th Edition) by Marijn Haverbeke
 
 ---
@@ -855,7 +916,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ## Curriculum: JavaScript Master (Level 3)
 
-**Student Name:** _______________ **Level:** 3  
+**Level:** 3  
 **Source:** *Eloquent JavaScript* (4th Edition) by Marijn Haverbeke
 
 ---
