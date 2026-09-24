@@ -15,55 +15,127 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 ## 📚 Table of Contents
 
 ### [Curriculum: JavaScript Adventurer (Level 1)](#curriculum-javascript-adventurer-level-1)
-- [Term 1: The Basics and Your First Programs](#term-1-the-basics-and-your-first-programs)
-  - [Week 1: What is Programming?](#week-1-what-is-programming)
-  - [Week 2: Values, Types, and Numbers](#week-2-values-types-and-numbers)
-  - [Week 3: Strings and Their Magic](#week-3-strings-and-their-magic)
-  - [Week 4: True or False? (Booleans)](#week-4-true-or-false-booleans)
-  - [Week 5: Making Choices (Conditional Execution)](#week-5-making-choices-conditional-execution)
-  - [Week 6: Repeating Actions (while Loops)](#week-6-repeating-actions-while-loops)
-  - [Week 7: Repeating Actions (for Loops)](#week-7-repeating-actions-for-loops)
-  - [Week 8: Variables (or "Bindings")](#week-8-variables-or-bindings)
-  - [Week 9: Functions (Building Blocks)](#week-9-functions-building-blocks)
-  - [Week 10: Project: A Simple Clock](#week-10-project-a-simple-clock)
-  - [Week 11: Project: FizzBuzz (Part 1)](#week-11-project-fizzbuzz-part-1)
-  - [Week 12: Term Review and Showcase](#week-12-term-review-and-showcase)
-- [Term 2: Data Structures and Functional Programming](#term-2-data-structures-and-functional-programming)
-  - [Week 1: What are Data Structures?](#week-1-what-are-data-structures)
-  - [Week 2: Your First List! (Arrays)](#week-2-your-first-list-arrays)
-  - [Week 3: Playing with Arrays](#week-3-playing-with-arrays)
-  - [Week 4: Objects: Describing Things](#week-4-objects-describing-things)
-  - [Week 5: Mutability: Changing Things](#week-5-mutability-changing-things)
-  - [Week 6: The Weresquirrel's Log (Project Part 1)](#week-6-the-weresquirrels-log-project-part-1)
-  - [Week 7: Finding Data in the Log (Project Part 2)](#week-7-finding-data-in-the-log-project-part-2)
-  - [Week 8: Functions are Values](#week-8-functions-are-values)
-  - [Week 9: ForEach and Filter](#week-9-foreach-and-filter)
-  - [Week 10: Map and Reduce](#week-10-map-and-reduce)
-  - [Week 11: Project: Build a Robot! (Intro)](#week-11-project-build-a-robot-intro)
-  - [Week 12: Term Review and Showcase](#week-12-term-review-and-showcase-1)
-- [Term 3: The Browser and Interactive Projects](#term-3-the-browser-and-interactive-projects)
-  - [Week 1: Introduction to the Browser World](#week-1-introduction-to-the-browser-world)
-  - [Week 2: Your First Interactive Page](#week-2-your-first-interactive-page)
-  - [Week 3: The Document Object Model (DOM)](#week-3-the-document-object-model-dom)
-  - [Week 4: Finding and Changing Elements](#week-4-finding-and-changing-elements)
-  - [Week 5: Handling Events](#week-5-handling-events)
-  - [Week 6: The Pixel Art Editor (Getting Started)](#week-6-the-pixel-art-editor-getting-started)
-  - [Week 7: The Pixel Art Editor (Drawing)](#week-7-the-pixel-art-editor-drawing)
-  - [Week 8: The Pixel Art Editor (Tools)](#week-8-the-pixel-art-editor-tools)
-  - [Week 9: The Pixel Art Editor (Saving & Loading)](#week-9-the-pixel-art-editor-saving--loading)
-  - [Week 10: The Pixel Art Editor (Undo History)](#week-10-the-pixel-art-editor-undo-history)
-  - [Week 11: Putting it All Together & Final Polish](#week-11-putting-it-all-together--final-polish)
-  - [Week 12: Term Review and Showcase](#week-12-term-review-and-showcase-2)
+- [Adventurer Term 1: The Basics and Your First Programs](#adventurer-term-1-the-basics-and-your-first-programs)
+  - [Adventurer Week 1: What is Programming?](#adventurer-week-1-what-is-programming)
+  - [Adventurer Week 2: Values, Types, and Numbers](#adventurer-week-2-values-types-and-numbers)
+  - [Adventurer Week 3: Strings and Their Magic](#adventurer-week-3-strings-and-their-magic)
+  - [Adventurer Week 4: True or False? (Booleans)](#adventurer-week-4-true-or-false-booleans)
+  - [Adventurer Week 5: Making Choices (Conditional Execution)](#adventurer-week-5-making-choices-conditional-execution)
+  - [Adventurer Week 6: Repeating Actions (while Loops)](#adventurer-week-6-repeating-actions-while-loops)
+  - [Adventurer Week 7: Repeating Actions (for Loops)](#adventurer-week-7-repeating-actions-for-loops)
+  - [Adventurer Week 8: Variables (or "Bindings")](#adventurer-week-8-variables-or-bindings)
+  - [Adventurer Week 9: Functions (Building Blocks)](#adventurer-week-9-functions-building-blocks)
+  - [Adventurer Week 10: Project: A Simple Clock](#adventurer-week-10-project-a-simple-clock)
+  - [Adventurer Week 11: Project: FizzBuzz (Part 1)](#adventurer-week-11-project-fizzbuzz-part-1)
+  - [Adventurer Week 12: Term Review and Showcase](#adventurer-week-12-term-review-and-showcase)
+- [Adventurer Term 2: Data Structures and Functional Programming](#adventurer-term-2-data-structures-and-functional-programming)
+  - [Adventurer Week 13: What are Data Structures?](#adventurer-week-13-what-are-data-structures)
+  - [Adventurer Week 14: Your First List! (Arrays)](#adventurer-week-14-your-first-list-arrays)
+  - [Adventurer Week 15: Playing with Arrays](#adventurer-week-15-playing-with-arrays)
+  - [Adventurer Week 16: Objects: Describing Things](#adventurer-week-16-objects-describing-things)
+  - [Adventurer Week 17: Mutability: Changing Things](#adventurer-week-17-mutability-changing-things)
+  - [Adventurer Week 18: The Weresquirrel's Log (Project Part 1)](#adventurer-week-18-the-weresquirrels-log-project-part-1)
+  - [Adventurer Week 19: Finding Data in the Log (Project Part 2)](#adventurer-week-19-finding-data-in-the-log-project-part-2)
+  - [Adventurer Week 20: Functions are Values](#adventurer-week-20-functions-are-values)
+  - [Adventurer Week 21: ForEach and Filter](#adventurer-week-21-foreach-and-filter)
+  - [Adventurer Week 22: Map and Reduce](#adventurer-week-22-map-and-reduce)
+  - [Adventurer Week 23: Project: Build a Robot! (Intro)](#adventurer-week-23-project-build-a-robot-intro)
+  - [Adventurer Week 24: Term Review and Showcase](#adventurer-week-24-term-review-and-showcase)
+- [Adventurer Term 3: The Browser and Interactive Projects](#adventurer-term-3-the-browser-and-interactive-projects)
+  - [Adventurer Week 25: Introduction to the Browser World](#adventurer-week-25-introduction-to-the-browser-world)
+  - [Adventurer Week 26: Your First Interactive Page](#adventurer-week-26-your-first-interactive-page)
+  - [Adventurer Week 27: The Document Object Model (DOM)](#adventurer-week-27-the-document-object-model-dom)
+  - [Adventurer Week 28: Finding and Changing Elements](#adventurer-week-28-finding-and-changing-elements)
+  - [Adventurer Week 29: Handling Events](#adventurer-week-29-handling-events)
+  - [Adventurer Week 30: The Pixel Art Editor (Getting Started)](#adventurer-week-30-the-pixel-art-editor-getting-started)
+  - [Adventurer Week 31: The Pixel Art Editor (Drawing)](#adventurer-week-31-the-pixel-art-editor-drawing)
+  - [Adventurer Week 32: The Pixel Art Editor (Tools)](#adventurer-week-32-the-pixel-art-editor-tools)
+  - [Adventurer Week 33: The Pixel Art Editor (Saving & Loading)](#adventurer-week-33-the-pixel-art-editor-saving--loading)
+  - [Adventurer Week 34: The Pixel Art Editor (Undo History)](#adventurer-week-34-the-pixel-art-editor-undo-history)
+  - [Adventurer Week 35: Putting it All Together & Final Polish](#adventurer-week-35-putting-it-all-together--final-polish)
+  - [Adventurer Week 36: Term Review and Showcase](#adventurer-week-36-term-review-and-showcase)
 
 ### [Curriculum: JavaScript Explorer (Level 2)](#curriculum-javascript-explorer-level-2)
-- [Term 1: Core Concepts and Problem Solving](#term-1-core-concepts-and-problem-solving)
-- [Term 2: The Secret Life of Objects and Modularity](#term-2-the-secret-life-of-objects-and-modularity)
-- [Term 3: Advanced Topics and Real-World Applications](#term-3-advanced-topics-and-real-world-applications)
+- [Explorer Term 1: Core Concepts and Problem Solving](#explorer-term-1-core-concepts-and-problem-solving)
+  - [Explorer Week 1: The Big Picture](#explorer-week-1-the-big-picture)
+  - [Explorer Week 2: The Building Blocks (Values, Types, and Operators)](#explorer-week-2-the-building-blocks-values-types-and-operators)
+  - [Explorer Week 3: Program Structure (Statements and Control Flow)](#explorer-week-3-program-structure-statements-and-control-flow)
+  - [Explorer Week 4: Functions (The Foundation)](#explorer-week-4-functions-the-foundation)
+  - [Explorer Week 5: Advanced Functions (Closures and Recursion)](#explorer-week-5-advanced-functions-closures-and-recursion)
+  - [Explorer Week 6: Data Structures (Objects and Arrays)](#explorer-week-6-data-structures-objects-and-arrays)
+  - [Explorer Week 7: The Weresquirrel Project (Data Analysis)](#explorer-week-7-the-weresquirrel-project-data-analysis)
+  - [Explorer Week 8: Higher-Order Functions (Part 1)](#explorer-week-8-higher-order-functions-part-1)
+  - [Explorer Week 9: Higher-Order Functions (Part 2)](#explorer-week-9-higher-order-functions-part-2)
+  - [Explorer Week 10: Project: The Language Robot (Intro)](#explorer-week-10-project-the-language-robot-intro)
+  - [Explorer Week 11: Project: The Language Robot (Algorithms)](#explorer-week-11-project-the-language-robot-algorithms)
+  - [Explorer Week 12: Term Review and Showcase](#explorer-week-12-term-review-and-showcase)
+- [Explorer Term 2: The Secret Life of Objects and Modularity](#explorer-term-2-the-secret-life-of-objects-and-modularity)
+  - [Explorer Week 13: Methods and Prototypes](#explorer-week-13-methods-and-prototypes)
+  - [Explorer Week 14: Classes and Private Properties](#explorer-week-14-classes-and-private-properties)
+  - [Explorer Week 15: Overriding and Maps](#explorer-week-15-overriding-and-maps)
+  - [Explorer Week 16: Getters, Setters, and Symbols](#explorer-week-16-getters-setters-and-symbols)
+  - [Explorer Week 17: The Iterator Interface and Inheritance](#explorer-week-17-the-iterator-interface-and-inheritance)
+  - [Explorer Week 18: Modules (ES Modules)](#explorer-week-18-modules-es-modules)
+  - [Explorer Week 19: Packages and CommonJS](#explorer-week-19-packages-and-commonjs)
+  - [Explorer Week 20: Building and Bundling](#explorer-week-20-building-and-bundling)
+  - [Explorer Week 21: Project: A Modular Robot](#explorer-week-21-project-a-modular-robot)
+  - [Explorer Week 22: Error Handling (Bugs and Errors)](#explorer-week-22-error-handling-bugs-and-errors)
+  - [Explorer Week 23: Asynchronous Programming (Intro)](#explorer-week-23-asynchronous-programming-intro)
+  - [Explorer Week 24: Term Review and Showcase](#explorer-week-24-term-review-and-showcase)
+- [Explorer Term 3: Advanced Topics and Real-World Applications](#explorer-term-3-advanced-topics-and-real-world-applications)
+  - [Explorer Week 25: Promises](#explorer-week-25-promises)
+  - [Explorer Week 26: Async Functions](#explorer-week-26-async-functions)
+  - [Explorer Week 27: The Browser Environment](#explorer-week-27-the-browser-environment)
+  - [Explorer Week 28: The Document Object Model (DOM)](#explorer-week-28-the-document-object-model-dom)
+  - [Explorer Week 29: DOM Manipulation and Styling](#explorer-week-29-dom-manipulation-and-styling)
+  - [Explorer Week 30: Handling User Input (Events)](#explorer-week-30-handling-user-input-events)
+  - [Explorer Week 31: Project: A Pixel Art Editor (Intro)](#explorer-week-31-project-a-pixel-art-editor-intro)
+  - [Explorer Week 32: Project: A Pixel Art Editor (Components)](#explorer-week-32-project-a-pixel-art-editor-components)
+  - [Explorer Week 33: Project: A Pixel Art Editor (Tools)](#explorer-week-33-project-a-pixel-art-editor-tools)
+  - [Explorer Week 34: Project: A Pixel Art Editor (Saving, Loading, and Undo)](#explorer-week-34-project-a-pixel-art-editor-saving-loading-and-undo)
+  - [Explorer Week 35: Project: A Pixel Art Editor (Polishing and Extending)](#explorer-week-35-project-a-pixel-art-editor-polishing-and-extending)
+  - [Explorer Week 36: Term Review and Showcase](#explorer-week-36-term-review-and-showcase)
 
 ### [Curriculum: JavaScript Master (Level 3)](#curriculum-javascript-master-level-3)
-- [Term 1: Advanced Language Features and Problem Solving](#term-1-advanced-language-features-and-problem-solving)
-- [Term 2: The Browser, HTTP, and Full-Stack Development](#term-2-the-browser-http-and-full-stack-development)
-- [Term 3: Compilers and Advanced Browser Applications](#term-3-compilers-and-advanced-browser-applications)
+- [Master Term 1: Advanced Language Features and Problem Solving](#master-term-1-advanced-language-features-and-problem-solving)
+  - [Master Week 1: Introduction to Regular Expressions](#master-week-1-introduction-to-regular-expressions)
+  - [Master Week 2: Repetition and Grouping in Regexps](#master-week-2-repetition-and-grouping-in-regexps)
+  - [Master Week 3: Advanced Regexp Features](#master-week-3-advanced-regexp-features)
+  - [Master Week 4: Practical Regexp Applications](#master-week-4-practical-regexp-applications)
+  - [Master Week 5: Error Handling and Debugging (Advanced)](#master-week-5-error-handling-and-debugging-advanced)
+  - [Master Week 6: Modules (Deep Dive)](#master-week-6-modules-deep-dive)
+  - [Master Week 7: Project: A Modular Robot (Refactoring)](#master-week-7-project-a-modular-robot-refactoring)
+  - [Master Week 8: Project: A Platform Game (Introduction)](#master-week-8-project-a-platform-game-introduction)
+  - [Master Week 9: Project: A Platform Game (Actors and Collision)](#master-week-9-project-a-platform-game-actors-and-collision)
+  - [Master Week 10: Project: A Platform Game (Display and Control)](#master-week-10-project-a-platform-game-display-and-control)
+  - [Master Week 11: Project: A Platform Game (Canvas Display)](#master-week-11-project-a-platform-game-canvas-display)
+  - [Master Week 12: Term Review and Showcase](#master-week-12-term-review-and-showcase)
+- [Master Term 2: The Browser, HTTP, and Full-Stack Development](#master-term-2-the-browser-http-and-full-stack-development)
+  - [Master Week 13: HTTP and the Web (Deep Dive)](#master-week-13-http-and-the-web-deep-dive)
+  - [Master Week 14: HTTP and Forms (Client-Side)](#master-week-14-http-and-forms-client-side)
+  - [Master Week 15: Advanced Form Fields and File Handling](#master-week-15-advanced-form-fields-and-file-handling)
+  - [Master Week 16: Client-Side Data Storage](#master-week-16-client-side-data-storage)
+  - [Master Week 17: Advanced Event Handling](#master-week-17-advanced-event-handling)
+  - [Master Week 18: Asynchronous Programming (Promises and Async)](#master-week-18-asynchronous-programming-promises-and-async)
+  - [Master Week 19: Project: A Skill-Sharing Website (Design)](#master-week-19-project-a-skill-sharing-website-design)
+  - [Master Week 20: Project: A Skill-Sharing Website (Server)](#master-week-20-project-a-skill-sharing-website-server)
+  - [Master Week 21: Project: A Skill-Sharing Website (Client)](#master-week-21-project-a-skill-sharing-website-client)
+  - [Master Week 22: Project: A Skill-Sharing Website (Persistence)](#master-week-22-project-a-skill-sharing-website-persistence)
+  - [Master Week 23: Project: A Skill-Sharing Website (Polishing)](#master-week-23-project-a-skill-sharing-website-polishing)
+  - [Master Week 24: Term Review and Showcase](#master-week-24-term-review-and-showcase)
+- [Master Term 3: Compilers and Advanced Browser Applications](#master-term-3-compilers-and-advanced-browser-applications)
+  - [Master Week 25: Building a Programming Language (Parsing)](#master-week-25-building-a-programming-language-parsing)
+  - [Master Week 26: Building a Programming Language (Evaluation)](#master-week-26-building-a-programming-language-evaluation)
+  - [Master Week 27: Building a Programming Language (Functions and Environment)](#master-week-27-building-a-programming-language-functions-and-environment)
+  - [Master Week 28: Building a Programming Language (Exercises)](#master-week-28-building-a-programming-language-exercises)
+  - [Master Week 29: Advanced Canvas Drawing (Shapes and Curves)](#master-week-29-advanced-canvas-drawing-shapes-and-curves)
+  - [Master Week 30: Advanced Canvas Drawing (Pie Charts and Text)](#master-week-30-advanced-canvas-drawing-pie-charts-and-text)
+  - [Master Week 31: Advanced Canvas Drawing (Images and Transformations)](#master-week-31-advanced-canvas-drawing-images-and-transformations)
+  - [Master Week 32: Advanced Canvas Drawing (Saving and Restoring)](#master-week-32-advanced-canvas-drawing-saving-and-restoring)
+  - [Master Week 33: Final Project (Planning and Setup)](#master-week-33-final-project-planning-and-setup)
+  - [Master Week 34: Final Project (Implementation)](#master-week-34-final-project-implementation)
+  - [Master Week 35: Final Project (Polishing and Presentation)](#master-week-35-final-project-polishing-and-presentation)
+  - [Master Week 36: Final Project (Showcase and Celebration)](#master-week-36-final-project-showcase-and-celebration)
 
 ---
 
@@ -74,13 +146,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 1: The Basics and Your First Programs
+### Adventurer Term 1: The Basics and Your First Programs
 
 **Term Goal:** To understand the very basics of computers and programming, learn what values are, and be able to write simple programs using variables, loops, and conditions.
 
 ---
 
-#### Week 1: What is Programming?
+#### Adventurer Week 1: What is Programming?
 
 **Pages Source:** Introduction (Pages 1-4), "On Programming" (Pages 2-4)
 
@@ -91,7 +163,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: Values, Types, and Numbers
+#### Adventurer Week 2: Values, Types, and Numbers
 
 **Pages Source:** Chapter 1 (Values, Numbers, Arithmetic - Pages 15-19)
 
@@ -102,7 +174,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: Strings and Their Magic
+#### Adventurer Week 3: Strings and Their Magic
 
 **Pages Source:** Chapter 1 (Strings, Unary Operators - Pages 20-23)
 
@@ -113,7 +185,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: True or False? (Booleans)
+#### Adventurer Week 4: True or False? (Booleans)
 
 **Pages Source:** Chapter 1 (Boolean Values, Comparison - Pages 24-25)
 
@@ -124,7 +196,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: Making Choices (Conditional Execution)
+#### Adventurer Week 5: Making Choices (Conditional Execution)
 
 **Pages Source:** Chapter 2 (Conditional execution - Pages 41-43)
 
@@ -135,7 +207,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: Repeating Actions (while Loops)
+#### Adventurer Week 6: Repeating Actions (while Loops)
 
 **Pages Source:** Chapter 2 (while and do loops - Pages 43-46)
 
@@ -146,7 +218,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: Repeating Actions (for Loops)
+#### Adventurer Week 7: Repeating Actions (for Loops)
 
 **Pages Source:** Chapter 2 (for loops - Pages 47-49)
 
@@ -157,7 +229,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Variables (or "Bindings")
+#### Adventurer Week 8: Variables (or "Bindings")
 
 **Pages Source:** Chapter 2 (Bindings, Binding names - Pages 34-37)
 
@@ -168,7 +240,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: Functions (Building Blocks)
+#### Adventurer Week 9: Functions (Building Blocks)
 
 **Pages Source:** Chapter 2 (Functions - Pages 38-39), Chapter 3 (Defining a function - Pages 59-60)
 
@@ -179,7 +251,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Project: A Simple Clock
+#### Adventurer Week 10: Project: A Simple Clock
 
 **Pages Source:** Review Chapters 1 and 2.
 
@@ -190,7 +262,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Project: FizzBuzz (Part 1)
+#### Adventurer Week 11: Project: FizzBuzz (Part 1)
 
 **Pages Source:** Chapter 2 Exercises (FizzBuzz - Page 56)
 
@@ -201,7 +273,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Adventurer Week 12: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -212,13 +284,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 2: Data Structures and Functional Programming
+### Adventurer Term 2: Data Structures and Functional Programming
 
 **Term Goal:** To learn how to group information into collections (arrays) and real-world things (objects), and to write flexible code using functions that can work with different kinds of data.
 
 ---
 
-#### Week 1: What are Data Structures?
+#### Adventurer Week 13: What are Data Structures?
 
 **Pages Source:** Chapter 4 (Introduction, The Werequrrel - Pages 84-85)
 
@@ -229,7 +301,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: Your First List! (Arrays)
+#### Adventurer Week 14: Your First List! (Arrays)
 
 **Pages Source:** Chapter 4 (Datasets - Pages 86-87)
 
@@ -240,7 +312,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: Playing with Arrays
+#### Adventurer Week 15: Playing with Arrays
 
 **Pages Source:** Chapter 4 (Methods, Further Arrayology - Pages 88-89, 105-107)
 
@@ -251,7 +323,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: Objects: Describing Things
+#### Adventurer Week 16: Objects: Describing Things
 
 **Pages Source:** Chapter 4 (Objects - Pages 90-93)
 
@@ -262,7 +334,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: Mutability: Changing Things
+#### Adventurer Week 17: Mutability: Changing Things
 
 **Pages Source:** Chapter 4 (Mutability - Pages 94-95)
 
@@ -273,7 +345,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: The Weresquirrel's Log (Project Part 1)
+#### Adventurer Week 18: The Weresquirrel's Log (Project Part 1)
 
 **Pages Source:** Chapter 4 (The lycanthrope's log - Pages 96-97)
 
@@ -284,7 +356,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: Finding Data in the Log (Project Part 2)
+#### Adventurer Week 19: Finding Data in the Log (Project Part 2)
 
 **Pages Source:** Chapter 4 (Computing correlation - Pages 99-101)
 
@@ -295,7 +367,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Functions are Values
+#### Adventurer Week 20: Functions are Values
 
 **Pages Source:** Chapter 5 (Higher-Order Functions, Abstracting repetition - Pages 122-126)
 
@@ -306,7 +378,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: ForEach and Filter
+#### Adventurer Week 21: ForEach and Filter
 
 **Pages Source:** Chapter 5 (Higher-Order Functions - Page 126, Filtering arrays - Pages 130-131)
 
@@ -316,7 +388,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Map and Reduce
+#### Adventurer Week 22: Map and Reduce
 
 **Pages Source:** Chapter 5 (Transforming with map, Summarizing with reduce - Pages 131-134)
 
@@ -326,7 +398,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Project: Build a Robot! (Intro)
+#### Adventurer Week 23: Project: Build a Robot! (Intro)
 
 **Pages Source:** Chapter 7 (The Task, Persistent Data - Pages 177-180)
 
@@ -337,7 +409,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Adventurer Week 24: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -348,13 +420,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 3: The Browser and Interactive Projects
+### Adventurer Term 3: The Browser and Interactive Projects
 
 **Term Goal:** To create an interactive, graphical project (like a mini-game, a drawing app, or a story generator) by combining programming logic with HTML and CSS. The primary focus is on the "Project: A Pixel Art Editor" from the book.
 
 ---
 
-#### Week 1: Introduction to the Browser World
+#### Adventurer Week 25: Introduction to the Browser World
 
 **Pages Source:** Chapter 13 (JavaScript and the Browser, The Web, HTML - Pages 321-328)
 
@@ -365,7 +437,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: Your First Interactive Page
+#### Adventurer Week 26: Your First Interactive Page
 
 **Pages Source:** Chapter 13 (HTML and JavaScript - Pages 329-330)
 
@@ -376,7 +448,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: The Document Object Model (DOM)
+#### Adventurer Week 27: The Document Object Model (DOM)
 
 **Pages Source:** Chapter 14 (Document structure, Trees - Pages 334-337)
 
@@ -387,7 +459,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: Finding and Changing Elements
+#### Adventurer Week 28: Finding and Changing Elements
 
 **Pages Source:** Chapter 14 (Finding elements, Changing the document - Pages 341-343)
 
@@ -398,7 +470,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: Handling Events
+#### Adventurer Week 29: Handling Events
 
 **Pages Source:** Chapter 15 (Event handlers, Events and DOM nodes - Pages 363-366)
 
@@ -409,7 +481,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: The Pixel Art Editor (Getting Started)
+#### Adventurer Week 30: The Pixel Art Editor (Getting Started)
 
 **Pages Source:** Chapter 19 (Components, The state - Pages 495-500)
 
@@ -420,7 +492,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: The Pixel Art Editor (Drawing)
+#### Adventurer Week 31: The Pixel Art Editor (Drawing)
 
 **Pages Source:** Chapter 19 (The canvas, The application - Pages 502-508)
 
@@ -431,7 +503,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: The Pixel Art Editor (Tools)
+#### Adventurer Week 32: The Pixel Art Editor (Tools)
 
 **Pages Source:** Chapter 19 (Drawing tools - Pages 509-512)
 
@@ -442,7 +514,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: The Pixel Art Editor (Saving & Loading)
+#### Adventurer Week 33: The Pixel Art Editor (Saving & Loading)
 
 **Pages Source:** Chapter 19 (Saving and loading - Pages 513-517)
 
@@ -453,7 +525,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: The Pixel Art Editor (Undo History)
+#### Adventurer Week 34: The Pixel Art Editor (Undo History)
 
 **Pages Source:** Chapter 19 (Undo history - Pages 517-519)
 
@@ -464,7 +536,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Putting it All Together & Final Polish
+#### Adventurer Week 35: Putting it All Together & Final Polish
 
 **Pages Source:** Chapter 19 (Let's draw - Pages 519-522)
 
@@ -475,7 +547,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Adventurer Week 36: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -493,13 +565,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 1: Core Concepts and Problem Solving
+### Explorer Term 1: Core Concepts and Problem Solving
 
 **Term Goal:** To solidify the understanding of fundamental JavaScript concepts and to develop strong problem-solving skills through algorithmic thinking and code organization.
 
 ---
 
-#### Week 1: The Big Picture
+#### Explorer Week 1: The Big Picture
 
 **Pages Source:** Introduction (Pages 1-14)
 
@@ -510,7 +582,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: The Building Blocks (Values, Types, and Operators)
+#### Explorer Week 2: The Building Blocks (Values, Types, and Operators)
 
 **Pages Source:** Chapter 1 (Pages 15-31)
 
@@ -521,7 +593,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: Program Structure (Statements and Control Flow)
+#### Explorer Week 3: Program Structure (Statements and Control Flow)
 
 **Pages Source:** Chapter 2 (Pages 32-57)
 
@@ -532,7 +604,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: Functions (The Foundation)
+#### Explorer Week 4: Functions (The Foundation)
 
 **Pages Source:** Chapter 3 (Pages 58-83)
 
@@ -543,7 +615,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: Advanced Functions (Closures and Recursion)
+#### Explorer Week 5: Advanced Functions (Closures and Recursion)
 
 **Pages Source:** Chapter 3 (Closure, Recursion, Growing functions - Pages 70-77)
 
@@ -554,7 +626,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: Data Structures (Objects and Arrays)
+#### Explorer Week 6: Data Structures (Objects and Arrays)
 
 **Pages Source:** Chapter 4 (Pages 84-117)
 
@@ -565,7 +637,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: The Weresquirrel Project (Data Analysis)
+#### Explorer Week 7: The Weresquirrel Project (Data Analysis)
 
 **Pages Source:** Chapter 4 (The lycanthrope's log, Computing correlation - Pages 96-104)
 
@@ -576,7 +648,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Higher-Order Functions (Part 1)
+#### Explorer Week 8: Higher-Order Functions (Part 1)
 
 **Pages Source:** Chapter 5 (Abstraction, Higher-Order Functions - Pages 122-129)
 
@@ -587,7 +659,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: Higher-Order Functions (Part 2)
+#### Explorer Week 9: Higher-Order Functions (Part 2)
 
 **Pages Source:** Chapter 5 (Transforming with map, Summarizing with reduce - Pages 131-136)
 
@@ -598,7 +670,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Project: The Language Robot (Intro)
+#### Explorer Week 10: Project: The Language Robot (Intro)
 
 **Pages Source:** Chapter 7 (Meadowfield, The task, Persistent data - Pages 175-180)
 
@@ -609,7 +681,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Project: The Language Robot (Algorithms)
+#### Explorer Week 11: Project: The Language Robot (Algorithms)
 
 **Pages Source:** Chapter 7 (Simulation, The mail truck's route, Pathfinding - Pages 182-188)
 
@@ -620,7 +692,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Explorer Week 12: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -631,13 +703,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 2: The Secret Life of Objects and Modularity
+### Explorer Term 2: The Secret Life of Objects and Modularity
 
 **Term Goal:** To understand the object-oriented nature of JavaScript (prototypes, classes, inheritance) and learn how to structure larger programs using modules.
 
 ---
 
-#### Week 1: Methods and Prototypes
+#### Explorer Week 13: Methods and Prototypes
 
 **Pages Source:** Chapter 6 (Methods, Prototypes - Pages 146-150)
 
@@ -648,7 +720,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: Classes and Private Properties
+#### Explorer Week 14: Classes and Private Properties
 
 **Pages Source:** Chapter 6 (Classes, Private properties - Pages 150-154)
 
@@ -659,7 +731,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: Overriding and Maps
+#### Explorer Week 15: Overriding and Maps
 
 **Pages Source:** Chapter 6 (Overriding derived properties, Maps - Pages 155-159)
 
@@ -670,7 +742,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: Getters, Setters, and Symbols
+#### Explorer Week 16: Getters, Setters, and Symbols
 
 **Pages Source:** Chapter 6 (Getters, setters, and statics, Symbols - Pages 161-164)
 
@@ -681,7 +753,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: The Iterator Interface and Inheritance
+#### Explorer Week 17: The Iterator Interface and Inheritance
 
 **Pages Source:** Chapter 6 (The iterator interface, Inheritance - Pages 165-170)
 
@@ -692,7 +764,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: Modules (ES Modules)
+#### Explorer Week 18: Modules (ES Modules)
 
 **Pages Source:** Chapter 10 (ES modules - Pages 251-253)
 
@@ -703,7 +775,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: Packages and CommonJS
+#### Explorer Week 19: Packages and CommonJS
 
 **Pages Source:** Chapter 10 (Packages, CommonJS modules - Pages 254-260)
 
@@ -714,7 +786,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Building and Bundling
+#### Explorer Week 20: Building and Bundling
 
 **Pages Source:** Chapter 10 (Building and bundling, Module design - Pages 261-265)
 
@@ -725,7 +797,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: Project: A Modular Robot
+#### Explorer Week 21: Project: A Modular Robot
 
 **Pages Source:** Chapter 7 (Exercises - Pages 189-190)
 
@@ -736,7 +808,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Error Handling (Bugs and Errors)
+#### Explorer Week 22: Error Handling (Bugs and Errors)
 
 **Pages Source:** Chapter 8 (Pages 191-213)
 
@@ -747,7 +819,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Asynchronous Programming (Intro)
+#### Explorer Week 23: Asynchronous Programming (Intro)
 
 **Pages Source:** Chapter 11 (Asynchronicity, Callbacks - Pages 269-272)
 
@@ -758,7 +830,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Explorer Week 24: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -769,13 +841,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 3: Advanced Topics and Real-World Applications
+### Explorer Term 3: Advanced Topics and Real-World Applications
 
 **Term Goal:** To understand advanced JavaScript concepts like Promises and the browser DOM, and to build a complete, interactive web application.
 
 ---
 
-#### Week 1: Promises
+#### Explorer Week 25: Promises
 
 **Pages Source:** Chapter 11 (Promises, Failure - Pages 273-279)
 
@@ -786,7 +858,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: Async Functions
+#### Explorer Week 26: Async Functions
 
 **Pages Source:** Chapter 11 (Async functions - Pages 283-285)
 
@@ -797,7 +869,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: The Browser Environment
+#### Explorer Week 27: The Browser Environment
 
 **Pages Source:** Chapter 13 (Networks and the Internet, The Web, HTML - Pages 322-328)
 
@@ -808,7 +880,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: The Document Object Model (DOM)
+#### Explorer Week 28: The Document Object Model (DOM)
 
 **Pages Source:** Chapter 14 (Document structure, Trees, Moving through the tree - Pages 334-341)
 
@@ -819,7 +891,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: DOM Manipulation and Styling
+#### Explorer Week 29: DOM Manipulation and Styling
 
 **Pages Source:** Chapter 14 (Changing the document, Creating nodes, Attributes, Layout, Styling - Pages 342-352)
 
@@ -831,7 +903,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: Handling User Input (Events)
+#### Explorer Week 30: Handling User Input (Events)
 
 **Pages Source:** Chapter 15 (Handling Events - Pages 363-389)
 
@@ -842,7 +914,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: Project: A Pixel Art Editor (Intro)
+#### Explorer Week 31: Project: A Pixel Art Editor (Intro)
 
 **Pages Source:** Chapter 19 (Pages 495-500)
 
@@ -853,7 +925,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Project: A Pixel Art Editor (Components)
+#### Explorer Week 32: Project: A Pixel Art Editor (Components)
 
 **Pages Source:** Chapter 19 (Components, DOM building, The canvas, The application - Pages 495-509)
 
@@ -864,7 +936,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: Project: A Pixel Art Editor (Tools)
+#### Explorer Week 33: Project: A Pixel Art Editor (Tools)
 
 **Pages Source:** Chapter 19 (Drawing tools - Pages 509-512)
 
@@ -875,7 +947,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Project: A Pixel Art Editor (Saving, Loading, and Undo)
+#### Explorer Week 34: Project: A Pixel Art Editor (Saving, Loading, and Undo)
 
 **Pages Source:** Chapter 19 (Saving and loading, Undo history, Let's draw - Pages 513-521)
 
@@ -886,7 +958,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Project: A Pixel Art Editor (Polishing and Extending)
+#### Explorer Week 35: Project: A Pixel Art Editor (Polishing and Extending)
 
 **Pages Source:** Chapter 19 (Exercises - Pages 522-525)
 
@@ -897,7 +969,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Explorer Week 36: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -915,13 +987,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 1: Advanced Language Features and Problem Solving
+### Master Term 1: Advanced Language Features and Problem Solving
 
 **Term Goal:** To master advanced JavaScript language features including regular expressions, error handling, and modules, and to build a complex project (a platform game).
 
 ---
 
-#### Week 1: Introduction to Regular Expressions
+#### Master Week 1: Introduction to Regular Expressions
 
 **Pages Source:** Chapter 9 (Creating a regular expression, Testing for matches, Sets of characters - Pages 214-218)
 
@@ -933,7 +1005,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: Repetition and Grouping in Regexps
+#### Master Week 2: Repetition and Grouping in Regexps
 
 **Pages Source:** Chapter 9 (Repeating parts of a pattern, Grouping subexpressions - Pages 220-224)
 
@@ -944,7 +1016,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: Advanced Regexp Features
+#### Master Week 3: Advanced Regexp Features
 
 **Pages Source:** Chapter 9 (Matches and groups, The Date class, Boundaries and look-ahead, Choice patterns, The mechanics of matching - Pages 224-229)
 
@@ -958,7 +1030,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: Practical Regexp Applications
+#### Master Week 4: Practical Regexp Applications
 
 **Pages Source:** Chapter 9 (The replace method, Greed, Dynamically creating RegExp objects, The search method, The lastIndex property, Parsing an INI file - Pages 232-243)
 
@@ -970,7 +1042,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: Error Handling and Debugging (Advanced)
+#### Master Week 5: Error Handling and Debugging (Advanced)
 
 **Pages Source:** Chapter 8 (Language, Strict mode, Types, Testing, Debugging - Pages 191-200)
 
@@ -982,7 +1054,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: Modules (Deep Dive)
+#### Master Week 6: Modules (Deep Dive)
 
 **Pages Source:** Chapter 10 (ES modules, CommonJS modules, Building and bundling, Module design - Pages 251-265)
 
@@ -994,7 +1066,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: Project: A Modular Robot (Refactoring)
+#### Master Week 7: Project: A Modular Robot (Refactoring)
 
 **Pages Source:** Chapter 7 (Project: A Robot) and Chapter 10 (Exercises)
 
@@ -1005,7 +1077,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Project: A Platform Game (Introduction)
+#### Master Week 8: Project: A Platform Game (Introduction)
 
 **Pages Source:** Chapter 16 (The game, The technology, Levels - Pages 390-393)
 
@@ -1016,7 +1088,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: Project: A Platform Game (Actors and Collision)
+#### Master Week 9: Project: A Platform Game (Actors and Collision)
 
 **Pages Source:** Chapter 16 (Actors, Drawing, Motion and collision - Pages 396-414)
 
@@ -1027,7 +1099,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Project: A Platform Game (Display and Control)
+#### Master Week 10: Project: A Platform Game (Display and Control)
 
 **Pages Source:** Chapter 16 (Drawing, Tracking keys, Running the game - Pages 402-410, 417-421)
 
@@ -1039,7 +1111,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Project: A Platform Game (Canvas Display)
+#### Master Week 11: Project: A Platform Game (Canvas Display)
 
 **Pages Source:** Chapter 17 (Back to the game - Pages 447-454)
 
@@ -1050,7 +1122,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Master Week 12: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -1061,13 +1133,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 2: The Browser, HTTP, and Full-Stack Development
+### Master Term 2: The Browser, HTTP, and Full-Stack Development
 
 **Term Goal:** To master the browser environment, understand how the web works (HTTP, forms), and build interactive web applications.
 
 ---
 
-#### Week 1: HTTP and the Web (Deep Dive)
+#### Master Week 13: HTTP and the Web (Deep Dive)
 
 **Pages Source:** Chapter 18 (The protocol, Browsers and HTTP, Fetch - Pages 461-468)
 
@@ -1078,7 +1150,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: HTTP and Forms (Client-Side)
+#### Master Week 14: HTTP and Forms (Client-Side)
 
 **Pages Source:** Chapter 18 (Form fields, Focus, Disabled fields, The form as a whole - Pages 472-479)
 
@@ -1089,7 +1161,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: Advanced Form Fields and File Handling
+#### Master Week 15: Advanced Form Fields and File Handling
 
 **Pages Source:** Chapter 18 (Text fields, Checkboxes and radio buttons, Select fields, File fields - Pages 479-487)
 
@@ -1101,7 +1173,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: Client-Side Data Storage
+#### Master Week 16: Client-Side Data Storage
 
 **Pages Source:** Chapter 18 (Storing data client-side - Pages 487-491)
 
@@ -1112,7 +1184,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: Advanced Event Handling
+#### Master Week 17: Advanced Event Handling
 
 **Pages Source:** Chapter 15 (Events and the event loop, Timers, Debouncing - Pages 382-387)
 
@@ -1123,7 +1195,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: Asynchronous Programming (Promises and Async)
+#### Master Week 18: Asynchronous Programming (Promises and Async)
 
 **Pages Source:** Chapter 11 (Promises, Failure, Async functions, Generators - Pages 273-287)
 
@@ -1135,7 +1207,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: Project: A Skill-Sharing Website (Design)
+#### Master Week 19: Project: A Skill-Sharing Website (Design)
 
 **Pages Source:** Chapter 21 (Design, Long polling - Pages 552-555)
 
@@ -1146,7 +1218,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Project: A Skill-Sharing Website (Server)
+#### Master Week 20: Project: A Skill-Sharing Website (Server)
 
 **Pages Source:** Chapter 21 (The server - Pages 559-569)
 
@@ -1158,7 +1230,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: Project: A Skill-Sharing Website (Client)
+#### Master Week 21: Project: A Skill-Sharing Website (Client)
 
 **Pages Source:** Chapter 21 (The client - Pages 570-579)
 
@@ -1169,7 +1241,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Project: A Skill-Sharing Website (Persistence)
+#### Master Week 22: Project: A Skill-Sharing Website (Persistence)
 
 **Pages Source:** Chapter 21 (Exercises - Page 580)
 
@@ -1180,7 +1252,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Project: A Skill-Sharing Website (Polishing)
+#### Master Week 23: Project: A Skill-Sharing Website (Polishing)
 
 **Pages Source:** Chapter 21 (Exercises - Page 580)
 
@@ -1191,7 +1263,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Term Review and Showcase
+#### Master Week 24: Term Review and Showcase
 
 **Pages Source:** N/A
 
@@ -1202,13 +1274,13 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-### Term 3: Compilers and Advanced Browser Applications
+### Master Term 3: Compilers and Advanced Browser Applications
 
 **Term Goal:** To build a programming language (Egg) entirely in the browser, explore advanced canvas drawing, and complete a final, self-directed project without needing a Node.js server.
 
 ---
 
-#### Week 1: Building a Programming Language (Parsing)
+#### Master Week 25: Building a Programming Language (Parsing)
 
 **Pages Source:** Chapter 12 (Parsing - Pages 300-307)
 
@@ -1219,7 +1291,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 2: Building a Programming Language (Evaluation)
+#### Master Week 26: Building a Programming Language (Evaluation)
 
 **Pages Source:** Chapter 12 (The evaluator, Special forms - Pages 307-311)
 
@@ -1230,7 +1302,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 3: Building a Programming Language (Functions and Environment)
+#### Master Week 27: Building a Programming Language (Functions and Environment)
 
 **Pages Source:** Chapter 12 (The environment, Functions, Compilation, Cheating - Pages 311-317)
 
@@ -1241,7 +1313,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 4: Building a Programming Language (Exercises)
+#### Master Week 28: Building a Programming Language (Exercises)
 
 **Pages Source:** Chapter 12 (Exercises - Pages 318-320)
 
@@ -1251,7 +1323,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 5: Advanced Canvas Drawing (Shapes and Curves)
+#### Master Week 29: Advanced Canvas Drawing (Shapes and Curves)
 
 **Pages Source:** Chapter 17 (Lines and surfaces, Paths, Curves - Pages 428-434)
 
@@ -1262,7 +1334,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 6: Advanced Canvas Drawing (Pie Charts and Text)
+#### Master Week 30: Advanced Canvas Drawing (Pie Charts and Text)
 
 **Pages Source:** Chapter 17 (Drawing a pie chart, Text - Pages 435-438)
 
@@ -1273,7 +1345,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 7: Advanced Canvas Drawing (Images and Transformations)
+#### Master Week 31: Advanced Canvas Drawing (Images and Transformations)
 
 **Pages Source:** Chapter 17 (Images, Transformation - Pages 438-445)
 
@@ -1284,7 +1356,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 8: Advanced Canvas Drawing (Saving and Restoring)
+#### Master Week 32: Advanced Canvas Drawing (Saving and Restoring)
 
 **Pages Source:** Chapter 17 (Storing and clearing transformations - Pages 445-447)
 
@@ -1295,7 +1367,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 9: Final Project (Planning and Setup)
+#### Master Week 33: Final Project (Planning and Setup)
 
 **Pages Source:** N/A
 
@@ -1306,7 +1378,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 10: Final Project (Implementation)
+#### Master Week 34: Final Project (Implementation)
 
 **Pages Source:** N/A
 
@@ -1317,7 +1389,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 11: Final Project (Polishing and Presentation)
+#### Master Week 35: Final Project (Polishing and Presentation)
 
 **Pages Source:** N/A
 
@@ -1328,7 +1400,7 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
 
 ---
 
-#### Week 12: Final Project (Showcase and Celebration)
+#### Master Week 36: Final Project (Showcase and Celebration)
 
 **Pages Source:** N/A
 
