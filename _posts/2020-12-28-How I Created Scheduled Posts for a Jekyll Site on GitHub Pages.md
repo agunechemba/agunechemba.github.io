@@ -1,6 +1,6 @@
 ---
 title: "How I Created Scheduled Posts for a Jekyll Site on GitHub Pages"
-date: 2026-09-28
+date: 2020-12-28
 layout: post
 
 ---
