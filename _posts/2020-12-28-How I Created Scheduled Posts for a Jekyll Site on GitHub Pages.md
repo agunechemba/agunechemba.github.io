@@ -28,57 +28,71 @@ Your posts stay hidden in a `_drafts/` folder until the scheduled date, then Git
 4. **Copy and paste** this code:
 
 ```
-name: Publish Scheduled Blog Posts
+name: Auto Publish Scheduled Drafts
 
 on:
   schedule:
+    # Runs daily at 00:00 UTC
     - cron: '0 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions tab
 
 jobs:
   publish-posts:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Publish posts with today's date
+      - name: Process and Publish Due Drafts
         run: |
           TODAY=$(date +'%Y-%m-%d')
           DRAFTS_DIR="./_drafts"
           POSTS_DIR="./_posts"
-          
-          # Create drafts folder if it doesn't exist
-          mkdir -p $DRAFTS_DIR
-          
-          # Find all .md files in _drafts that contain today's date
-          FILES_TO_PUBLISH=$(find $DRAFTS_DIR \( -name "*.md" -o -name "*.markdown" \) 2>/dev/null | grep "$TODAY" || true)
-          
-          if [ -n "$FILES_TO_PUBLISH" ]; then
-            echo "Found drafts to publish for today:"
-            echo "$FILES_TO_PUBLISH"
-            
-            # Move files from _drafts to _posts
-            for file in $FILES_TO_PUBLISH; do
-              filename=$(basename "$file")
-              mv "$file" "$POSTS_DIR/$filename"
-              echo "Moved: $filename"
-            done
-            
-            # Set up git
+
+          mkdir -p "$DRAFTS_DIR" "$POSTS_DIR"
+
+          PUBLISHED_COUNT=0
+
+          # Loop through all markdown files in _drafts
+          for file in "$DRAFTS_DIR"/*.md "$DRAFTS_DIR"/*.markdown; do
+            # Check if file exists to prevent loop errors on empty dirs
+            [ -e "$file" ] || continue
+
+            # Extract date from YAML front matter (matches "date: 2026-09-29" or "date: '2026-09-29'")
+            POST_DATE=$(grep -E '^date:\s*' "$file" | head -n 1 | sed -E 's/date:\s*['"'"'"]?([0-9]{4}-[0-9]{2}-[0-9]{2})['"'"'"]?.*/\1/')
+
+            if [ -n "$POST_DATE" ]; then
+              # Compare dates: publish if POST_DATE <= TODAY
+              if [[ "$POST_DATE" < "$TODAY" || "$POST_DATE" == "$TODAY" ]]; then
+                raw_filename=$(basename "$file")
+
+                # Strip existing date prefix if present to avoid duplication (e.g. 2026-09-29-2026-09-29-title.md)
+                clean_filename=$(echo "$raw_filename" | sed -E 's/^[0-9]{4}-[0-9]{2}-[0-9]{2}-//')
+
+                # Format destination as YYYY-MM-DD-filename.md using the post's scheduled date
+                target_filename="${POST_DATE}-${clean_filename}"
+
+                mv "$file" "$POSTS_DIR/$target_filename"
+                echo "✅ Publishing: $raw_filename -> $POSTS_DIR/$target_filename (Scheduled: $POST_DATE)"
+                PUBLISHED_COUNT=$((PUBLISHED_COUNT + 1))
+              fi
+            fi
+          done
+
+          if [ $PUBLISHED_COUNT -gt 0 ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            
-            # Add and commit the moved files
-            git add $POSTS_DIR
-            git commit -m "Auto-publish posts for $TODAY"
+
+            # Stage both additions in _posts and deletions in _drafts
+            git add _drafts _posts
+            git commit -m "🚀 Auto-published $PUBLISHED_COUNT scheduled post(s) [$TODAY]"
             git push
-            
-            echo "Published successfully!"
+            echo "🎉 Successfully published $PUBLISHED_COUNT post(s)!"
           else
-            echo "No drafts scheduled for $TODAY"
+            echo "⏳ No drafts found with a date on or before $TODAY."
           fi
 ```
 
