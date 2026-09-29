@@ -1,4 +1,4 @@
-# Echoes from the Ancestors
+# Igbo Tales: Echoes from the Ancestors
 
 Traditional Igbo tales, history, oracles, and wisdom — retold for a new generation.  
 Curated by **[Agunechemba Ekene](https://agunechemba.name.ng)**
