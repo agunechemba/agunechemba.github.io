@@ -4,12 +4,6 @@ date: 2018-11-28
 author: "Agunechemba Ekene"
 ---
 
-<a href="#" style="position: fixed; bottom: 20px; right: 20px; 
-   background: #333; color: #fff; padding: 10px 14px; 
-   border-radius: 50%; text-decoration: none; font-size: 20px;
-   box-shadow: 0 2px 6px rgba(0,0,0,0.3); z-index: 999;">↑</a>
-
-
 <center> <img src="https://pph.name.ng/pphlogo.svg" width="100%"> </center>
 
 
