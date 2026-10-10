@@ -123,7 +123,6 @@ JavaScript Mastery is a progressive, project-based curriculum designed to guide 
   - [Master Week 22: Project: A Skill-Sharing Website (Persistence)](#master-week-22-project-a-skill-sharing-website-persistence)
   - [Master Week 23: Project: A Skill-Sharing Website (Polishing)](#master-week-23-project-a-skill-sharing-website-polishing)
   - [Master Week 24: Term Review and Showcase](#master-week-24-term-review-and-showcase)
----
 
 ## Curriculum: JavaScript Adventurer (Level 1)
 
