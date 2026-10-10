@@ -13,18 +13,19 @@ layout: default
     bottom: 20px;
     right: 20px;
     background: #F8F2E7;
-    color: #fff;
+    color: #333333;                        /* CHANGED: Dark gray text for high visibility */
     padding: 10px 14px;
     border-radius: 50%;
     text-decoration: none;
     font-size: 20px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     z-index: 999;
-    transition: background 0.2s ease;      /* Hover transition */
+    transition: background 0.2s ease, color 0.2s ease; /* UPDATED: Smooth transition for text color too */
   }
 
   .back-to-top:hover {
-    background: #555;                      /* Lighten on hover */
+    background: #333333;                   /* CHANGED: Inverts to dark gray on hover */
+    color: #ffffff;                        /* ADDED: Switches text to white on hover */
   }
 </style>
 
