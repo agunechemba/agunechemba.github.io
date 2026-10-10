@@ -1,6 +1,42 @@
 ---
 layout: default
 ---
+
+
+
+<!-- Styling for the back-to-top button -->
+<style>
+  html { scroll-behavior: smooth; }        /* Smooth scroll on jump */
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: background 0.2s ease;      /* Hover transition */
+  }
+
+  .back-to-top:hover {
+    background: #555;                      /* Lighten on hover */
+  }
+</style>
+
+<a href="#top" class="back-to-top" title="Back to top" aria-label="Back to top">↑</a>
+
+<!--Stop - Styling for the back-to-top button -->
+
+
+
+
+
+
 <link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
