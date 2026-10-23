@@ -1,7 +1,5 @@
 <!--Start Style for find button -->
 <style>
-  mark.find-hit { background: #ffe066; color: inherit; }
-  mark.find-hit.current { background: #ff9f1c; }
 </style>
 <!-- End Style for find button -->
 
