@@ -1,8 +1,3 @@
-<!--Start Style for find button -->
-<style>
-</style>
-<!-- End Style for find button -->
-
 <div style="max-width: 400px; width: 90%; margin: 0 auto; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
 
 <!-- Profile Image & Tagline -->
