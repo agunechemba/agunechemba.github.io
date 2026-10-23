@@ -213,3 +213,11 @@ h1.post-title,
 h1.post-title:hover {
   color: #00509E;            /* Soft Navy hover */
 }
+
+
+
+
+
+/*Style for find button*/
+mark.find-hit { background: #ffe066; color: inherit; }
+mark.find-hit.current { background: #ff9f1c; }
