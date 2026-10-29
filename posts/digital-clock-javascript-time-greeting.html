@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🕒 Build a Digital Clock with JavaScript + Time-Based Greeting — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a_digital_wall_clock_on_a_wall.jpeg" style="width: 100%; margin: 0 auto; display: block; text-align: center;" />
+
+    <hr />
+
+    <p>Let’s create a clean, glowing <strong>digital clock</strong> that not only shows the time but also gives the user a greeting like <em>“Good Morning”</em> or <em>“Good Night”</em> — all using <strong>HTML, CSS, and JavaScript functions</strong>.</p>
+
+    <p>Great for learners who want to build real, visual projects while practicing <strong>function-based logic in JS</strong>.</p>
+
+    <hr />
+
+    <h2>🧱 Step 1: Create the HTML</h2>
+
+    <p>We need two things on the screen: the <strong>clock</strong> and the <strong>greeting</strong>.</p>
+
+    <pre><code>&lt;!-- index.html --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+  &lt;title&gt;Digital Clock&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="clock-container"&gt;
+    &lt;div id="clock"&gt;00:00:00&lt;/div&gt;
+    &lt;div id="greeting"&gt;Hello!&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <hr />
+
+    <h2>🎨 Step 2: Style the Clock and Greeting with CSS</h2>
+
+    <p>Let’s make it glow and center everything.</p>
+
+    <pre><code>/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.clock-container {
+  background: #222;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 100, 0.5);
+  text-align: center;
+}
+
+#clock {
+  font-size: 4rem;
+  color: #0f0;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #0f0;
+}
+
+#greeting {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+}</code></pre>
+
+    <hr />
+
+    <h2>🧠 Step 3: Use JavaScript Functions for Time &amp; Greeting</h2>
+
+    <p>Let’s create <strong>reusable functions</strong> to:</p>
+
+    <ul>
+      <li>Format the time</li>
+      <li>Get a greeting based on the hour</li>
+      <li>Update everything every second</li>
+    </ul>
+
+    <pre><code>// script.js
+
+function updateClock() {
+  const now = new Date();
+
+  const hours = formatTime(now.getHours());
+  const minutes = formatTime(now.getMinutes());
+  const seconds = formatTime(now.getSeconds());
+
+  document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+  document.getElementById('greeting').textContent = getGreeting(now.getHours());
+}
+
+function formatTime(unit) {
+  return unit &lt; 10 ? '0' + unit : unit;
+}
+
+function getGreeting(hour) {
+  if (hour &lt; 12) return "Good Morning 🌅";
+  if (hour &lt; 17) return "Good Afternoon ☀️";
+  if (hour &lt; 21) return "Good Evening 🌇";
+  return "Good Night 🌙";
+}
+
+setInterval(updateClock, 1000);
+updateClock();</code></pre>
+
+    <hr />
+
+    <h2>🔄 What’s Happening?</h2>
+
+    <ul>
+      <li><code>updateClock()</code> fetches the current time and updates the clock and greeting.</li>
+      <li><code>formatTime()</code> ensures we always have two digits (e.g., "08" not "8").</li>
+      <li><code>getGreeting()</code> returns a greeting emoji based on the current hour.</li>
+    </ul>
+
+    <hr />
+
+    <h2>🎯 Result</h2>
+
+    <p>You get something like this:</p>
+
+    <pre><code>🕒 14:23:41  
+☀️ Good Afternoon</code></pre>
+
+    <p>And it updates every second, all with reusable JavaScript functions. Clean and smart!</p>
+
+    <hr />
+
+    <h2>🧪 Practice Questions</h2>
+
+    <p>Test what you’ve learned:</p>
+
+    <ol>
+      <li><strong>What does <code>setInterval(updateClock, 1000)</code> do exactly?</strong></li>
+      <li><strong>Modify the clock to show time in <code>12-hour format</code> with AM/PM.</strong></li>
+      <li><strong>Add today’s date below the greeting in this format: <code>Monday, May 26, 2025</code>.</strong></li>
+      <li><strong>Why do we call <code>updateClock()</code> immediately, before the interval starts?</strong></li>
+      <li><strong>Change the greeting logic to use a <code>switch</code> statement instead of <code>if...else</code>.</strong></li>
+    </ol>
+  </article>
+</body>
+</html>

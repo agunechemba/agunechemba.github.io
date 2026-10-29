@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎉 Let’s Build a Simple Quiz Game for Kids Using HTML, CSS and JavaScript — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/kids_playing_a_quiz_game_as_a.jpeg" width="100%" />
+
+    <p>Have you ever wanted to create your own fun quiz game? A game that shows one question at a time, gives three options, and celebrates when the answer is correct?</p>
+
+    <p>Well, today we’re going to build exactly that — step by step.</p>
+
+    <p>This is perfect for young learners or parents/teachers who want a beginner-friendly game for kids.</p>
+
+    <hr />
+
+    <h2>🧰 What You’ll Need</h2>
+
+    <p>To follow this lesson, all you need is:</p>
+
+    <p>✅ A computer<br />
+    ✅ A browser (like Chrome or Firefox)<br />
+    ✅ A code editor (like Sublime Text or Notepad++)<br />
+    ✅ A smile and some curiosity! 😊</p>
+
+    <p>We’ll build this in three easy steps:</p>
+
+    <ol>
+      <li><strong>Create the structure with HTML</strong></li>
+      <li><strong>Style it with CSS</strong></li>
+      <li><strong>Add interactivity with JavaScript</strong></li>
+    </ol>
+
+    <p>At the end, we’ll add <strong>5 simple practice questions</strong> kids will love!</p>
+
+    <hr />
+
+    <h2>🧱 STEP 1: Create the HTML (The Skeleton of the Game)</h2>
+
+    <p>Let’s start by creating the structure of the quiz game.</p>
+
+    <p>📝 Create a new file and name it: <code>index.html</code><br />
+    Then, add the following code:</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Kids Quiz Game&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;div class="quiz-container"&gt;
+    &lt;h1&gt;🎉 Fun Quiz Time!&lt;/h1&gt;
+    &lt;div id="question"&gt;Question will appear here&lt;/div&gt;
+
+    &lt;div id="answer-buttons" class="btn-grid"&gt;
+      &lt;button class="btn"&gt;Answer 1&lt;/button&gt;
+      &lt;button class="btn"&gt;Answer 2&lt;/button&gt;
+      &lt;button class="btn"&gt;Answer 3&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div id="feedback"&gt;&lt;/div&gt;
+    &lt;button id="next-btn" class="next-btn"&gt;Next Question&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h3>✅ What’s happening here?</h3>
+
+    <ul>
+      <li>We created a container for the quiz.</li>
+      <li>We added a heading (<code>&lt;h1&gt;</code>) and a place to show questions.</li>
+      <li>There’s a section for <strong>3 answer buttons</strong>.</li>
+      <li>There’s a <strong>"Next Question"</strong> button to move to the next quiz item.</li>
+      <li>We linked a <strong>CSS file</strong> (for colors and layout) and a <strong>JavaScript file</strong> (for the brain logic).</li>
+    </ul>
+
+    <hr />
+
+    <h2>🎨 STEP 2: Add Some Colors with CSS</h2>
+
+    <p>Now, let’s style our game to make it fun and friendly for children.</p>
+
+    <p>📝 Create a new file called: <code>style.css</code><br />
+    Then, add the following code:</p>
+
+    <pre><code>body {
+  background-color: #fffbe6;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  background: #f0f8ff;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+h1 {
+  color: #ff6600;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #add8e6;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #87ceeb;
+}
+
+.next-btn {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #90ee90;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-size: 18px;
+}</code></pre>
+
+    <h3>✅ What’s happening here?</h3>
+
+    <ul>
+      <li>The game background is light and happy.</li>
+      <li>The buttons are colorful, soft-edged, and kid-friendly.</li>
+      <li>We made sure everything is <strong>centered</strong> and <strong>easy to click</strong>.</li>
+    </ul>
+
+    <p>Now the quiz looks like a real kids’ game!</p>
+
+    <hr />
+
+    <h2>🧠 STEP 3: Add the Brainpower with JavaScript</h2>
+
+    <p>This is where the magic happens!<br />
+    We will tell the game:</p>
+
+    <ul>
+      <li>What questions to ask</li>
+      <li>Which answers are correct</li>
+      <li>What happens when a child clicks an answer</li>
+    </ul>
+
+    <p>📝 Create a new file called: <code>script.js</code><br />
+    Then, add this code:</p>
+
+    <pre><code>const questions = [
+  {
+    question: "What color is the sky?",
+    answers: ["Blue", "Green", "Red"],
+    correct: "Blue"
+  },
+  {
+    question: "Which animal says 'Meow'?",
+    answers: ["Dog", "Cat", "Cow"],
+    correct: "Cat"
+  },
+  {
+    question: "What number comes after 2?",
+    answers: ["4", "3", "1"],
+    correct: "3"
+  },
+  {
+    question: "Which fruit is yellow?",
+    answers: ["Banana", "Apple", "Grapes"],
+    correct: "Banana"
+  },
+  {
+    question: "How many legs does a spider have?",
+    answers: ["8", "4", "2"],
+    correct: "8"
+  }
+];
+
+let currentQuestion = 0;
+let score = 0; // ✅ new score variable
+
+const questionEl = document.getElementById("question");
+const answerButtons = document.getElementById("answer-buttons");
+const feedback = document.getElementById("feedback");
+const nextBtn = document.getElementById("next-btn");
+
+function showQuestion() {
+  resetState();
+  let q = questions[currentQuestion];
+  questionEl.textContent = q.question;
+
+  q.answers.forEach(answer =&gt; {
+    const button = document.createElement("button");
+    button.textContent = answer;
+    button.classList.add("btn");
+    button.addEventListener("click", () =&gt; selectAnswer(button, q.correct));
+    answerButtons.appendChild(button);
+  });
+}
+
+function resetState() {
+  feedback.textContent = "";
+  nextBtn.style.display = "none";
+  answerButtons.innerHTML = "";
+}
+
+function selectAnswer(button, correctAnswer) {
+  if (button.textContent === correctAnswer) {
+    feedback.textContent = "✅ Correct!";
+    feedback.style.color = "green";
+    score++; // ✅ increase score
+  } else {
+    feedback.textContent = "❌ Oops! Try again next time.";
+    feedback.style.color = "red";
+  }
+  nextBtn.style.display = "inline-block";
+}
+
+nextBtn.addEventListener("click", () =&gt; {
+  currentQuestion++;
+  if (currentQuestion &lt; questions.length) {
+    showQuestion();
+  } else {
+    endQuiz();
+  }
+});
+
+function endQuiz() {
+  questionEl.textContent = "🎉 Great job! You finished the quiz.";
+  answerButtons.innerHTML = "";
+  feedback.innerHTML = `🌟 Your Score: &lt;strong&gt;${score}&lt;/strong&gt; out of &lt;strong&gt;${questions.length}&lt;/strong&gt;`;
+  feedback.style.color = "blue";
+  nextBtn.style.display = "none";
+}
+
+showQuestion();</code></pre>
+
+    <h3>✅ What’s happening here?</h3>
+
+    <ul>
+      <li>We created an array of <strong>5 kid-friendly questions</strong>.</li>
+      <li>The game shows one question at a time.</li>
+      <li>When an answer is clicked, it checks if it’s correct.</li>
+      <li>It gives instant feedback (Correct ✅ or Oops ❌).</li>
+      <li>After each question, kids can click <strong>"Next Question"</strong>.</li>
+      <li>At the end, the game shows a <strong>“Great job!”</strong> message and the score.</li>
+    </ul>
+
+    <hr />
+
+    <h2>🎁 Final Touch: Save &amp; Test!</h2>
+
+    <ol>
+      <li>Save all three files:
+        <ul>
+          <li><code>index.html</code></li>
+          <li><code>style.css</code></li>
+          <li><code>script.js</code></li>
+        </ul>
+      </li>
+      <li>Open <code>index.html</code> in your browser.</li>
+    </ol>
+
+    <p>If everything works, you just built a working <strong>Quiz Game for Kids!</strong></p>
+
+    <hr />
+
+    <h2>💡 Challenge</h2>
+
+    <ol>
+      <li>Change the colour of the option buttons in the quiz project.</li>
+      <li>Add as many questions as you can to the quiz project.</li>
+    </ol>
+
+    <hr />
+
+    <h2>🧩 Review — Fill in the Gaps</h2>
+
+    <ol>
+      <li>The main HTML file of this project is called <code>__________.html</code>.</li>
+      <li>The quiz game shows one question at a time using __________.</li>
+      <li>In CSS, we used the <code>background-color</code> property to set the page’s __________.</li>
+      <li>The “Next Question” button is hidden at first using <code>display: __________</code>.</li>
+      <li>The list of all quiz items is stored in a JavaScript __________.</li>
+      <li>In JavaScript, the function that checks if an answer is correct is called <code>__________</code>.</li>
+      <li>The user’s total score is stored in a variable called <code>__________</code>.</li>
+      <li>The feedback for correct and wrong answers is displayed in the element with id <code>__________</code>.</li>
+      <li>To make buttons respond when clicked, we use the method <code>add__________Listener</code>.</li>
+      <li>At the end of the quiz, the function that displays the final message is <code>__________()</code>.</li>
+    </ol>
+  </article>
+</body>
+</html>

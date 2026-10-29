@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exploring Igbo Market Days Across Communities – And How I Built a Flexible Calendar Web App — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://i.ibb.co/WvCjRHGz/Screenshot-2026-02-01-17-41-35.png" width="100%" />
+
+    <p>Time in Igboland is different. Not in hours or minutes, but in <strong>market days, moons, and seasons</strong>. Growing up learning about Igbo traditions, I always found it fascinating that <strong>Nkwo in one town could be Orie in another</strong>, and that each community had its own way of marking time.</p>
+
+    <p>Recently, I decided to dig deeper into this and share it with the world. That’s how I ended up building a <strong>web app</strong> that helps users explore Igbo (and even Yoruba) market days, completely flexibly.</p>
+
+    <hr />
+
+    <h3><a href="https://agunechemba.name.ng/Ancestral-Calendar/" target="_blank">Give the app a try!</a></h3>
+
+    <h2>Market Days in Igbo Communities – Not as Uniform as You Think</h2>
+
+    <p>Many people assume that all Igbo communities follow the same four-day market week:</p>
+
+    <p><strong>Eke → Orie (Oye) → Afor → Nkwo</strong></p>
+
+    <p>And yes, these are widely recognized, but the reality is more nuanced:</p>
+
+    <ul>
+      <li><strong>Different towns may start the cycle on different days.</strong><br />
+        For example, <strong>Orsumoghu in Ihiala LGA</strong> might consider a certain day Nkwo, while a nearby town like Uli could call it Orie on the same Gregorian date.</li>
+      <li><strong>Reference points differ.</strong> Traditional Igbo calendars weren’t tied to the Western Gregorian calendar. Elders often remembered a specific day and counted forward from there.</li>
+      <li><strong>Community traditions ruled.</strong> What mattered was not global correctness but local agreement.</li>
+    </ul>
+
+    <p>This diversity made me realize that <strong>any tool or app that claims to show “the Igbo calendar” needs flexibility</strong>—one size does not fit all.</p>
+
+    <hr />
+
+    <h2>Enter the Web App: Flexibility at the Core</h2>
+
+    <p>I wanted something practical: a way for anyone to <strong>calculate the market day for any date</strong>, using any reference point. The app needed to:</p>
+
+    <ol>
+      <li><strong>Let users choose a reference date and market day.</strong><br />
+        For instance, a user could say: <em>“28 July 1991 was Nkwo in Orsumoghu.”</em> The app uses this as the starting point.</li>
+
+      <li><strong>Calculate forward or backward to find the market day for any other date.</strong><br />
+        The math is simple but powerful:
+        <ul>
+          <li>Count the number of days between the reference date and the target date.</li>
+          <li>Divide by 4 (because Igbo market weeks have 4 days).</li>
+          <li>Use the remainder to find the market day relative to the reference.</li>
+        </ul>
+      </li>
+
+      <li><strong>Support Yoruba market days too.</strong><br />
+        The Yoruba system uses an <strong>8-day week with 4 market days</strong>, and some users wanted to explore these alongside the Igbo cycle.</li>
+
+      <li><strong>Keep it community-friendly.</strong><br />
+        Users can adjust the reference date to reflect <strong>their own ancestral calendar</strong>, making it accurate for their specific town.</li>
+    </ol>
+
+    <hr />
+
+    <h3>Example: How It Works</h3>
+
+    <p>Say your reference is:</p>
+
+    <ul>
+      <li><strong>Date:</strong> 28 July 1991</li>
+      <li><strong>Market Day:</strong> Nkwo</li>
+    </ul>
+
+    <p>You want to know the market day for <strong>31 January 2026</strong>. The app calculates the number of days in between, divides by 4, and tells you <strong>Orie</strong>. Simple, but it works for <strong>any Igbo town</strong>, as long as you know the reference.</p>
+
+    <hr />
+
+    <h2>Why This Matters</h2>
+
+    <p>This isn’t just a fun coding project. It’s about <strong>cultural preservation and accessibility</strong>:</p>
+
+    <ul>
+      <li>People in the diaspora can reconnect with <strong>ancestral rhythms</strong>.</li>
+      <li>Students of African history and anthropology get a <strong>hands-on way to explore traditional calendars</strong>.</li>
+      <li>Farmers, traders, and festival organizers can <strong>align events with market cycles</strong>, just like ancestors did.</li>
+    </ul>
+
+    <h3><a href="https://agunechemba.name.ng/Ancestral-Calendar/" target="_blank">Give the app a try!</a></h3>
+  </article>
+</body>
+</html>

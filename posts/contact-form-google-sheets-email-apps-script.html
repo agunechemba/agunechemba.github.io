@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🔧 Create a Contact Form That Saves to Google Sheets and Sends Emails (With HTML, JS and Apps Script) — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <div style="text-align: center;">
+      <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/screenshot-2025-05-22-14.52.53.png" alt="Ekene Agunechemba" style="width: 100%; height: auto;">
+    </div>
+    <br /><br />
+
+    <p>Need a simple contact form that:</p>
+
+    <ul>
+      <li>collects user inputs,</li>
+      <li>stores them in Google Sheets,</li>
+      <li>and sends confirmation emails?</li>
+    </ul>
+
+    <p>In this tutorial, you’ll learn to do just that using <strong>HTML</strong>, <strong>JavaScript</strong>, <strong>CSS</strong>, and <strong>Google Apps Script</strong>. Let’s roll!</p>
+
+    <hr />
+
+    <h2>🧾 Step 1: Build the HTML Form</h2>
+
+    <p>Create a file called <code>form.html</code> and paste the code below:</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Contact Form&lt;/title&gt;
+  &lt;style&gt;
+    body { font-family: Arial; padding: 20px; }
+    form { max-width: 400px; margin: auto; }
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    button { background: #007BFF; color: white; border: none; }
+    button.sent { background: green; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h2&gt;Contact Us&lt;/h2&gt;
+&lt;form id="contactForm"&gt;
+  &lt;input type="text" name="name" placeholder="Your Name" required /&gt;
+  &lt;input type="email" name="email" placeholder="Your Email" required /&gt;
+  &lt;textarea name="message" placeholder="Your Message" required&gt;&lt;/textarea&gt;
+  &lt;button type="submit" id="submitBtn"&gt;Send&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+  const form = document.getElementById('contactForm');
+  const button = document.getElementById('submitBtn');
+
+  form.addEventListener('submit', e =&gt; {
+    e.preventDefault();
+    button.disabled = true;
+    button.textContent = 'Sending...';
+
+    const data = new FormData(form);
+
+    fetch('YOUR_WEB_APP_URL', {
+      method: 'POST',
+      body: data
+    })
+    .then(res =&gt; res.text())
+    .then(response =&gt; {
+      button.textContent = 'Sent';
+      button.classList.add('sent');
+      form.reset();
+    })
+    .catch(error =&gt; {
+      alert('Error: ' + error.message);
+      button.disabled = false;
+      button.textContent = 'Send';
+    });
+  });
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <p>👉 <strong>Note:</strong> We’ll replace <code>YOUR_WEB_APP_URL</code> in Step 3.</p>
+
+    <hr />
+
+    <h2>📊 Step 2: Set Up Your Google Sheet &amp; Apps Script</h2>
+
+    <ol>
+      <li>Open <a href="https://sheets.google.com/">Google Sheets</a> and create a new sheet.</li>
+      <li>Go to <code>Extensions &gt; Apps Script</code>.</li>
+    </ol>
+
+    <h3>Paste this script:</h3>
+
+    <pre><code>function doPost(e) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+  const name = e.parameter.name;
+  const email = e.parameter.email;
+  const message = e.parameter.message;
+
+  // Save to Sheet
+  sheet.appendRow([new Date(), name, email, message]);
+
+  // Send emails
+  const subject = `New message from ${name}`;
+  const body = `Name: ${name}\nEmail: ${email}\nMessage:\n${message}`;
+
+  // Email to yourself
+  MailApp.sendEmail("YOUR_EMAIL@gmail.com", subject, body);
+
+  // Confirmation to user
+  MailApp.sendEmail(email, "Thanks for contacting us!", `Hi ${name},\n\nThanks for your message!\n\nWe'll get back to you soon.`);
+
+  return ContentService.createTextOutput("Success");
+}</code></pre>
+
+    <p>✏️ Replace <code>YOUR_EMAIL@gmail.com</code> with your email address.</p>
+
+    <hr />
+
+    <h2>🚀 Step 3: Deploy as a Web App</h2>
+
+    <ul>
+      <li>Click <code>Deploy &gt; Manage deployments &gt; New deployment</code>.</li>
+      <li>Select <strong>Web app</strong>.</li>
+      <li>Set access to <strong>Anyone</strong>.</li>
+      <li>Click <strong>Deploy</strong>.</li>
+      <li>Copy the <strong>Web App URL</strong>.</li>
+    </ul>
+
+    <p>Now, go back to your HTML file and replace:</p>
+
+    <pre><code>fetch('YOUR_WEB_APP_URL', {</code></pre>
+
+    <p>with your actual Web App URL.</p>
+
+    <hr />
+
+    <h2>✅ Test It Out!</h2>
+
+    <p>Open your HTML file in the browser:</p>
+
+    <ul>
+      <li>Fill out the form.</li>
+      <li>Click <strong>Send</strong>.</li>
+      <li>You should see the button change to “Sent”.</li>
+      <li>Check your Google Sheet — your data should be there.</li>
+      <li>Check your email inbox (yours and the user's) — messages delivered!</li>
+    </ul>
+
+    <hr />
+
+    <h2>💡 Wrap-Up</h2>
+
+    <p>You just created a no-backend form system with:</p>
+
+    <ul>
+      <li>Google Sheets as a lightweight database,</li>
+      <li>Google Apps Script as the backend handler,</li>
+      <li>HTML/CSS/JS for the front end.</li>
+    </ul>
+
+    <p>Perfect for feedback forms, contact pages, or project demos.</p>
+
+    <h2>Review Questions</h2>
+    <ol>
+      <li>What Google Apps Script function handles the form submission from your HTML form?</li>
+      <li>How do you connect your HTML form’s fetch request to the Google Apps Script web app URL?</li>
+      <li>In the Apps Script, how do you save form inputs into the Google Sheet?</li>
+      <li>What method is used to send emails to both you and the form submitter?</li>
+      <li>How does the JavaScript change the send button text to “Sent” after a successful submission?</li>
+    </ol>
+  </article>
+</body>
+</html>

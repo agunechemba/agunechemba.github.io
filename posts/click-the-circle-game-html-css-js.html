@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎯 Build a “Click the Circle” Game with HTML, CSS and JavaScript — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/african_child_learner_building_click_the_circle.jpeg" width="100%" />
+
+    <p>Want to make a fun little web game? In this tutorial, we’ll build a simple <strong>"Click the Circle"</strong> game using just <strong>HTML, CSS, and JavaScript</strong>.<br />
+    The goal? Click as many circles as you can before time runs out!</p>
+
+    <hr />
+
+    <h2>🧱 1. Basic HTML Structure</h2>
+
+    <p>Start with your HTML. This lays out the game's structure.</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;
+  &lt;title&gt;Click the Circle Game&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;🎯 Click the Circle Game&lt;/h1&gt;
+  &lt;p&gt;
+    Score: &lt;span id="score"&gt;0&lt;/span&gt; |
+    High Score: &lt;span id="high-score"&gt;0&lt;/span&gt; |
+    Time Left: &lt;span id="timer"&gt;30&lt;/span&gt;s
+  &lt;/p&gt;
+
+  &lt;!-- Countdown before game starts --&gt;
+  &lt;div id="countdown-start"&gt;
+    &lt;h2 id="countdown-number"&gt;3&lt;/h2&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Game area --&gt;
+  &lt;div id="game-area"&gt;
+    &lt;div id="circle"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Game over screen --&gt;
+  &lt;div id="game-over"&gt;
+    &lt;h2&gt;Game Over! 🎮&lt;/h2&gt;
+    &lt;p&gt;Your Final Score: &lt;span id="final-score"&gt;0&lt;/span&gt;&lt;/p&gt;
+    &lt;button onclick="restartGame()"&gt;Play Again&lt;/button&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Click sound --&gt;
+  &lt;audio id="click-sound" src="https://www.soundjay.com/button/sounds/button-16.mp3" preload="auto"&gt;&lt;/audio&gt;
+
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <hr />
+
+    <h2>🎨 2. Add Some Style with CSS</h2>
+
+    <p>Save this in a file called <strong><code>style.css</code></strong>.<br />
+    This makes the game look neat and centered.</p>
+
+    <pre><code>body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fefae0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #333;
+}
+
+#game-area {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+#circle {
+  width: 50px;
+  height: 50px;
+  background-color: #ff595e;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  cursor: pointer;
+  transition: top 0.2s, left 0.2s;
+}
+
+#game-over {
+  display: none;
+  margin-top: 30px;
+}
+
+#game-over h2 {
+  font-size: 2rem;
+  color: #e63946;
+}
+
+#game-over button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#countdown-start {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+#high-score {
+  color: #ff6f00;
+  font-weight: bold;
+}</code></pre>
+
+    <hr />
+
+    <h2>⚙️ 3. Game Logic with JavaScript</h2>
+
+    <p>Now for the magic!<br />
+    This JavaScript file (<strong><code>script.js</code></strong>) controls the countdown, scoring, movement, and game-over logic.</p>
+
+    <pre><code>const circle = document.getElementById('circle');
+const scoreDisplay = document.getElementById('score');
+const timerDisplay = document.getElementById('timer');
+const gameOverScreen = document.getElementById('game-over');
+const finalScore = document.getElementById('final-score');
+const clickSound = document.getElementById('click-sound');
+const countdownStart = document.getElementById('countdown-start');
+const countdownNumber = document.getElementById('countdown-number');
+const highScoreDisplay = document.getElementById('high-score');
+
+let score = 0;
+let timeLeft = 30;
+let moveInterval;
+let countdown;
+let highScore = localStorage.getItem('highScore') || 0;
+
+highScoreDisplay.textContent = highScore;
+
+function startGame() {
+  score = 0;
+  timeLeft = 30;
+  scoreDisplay.textContent = score;
+  timerDisplay.textContent = timeLeft;
+  gameOverScreen.style.display = 'none';
+
+  moveInterval = setInterval(() =&gt; {
+    const gameArea = document.getElementById('game-area');
+    const maxX = gameArea.clientWidth - 50;
+    const maxY = gameArea.clientHeight - 50;
+
+    const randomX = Math.floor(Math.random() * maxX);
+    const randomY = Math.floor(Math.random() * maxY);
+
+    circle.style.left = `${randomX}px`;
+    circle.style.top = `${randomY}px`;
+  }, 1000);
+
+  countdown = setInterval(() =&gt; {
+    timeLeft--;
+    timerDisplay.textContent = timeLeft;
+    if (timeLeft &lt;= 0) endGame();
+  }, 1000);
+}
+
+circle.addEventListener('click', () =&gt; {
+  score++;
+  scoreDisplay.textContent = score;
+  clickSound.play();
+});
+
+function endGame() {
+  clearInterval(moveInterval);
+  clearInterval(countdown);
+  circle.style.display = 'none';
+  finalScore.textContent = score;
+  gameOverScreen.style.display = 'block';
+
+  if (score &gt; highScore) {
+    highScore = score;
+    localStorage.setItem('highScore', highScore);
+    highScoreDisplay.textContent = highScore;
+  }
+}
+
+function startCountdown() {
+  let count = 3;
+  countdownNumber.textContent = count;
+  countdownStart.style.display = 'flex';
+
+  const interval = setInterval(() =&gt; {
+    count--;
+    if (count &gt; 0) {
+      countdownNumber.textContent = count;
+    } else {
+      countdownNumber.textContent = "Go!";
+      setTimeout(() =&gt; {
+        countdownStart.style.display = 'none';
+        circle.style.display = 'block';
+        startGame();
+      }, 1000);
+      clearInterval(interval);
+    }
+  }, 1000);
+}
+
+function restartGame() {
+  circle.style.display = 'none';
+  startCountdown();
+}
+
+circle.style.display = 'none';
+startCountdown();</code></pre>
+
+    <hr />
+
+    <h2>💡 How It Works</h2>
+
+    <ul>
+      <li><strong>Circle Movement</strong>: Every second, the circle jumps to a random spot.</li>
+      <li><strong>Scoring</strong>: Click the circle to earn points and play a click sound.</li>
+      <li><strong>Timer</strong>: You have 30 seconds to rack up your score.</li>
+      <li><strong>High Score</strong>: Stored in your browser with <code>localStorage</code>.</li>
+      <li><strong>Game Over Screen</strong>: Shows your final score and a replay button.</li>
+    </ul>
+
+    <hr />
+
+    <h2>✅ Final Touch</h2>
+
+    <ul>
+      <li>Save the HTML as <strong>index.html</strong></li>
+      <li>Save the CSS as <strong>style.css</strong></li>
+      <li>Save the JS as <strong>script.js</strong></li>
+      <li>Open <code>index.html</code> in your browser and start clicking! 🎯</li>
+    </ul>
+
+    <hr />
+
+    <h2>🚀 Challenge</h2>
+
+    <p>Try improving your game!</p>
+
+    <ul>
+      <li>Change the circle size randomly.</li>
+      <li>Make the game harder over time.</li>
+      <li>Add a “miss” counter for missed clicks.</li>
+    </ul>
+
+    <hr />
+
+    <iframe height="300" style="width: 100%;" scrolling="no" title="Click the Circle Game" src="https://codepen.io/agunechemba/embed/yyymaRP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href="https://codepen.io/agunechemba/pen/yyymaRP">
+      Click the Circle Game</a> by Agunechemba Ekene (<a href="https://codepen.io/agunechemba">@agunechemba</a>)
+      on <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+
+    <hr />
+
+    <h3>🧩 Review Questions (Fill-in-the-Gap)</h3>
+
+    <ol>
+      <li>The main game circle is created using a <code>&lt;______&gt;</code> element with the ID <code>circle</code>.</li>
+      <li>The CSS <code>border-radius: 50%</code> makes the element look like a ______.</li>
+      <li>The game’s total playtime is controlled by the variable <code>__________</code> in JavaScript.</li>
+      <li>The game stores the best score in the browser using <code>__________</code>.</li>
+      <li>When you click the circle, the variable <code>__________</code> increases by 1.</li>
+      <li>The countdown before the game starts begins at the number ______.</li>
+      <li>The circle moves to random positions every ______ seconds.</li>
+      <li>The function that restarts the game is named <code>__________</code>.</li>
+      <li>The game area is defined by the element with ID <code>__________</code>.</li>
+      <li>The button that lets you play again appears only when the game is ______.</li>
+    </ol>
+  </article>
+</body>
+</html>

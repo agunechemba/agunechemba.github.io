@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>✅ Create a Contact Form That Saves to Google Sheets and Sends Emails – With Success Animation! — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/screenshot-2025-05-22-14.58.28.png" alt="Ekene Agu" style="width: 100%; height: auto;">
+    <br /><br />
+
+    <p>Want a contact form that:</p>
+
+    <ul>
+      <li>saves responses to Google Sheets,</li>
+      <li>emails you and the sender,</li>
+      <li>and shows a success animation?</li>
+    </ul>
+
+    <p>Let’s build one using <strong>HTML</strong>, <strong>JavaScript</strong>, <strong>CSS</strong>, and <strong>Google Apps Script</strong>. Ready? Let’s go!</p>
+
+    <hr />
+
+    <h2>🧾 Step 1: Build the HTML Form with Animation</h2>
+
+    <p>Create an HTML file and paste this:</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Contact Form&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    button {
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .sent {
+      background-color: #28a745 !important;
+    }
+
+    /* Success animation styles */
+    .success-animation {
+      display: none;
+      margin: 20px auto;
+      width: 100px;
+      height: 100px;
+    }
+
+    .success-animation svg {
+      width: 100px;
+      height: 100px;
+    }
+
+    .success-animation.show {
+      display: block;
+      animation: pop 0.5s ease-in-out;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0); opacity: 0; }
+      60% { transform: scale(1.2); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h2&gt;Contact Us&lt;/h2&gt;
+
+&lt;form id="contactForm"&gt;
+  &lt;input type="text" name="name" placeholder="Your Name" required /&gt;
+  &lt;input type="email" name="email" placeholder="Your Email" required /&gt;
+  &lt;textarea name="message" placeholder="Your Message" required&gt;&lt;/textarea&gt;
+  &lt;button type="submit" id="submitBtn"&gt;Send&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;div class="success-animation" id="successAnimation"&gt;
+  &lt;svg viewBox="0 0 52 52"&gt;
+    &lt;path fill="none" stroke="#28a745" stroke-width="5" d="M14 27l7 7 16-16"/&gt;
+    &lt;circle fill="none" stroke="#28a745" stroke-width="5" cx="26" cy="26" r="24"/&gt;
+  &lt;/svg&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+  const form = document.getElementById('contactForm');
+  const button = document.getElementById('submitBtn');
+  const animation = document.getElementById('successAnimation');
+
+  form.addEventListener('submit', e =&gt; {
+    e.preventDefault();
+    button.disabled = true;
+    button.textContent = 'Sending...';
+
+    const data = new FormData(form);
+
+    fetch('YOUR_WEB_APP_URL', {
+      method: 'POST',
+      body: data
+    })
+    .then(res =&gt; res.text())
+    .then(response =&gt; {
+      button.textContent = 'Sent';
+      button.classList.add('sent');
+      form.reset();
+      animation.classList.add('show');
+    })
+    .catch(error =&gt; {
+      alert('Error: ' + error.message);
+      button.disabled = false;
+      button.textContent = 'Send';
+    });
+  });
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <p>👉 Replace <code>YOUR_WEB_APP_URL</code> with your Google Apps Script URL (coming in Step 3).</p>
+
+    <hr />
+
+    <h2>📊 Step 2: Set Up Google Sheet and Apps Script</h2>
+
+    <ol>
+      <li>Create a new Google Sheet.</li>
+      <li>Click <strong>Extensions &gt; Apps Script</strong>.</li>
+      <li>Replace any starter code with this:</li>
+    </ol>
+
+    <pre><code>function doPost(e) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+  const name = e.parameter.name;
+  const email = e.parameter.email;
+  const message = e.parameter.message;
+
+  sheet.appendRow([new Date(), name, email, message]);
+
+  const subject = `New message from ${name}`;
+  const body = `Name: ${name}\nEmail: ${email}\nMessage:\n${message}`;
+
+  MailApp.sendEmail("YOUR_EMAIL@gmail.com", subject, body);
+  MailApp.sendEmail(email, "Thanks for contacting us!", `Hi ${name},\n\nThanks for your message!\n\nWe'll get back to you soon.`);
+
+  return ContentService.createTextOutput("Success");
+}</code></pre>
+
+    <p>✏️ Replace <code>"YOUR_EMAIL@gmail.com"</code> with your own email.</p>
+
+    <hr />
+
+    <h2>🚀 Step 3: Deploy the Script as Web App</h2>
+
+    <ul>
+      <li>Click <strong>Deploy &gt; Manage deployments &gt; New deployment</strong>.</li>
+      <li>Choose <strong>Web app</strong>.</li>
+      <li>Execute as: <code>Me</code>.</li>
+      <li>Who has access: <code>Anyone</code>.</li>
+      <li>Click <strong>Deploy</strong> and copy the <strong>Web App URL</strong>.</li>
+    </ul>
+
+    <p>Now, paste that URL into the HTML file where it says <code>YOUR_WEB_APP_URL</code>.</p>
+
+    <hr />
+
+    <h2>✅ Final Result</h2>
+
+    <p>Open your HTML file in a browser:</p>
+
+    <ul>
+      <li>Fill and submit the form.</li>
+      <li>You’ll see a success checkmark bounce in.</li>
+      <li>Data is stored in your Google Sheet.</li>
+      <li>Emails are sent to you and the user.</li>
+    </ul>
+
+    <hr />
+
+    <h2>💬 Wrap-Up</h2>
+
+    <p>You've created a lightweight contact form using:</p>
+
+    <ul>
+      <li>Google Sheets (as database),</li>
+      <li>Google Apps Script (as backend),</li>
+      <li>and a neat SVG animation (for success feedback).</li>
+    </ul>
+
+    <p>Perfect for portfolios, feedback pages, or school projects.</p>
+
+    <h2>Review Questions</h2>
+    <ol>
+      <li>How does the CSS animation get triggered after the form is submitted successfully?</li>
+      <li>What SVG element is used to display the checkmark animation on form submission?</li>
+      <li>In the JavaScript, which class is added to show the success animation, and how is it removed or hidden?</li>
+      <li>Explain why disabling the send button during form submission is important.</li>
+      <li>How would you modify the Google Apps Script to include an additional field like "Phone Number"?</li>
+    </ol>
+  </article>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How Social Media Preview Works - JavaScript substring() — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2024/10/6015105009924031169.jpg?w=1024" width="100%" />
+
+    <h3>Understanding the <code>createOGMetaDescription</code> function:</h3>
+
+    <pre><code>function createOGMetaDescription(content, maxLength = 150) {
+  // STEP 1: Remove ALL HTML tags
+  const plainText = content.replace(/&lt;[^&gt;]*&gt;/g, '');
+  
+  // STEP 2: Check if text exceeds max length
+  return plainText.length &gt; maxLength
+
+  // STEP 3a: If too long → truncate and add ellipsis
+    ? plainText.substring(0, maxLength) + "…" 
+    // STEP 3b: If short enough → return as-is
+    : plainText;
+}</code></pre>
+
+    <h4>Given this HTML:</h4>
+
+    <pre><code>&lt;h1&gt;Breaking News&lt;/h1&gt;
+&lt;p&gt;Scientists discover &lt;strong&gt;revolutionary&lt;/strong&gt; new 
+energy source that could power the entire world for 
+centuries to come.&lt;/p&gt;</code></pre>
+
+    <h4>create a constant named <code>"htmlContent"</code> and assign the given html to it.</h4>
+
+    <pre><code>const htmlContent = `
+  &lt;h1&gt;Breaking News&lt;/h1&gt;
+  &lt;p&gt;Scientists discover &lt;strong&gt;revolutionary&lt;/strong&gt; new 
+  energy source that could power the entire world for 
+  centuries to come.&lt;/p&gt;
+`;</code></pre>
+
+    <h4>STEP 1: Remove HTML tags, replace with <code>'nothing'</code></h4>
+
+    <pre><code>const plainText = content.replace(/&lt;[^&gt;]*&gt;/g, '');
+
+// Result: "Breaking News Scientists discover revolutionary new 
+//          energy source that could power the entire world for 
+//          centuries to come."</code></pre>
+
+    <h4>STEP 2 &amp; 3: Check length and truncate if needed</h4>
+
+    <pre><code>const result = createOGMetaDescription(htmlContent, 60);
+// Result: "Breaking News Scientists discover revolutionary new energy source that could power....."</code></pre>
+
+    <h3>How <code>substring()</code> Works Here</h3>
+
+    <pre><code>plainText.substring(Start index, maxLength)</code></pre>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Part</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>plainText</code></td>
+          <td>The cleaned HTML content</td>
+        </tr>
+        <tr>
+          <td><code>.substring(</code></td>
+          <td>Method call</td>
+        </tr>
+        <tr>
+          <td><code>0</code></td>
+          <td>Start index</td>
+        </tr>
+        <tr>
+          <td><code>maxLength</code></td>
+          <td>End index</td>
+        </tr>
+        <tr>
+          <td><code>)</code></td>
+          <td>Close method</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Real Life Example</h3>
+
+    <pre><code>const blogPost = `
+  &lt;div class="post"&gt;
+    &lt;h2&gt;10 Best JavaScript Tips&lt;/h2&gt;
+    &lt;p&gt;Here are the top 10 JavaScript tips that every 
+    developers should know in 2024. These tips will help 
+    you write cleaner, more efficient code...&lt;/p&gt;
+  &lt;/div&gt;
+`;
+
+createOGMetaDescription(blogPost, 50);
+// Returns: "10 Best JavaScript Tips Here are the top 10 JavaS…"
+// NB: `substring()` is used inside the initial `createOGMetaDescription` function.</code></pre>
+  </article>
+</body>
+</html>

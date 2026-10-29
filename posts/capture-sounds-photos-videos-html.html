@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎙📸🎥 Capture Sounds, Photos and Videos with HTML — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/02/pepe-edited.png" alt="media capture with HTML" />
+
+    <p>The HTML <strong><code>capture</code></strong> attribute lets users record new media—photos, videos, or audio—using their device’s camera or mic, instead of selecting an existing file. It's especially useful on <strong>mobile devices</strong>.</p>
+
+    <hr />
+
+    <h3>⚙️ How It Works</h3>
+
+    <p>Use the <code>capture</code> attribute with:</p>
+
+    <pre><code>&lt;input type="file" capture accept="media-type/*"&gt;</code></pre>
+
+    <p>✅ Combined with the <code>accept</code> attribute, it lets users:</p>
+
+    <ul>
+      <li>Record new media using their camera or microphone</li>
+      <li>Choose between capturing new media or uploading existing files</li>
+    </ul>
+
+    <hr />
+
+    <h3>📲 Capture Settings</h3>
+
+    <p>Use these values for the <code>capture</code> attribute:</p>
+
+    <ol>
+      <li><strong><code>user</code></strong> – Front-facing camera or mic (great for selfies or voice)</li>
+      <li><strong><code>environment</code></strong> – Back-facing camera (for surroundings or landscape shots)</li>
+    </ol>
+
+    <hr />
+
+    <h3>🧪 Examples</h3>
+
+    <h4>🎤 Record Audio</h4>
+
+    <pre><code>&lt;input type="file" capture="user" accept="audio/*"&gt;</code></pre>
+
+    <p>➡️ Opens mic for voice recording.</p>
+
+    <hr />
+
+    <h4>📷 Take a Photo</h4>
+
+    <pre><code>&lt;input type="file" capture="user" accept="image/*"&gt;</code></pre>
+
+    <p>➡️ Opens front camera for selfies.</p>
+
+    <hr />
+
+    <h4>🎬 Record Video</h4>
+
+    <pre><code>&lt;input type="file" capture="environment" accept="video/*"&gt;</code></pre>
+
+    <p>➡️ Opens back camera for videos.</p>
+
+    <hr />
+
+    <h3>🛠️ When to Use</h3>
+
+    <p>Perfect for:</p>
+
+    <ul>
+      <li><strong>Forms</strong> needing image/audio/video input</li>
+      <li><strong>Surveys</strong> with real-time responses</li>
+      <li><strong>Mobile apps</strong> that need media uploads</li>
+    </ul>
+
+    <hr />
+
+    <h3>📌 Notes</h3>
+
+    <ul>
+      <li>Best on <strong>phones or tablets</strong></li>
+      <li>On desktops, it may open the <strong>file picker</strong> instead</li>
+    </ul>
+
+    <hr />
+
+    <h3>🔗 Conclusion</h3>
+
+    <h3>Try the demo 👉 <a href="https://onecompiler.com/html/432zrtaea">Example Code</a></h3>
+
+    <p>The <code>capture</code> attribute adds a smooth, interactive media upload experience to your HTML forms. Give it a go!</p>
+  </article>
+</body>
+</html>

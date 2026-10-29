@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>💻 Formatting Your Flash Drive Using Command Prompt: A Step-by-Step Guide — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2024/10/wbc.png?w=1024" alt="" class="wp-image-1723" />
+
+    <p>Need to fix a slow or corrupted flash drive? Formatting via <strong>Command Prompt</strong> is more powerful than using File Explorer. Let’s walk you through it step-by-step.</p>
+
+    <hr />
+
+    <h4>🔍 <strong>Why Use Command Prompt?</strong></h4>
+
+    <ul>
+      <li><strong>More Control</strong>: Choose between FAT32 or NTFS, quick or full format.</li>
+      <li><strong>Deeper Clean</strong>: The <code>clean</code> command wipes all partitions and data.</li>
+      <li><strong>Fix Errors</strong>: CMD can solve problems File Explorer can’t.</li>
+    </ul>
+
+    <hr />
+
+    <h3>⚙️ <strong>Step-by-Step: Format with CMD</strong></h3>
+
+    <p><strong>1. Open CMD as Admin</strong></p>
+
+    <ul>
+      <li>Press <code>Windows key</code>, type <strong>cmd</strong>, right-click → <strong>Run as administrator</strong>.</li>
+    </ul>
+
+    <p><strong>2. Launch Diskpart</strong></p>
+
+    <pre><code>diskpart</code></pre>
+
+    <p><strong>3. List All Disks</strong></p>
+
+    <pre><code>list disk</code></pre>
+
+    <p><em>Identify your flash drive by size.</em></p>
+
+    <p><strong>4. Select the Drive</strong></p>
+
+    <pre><code>select disk [your-disk-number]</code></pre>
+
+    <p>⚠️ <strong>Double-check!</strong> Wrong disk = lost data.</p>
+
+    <p><strong>5. Clean the Disk (Optional but Powerful)</strong></p>
+
+    <pre><code>clean</code></pre>
+
+    <p><strong>6. Create New Partition</strong></p>
+
+    <pre><code>create partition primary</code></pre>
+
+    <p><strong>7. Select the Partition</strong></p>
+
+    <pre><code>select partition 1</code></pre>
+
+    <p><strong>8. Format It</strong><br />
+    Choose a format type:</p>
+
+    <pre><code>format fs=fat32 quick</code></pre>
+
+    <p>or</p>
+
+    <pre><code>format fs=ntfs quick</code></pre>
+
+    <p><strong>9. Assign Drive Letter</strong></p>
+
+    <pre><code>assign letter=E:</code></pre>
+
+    <p><strong>10. Exit</strong></p>
+
+    <pre><code>exit</code></pre>
+
+    <hr />
+
+    <h3>⚠️ <strong>Important Tips</strong></h3>
+
+    <ul>
+      <li><strong>Back Up Files</strong> – Formatting erases everything.</li>
+      <li><strong>Check Disk Number</strong> – Triple-check it.</li>
+      <li><strong>Choose File System Wisely</strong>:
+        <ul>
+          <li><code>FAT32</code>: More compatible (TVs, consoles, etc.)</li>
+          <li><code>NTFS</code>: Better security and large file support</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>🎉 Your flash drive is now clean and ready to use!</p>
+
+    <p>💬 <strong>Questions or stuck? Drop a comment!</strong></p>
+  </article>
+</body>
+</html>

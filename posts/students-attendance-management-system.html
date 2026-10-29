@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Students Attendance Management System — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <p>A lightweight, dependency-free web app for tutors to register students and mark<br />
+    daily attendance. Runs entirely in the browser — no server or build step needed.</p>
+
+    <p><strong>🔗 Live demo:</strong> <a href="https://agunechemba.name.ng/students-attendance-management-system/">https://agunechemba.name.ng/students-attendance-management-system/</a></p>
+
+    <p><strong>Demo login:</strong> <code>ekene</code> / <code>ekene</code></p>
+
+    <h2>Features</h2>
+
+    <ul>
+      <li>Tutor login with a session guard</li>
+      <li>Add students (name, phone, city, roll number) with duplicate-roll protection</li>
+      <li>Mark attendance as Present or Absent (toggle to clear)</li>
+      <li>Delete students and search by name, city, phone or roll number</li>
+      <li>Live counters for total / present / absent</li>
+      <li>Data persisted in <code>localStorage</code>, with automatic migration from the old key</li>
+      <li>Responsive layout and accessible markup</li>
+    </ul>
+
+    <h2>Tech Stack</h2>
+
+    <p>HTML5 · CSS3 · Vanilla JavaScript (ES2020+) — no framework, no dependencies.</p>
+
+    <h2>Run Locally</h2>
+
+    <pre><code>git clone https://github.com/agunechemba/students-attendance-management-system
+cd students-attendance-management-system
+npx serve .        # or: python3 -m http.server 8000</code></pre>
+
+    <p>Then open the URL shown by the server. Use a local server rather than <code>file://</code><br />
+    so that <code>localStorage</code> works correctly.</p>
+
+    <h2>Project Structure</h2>
+
+    <pre><code>├── index.html      # Login page
+├── student.html    # Attendance dashboard
+├── style.css       # All styles
+├── index.js        # Login logic
+├── student.js      # Dashboard logic
+└── tech23.jpg      # Login illustration</code></pre>
+
+    <h2>⚠️ Security Note</h2>
+
+    <p>Authentication is <strong>client-side only</strong> — the credentials are visible in<br />
+    <code>index.js</code>. This is fine for a classroom demo but <strong>not</strong> for production use. A<br />
+    real deployment requires a backend with hashed passwords and server-issued<br />
+    sessions.</p>
+
+    <h2>Contributing</h2>
+
+    <p>Fork the repo, create a feature branch and open a pull request.</p>
+
+    <h2>License</h2>
+
+    <p>MIT — see <code>LICENSE</code> for details.</p>
+
+    <h2>Contact</h2>
+
+    <ul>
+      <li>🌐 <a href="https://agunechemba.name.ng/students-attendance-management-system/">https://agunechemba.name.ng/students-attendance-management-system/</a></li>
+    </ul>
+
+    <hr />
+    <hr />
+  </article>
+</body>
+</html>

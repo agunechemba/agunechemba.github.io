@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to Use Google Drive Images as a Source on Your Website — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/07/3.jpg" width="100%" />
+
+    <h3>Steps</h3>
+
+    <ol>
+      <li>Copy this code snippet where you want the image in your HTML:</li>
+    </ol>
+
+    <pre><code>&lt;img src="https://drive.google.com/uc?export=view&amp;id=</code></pre>
+
+    <ol start="2">
+      <li>Go to your Google Drive image, and make sure it’s set to “Anyone with the link can view.”</li>
+
+      <li>From the shareable link, copy the file ID part — the long string between <code>/d/</code> and <code>/view</code>. For example, in this link:</li>
+    </ol>
+
+    <pre><code>https://drive.google.com/file/d/1GjcKp6QmaYj3b3846tryJVfFwljiUk9Q/view?usp=sharing</code></pre>
+
+    <p>The ID is: <code>1GjcKp6QmaYj3b3846tryJVfFwljiUk9Q</code></p>
+
+    <ol start="4">
+      <li>Paste that ID right after <code>id=</code> in the snippet. It should look like this:</li>
+    </ol>
+
+    <pre><code>&lt;img src="https://drive.google.com/uc?export=view&amp;id=1GjcKp6QmaYj3b3846tryJVfFwljiUk9Q"&gt;</code></pre>
+
+    <p>Make sure the entire link is inside double quotes.</p>
+
+    <p>Done right? Your Google Drive image should now show up perfectly on your site.</p>
+
+    <p>Feel free to share this quick tip!</p>
+  </article>
+</body>
+</html>

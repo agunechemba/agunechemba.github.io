@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🕒 Build a Digital Clock with Time-Based Greeting (12-Hour Format with AM/PM) — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/06/a_little_boy_looking_at_a_digital.jpeg" width="100%" />
+
+    <p>One of the best ways to start learning JavaScript is by building something visual — something that <em>does</em> something right before your eyes. In this tutorial, we’ll build a <strong>digital clock</strong> that:</p>
+
+    <p>✅ Shows the <strong>current time</strong> in 12-hour format<br />
+    ✅ Includes <strong>AM/PM</strong> to make it familiar<br />
+    ✅ Updates <strong>every second</strong><br />
+    ✅ Greets you based on the time of day</p>
+
+    <p>By the end, you’ll have created something dynamic, stylish, and real. Let’s dive in!</p>
+
+    <hr />
+
+    <h2>🔧 Step 1: Set Up the HTML Structure</h2>
+
+    <p>We begin with a simple HTML file. This will be the skeleton of our clock — holding the clock and greeting elements in place.</p>
+
+    <h3>✅ <code>index.html</code></h3>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+  &lt;title&gt;Digital Clock&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="clock-container"&gt;
+    &lt;div id="clock"&gt;00:00:00&lt;/div&gt;
+    &lt;div id="greeting"&gt;Hello!&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h3>What’s going on here?</h3>
+
+    <ul>
+      <li>The <code>&lt;div id="clock"&gt;</code> is where the live time will be displayed.</li>
+      <li>The <code>&lt;div id="greeting"&gt;</code> will show messages like <em>Good Morning 🌅</em> or <em>Good Night 🌙</em>.</li>
+      <li>We link to a <code>style.css</code> file for styling and a <code>script.js</code> file for JavaScript functionality.</li>
+    </ul>
+
+    <hr />
+
+    <h2>🎨 Step 2: Style the Clock with CSS</h2>
+
+    <p>A plain digital clock isn't much fun to look at. Let's use CSS to center the content and give it a glowing green effect — like an old-school digital display.</p>
+
+    <h3>✅ <code>style.css</code></h3>
+
+    <pre><code>body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.clock-container {
+  background: #222;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 100, 0.5);
+  text-align: center;
+}
+
+#clock {
+  font-size: 4rem;
+  color: #0f0;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #0f0;
+}
+
+#greeting {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+}</code></pre>
+
+    <h3>Why this design?</h3>
+
+    <ul>
+      <li>We use a <strong>dark background</strong> to make the green clock digits pop.</li>
+      <li>The clock container is <strong>centered</strong> and has a slight glow effect using <code>box-shadow</code> and <code>text-shadow</code>.</li>
+      <li>It’s easy on the eyes and gives a <em>techy</em> feel.</li>
+    </ul>
+
+    <hr />
+
+    <h2>🧠 Step 3: Add JavaScript Logic</h2>
+
+    <p>Now to the exciting part: <strong>bringing the clock to life</strong>. This is where we:</p>
+
+    <ul>
+      <li>Get the current time from the system.</li>
+      <li>Convert it from 24-hour to 12-hour format.</li>
+      <li>Add AM or PM.</li>
+      <li>Display a greeting based on the hour.</li>
+    </ul>
+
+    <h3>✅ <code>script.js</code></h3>
+
+    <pre><code>function updateClock() {
+  const now = new Date();
+  let hours = now.getHours(); // 0 to 23
+  const minutes = formatTime(now.getMinutes());
+  const seconds = formatTime(now.getSeconds());
+
+  // Decide AM or PM
+  const ampm = hours &gt;= 12 ? 'PM' : 'AM';
+
+  // Convert to 12-hour format
+  hours = hours % 12;
+  hours = hours === 0 ? 12 : hours;
+
+  const displayHours = formatTime(hours);
+
+  // Update the clock
+  document.getElementById('clock').textContent = `${displayHours}:${minutes}:${seconds} ${ampm}`;
+
+  // Update greeting
+  document.getElementById('greeting').textContent = getGreeting(now.getHours());
+}
+
+function formatTime(unit) {
+  return unit &lt; 10 ? '0' + unit : unit;
+}
+
+function getGreeting(hour) {
+  if (hour &lt; 12) return "Good Morning 🌅";
+  if (hour &lt; 17) return "Good Afternoon ☀️";
+  if (hour &lt; 21) return "Good Evening 🌇";
+  return "Good Night 🌙";
+}
+
+// Run once immediately
+updateClock();
+// Then run every second
+setInterval(updateClock, 1000);</code></pre>
+
+    <h3>Let’s break this down:</h3>
+
+    <ol>
+      <li><strong>Getting the Time</strong>:<br />
+        <code>new Date()</code> fetches the current time.</li>
+
+      <li><strong>Formatting</strong>:<br />
+        We ensure that all time units (hours, minutes, seconds) have leading zeroes. For example, "09" instead of "9".</li>
+
+      <li><strong>12-Hour Conversion</strong>:<br />
+        We convert from 24-hour format:
+        <ul>
+          <li>0 becomes 12 AM</li>
+          <li>12 stays 12 PM</li>
+          <li>13 becomes 1 PM</li>
+        </ul>
+      </li>
+
+      <li><strong>Greeting Logic</strong>:
+        <ul>
+          <li>Morning: before 12 PM</li>
+          <li>Afternoon: 12 PM – 4:59 PM</li>
+          <li>Evening: 5 PM – 8:59 PM</li>
+          <li>Night: 9 PM and later</li>
+        </ul>
+      </li>
+    </ol>
+
+    <hr />
+
+    <h2>🚀 Test Your Clock!</h2>
+
+    <p>Open your <code>index.html</code> in a browser. You should see:</p>
+
+    <p>✅ A glowing green digital clock<br />
+    ✅ The current time in <strong>12-hour format</strong><br />
+    ✅ A changing <strong>AM/PM</strong> indicator<br />
+    ✅ A dynamic greeting that shifts as the day passes</p>
+
+    <hr />
+
+    <h2>📝 Practice Questions: Digital Clock Project</h2>
+
+    <hr />
+
+    <h3>1. JavaScript Formatting Challenge</h3>
+
+    <p><strong>Q:</strong><br />
+    In the <code>updateClock()</code> function, we used this line to format time units with a leading zero:</p>
+
+    <pre><code>return unit &lt; 10 ? '0' + unit : unit;</code></pre>
+
+    <p>🔍 <strong>Explain what this line of code does and why it’s necessary for displaying the time.</strong><br />
+    💡 <em>Hint: Try removing this line and observe what changes in the display.</em></p>
+
+    <hr />
+
+    <h3>2. HTML Structure Comprehension</h3>
+
+    <p><strong>Q:</strong><br />
+    In the <code>index.html</code> file, what is the purpose of the <code>id</code> attributes <code>clock</code> and <code>greeting</code>?<br />
+    ✍️ <strong>Bonus:</strong> How does JavaScript use these IDs?</p>
+
+    <hr />
+
+    <h3>3. CSS Styling Analysis</h3>
+
+    <p><strong>Q:</strong><br />
+    The following rule creates a glowing effect on the time display:</p>
+
+    <pre><code>text-shadow: 0 0 10px #0f0;</code></pre>
+
+    <p>🟩 <strong>What do each of the values in this rule mean, and how do they create the "glow" effect?</strong><br />
+    💬 <em>Also, how could you make the glow more intense?</em></p>
+
+    <hr />
+
+    <h3>4. 12-Hour Format Logic</h3>
+
+    <p><strong>Q:</strong><br />
+    Consider this part of the code:</p>
+
+    <pre><code>hours = hours % 12;
+hours = hours === 0 ? 12 : hours;</code></pre>
+
+    <p>🧠 <strong>What problem does this logic solve? What would happen if you removed the second line?</strong></p>
+
+    <hr />
+
+    <h3>5. Extend the Project</h3>
+
+    <p><strong>Q:</strong><br />
+    Imagine you want the greeting to include the user’s name. For example:</p>
+
+    <pre><code>Good Morning 🌅, Ekene!</code></pre>
+
+    <p>🔧 <strong>How would you modify the HTML and JavaScript to achieve this feature?</strong><br />
+    🗂 <em>Bonus: How could you make the name customizable using a prompt?</em></p>
+  </article>
+</body>
+</html>

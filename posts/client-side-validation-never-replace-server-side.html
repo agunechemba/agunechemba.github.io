@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Why Client-Side Validation Can Never Replace Server-Side Validation (With Real Code Examples) — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://i.ibb.co/j9Thtcxy/Screenshot-2026-01-17-17-49-08.png" width="100%" />
+
+    <p>When you fill a form on a website and it refuses to submit, it can feel like the website is “thinking.”<br />
+    But what is really happening?</p>
+
+    <p>Two different guards are at work. One stands in front of you in the browser. The other waits quietly on the server. They do very different jobs.</p>
+
+    <p>Let’s meet them.</p>
+
+    <hr />
+
+    <h4>Client-side validation: the friendly helper</h4>
+
+    <p>Client-side validation happens <strong>inside your browser</strong>. It is usually written with plain HTML rules. The browser reads those rules and helps the user avoid mistakes.</p>
+
+    <p>Here is a simple example:</p>
+
+    <pre><code>&lt;form action="/signup" method="POST"&gt;
+  &lt;input type="text" name="username" required minlength="3"&gt;
+  &lt;input type="email" name="email" required&gt;
+  &lt;input type="password" name="password" required minlength="8"&gt;
+  &lt;button type="submit"&gt;Sign Up&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+
+    <p>When you click the button, the browser checks:</p>
+
+    <ul>
+      <li>Is the username filled in?</li>
+      <li>Is it long enough?</li>
+      <li>Does the email look correct?</li>
+      <li>Is the password too short?</li>
+    </ul>
+
+    <p>If something is wrong, the browser stops you immediately.<br />
+    No internet request. No waiting.</p>
+
+    <p>This makes users happy because mistakes are caught early.</p>
+
+    <p>But here is the secret many beginners miss:</p>
+
+    <p><strong>The browser belongs to the user, not the developer.</strong></p>
+
+    <hr />
+
+    <h4>How client-side validation can be bypassed</h4>
+
+    <p>Every modern browser has a tool called <strong>Inspect</strong> or <strong>Developer Tools</strong>. With it, anyone can:</p>
+
+    <ul>
+      <li>Remove <code>required</code></li>
+      <li>Change <code>minlength</code></li>
+      <li>Edit the form rules</li>
+      <li>Submit data that breaks the rules</li>
+    </ul>
+
+    <p>Nothing illegal. Nothing special.</p>
+
+    <p>This is why client-side validation is <strong>not security</strong>.<br />
+    It is only guidance.</p>
+
+    <p>Think of it like a road sign. Helpful, but not a wall.</p>
+
+    <hr />
+
+    <h4>Server-side validation: the final judge</h4>
+
+    <p>Server-side validation runs <strong>after the form is submitted</strong>, on the server itself. This is where JavaScript (for example with Node.js) becomes serious.</p>
+
+    <p>Here is a matching server-side example:</p>
+
+    <pre><code>app.post("/signup", (req, res) =&gt; {
+  const { username, email, password } = req.body;
+
+  if (!username || username.length &lt; 3) {
+    return res.send("Invalid username");
+  }
+
+  if (!email || !email.includes("@")) {
+    return res.send("Invalid email");
+  }
+
+  if (!password || password.length &lt; 8) {
+    return res.send("Password too short");
+  }
+
+  res.send("Signup successful");
+});</code></pre>
+
+    <p>The server does not care what the browser already checked.</p>
+
+    <p>It checks again.</p>
+
+    <p>Even if someone:</p>
+
+    <ul>
+      <li>removed HTML rules,</li>
+      <li>edited the page,</li>
+      <li>or sent data manually,</li>
+    </ul>
+
+    <p>the server still says yes or no.</p>
+
+    <p>This is real protection.</p>
+
+    <hr />
+
+    <h4>Can HTML validation ever act like server-side validation?</h4>
+
+    <p>No.</p>
+
+    <p>And that is okay.</p>
+
+    <p>HTML validation can never be trusted as final truth because it runs in a place the user controls. There is no trick, no setting, no secret way to turn HTML validation into server-side validation.</p>
+
+    <p>What professionals do instead is smarter.</p>
+
+    <p>They use <strong>the same rules in two places</strong>:</p>
+
+    <ul>
+      <li>HTML for speed and comfort</li>
+      <li>Server-side JavaScript for safety and correctness</li>
+    </ul>
+
+    <p>One helps the user.<br />
+    The other protects the system.</p>
+
+    <hr />
+
+    <h4>The rule experienced developers live by</h4>
+
+    <p><strong>Never trust input that comes from the browser.</strong></p>
+  </article>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🎯 How to Set a Facebook Preview Image for Your Website — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/a-man-sharing-a-facebook-post-on-a-wide-screen-.jpeg" alt="Agunechemba Ekene" />
+
+    <p>Want to make your website look clean and clickable when shared on Facebook? Here’s how to set that <em>preview image</em> (you know, the image + title + description that pops up in the link preview). Best part? It’s super simple if you're working with plain ol' HTML.</p>
+
+    <h2>🧠 Step-by-step Guide</h2>
+
+    <ol>
+      <li><strong>Open your HTML file</strong> (usually <code>index.html</code>).</li>
+      <li>In the <code>&lt;head&gt;...&lt;/head&gt;</code> section, drop in these Open Graph meta tags:</li>
+    </ol>
+
+    <pre><code>&lt;!-- Facebook / Open Graph --&gt;
+&lt;meta property="og:title" content="Your Website Title" /&gt;
+&lt;meta property="og:description" content="A short description of your page." /&gt;
+&lt;meta property="og:image" content="https://yourdomain.com/path-to-image.jpg" /&gt;
+&lt;meta property="og:url" content="https://yourdomain.com/this-page" /&gt;
+&lt;meta property="og:type" content="website" /&gt;</code></pre>
+
+    <h2>✅ Real-Life Example</h2>
+
+    <pre><code>&lt;head&gt;
+  &lt;meta charset="UTF-8" /&gt;
+  &lt;title&gt;Agunechemba – Celebrated Tech Trainer&lt;/title&gt;
+
+  &lt;!-- Facebook Open Graph --&gt;
+  &lt;meta property="og:title" content="Agunechemba – Celebrated Tech Trainer" /&gt;
+  &lt;meta property="og:description" content="Meet the genius behind Firstac Academy and Pepe Programming Hub." /&gt;
+  &lt;meta property="og:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/04/transparent-logo-150x150-1.png" /&gt;
+  &lt;meta property="og:url" content="https://agunechemba.github.io/" /&gt;
+  &lt;meta property="og:type" content="website" /&gt;
+&lt;/head&gt;</code></pre>
+
+    <h2>🎁 Bonus (Optional)</h2>
+
+    <p>If you’re using Facebook login or Insights, toss in your App ID too:</p>
+
+    <pre><code>&lt;meta property="fb:app_id" content="YOUR_FACEBOOK_APP_ID" /&gt;</code></pre>
+
+    <h2>🧪 Final Step: Test It</h2>
+
+    <p>Use the <a href="https://developers.facebook.com/tools/debug/">Facebook Sharing Debugger</a> to see what Facebook pulls. Hit “Scrape Again” if it doesn’t show your updates right away.</p>
+
+    <hr />
+
+    <p><strong>Boom!</strong> Your website’s Facebook preview is now custom, clean, and clickable.</p>
+  </article>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🌄 How to Set an Image as the Background of an HTML Page (Step-by-Step) — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/05/an_art_background_with_different_colors.jpeg" alt="Art background with different colors" style="width: 100%;" />
+
+    <p>Adding a background image makes your page visually appealing. Let's walk through two simple ways to do it.</p>
+
+    <hr />
+
+    <h2>🧰 What You Need</h2>
+
+    <ul>
+      <li>A computer with any code editor (e.g., Sublime Text, Notepad++)</li>
+      <li>An image file (e.g., <code>bg.jpg</code>)</li>
+      <li>A browser (e.g., Chrome)</li>
+    </ul>
+
+    <hr />
+
+    <h2>📁 Step 1: Create Your Project Folder</h2>
+
+    <p>Create a folder for your project. Example:</p>
+
+    <pre><code>background-tutorial/
+├── index.html
+└── images/
+    └── bg.jpg</code></pre>
+
+    <blockquote>💡 Put your background image (<code>bg.jpg</code>) inside the <code>images</code> folder.</blockquote>
+
+    <hr />
+
+    <h2>✅ Method 1: Using Inline CSS</h2>
+
+    <h3>🔧 Step-by-Step</h3>
+
+    <h3>1. Create the HTML File</h3>
+    <p>Create <code>index.html</code> and open it in your editor.</p>
+
+    <h3>2. Add This Code:</h3>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Inline Background&lt;/title&gt;
+&lt;/head&gt;
+&lt;body style="
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;"&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h3>3. Save the File</h3>
+    <p>Press <code>Ctrl + S</code> to save.</p>
+
+    <h3>4. Open in Browser</h3>
+    <p>Double-click <code>index.html</code> or open it in your browser. You should see your image covering the entire background!</p>
+
+    <hr />
+
+    <h2>✅ Method 2: Using a <code>&lt;style&gt;</code> Block</h2>
+
+    <p>This method is neater and better for real projects.</p>
+
+    <h3>🔧 Step-by-Step</h3>
+
+    <h3>1. Create the Same HTML File</h3>
+    <p>Open <code>index.html</code> again or make a new one.</p>
+
+    <h3>2. Use This Code:</h3>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Style Block Background&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      background-image: url('images/bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h3>3. Save and View</h3>
+    <p>Again, save and open the file in your browser. You’ll see the same full-page background image.</p>
+
+    <hr />
+
+    <h2>🔍 Explanation of the CSS Properties</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>What It Does</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>background-image</code></td>
+          <td>Loads the image</td>
+        </tr>
+        <tr>
+          <td><code>background-size: cover</code></td>
+          <td>Makes the image cover the whole page</td>
+        </tr>
+        <tr>
+          <td><code>background-position: center</code></td>
+          <td>Centers the image</td>
+        </tr>
+        <tr>
+          <td><code>background-repeat: no-repeat</code></td>
+          <td>Stops the image from repeating</td>
+        </tr>
+        <tr>
+          <td><code>height: 100vh</code></td>
+          <td>Makes body full screen height</td>
+        </tr>
+        <tr>
+          <td><code>margin: 0</code></td>
+          <td>Removes default spacing</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h2>🧪 Practice Questions</h2>
+
+    <ol>
+      <li>Change the background image to <code>sunset.jpg</code>.</li>
+      <li>Update the file path to <code>assets/pics/bg.jpg</code>. Fix the <code>url()</code>.</li>
+      <li>What happens if you set <code>background-repeat: repeat;</code>?</li>
+      <li>Add a <code>&lt;h1&gt;</code> inside <code>&lt;body&gt;</code> and check how it looks on top of the background.</li>
+    </ol>
+  </article>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🚀 How JSON Was Born: How Douglas Crockford Created JSON — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/01/douglas_crockford_february_2013.jpg?w=1024" alt="Douglas Crockford" style="border-radius: 20px; max-width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+
+    <hr />
+
+    <p>Back in 2001, Douglas Crockford was working on a project that needed a better way to send data between computers over the internet. At the time, developers used XML — a bulky and complex format.</p>
+
+    <p>But Crockford thought: “There has to be a simpler way.”</p>
+
+    <h2>💡 The Big Idea</h2>
+
+    <p>While working with JavaScript, Crockford realized that the language already had a built-in way of organizing data — using objects! What if we could use that format to exchange data between systems?</p>
+
+    <p>So he began working on a solution. He took inspiration from other languages like Python and Perl, simplified the structure, and created something that was:</p>
+
+    <ul>
+      <li>Easy to read and write</li>
+      <li>Lightweight</li>
+      <li>Perfect for JavaScript (and later, other languages too)</li>
+    </ul>
+
+    <p>He called it JSON: JavaScript Object Notation.</p>
+
+    <h2>📦 What Does JSON Look Like?</h2>
+
+    <p>Here’s a very simple example of JSON:</p>
+
+    <pre><code>{
+"name": "Douglas Crockford",
+"created": "JSON",
+"year": 2001,
+"isAwesome": true
+}</code></pre>
+
+    <p>This looks a lot like a JavaScript object. And that was the whole point — it’s easy for both humans and computers to understand.</p>
+
+    <h2>🧠 JSON in Action (with Code)</h2>
+
+    <p>Here’s a basic JavaScript example showing how JSON works:</p>
+
+    <pre><code>// A sample JSON string
+const jsonString = '{"name": "Ada", "age": 12, "isStudent": true}';
+
+// Parse JSON to turn it into a JavaScript object
+const data = JSON.parse(jsonString);
+
+console.log(data.name);       // Output: Ada
+console.log(data.age);        // Output: 12
+console.log(data.isStudent);  // Output: true
+
+// Convert JavaScript object to JSON
+const newJson = JSON.stringify(data);
+
+console.log(newJson);
+// Output: {"name":"Ada","age":12,"isStudent"\:true}</code></pre>
+
+    <h2>🌍 Why JSON Matters Today</h2>
+
+    <p>JSON quickly became popular. Developers loved it. It was faster than XML, easier to read, and perfect for web applications.</p>
+
+    <p>Today, JSON is everywhere — powering APIs, databases, mobile apps, and websites. From small hobby projects to giant tech platforms, JSON plays a key role in how computers talk to each other.</p>
+
+    <h2>🎉 The Accidental Genius</h2>
+
+    <p>Crockford didn’t set out to revolutionize the internet. He was simply solving a problem. But that small idea turned into something massive — and changed the way data flows online.</p>
+
+    <p>And that’s the story of how a small JavaScript insight became a big deal.</p>
+
+    <h2>Review Questions</h2>
+
+    <p>Sure! Here are 5 practical review questions based on the blog:</p>
+
+    <ol>
+      <li>Who created JSON, and what problem was he trying to solve?</li>
+      <li>What are three advantages of JSON compared to XML?</li>
+      <li>Look at this JSON string:
+        <pre><code>{"city": "Lagos", "population": 21000000, "isCapital": false}</code></pre>
+        What is the value of the key "isCapital"?</li>
+      <li>What does JSON.parse() do in JavaScript, and why is it useful?</li>
+      <li>Write a JavaScript object and convert it into a JSON string using JSON.stringify().</li>
+    </ol>
+  </article>
+</body>
+</html>

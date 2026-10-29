@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🚀 Google Apps Script Masterclass: Complete Series — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/10/google-apps-script-education.jpg" alt="Google App Script" style="width: 100%;">
+
+    <p><em>A hands-on journey into the world of automation, scripting, and smart Google Workspace tools.</em></p>
+
+    <hr />
+
+    <h2>📖 About This Series</h2>
+
+    <p>Welcome to this complete step-by-step guide designed to help you <strong>learn, practice, and master Google Apps Script</strong> — the powerful tool that lets you automate tasks in Google Sheets, Docs, Forms, and more.</p>
+
+    <p>Each lesson builds on the previous one, guiding you from the basics to creating your own automated systems.</p>
+
+    <hr />
+
+    <h2>PART 1: THE FOUNDATIONS</h2>
+
+    <hr />
+
+    <h3>📘 Day 1 – Introduction to Google Apps Script</h3>
+
+    <p>If you've ever used Gmail, Google Drive, or Google Sheets, you've already been living in the Google ecosystem — a magical space where your work follows you anywhere there's an internet connection. But what if I told you that you can make these apps <em>work for you</em> — automatically, smartly, and even creatively?</p>
+
+    <p>Welcome to <strong>Google Apps Script (GAS)</strong> — Google's automation and scripting platform built on <strong>JavaScript</strong>.</p>
+
+    <hr />
+
+    <h4>☁️ Understanding Google Applications</h4>
+
+    <p>Before we dive into scripting, let's talk about the playground. Google provides a family of apps called <strong>Google Workspace Apps</strong> — or simply <strong>Google Apps</strong>. These include:</p>
+
+    <ul>
+      <li><strong>Gmail</strong> — for communication</li>
+      <li><strong>Google Drive</strong> — for file storage</li>
+      <li><strong>Google Calendar</strong> — for time management</li>
+      <li><strong>Google Docs</strong> — for documents</li>
+      <li><strong>Google Sheets</strong> — for spreadsheets</li>
+      <li><strong>Google Forms</strong> — for data collection</li>
+    </ul>
+
+    <p>Unlike traditional software, these don't live on your computer — they run on <strong>Google's cloud servers</strong>. That's why you can start editing a document on your laptop and finish it later on your phone.</p>
+
+    <hr />
+
+    <h4>💡 What Is Google Apps Script (GAS)?</h4>
+
+    <p>Think of GAS as <strong>the brain behind your Google Apps</strong>. It's a scripting platform that lets you write <strong>JavaScript code</strong> to automate tasks across all these apps.</p>
+
+    <p>For example:</p>
+    <ul>
+      <li>Automatically send emails at a scheduled time</li>
+      <li>Move files between folders in Drive</li>
+      <li>Create calendar events from Sheet data</li>
+      <li>Build custom add-ons or tools for Docs and Forms</li>
+    </ul>
+
+    <p>Google Apps Script runs entirely in the <strong>cloud</strong>. You don't install anything — you simply open your browser, visit the <strong>Script Editor</strong>, and start coding.</p>
+
+    <p>The scripts can be triggered manually or automatically:</p>
+    <ul>
+      <li><strong>onOpen()</strong> – runs when a document or Sheet is opened</li>
+      <li><strong>onEdit()</strong> – runs when a user edits a cell</li>
+      <li><strong>Time-driven triggers</strong> – run every minute, hour, or day</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 GAS vs. VBA (Microsoft Visual Basic for Applications)</h4>
+
+    <p>If you've ever worked with <strong>Excel macros</strong> or <strong>Word automation</strong>, you've probably heard of <strong>VBA</strong>. GAS is like Google's cloud-based cousin of VBA.</p>
+
+    <p><strong>Similarities:</strong></p>
+    <ul>
+      <li>Both automate repetitive tasks</li>
+      <li>Both use event-driven functions (like <code>onEdit</code>, <code>onOpen</code>)</li>
+      <li>Both can access and modify document content</li>
+    </ul>
+
+    <p><strong>Differences:</strong></p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>VBA</th>
+          <th>GAS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Platform</td>
+          <td>Local (Windows/Mac)</td>
+          <td>Cloud-based (Browser)</td>
+        </tr>
+        <tr>
+          <td>Language</td>
+          <td>Visual Basic</td>
+          <td>JavaScript</td>
+        </tr>
+        <tr>
+          <td>Access</td>
+          <td>Office apps only</td>
+          <td>Google Workspace apps</td>
+        </tr>
+        <tr>
+          <td>Installation</td>
+          <td>Requires MS Office</td>
+          <td>Runs online</td>
+        </tr>
+        <tr>
+          <td>Sharing</td>
+          <td>Manual</td>
+          <td>Automatically saved in the cloud</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h4>🚀 Advantages of GAS</h4>
+
+    <ol>
+      <li><strong>Version Independence</strong> – Your scripts live in your Google Account, not your machine</li>
+      <li><strong>Cross-Platform</strong> – Works on Windows, Mac, Android, or iOS</li>
+      <li><strong>Cloud Storage</strong> – Everything is automatically saved in Google Drive</li>
+      <li><strong>Collaboration</strong> – Multiple users can share and edit projects together</li>
+    </ol>
+
+    <hr />
+
+    <h4>⏳ Limitations of GAS</h4>
+
+    <ul>
+      <li>Scripts can only run for a limited time (around <strong>6 minutes</strong> per execution)</li>
+      <li>They depend on an internet connection</li>
+      <li>Some advanced features need <strong>authorization</strong> from the user</li>
+    </ul>
+
+    <hr />
+
+    <h4>📂 Google Drive — Your Cloud Workspace</h4>
+
+    <p><strong>Google Drive</strong> is your central storage hub. Every document, spreadsheet, form, or script you create in Google Workspace lives here.</p>
+
+    <p>You can:</p>
+    <ul>
+      <li>Create and share documents instantly</li>
+      <li>Collaborate with others in real time</li>
+      <li>Access your files from any device</li>
+    </ul>
+
+    <hr />
+
+    <h4>📧 Gmail — Smarter Email Automation</h4>
+
+    <p>With GAS, you can automate:</p>
+    <ul>
+      <li><strong>Birthday greetings</strong> sent exactly at midnight</li>
+      <li><strong>Bulk personalized messages</strong> using data from Sheets</li>
+      <li><strong>Daily reports</strong> with attached PDFs</li>
+    </ul>
+
+    <hr />
+
+    <h4>📅 Google Calendar — Scheduling Made Easy</h4>
+
+    <p>Using the <strong>CalendarApp service</strong>, your script can:</p>
+    <ul>
+      <li>Create new calendar events</li>
+      <li>Add invitees automatically</li>
+      <li>Pull data from Sheets to schedule events in bulk</li>
+    </ul>
+
+    <hr />
+
+    <h4>📄 Google Docs — Automating Text Documents</h4>
+
+    <p>You can use the <strong>DocumentApp service</strong> to:</p>
+    <ul>
+      <li>Generate reports</li>
+      <li>Format documents</li>
+      <li>Translate text automatically</li>
+      <li>Save and share them as PDFs</li>
+    </ul>
+
+    <hr />
+
+    <h4>📊 Google Sheets — Programmable Spreadsheets</h4>
+
+    <p>With the <strong>SpreadsheetApp class</strong>, you can:</p>
+    <ul>
+      <li>Read and write data dynamically</li>
+      <li>Create dashboards</li>
+      <li>Design custom formulas</li>
+    </ul>
+
+    <p>For example:</p>
+
+    <pre><code>function myFunction(s1, s2) {
+  return s1 + " " + s2;
+}</code></pre>
+
+    <p>Now, in your Sheet, type <code>=myFunction(A2,B2)</code> — and you've just built your first custom function!</p>
+
+    <hr />
+
+    <h4>🧱 Script Projects: Where the Magic Lives</h4>
+
+    <p>Scripts in Google are saved as <strong>projects</strong>:</p>
+    <ul>
+      <li><strong>Standalone scripts</strong> – independent files in Drive</li>
+      <li><strong>Bound scripts</strong> – attached to specific Docs, Sheets, or Forms</li>
+    </ul>
+
+    <p>Bound scripts have <em>more privileges</em> because they directly interact with their parent document.</p>
+
+    <p>You can create a new script project by:</p>
+    <ol>
+      <li>Opening <a href="https://drive.google.com">Google Drive</a></li>
+      <li>Clicking <strong>New → More → Google Apps Script</strong></li>
+      <li>Writing your code and saving the project</li>
+    </ol>
+
+    <hr />
+
+    <h4>📋 Google Forms — Collect and Process Data</h4>
+
+    <p>Using GAS, you can:</p>
+    <ul>
+      <li>Create forms dynamically</li>
+      <li>Process form submissions automatically</li>
+      <li>Send notifications or save responses into Sheets</li>
+    </ul>
+
+    <hr />
+
+    <h4>🔍 A Fun Experiment: Find a Document by Its ID</h4>
+
+    <p>Every Google file (Doc, Sheet, or Form) has a <strong>unique ID</strong> in its URL.</p>
+
+    <p>Example: <code>https://docs.google.com/spreadsheets/d/11CEeHWygGKqxGS7jmQzLpeO7Fs3cjetT4HTrWXHTDSU/edit#gid=0</code></p>
+
+    <p>That long string is the <strong>file ID</strong>. If a document is shared publicly, you can access it using just that ID.</p>
+
+    <hr />
+
+    <h4>📝 Chapter 1 Review</h4>
+
+    <ol>
+      <li>Google Apps Script is based on the <strong>JavaScript</strong> programming language.</li>
+      <li>All Google Apps run on Google's <strong>cloud</strong> servers.</li>
+      <li>GAS scripts are written and executed directly in the <strong>browser</strong>.</li>
+      <li>The service used to automate Gmail is called <strong>GmailApp</strong>.</li>
+      <li>The function <code>onOpen()</code> runs automatically when a document is <strong>opened</strong>.</li>
+      <li>GAS runs entirely in the <strong>cloud</strong>, while VBA runs locally.</li>
+      <li>The class used to automate spreadsheets is <strong>SpreadsheetApp</strong>.</li>
+      <li>A GAS project that is attached to a Sheet or Doc is called a <strong>bound</strong> script.</li>
+      <li>To automate form submissions, you can use an "on form submit" <strong>trigger</strong>.</li>
+      <li>GAS helps users automate tasks across Google products and <strong>third-party</strong> services.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 2 – Your First "Hello World!" In A Popup</h3>
+
+    <p>Have you ever wanted your script to talk back to you? Imagine your code greeting you politely with a friendly "Hello World!" popping up on your screen. That's exactly what today's adventure is about.</p>
+
+    <p>In this lesson, we're going to explore one of the simplest yet most satisfying pieces of code you can ever write in <strong>Google Apps Script</strong> — a <strong>message box</strong> that says "Hello World!".</p>
+
+    <hr />
+
+    <h4>🌟 Meet the Code</h4>
+
+    <p>Here's the magic spell we'll be casting today:</p>
+
+    <pre><code>function greeting() {
+  Browser.msgBox("Greeting", "Hello World!", Browser.Buttons.OK);
+}</code></pre>
+
+    <p>Looks short? Oh yes, it is — but every single part of it has a job to do.</p>
+
+    <hr />
+
+    <h4>🧩 Step 1: The Function Declaration</h4>
+
+    <pre><code>function greeting() {</code></pre>
+
+    <ul>
+      <li>The keyword <code>function</code> tells the script that what follows is a <strong>block of reusable code</strong></li>
+      <li>The name <code>greeting</code> is what we'll use whenever we want to <strong>call</strong> or <strong>execute</strong> this piece of code</li>
+      <li>The parentheses <code>()</code> are empty right now, meaning the function doesn't take any input</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 Step 2: The Function Body</h4>
+
+    <pre><code>Browser.msgBox("Greeting", "Hello World!", Browser.Buttons.OK);</code></pre>
+
+    <p><code>Browser.msgBox()</code> is a special <strong>Apps Script method</strong> that creates a <strong>popup dialog</strong> box — similar to an alert window — right in your Google Workspace app.</p>
+
+    <hr />
+
+    <h4>🧩 Step 3: Breaking Down the Arguments</h4>
+
+    <p><strong>1. The Title – <code>"Greeting"</code></strong><br />
+    This appears at the top of your dialog box, giving the message box a heading.</p>
+
+    <p><strong>2. The Message – <code>"Hello World!"</code></strong><br />
+    This is the main text inside the dialog box.</p>
+
+    <p><strong>3. The Button Type – <code>Browser.Buttons.OK</code></strong><br />
+    This tells Google which buttons to show. Other options include:</p>
+    <ul>
+      <li><code>Browser.Buttons.OK_CANCEL</code></li>
+      <li><code>Browser.Buttons.YES_NO</code></li>
+      <li><code>Browser.Buttons.YES_NO_CANCEL</code></li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 Step 4: What Happens When It Runs</h4>
+
+    <p>When you click the <strong>Run</strong> button in your Google Apps Script editor, you'll see:</p>
+
+    <pre><code>------------------------
+|   Greeting           |
+------------------------
+|   Hello World!       |
+|         [OK]         |
+------------------------</code></pre>
+
+    <hr />
+
+    <h4>🧩 Step 5: Where It Works</h4>
+
+    <p>This message box works <strong>only within Google Workspace environments</strong> such as:</p>
+    <ul>
+      <li>Google Sheets</li>
+      <li>Google Docs</li>
+      <li>Google Slides</li>
+      <li>Forms (via attached scripts)</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 Step 6: Why It's Useful</h4>
+
+    <ul>
+      <li>✅ To notify users after a task ("Your sheet has been updated.")</li>
+      <li>✅ To confirm before performing an action ("Are you sure you want to delete this row?")</li>
+      <li>✅ To pause a script and wait for user input</li>
+      <li>✅ To debug or show quick results while testing your code</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧠 Challenge for You</h4>
+
+    <p>Try modifying the message to include your name:</p>
+
+    <pre><code>Browser.msgBox("Welcome!", "Hello from Pepe Programming Hub!", Browser.Buttons.OK);</code></pre>
+
+    <hr />
+
+    <h4>📝 Chapter 2 Review</h4>
+
+    <ol>
+      <li>The keyword used to define a function in Google Apps Script is <strong>function</strong>.</li>
+      <li><code>Browser.msgBox()</code> is used to display a <strong>dialog</strong> box.</li>
+      <li>The first argument in <code>Browser.msgBox()</code> sets the <strong>title</strong> of the dialog.</li>
+      <li><code>"Hello World!"</code> is the <strong>message</strong> displayed in the box.</li>
+      <li>To display only one "OK" button, we use <code>Browser.Buttons.<strong>OK</strong></code>.</li>
+      <li>The <code>greeting()</code> name identifies the <strong>name</strong> of the function.</li>
+      <li>Curly braces <code>{}</code> contain the function's <strong>body</strong>.</li>
+      <li>The <code>Browser.msgBox()</code> method only works inside <strong>Google Workspace</strong> environments.</li>
+      <li>To show both "Yes" and "No" buttons, use <code>Browser.Buttons.<strong>YES_NO</strong></code>.</li>
+      <li>When the function runs, the popup message shown is <strong>"Hello World!"</strong>.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 3 – Displaying "Hello World!" As A Toast Message</h3>
+
+    <p>Instead of popping up a dialog box that interrupts your work, your script can quietly slide a neat little notification into the corner of your Google Sheet — friendly, elegant, and non-intrusive.</p>
+
+    <p>That, my dear coder, is called a <strong>Toast Message</strong>.</p>
+
+    <hr />
+
+    <h4>🍞 The Code</h4>
+
+    <pre><code>function greeting() {
+  SpreadsheetApp.getActiveSpreadsheet()
+    .toast("Hello World!", "Greeting");
+}</code></pre>
+
+    <p>Short, smooth, and deliciously efficient.</p>
+
+    <hr />
+
+    <h4>🧩 Step 1: The Function Declaration</h4>
+
+    <pre><code>function greeting() {</code></pre>
+
+    <p>This line declares a function named <code>greeting</code> that doesn't need any input to run.</p>
+
+    <hr />
+
+    <h4>🧩 Step 2: Accessing the Spreadsheet</h4>
+
+    <pre><code>SpreadsheetApp.getActiveSpreadsheet()</code></pre>
+
+    <ul>
+      <li><strong>SpreadsheetApp</strong> — The Google Apps Script <strong>service</strong> that gives your code the ability to talk to and manipulate Google Sheets</li>
+      <li><strong>getActiveSpreadsheet()</strong> — This method tells the script: "Give me the spreadsheet that's currently open and active"</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 Step 3: The .toast() Method</h4>
+
+    <pre><code>.toast("Hello World!", "Greeting");</code></pre>
+
+    <p>A <strong>toast</strong> is a small pop-up notification that appears in the bottom-right corner of your Google Sheet — it doesn't block your work or require any button click.</p>
+
+    <p>You might've seen similar ones like:</p>
+    <ul>
+      <li>"File saved."</li>
+      <li>"Copy completed."</li>
+      <li>"Form submitted successfully."</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 Step 4: The Toast Arguments</h4>
+
+    <pre><code>.toast(message, title)</code></pre>
+
+    <ul>
+      <li><strong><code>"Hello World!"</code></strong> – The Message — the main content of the notification</li>
+      <li><strong><code>"Greeting"</code></strong> – The Title — the heading displayed above the message in bold</li>
+    </ul>
+
+    <p>So your toast might look like this in the corner of your Google Sheet:</p>
+
+    <pre><code>Greeting
+Hello World!</code></pre>
+
+    <hr />
+
+    <h4>🧩 Step 5: What Happens When It Runs</h4>
+
+    <ol>
+      <li>Connects to your currently open spreadsheet</li>
+      <li>Displays a short toast message in the lower-right corner of the screen</li>
+      <li>Shows the title and message</li>
+      <li>Quietly disappears after a few seconds — no clicks needed!</li>
+    </ol>
+
+    <hr />
+
+    <h4>🧩 Step 6: Why Use .toast() Instead of Browser.msgBox()?</h4>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th><code>Browser.msgBox()</code></th>
+          <th><code>SpreadsheetApp.toast()</code></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Type</td>
+          <td>Popup dialog box</td>
+          <td>Non-intrusive notification</td>
+        </tr>
+        <tr>
+          <td>User must click "OK"?</td>
+          <td>✅ Yes</td>
+          <td>❌ No</td>
+        </tr>
+        <tr>
+          <td>Appears where?</td>
+          <td>Center of screen</td>
+          <td>Bottom-right of Sheet</td>
+        </tr>
+        <tr>
+          <td>Stops script execution?</td>
+          <td>✅ Yes</td>
+          <td>❌ No</td>
+        </tr>
+        <tr>
+          <td>Best used for</td>
+          <td>Confirmations or decisions</td>
+          <td>Quick feedback or info</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <h4>🧩 Step 7: Practical Uses</h4>
+
+    <pre><code>// Show a completion message
+toast("Data saved successfully!", "Done");
+
+// Display progress during long tasks
+toast("Sorting data...", "Please wait");
+
+// Greet the user when the sheet opens
+toast("Welcome to Pepe Hub Sheet!", "Hello");
+
+// Notify about errors
+toast("Oops! Something went wrong.", "Error");</code></pre>
+
+    <hr />
+
+    <h4>📝 Chapter 3 Review</h4>
+
+    <ol>
+      <li>The keyword used to define a function is <strong>function</strong>.</li>
+      <li>The service that allows interaction with Google Sheets is <strong>SpreadsheetApp</strong>.</li>
+      <li>The method <code>getActiveSpreadsheet()</code> retrieves the currently <strong>open</strong> spreadsheet.</li>
+      <li>The <code>.toast()</code> method displays a small <strong>notification</strong> in the Sheet.</li>
+      <li>The first argument in <code>.toast()</code> is the <strong>message</strong> of the message.</li>
+      <li>The second argument in <code>.toast()</code> is the <strong>title</strong> shown in bold.</li>
+      <li>Toast messages appear at the <strong>bottom-right</strong> of the Google Sheet window.</li>
+      <li>Unlike <code>Browser.msgBox()</code>, <code>.toast()</code> does not require the user to click <strong>OK</strong>.</li>
+      <li><code>.toast()</code> is perfect for showing <strong>quick</strong> feedback or quick updates.</li>
+      <li>In the example, the message shown to the user is <strong>"Hello World!"</strong>.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 4 – Building A Custom Menu In Google Docs</h3>
+
+    <p>What if your Google Docs could have its own <strong>custom menu</strong> — sitting proudly on the toolbar beside "File," "Edit," and "View" — and when clicked, it runs your own function?</p>
+
+    <p>That's exactly what we're doing today!</p>
+
+    <hr />
+
+    <h4>🧠 THE BIG IDEA</h4>
+
+    <p>You're about to build two things:</p>
+
+    <ol>
+      <li>A <strong>menu item</strong> that appears in Google Docs</li>
+      <li>A <strong>function</strong> that runs when you click that menu item — showing a greeting popup</li>
+    </ol>
+
+    <pre><code>📄 Open Google Doc → 🧩 See new menu "PACKT" → 👆 Click "Greeting" → 💬 Popup says "Hello World!"</code></pre>
+
+    <hr />
+
+    <h4>💻 THE CODE</h4>
+
+    <pre><code>function createMenu() {
+  DocumentApp.getUi()
+    .createMenu("PACKT")
+    .addItem("Greeting", "greeting")
+    .addToUi();
+}
+
+function greeting() {
+  var ui = DocumentApp.getUi();
+  ui.alert("Greeting", "Hello World!", ui.ButtonSet.OK);
+}</code></pre>
+
+    <hr />
+
+    <h4>🧩 PART 1 — Creating the Menu</h4>
+
+    <pre><code>function createMenu() {
+  DocumentApp.getUi()
+    .createMenu("PACKT")
+    .addItem("Greeting", "greeting")
+    .addToUi();
+}</code></pre>
+
+    <p><strong>🔹 <code>DocumentApp.getUi()</code></strong></p>
+    <ul>
+      <li><code>DocumentApp</code> is the built-in Google Apps Script <strong>service for Google Docs</strong></li>
+      <li><code>.getUi()</code> means "get the user interface of the currently open document"</li>
+    </ul>
+
+    <p><strong>🔹 <code>.createMenu("PACKT")</code></strong></p>
+    <ul>
+      <li>Creates a <strong>new menu</strong> and names it <strong>PACKT</strong></li>
+      <li>You could name it anything: <code>"My Tools"</code>, <code>"Custom Commands"</code>, etc.</li>
+    </ul>
+
+    <p><strong>🔹 <code>.addItem("Greeting", "greeting")</code></strong></p>
+    <ul>
+      <li><code>"Greeting"</code> → is the <strong>label</strong> users will see in the menu</li>
+      <li><code>"greeting"</code> → is the <strong>name of the function</strong> that should run when clicked</li>
+    </ul>
+
+    <p><strong>🔹 <code>.addToUi()</code></strong></p>
+    <ul>
+      <li><strong>Attaches your new menu</strong> to the Google Docs toolbar</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 PART 2 — The Greeting Function</h4>
+
+    <pre><code>function greeting() {
+  var ui = DocumentApp.getUi();
+  ui.alert("Greeting", "Hello World!", ui.ButtonSet.OK);
+}</code></pre>
+
+    <p><strong>🔹 <code>var ui = DocumentApp.getUi();</code></strong></p>
+    <ul>
+      <li>Accessing the Google Docs user interface and storing it in a variable</li>
+    </ul>
+
+    <p><strong>🔹 <code>ui.alert("Greeting", "Hello World!", ui.ButtonSet.OK);</code></strong></p>
+    <ul>
+      <li>Creates an <strong>alert dialog box</strong> with:
+        <ol>
+          <li><strong>Title:</strong> <code>"Greeting"</code></li>
+          <li><strong>Message:</strong> <code>"Hello World!"</code></li>
+          <li><strong>Button Set:</strong> <code>ui.ButtonSet.OK</code> (just an OK button)</li>
+        </ol>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 HOW IT ALL WORKS TOGETHER</h4>
+
+    <ol>
+      <li>You run the <code>createMenu()</code> function</li>
+      <li>A new menu named <strong>PACKT</strong> appears in your Google Docs toolbar</li>
+      <li>Inside that menu, you'll find one item — <strong>Greeting</strong></li>
+      <li>When you click <strong>PACKT → Greeting</strong>, it runs the <code>greeting()</code> function</li>
+      <li>The <code>greeting()</code> function displays an alert box with your <strong>"Hello World!"</strong> message</li>
+    </ol>
+
+    <hr />
+
+    <h4>🧩 WHY THIS IS USEFUL</h4>
+
+    <p>Custom menus are powerful! They let you transform an ordinary Google Doc into a mini-application.</p>
+
+    <p>You can use them to:</p>
+    <ul>
+      <li>✅ Run formatting scripts</li>
+      <li>✅ Insert templates or custom text</li>
+      <li>✅ Generate reports</li>
+      <li>✅ Trigger add-ons or automations</li>
+      <li>✅ Offer users friendly, clickable commands</li>
+    </ul>
+
+    <hr />
+
+    <h4>📝 Chapter 4 Review</h4>
+
+    <ol>
+      <li>The <code>DocumentApp</code> service allows scripts to interact with <strong>Google Docs</strong>.</li>
+      <li>The method <code>.getUi()</code> retrieves the document's <strong>user</strong> interface.</li>
+      <li>The <code>.createMenu("PACKT")</code> method creates a new <strong>menu</strong> named PACKT.</li>
+      <li>The <code>.addItem("Greeting","greeting")</code> line adds a menu item labeled <strong>Greeting</strong>.</li>
+      <li>The second argument <code>"greeting"</code> in <code>.addItem()</code> refers to the name of a <strong>function</strong>.</li>
+      <li>The <code>.addToUi()</code> method attaches the new menu to the Google Docs <strong>toolbar</strong>.</li>
+      <li>The <code>ui.alert()</code> method displays a <strong>dialog</strong> box.</li>
+      <li>The third argument <code>ui.ButtonSet.OK</code> adds a single <strong>OK</strong> button.</li>
+      <li>To make the menu appear automatically when a document opens, wrap <code>createMenu()</code> inside an <strong>onOpen</strong> function.</li>
+      <li>When you click <strong>PACKT → Greeting</strong>, the alert box shows the message <strong>"Hello World!"</strong>.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 5 – Building A Custom HTML Sidebar In Google Docs</h3>
+
+    <p>Have you ever dreamed of giving your Google Docs a little <em>personality</em> — like having your own sidebar with buttons, colors, and interactive content?</p>
+
+    <p>Welcome to the world of <strong>HTML sidebars in Google Apps Script</strong>.</p>
+
+    <hr />
+
+    <h4>💻 The Code</h4>
+
+    <pre><code>function onOpen() {
+  var htmlOutput = HtmlService
+    .createHtmlOutput('&lt;button onclick="alert(\'Hello World!\');"&gt;Click Me&lt;/button&gt;')
+    .setTitle('My Sidebar');
+  
+  DocumentApp.getUi().showSidebar(htmlOutput);
+}</code></pre>
+
+    <p>This compact function will automatically display a sidebar containing a <strong>button</strong>. When you click the button, a <strong>browser-style alert</strong> pops up saying "Hello World!".</p>
+
+    <hr />
+
+    <h4>🧩 Step 1: Understanding the onOpen() Function</h4>
+
+    <pre><code>function onOpen() {</code></pre>
+
+    <p>In Google Apps Script, the <code>onOpen()</code> function is a <strong>special trigger</strong> that runs automatically whenever you open the document.</p>
+
+    <hr />
+
+    <h4>🧩 Step 2: Creating HTML Content with HtmlService</h4>
+
+    <pre><code>var htmlOutput = HtmlService
+  .createHtmlOutput('&lt;button onclick="alert(\'Hello World!\');"&gt;Click Me&lt;/button&gt;')
+  .setTitle('My Sidebar');</code></pre>
+
+    <p><strong>🔹 <code>HtmlService</code></strong><br />
+    This is a <strong>built-in service</strong> in Google Apps Script that lets you create and serve HTML, CSS, and JavaScript content — just like a mini web page, right inside your Google Workspace apps.</p>
+
+    <p><strong>🔹 <code>.createHtmlOutput('&lt;button onclick="alert(\'Hello World!\');"&gt;Click Me&lt;/button&gt;')</code></strong><br />
+    This method builds the HTML interface we want to show in the sidebar.</p>
+
+    <p>The HTML creates a <strong>button</strong> labeled <em>Click Me</em>:</p>
+    <ul>
+      <li>The <code>onclick</code> attribute tells the button what to do when it's clicked</li>
+      <li>When the user clicks the button, a browser alert pops up with "Hello World!"</li>
+    </ul>
+
+    <p><strong>🔹 <code>.setTitle('My Sidebar')</code></strong><br />
+    This gives the sidebar a <strong>title</strong>, which will appear at the top of the panel.</p>
+
+    <hr />
+
+    <h4>🧩 Step 3: Displaying the Sidebar</h4>
+
+    <pre><code>DocumentApp.getUi().showSidebar(htmlOutput);</code></pre>
+
+    <p>This is the command that <strong>shows the sidebar</strong> inside the Google Docs interface:</p>
+    <ul>
+      <li><code>DocumentApp</code> → refers to the Google Docs environment</li>
+      <li><code>.getUi()</code> → accesses the <strong>user interface</strong> of that document</li>
+      <li><code>.showSidebar(htmlOutput)</code> → tells the UI to display the HTML content</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 Step 4: What Happens When You Open the Document</h4>
+
+    <ol>
+      <li>You open your Google Doc</li>
+      <li>The <code>onOpen()</code> trigger runs automatically</li>
+      <li>It creates an HTML output containing a clickable button</li>
+      <li>The sidebar titled "My Sidebar" appears</li>
+      <li>You click the button — and an alert pops up saying <strong>"Hello World!"</strong></li>
+    </ol>
+
+    <hr />
+
+    <h4>🧩 Step 5: Why This Is Awesome</h4>
+
+    <p>This approach unlocks endless creative possibilities because you can now use <strong>HTML + CSS + JavaScript</strong> right inside Google Docs!</p>
+
+    <p>Here are a few ideas:</p>
+    <ul>
+      <li>✅ Create a sidebar with student information or progress updates</li>
+      <li>✅ Add input fields for collecting user data</li>
+      <li>✅ Display tutorial steps or embedded videos</li>
+      <li>✅ Link buttons to functions that edit the document content</li>
+    </ul>
+
+    <hr />
+
+    <h4>📝 Chapter 5 Review</h4>
+
+    <ol>
+      <li>The function <code>onOpen()</code> runs automatically when a document is <strong>opened</strong>.</li>
+      <li>The <code>HtmlService</code> is used to create <strong>HTML</strong> content inside Google Workspace apps.</li>
+      <li>The method <code>.createHtmlOutput()</code> generates a block of <strong>HTML</strong> code.</li>
+      <li>The <code>&lt;button&gt;</code> tag in the HTML creates a clickable <strong>button</strong>.</li>
+      <li>The <code>onclick</code> attribute specifies the JavaScript code to run when the button is <strong>clicked</strong>.</li>
+      <li>In the example, clicking the button triggers a browser alert that says <strong>"Hello World!"</strong>.</li>
+      <li>The <code>.setTitle('My Sidebar')</code> method sets the <strong>title</strong> of the sidebar.</li>
+      <li>The command <code>DocumentApp.getUi().showSidebar()</code> displays the HTML in the <strong>sidebar</strong>.</li>
+      <li>The sidebar appears on the <strong>right</strong> side of the Google Docs interface.</li>
+      <li>This approach allows you to combine Apps Script with <strong>HTML</strong>, CSS, and JavaScript for interactive UIs.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 6 – Creating a Custom Add-ons Menu in Google Docs</h3>
+
+    <p>So far, you've probably built a simple HTML interface in your script by writing it directly as a string — something like this:</p>
+
+    <pre><code>HtmlService.createHtmlOutput("&lt;button&gt;Click Me&lt;/button&gt;");</code></pre>
+
+    <p>That's quick and easy for tiny snippets, but it can get messy fast! Luckily, Google Apps Script lets us <strong>create separate HTML files</strong> and use them neatly in our projects.</p>
+
+    <hr />
+
+    <h4>🧩 Step 1: Creating a Separate HTML File</h4>
+
+    <p>In your script editor, follow these simple steps:</p>
+
+    <ol>
+      <li>Go to <strong>File → New → HTML file</strong></li>
+      <li>A small box pops up asking for a file name</li>
+      <li>Type <strong>Index</strong> (no need to add <code>.html</code> — it does that for you)</li>
+      <li>Click <strong>OK</strong></li>
+    </ol>
+
+    <p>Google will even add a few default lines of HTML for you:</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;base target="_top"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <hr />
+
+    <h4>💡 Step 2: Add a Button to the HTML Page</h4>
+
+    <p>Between the <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code> tags, add this simple button code:</p>
+
+    <pre><code>&lt;button onclick="alert('Hello World!');"&gt;Click Me&lt;/button&gt;</code></pre>
+
+    <hr />
+
+    <h4>⚙️ Step 3: Create Your Add-ons Menu in Apps Script</h4>
+
+    <p>Now switch back to your <code>Code.gs</code> file and add this script:</p>
+
+    <pre><code>function onOpen() {
+  DocumentApp.getUi()
+    .createAddonMenu()
+    .addItem("Show Sidebar", "showSidebar")
+    .addToUi();
+}
+
+function showSidebar() {
+  DocumentApp.getUi().showSidebar(
+    HtmlService.createHtmlOutputFromFile('Index')
+      .setTitle('Greetings')
+  );
+}</code></pre>
+
+    <p>Let's break down what's happening here:</p>
+    <ul>
+      <li><code>onOpen()</code> runs automatically when the document opens</li>
+      <li>It creates a <strong>custom Add-ons menu</strong> using <code>.createAddonMenu()</code></li>
+      <li>Inside that menu, we add a clickable item — <strong>"Show Sidebar"</strong> — that triggers the <code>showSidebar()</code> function</li>
+      <li><code>showSidebar()</code> uses <code>HtmlService</code> to pull our <strong>Index.html</strong> file and display it neatly inside a <strong>sidebar</strong></li>
+    </ul>
+
+    <hr />
+
+    <h4>🧪 Step 4: Test It Out!</h4>
+
+    <ol>
+      <li>Run the <code>onOpen()</code> function manually, or</li>
+      <li>Simply reload your Google Doc</li>
+    </ol>
+
+    <p>You'll now see a new <strong>Add-ons menu</strong> at the top bar of your document. Inside it, there's your shiny new item — "Show Sidebar."</p>
+
+    <p>Click it, and your sidebar slides into view with the <strong>"Click Me"</strong> button. When clicked, it politely says "Hello World!"</p>
+
+    <hr />
+
+    <h4>🎓 Why This Matters</h4>
+
+    <p>By separating your HTML file from your Apps Script, you:</p>
+    <ul>
+      <li>Keep your code <strong>organized and readable</strong></li>
+      <li>Make it easy to <strong>update your interface</strong> later</li>
+      <li>Enable richer designs — forms, buttons, tables, and even CSS or JavaScript</li>
+    </ul>
+
+    <hr />
+
+    <h4>📝 Chapter 6 Review</h4>
+
+    <ol>
+      <li>The <code>HtmlService.createHtmlOutputFromFile()</code> method loads content from a <strong>HTML</strong> file.</li>
+      <li>To create a new HTML file in Apps Script, go to <strong>File → New → HTML</strong> file.</li>
+      <li>The <code>onOpen()</code> function runs automatically whenever the <strong>document</strong> opens.</li>
+      <li>The method <code>.createAddonMenu()</code> helps create a custom <strong>menu</strong> in Google Docs.</li>
+      <li>Inside <code>.addItem("Show Sidebar", "showSidebar")</code>, the first parameter is the <strong>label</strong> shown to users.</li>
+      <li>The second parameter (<code>"showSidebar"</code>) is the name of the <strong>function</strong> that runs when clicked.</li>
+      <li>HTML files can contain elements like buttons, forms, and <strong>styles</strong>.</li>
+      <li>Using a separate HTML file keeps your code more <strong>organized</strong> and maintainable.</li>
+      <li>The title "Greetings" is set using the <code>.set<strong>Title</strong>()</code> method.</li>
+      <li>When you click "Show Sidebar," your HTML appears in a <strong>sidebar</strong> on the right side of the document.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 7 – Creating a Modal Dialog in Google Docs</h3>
+
+    <p>Imagine you're creating an Add-on that needs the user's full attention — maybe to confirm an action, display a warning, or collect some data before they continue. You don't want them clicking around the document while this message is showing, right?</p>
+
+    <p>That's where the <strong>modal dialog</strong> comes in.</p>
+
+    <p>Unlike a sidebar (which politely sits to the side), a modal dialog takes center stage. It <em>locks the background</em> — meaning the user can't edit or type in the document until they close it.</p>
+
+    <hr />
+
+    <h4>⚙️ Step 1: Update the Script Code</h4>
+
+    <pre><code>function onOpen() {
+  DocumentApp.getUi()
+    .createAddonMenu()
+    .addItem("Show Dialog", "showDialog")
+    .addToUi();
+}
+
+function showDialog() {
+  var html = HtmlService.createHtmlOutputFromFile('Index');
+  DocumentApp.getUi().showModalDialog(html, 'Greeting');
+}</code></pre>
+
+    <hr />
+
+    <h4>🧠 Let's Break It Down</h4>
+
+    <ul>
+      <li><strong><code>onOpen()</code></strong> — This function runs automatically whenever your Google Doc opens. It adds a new menu option under your Add-ons tab called <strong>"Show Dialog."</strong></li>
+      <li><strong><code>createAddonMenu()</code></strong> — This method creates the Add-on menu itself.</li>
+      <li><strong><code>addItem("Show Dialog", "showDialog")</code></strong> — This line adds a clickable item to the menu. When a user clicks <strong>Show Dialog</strong>, it triggers the <strong>showDialog()</strong> function.</li>
+      <li><strong><code>showDialog()</code></strong> — This function creates the dialog box itself:
+        <ul>
+          <li>First, it loads your <strong>Index.html</strong> file using <code>HtmlService.createHtmlOutputFromFile('Index')</code></li>
+          <li>Then, it uses <code>showModalDialog()</code> to display that HTML as a <strong>blocking dialog box</strong> titled <em>"Greeting"</em></li>
+        </ul>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h4>🖥️ Step 2: Run and Test It</h4>
+
+    <ol>
+      <li>Save your script</li>
+      <li>Run the <code>onOpen()</code> function (or just reload the document)</li>
+      <li>Go to the <strong>Add-ons menu → Chapter 2 → Show Dialog</strong></li>
+    </ol>
+
+    <p>Your modal dialog pops up front and center with your "Click Me" button sitting proudly inside it.</p>
+
+    <p>Notice something? You can't click anywhere else in the document until you close that dialog. That's the magic of a <strong>modal</strong> interface.</p>
+
+    <hr />
+
+    <h4>🎨 Step 3: Understanding When to Use It</h4>
+
+    <p>Use a modal dialog when you want the user's full focus. Examples include:</p>
+    <ul>
+      <li>Confirming before deleting or submitting data</li>
+      <li>Displaying important messages or warnings</li>
+      <li>Collecting short form input (like a name or feedback)</li>
+      <li>Guiding users through a one-time setup</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧩 Step 4: Customizing Your Dialog</h4>
+
+    <p>You can make your modal more appealing by adding custom HTML, CSS, or even JavaScript inside your <code>Index.html</code> file:</p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;base target="_top"&gt;
+    &lt;style&gt;
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+      button {
+        background-color: royalblue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: dodgerblue;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h2&gt;Hello, Friend!&lt;/h2&gt;
+    &lt;p&gt;Welcome to your custom Google Docs Add-on dialog.&lt;/p&gt;
+    &lt;button onclick="google.script.host.close()"&gt;Close Dialog&lt;/button&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <p>Now when you run your dialog, it feels like a real mini-app inside Google Docs.</p>
+
+    <hr />
+
+    <h4>📝 Chapter 7 Review</h4>
+
+    <ol>
+      <li>A <strong>modal dialog</strong> prevents the user from editing the <strong>document</strong> while it is open.</li>
+      <li>The method used to show a modal dialog is <code>show<strong>Modal</strong>Dialog()</code>.</li>
+      <li>The function that runs automatically when the document opens is called <strong>onOpen</strong>.</li>
+      <li>The <code>HtmlService.createHtmlOutputFromFile()</code> method loads the <strong>HTML</strong> file.</li>
+      <li>The <code>addItem("Show Dialog", "showDialog")</code> line adds a clickable item to the Add-ons <strong>menu</strong>.</li>
+      <li>A modal dialog stays on top until the user <strong>closes</strong> it.</li>
+      <li>The first argument inside <code>showModalDialog()</code> is the <strong>HTML</strong> object.</li>
+      <li>The second argument in <code>showModalDialog()</code> is the dialog's <strong>title</strong>.</li>
+      <li>A sidebar allows editing in the background, but a modal dialog <strong>blocks</strong> interaction with the document.</li>
+      <li>To close a modal dialog from within HTML, you can call <code>google.script.host.<strong>close</strong>()</code>.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 8 – Creating a Modeless Dialog in Google Docs</h3>
+
+    <p>Imagine this: you're working on a Google Doc, and your Add-on opens a little helper window — maybe it gives tips, or shows shortcuts, or even allows you to insert snippets of text as you type. You wouldn't want that window to freeze your document, right? You'd want to keep typing, scrolling, and editing while the helper floats nearby.</p>
+
+    <p>That's exactly what a <strong>modeless dialog</strong> is built for.</p>
+
+    <p>Unlike the <strong>modal dialog</strong>, which locks the screen and demands your attention, the <strong>modeless dialog</strong> politely stays open in the corner — you can click, type, or edit your document while it quietly waits for your next move.</p>
+
+    <hr />
+
+    <h4>⚙️ Step 1: Update the Script</h4>
+
+    <p>Here's the updated function:</p>
+
+    <pre><code>function showDialog() {
+  var html = HtmlService.createHtmlOutputFromFile('Index');
+  DocumentApp.getUi().showModelessDialog(html, 'Greeting');
+}</code></pre>
+
+    <p>Did you notice the difference? We simply replaced <strong><code>showModalDialog</code></strong> with <strong><code>showModelessDialog</code></strong>.</p>
+
+    <hr />
+
+    <h4>🧠 Step 2: Understanding What's Happening</h4>
+
+    <ul>
+      <li>The first line creates a variable named <code>html</code> that loads your HTML file — <code>Index.html</code></li>
+      <li>The next line calls the <code>showModelessDialog()</code> method, which displays the content in a floating dialog box</li>
+    </ul>
+
+    <p><strong>Key distinction:</strong></p>
+    <ul>
+      <li>A <strong>modal</strong> dialog <em>locks</em> your document — you can't click or type until it's closed</li>
+      <li>A <strong>modeless</strong> dialog <em>floats</em> above your document, allowing you to keep working freely</li>
+    </ul>
+
+    <hr />
+
+    <h4>💻 Step 3: Test Your Modeless Dialog</h4>
+
+    <ol>
+      <li>Save your script changes</li>
+      <li>Run <code>onOpen()</code> or reload your Google Doc</li>
+      <li>Go to <strong>Add-ons → Chapter 2 → Show Dialog</strong></li>
+    </ol>
+
+    <p>You'll now see your dialog appear just like before, but this time, notice how you can:</p>
+    <ul>
+      <li>Click inside your document</li>
+      <li>Type new text</li>
+      <li>Even drag the dialog around the screen</li>
+    </ul>
+
+    <p>That's the <strong>modeless</strong> behavior in action!</p>
+
+    <hr />
+
+    <h4>🎨 Step 4: When to Use Modeless Dialogs</h4>
+
+    <p>Modeless dialogs are perfect when you want your Add-on to assist the user continuously without blocking their workflow.</p>
+
+    <p>Use a modeless dialog for:</p>
+    <ul>
+      <li>Real-time tools (like word counters, translators, or note helpers)</li>
+      <li>Forms that users fill while editing text</li>
+      <li>Live feedback windows or hint panels</li>
+      <li>In-document guides or floating tool palettes</li>
+    </ul>
+
+    <hr />
+
+    <h4>✨ Bonus: Keep It Pretty and Functional</h4>
+
+    <p>You can use the same <code>Index.html</code> you built earlier. Add styles or controls as you wish:</p>
+
+    <pre><code>&lt;button onclick="google.script.host.close()"&gt;Close Dialog&lt;/button&gt;</code></pre>
+
+    <hr />
+
+    <h4>💡 The Big Picture</h4>
+
+    <p>By now, you've built <strong>three user interface types</strong> in Google Apps Script:</p>
+
+    <ol>
+      <li><strong>Sidebar</strong> — docks neatly on the right, great for long-term panels</li>
+      <li><strong>Modal Dialog</strong> — locks the document until dismissed, best for alerts or confirmations</li>
+      <li><strong>Modeless Dialog</strong> — floats freely, lets users multitask, ideal for tools and assistants</li>
+    </ol>
+
+    <hr />
+
+    <h4>📝 Chapter 8 Review</h4>
+
+    <ol>
+      <li>A <strong>modeless dialog</strong> allows you to continue <strong>working</strong> while the dialog is open.</li>
+      <li>The Apps Script method to display it is <code>show<strong>Modeless</strong>Dialog()</code>.</li>
+      <li>The only change from the modal version is replacing <code>showModalDialog</code> with <code>show<strong>Modeless</strong>Dialog</code>.</li>
+      <li>A modeless dialog can be <strong>dragged</strong> around the screen.</li>
+      <li>Unlike modal dialogs, modeless ones do <strong>not</strong> <strong>block</strong> user interaction with the document.</li>
+      <li>The HTML file loaded inside the dialog is created with <code>HtmlService.createHtmlOutputFrom<strong>File</strong>()</code>.</li>
+      <li>The title of the dialog appears as the <strong>second</strong> argument in the <code>showModelessDialog</code> method.</li>
+      <li>Modeless dialogs are ideal for tools that provide <strong>real</strong>-time help or feedback.</li>
+      <li>You can close a modeless dialog using <code>google.script.host.<strong>close</strong>()</code>.</li>
+      <li>Modeless dialogs act like floating <strong>stickies</strong> instead of blocking popups.</li>
+    </ol>
+
+    <hr />
+
+    <h3>📘 Day 9 – Debugging Like a Pro</h3>
+
+    <p>Every programmer — beginner or seasoned — faces this moment: your code runs, but it doesn't behave as expected. Maybe the output is strange, maybe nothing happens at all. The question then becomes: <em>what's really going on inside this code?</em></p>
+
+    <p>That's where <strong>debugging</strong> steps in — and Google Apps Script gives you excellent tools for it.</p>
+
+    <p>The two most powerful are:</p>
+    <ol>
+      <li><strong>Logger</strong>, for writing helpful messages as your code runs</li>
+      <li><strong>Breakpoints</strong>, for stopping code execution and inspecting variables in real time</li>
+    </ol>
+
+    <hr />
+
+    <h4>🔍 Step 1: Using the Logger to Track Your Script</h4>
+
+    <p>The <strong>Logger</strong> class in Apps Script is your friendly "black box" — it records information as your script runs, so you can peek inside later to see what happened.</p>
+
+    <h4>Example Code:</h4>
+
+    <pre><code>function showDialog() {
+  var ui = DocumentApp.getUi();
+  var response = ui.prompt(
+    'Greeting',
+    'Will you enter your name below?',
+    ui.ButtonSet.YES_NO
+  );
+
+  if (response.getSelectedButton() == ui.Button.YES) {
+    Logger.log('Your name is %s.', response.getResponseText());
+  } else if (response.getSelectedButton() == ui.Button.NO) {
+    Logger.log('You clicked "NO" button');
+  } else {
+    Logger.log('You closed the dialog.');
+  }
+}</code></pre>
+
+    <p>Let's unpack what's happening:</p>
+    <ul>
+      <li><code>ui.prompt()</code> shows a small input dialog asking the user to enter their name</li>
+      <li>The user then clicks <strong>Yes</strong>, <strong>No</strong>, or closes the dialog</li>
+      <li>Depending on the choice, different messages are logged using <code>Logger.log()</code></li>
+    </ul>
+
+    <hr />
+
+    <h4>🧠 Step 2: Viewing the Logs</h4>
+
+    <p>After running your <code>showDialog()</code> function, open your logs:</p>
+    <ul>
+      <li>On <strong>Windows</strong>, press <code>Ctrl + Enter</code></li>
+      <li>On <strong>Mac</strong>, press <code>Command + Enter</code></li>
+      <li>Or go to <strong>View → Logs</strong></li>
+    </ul>
+
+    <p>You'll see your messages neatly displayed with timestamps.</p>
+
+    <hr />
+
+    <h4>🧩 Step 3: Another Example — The debug() Function</h4>
+
+    <pre><code>function debug() {
+  var square = 0;
+  for (var i = 0; i &lt; 10; i++) {
+    square = i * i;
+    Logger.log(square);
+  }
+}</code></pre>
+
+    <p>When you run this function and open your logs, you'll see:</p>
+
+    <pre><code>0
+1
+4
+9
+16
+25
+36
+49
+64
+81</code></pre>
+
+    <p>This shows you how variables change as the loop runs — a fantastic way to <em>see inside</em> your logic.</p>
+
+    <hr />
+
+    <h4>🐞 Step 4: Debugging with Breakpoints</h4>
+
+    <p>Sometimes, you need more than just logs. You want to <strong>pause</strong> the script mid-run and <em>inspect variables directly</em>. That's where <strong>breakpoints</strong> come in.</p>
+
+    <p>Here's how to do it:</p>
+    <ol>
+      <li>In the Apps Script editor, click the line number where you want your code to pause. A <strong>red dot</strong> appears — that's your breakpoint.</li>
+      <li>From the <strong>Select function</strong> dropdown at the top, choose the function you want to debug</li>
+      <li>Click the <strong>Debug button</strong> — the little insect icon 🪳 beside the function selector</li>
+    </ol>
+
+    <p>The script will start running and then stop at your breakpoint. When paused, the editor splits into two sections:</p>
+    <ul>
+      <li>The <strong>top</strong> shows your code</li>
+      <li>The <strong>bottom</strong> shows your variables and their values</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧭 Step 5: Step Through the Code</h4>
+
+    <p>Once paused, you can move through the code step by step using these controls:</p>
+    <ul>
+      <li><strong>Step Into</strong> – goes inside a function call line by line</li>
+      <li><strong>Step Over</strong> – runs the current line and moves to the next</li>
+      <li><strong>Step Out</strong> – jumps out of the current function to the next caller</li>
+      <li><strong>Continue</strong> – resumes running until the next breakpoint</li>
+    </ul>
+
+    <hr />
+
+    <h4>🧹 Step 6: Finishing and Cleaning Up</h4>
+
+    <p>When you're done debugging:</p>
+    <ul>
+      <li>Click the <strong>Stop Debugging</strong> button (the red square)</li>
+      <li>Remove breakpoints by clicking their red dots again</li>
+    </ul>
+
+    <hr />
+
+    <h4>💬 Why Debugging Matters</h4>
+
+    <p>Debugging isn't just about fixing errors — it's about <strong>understanding your program</strong>. By observing how variables change, you start thinking like your code thinks. That's how you move from "guessing" what's wrong to <strong>knowing</strong> exactly what's wrong.</p>
+
+    <p>Great developers don't avoid bugs — they simply know how to chase them down.</p>
+
+    <hr />
+
+    <h4>📝 Chapter 9 Review</h4>
+
+    <ol>
+      <li>The <code>Logger</code> class helps to record and display <strong>messages</strong> while the script runs.</li>
+      <li>To view logs, press <strong>Ctrl + Enter</strong> (Windows) or <strong>Command + Enter</strong> (Mac), or go to <strong>View → Logs</strong>.</li>
+      <li>The method to record messages is <code>Logger.<strong>log</strong>()</code>.</li>
+      <li>The <code>ui.prompt()</code> method displays a <strong>dialog</strong> dialog box.</li>
+      <li>A <strong>breakpoint</strong> is set by clicking the <strong>line</strong> number where you want to pause execution.</li>
+      <li>The <strong>Debug</strong> button in the toolbar looks like a small <strong>insect</strong> icon.</li>
+      <li>When the debugger pauses, variable values are shown in the <strong>bottom</strong> section of the editor.</li>
+      <li>The "Step Into," "Step Over," and "Step Out" buttons help you move through the code <strong>step</strong> by <strong>step</strong>.</li>
+      <li>To end debugging, click on the <strong>Stop Debugging</strong> button and remove all <strong>breakpoints</strong>.</li>
+      <li>Debugging helps you understand what your code is actually <strong>doing</strong>.</li>
+    </ol>
+
+    <hr />
+
+    <h2>🎓 CONCLUSION</h2>
+
+    <p>Congratulations! You've completed the entire Google Apps Script Masterclass Series. You've gone from complete beginner to being able to:</p>
+
+    <ul>
+      <li>✅ Understand what Google Apps Script is and how it works</li>
+      <li>✅ Write your first scripts and functions</li>
+      <li>✅ Create custom menus and user interfaces</li>
+      <li>✅ Build sidebars, modal dialogs, and modeless dialogs</li>
+      <li>✅ Debug your code like a professional</li>
+      <li>✅ Create complete Add-ons for Google Docs and Sheets</li>
+    </ul>
+
+    <hr />
+
+    <h3>🚀 What's Next?</h3>
+
+    <p>The journey doesn't end here! Here are some ideas for what you can build next:</p>
+
+    <ul>
+      <li>📊 <strong>Automated Reporting Systems</strong> – Generate PDF reports from Sheet data</li>
+      <li>📧 <strong>Email Automation</strong> – Send personalized emails based on form submissions</li>
+      <li>📅 <strong>Calendar Integration</strong> – Create events automatically from spreadsheet data</li>
+      <li>📝 <strong>Document Generators</strong> – Create customized documents from templates</li>
+      <li>🎯 <strong>Project Management Tools</strong> – Build custom workflows for your team</li>
+    </ul>
+
+    <hr />
+
+    <h3>🔗 Stay Connected</h3>
+
+    <p>Keep exploring more lessons and tutorials at <a href="https://agunechemba.name.ng/"><strong>Agunechemba's Tech Classroom</strong></a> — where learning meets creativity.</p>
+
+    <hr />
+
+    <blockquote>🧠 <em>"Automation is not about replacing people — it's about freeing them to think bigger."</em></blockquote>
+
+    <hr />
+
+    <p><strong>Happy Coding! 🚀</strong></p>
+  </article>
+</body>
+</html>

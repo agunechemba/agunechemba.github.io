@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebSockets: Why It’s a Game-Changer — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <img src="https://agunechembaekene.wordpress.com/wp-content/uploads/2025/08/websocket.jpg" width="100%" />
+
+    <p>Ever wondered how a message you send instantly appears on your friend's phone, or how a live sports score updates on your screen without you having to refresh the page? The secret behind this magic is a technology called <strong>WebSockets</strong>.</p>
+
+    <hr />
+
+    <h3>The Old Way: A "Snail Mail" Conversation 📬</h3>
+
+    <p>Think about how websites used to work. Your browser would send a request to a server—like writing a letter—and the server would send back a reply. Then, silence. To check for updates, you had to keep sending new letters, asking, "Anything new yet?" This process, called <strong>polling</strong>, was slow and inefficient, wasting time and resources.</p>
+
+    <hr />
+
+    <h3>The New Way: A Direct Phone Call 📞</h3>
+
+    <p>WebSockets changed all that. Instead of sending letters, your browser and the server open a direct, persistent phone call. Once the connection is established, either side can talk instantly, whenever they have something to say. It's a two-way, open conversation that stays active until one side decides to end it.</p>
+
+    <hr />
+
+    <h3>It's a Team Effort: The Two Sides of a WebSocket 🤝</h3>
+
+    <p>This real-time communication isn't powered by a single technology, but by two working together.</p>
+
+    <ul>
+      <li><strong>Client-Side (JavaScript):</strong> Your web browser, using JavaScript, initiates the connection. It sends the initial request to "upgrade" the communication from the old "letter-sending" method to a "phone call." JavaScript is also what you use to send messages and listen for new ones coming from the server.</li>
+      <li><strong>Server-Side (Multiple Languages):</strong> For the "phone call" to work, a dedicated server application has to be running and listening. This is the other half of the conversation. The server, which can be built using languages like <strong>Node.js</strong>, <strong>Python</strong>, or <strong>Java</strong>, is responsible for accepting your connection, managing all the other people on the "call," and making sure everyone gets the right messages. JavaScript alone can't do this, because a browser doesn't have the ability to listen for incoming connections from other computers.</li>
+    </ul>
+
+    <p>Together, the browser and the server create a seamless, real-time experience that feels effortless.</p>
+
+    <hr />
+
+    <h3>Why It's a Game-Changer 🚀</h3>
+
+    <p>This "always-on" connection is the key to modern web applications. WebSockets eliminate the delays and inefficiency of older methods, making them perfect for anything that needs instant updates. From live chat and online games to real-time stock tickers, they are the foundation of a faster, more connected web.</p>
+
+    <h3>✍️ Fill-in-the-Gap Questions</h3>
+
+    <ol>
+      <li>Before WebSockets, websites relied on a method called <strong>__________</strong>, where the browser repeatedly asked the server if there were any updates.</li>
+      <li>Polling is inefficient because it wastes both <strong>__________</strong> and <strong>__________</strong>.</li>
+      <li>WebSockets create a persistent connection, often compared to a <strong>__________</strong> call instead of sending letters.</li>
+      <li>Once a WebSocket connection is established, <strong>__________</strong> side(s) can send messages at any time.</li>
+      <li>In a WebSocket setup, the <strong>__________</strong> (in the browser) is responsible for initiating the connection.</li>
+      <li>The client’s connection request asks the server to “<strong>__________</strong>” the communication from normal HTTP to a WebSocket.</li>
+      <li>A WebSocket server can be written in languages such as <strong>__________</strong>, <strong>__________</strong>, or <strong>__________</strong>.</li>
+      <li>JavaScript running in the browser cannot act as a server because it cannot <strong>__________</strong> for incoming connections.</li>
+      <li>Real-time applications like chat apps, online games, and <strong>__________</strong> rely on WebSockets for instant updates.</li>
+      <li>The biggest advantage of WebSockets over polling is that the connection stays <strong>__________</strong>, eliminating unnecessary delays.</li>
+    </ol>
+  </article>
+</body>
+</html>
