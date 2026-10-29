@@ -1,198 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png">
-<title>Published Sites</title>
-<style>
-  /* ---------- SHARED PALETTE ---------- */
-  :root {
-    --bg: #faf9f7;
-    --bg-mist: #f1efe9;
-    --card: #ffffff;
-    --ink: #2e2e2e;
-    --muted: #6b6b6b;
-    --border: #e5e2da;
-    --accent: #6a8a6a;
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  <title>Projects — Agunechemba Ekene</title>
+  <meta name="description" content="GitHub Pages projects published by Agunechemba Ekene." />
+  <meta name="author" content="Agunechemba Ekene" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://agunechemba.github.io/projects.html" />
 
-  body {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: radial-gradient(circle at 30% 20%, var(--bg-mist) 0%, var(--bg) 90%);
-    min-height: 100vh;
-    display: flex;
-    padding: 24px;
-    color: var(--ink);
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }
+  <link rel="icon" type="image/png" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-icon.png" />
+  <link rel="apple-touch-icon" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-icon.png" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f7f9fb" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0a0c10" media="(prefers-color-scheme: dark)" />
 
-  /* ---------- CARD ---------- */
-  .card {
-    width: 100%;
-    max-width: 560px;
-    margin: auto;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    padding: 40px 32px;
-    box-shadow: 0 24px 48px -28px rgba(0, 0, 0, 0.18);
-  }
+  <link rel="alternate" type="application/rss+xml" title="Agunechemba" href="https://agunechemba.github.io/feed.xml" />
 
-  .title {
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--muted);
-  }
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Agunechemba" />
+  <meta property="og:title" content="Projects — Agunechemba Ekene" />
+  <meta property="og:description" content="GitHub Pages projects published by Agunechemba Ekene." />
+  <meta property="og:url" content="https://agunechemba.github.io/projects.html" />
+  <meta property="og:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png" />
 
-  /* ---------- LIST ---------- */
-  #list {
-    list-style: none;
-    counter-reset: repo;
-    display: grid;
-    gap: 10px;
-    margin-top: 24px;
-  }
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@agunechemba_e" />
+  <meta name="twitter:creator" content="@agunechemba_e" />
+  <meta name="twitter:title" content="Projects — Agunechemba Ekene" />
+  <meta name="twitter:description" content="GitHub Pages projects published by Agunechemba Ekene." />
+  <meta name="twitter:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png" />
 
-  #list li {
-    counter-increment: repo;
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 14px 16px;
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    transition: border-color .2s ease;
-  }
-
-  #list li:hover { border-color: var(--accent); }
-
-  /* numbered badge */
-  #list li::before {
-    content: counter(repo);
-    flex: 0 0 auto;
-    width: 24px;
-    height: 24px;
-    margin-top: 2px;
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    background: var(--accent);
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1;
-  }
-
-  #list .body {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    min-width: 0;
-  }
-
-  #list a {
-    color: var(--ink);
-    font-weight: 500;
-    text-decoration: none;
-    word-break: break-word;
-  }
-
-  #list a:hover {
-    color: var(--accent);
-    text-decoration: underline;
-  }
-
-  #list .desc {
-    color: var(--muted);
-    font-size: 0.875rem;
-  }
-
-  /* status rows: no number, muted */
-  #list li.status {
-    counter-increment: none;
-    color: var(--muted);
-  }
-  #list li.status::before { display: none; }
-
-  .signature {
-    margin-top: 36px;
-    font-size: 11px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #b3b0a8;
-  }
-
-  @media (max-width: 480px) {
-    .card { padding: 28px 18px; border-radius: 20px; }
-    .title { font-size: 18px; }
-  }
-</style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <main class="card">
-    <h1 class="title">Published Sites</h1>
-    <ul id="list" aria-live="polite"></ul>
-    <div class="signature">agunechemba</div>
-  </main>
 
-  <script>
-    (async () => {
-      const list = document.getElementById('list');
-      list.innerHTML = '<li class="status">Loading…</li>';
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="brand" href="https://agunechemba.github.io/" aria-label="Agunechemba home">
+      <img
+        class="brand__logo"
+        src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png"
+        alt=""
+        width="34"
+        height="34"
+        loading="eager"
+        decoding="async"
+      />
+      <span class="brand__name">Agunechemba<span> Ekene</span></span>
+    </a>
 
-      try {
-        const res = await fetch(
-          'https://api.github.com/users/agunechemba/repos?per_page=100'
-        );
-        if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
-        const repos = await res.json();
+    <nav class="nav">
+      <a href="https://agunechemba.name.ng/PPH" target="_blank" rel="noopener noreferrer">PPH</a>
+      <a href="https://www.linkedin.com/in/agunechembaekene/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://wa.me/2349066115252" class="cta" target="_blank" rel="noopener noreferrer">Contact</a>
+    </nav>
+  </div>
+</header>
 
-        const pages = repos
-          .filter(r => r.has_pages)
-          .sort((a, b) => a.name.localeCompare(b.name));
+<main>
+  <section class="hero">
+    <p class="eyebrow">Published</p>
+    <h1>projects</h1>
+  </section>
 
-        if (!pages.length) {
-          list.innerHTML = '<li class="status">No published sites found.</li>';
-          return;
-        }
+  <!-- Search -->
+  <div class="search-wrap">
+    <div class="search">
+      <svg class="search__icon" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input class="search__input" id="projectSearch" type="search"
+             placeholder="Find a project…" aria-label="Search projects"
+             autocomplete="off" />
+    </div>
+  </div>
 
-        // Build once, then swap in — avoids repeated reflows
-        const frag = document.createDocumentFragment();
+  <section class="posts" id="projects">
+    <p class="empty" id="loading">Loading GitHub Pages projects…</p>
+  </section>
+</main>
 
-        pages.forEach(repo => {
-          const li = document.createElement('li');
+<footer class="footer" id="about">
+  <div class="footer__inner">
+    <p style="margin:0">&copy; <span id="year"></span> Agunechemba Ekene</p>
+    <p style="margin:0">
+      <a href="https://agunechemba.github.io/feed.xml" target="_blank" rel="noopener noreferrer">RSS</a> ·
+      <a href="https://github.com/agunechemba" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+      <a href="mailto:agunechemba@yahoo.com" target="_blank" rel="noopener noreferrer">Email</a>
+    </p>
+  </div>
+</footer>
 
-          const body = document.createElement('div');
-          body.className = 'body';
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
 
-          const a = document.createElement('a');
-          a.href = `https://agunechemba.name.ng/${repo.name}`;
-          a.textContent = repo.name;
-          body.appendChild(a);
+  /* ---------- header scrolled state ---------- */
+  const header = document.getElementById('header');
+  const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
 
-          if (repo.description) {
-            const desc = document.createElement('span');
-            desc.className = 'desc';
-            desc.textContent = repo.description;
-            body.appendChild(desc);
-          }
+  /* ---------- GitHub Pages discovery ---------- */
+  (async function loadGitHubPagesProjects() {
+    const grid    = document.getElementById('projects');
+    const loading = document.getElementById('loading');
+    const input   = document.getElementById('projectSearch');
+    const API     = 'https://api.github.com/users/agunechemba/repos?per_page=100';
+    const CACHE_KEY = 'gh-pages-projects';
+    const CACHE_TTL = 60 * 60 * 1000; // 1 hour
 
-          li.appendChild(body);
-          frag.appendChild(li);
-        });
-
-        list.replaceChildren(frag);
-      } catch (err) {
-        list.innerHTML = `<li class="status">Failed to load repos: ${err.message}</li>`;
+    /* Try cache first */
+    let repos = null;
+    try {
+      const cached = sessionStorage.getItem(CACHE_KEY);
+      if (cached) {
+        const { data, ts } = JSON.parse(cached);
+        if (Date.now() - ts < CACHE_TTL) repos = data;
       }
-    })();
-  </script>
+    } catch (_) { /* ignore cache errors */ }
+
+    /* Fetch if needed */
+    if (!repos) {
+      try {
+        const res = await fetch(API);
+        if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+        const all = await res.json();
+        /* Keep only repos with Pages enabled, exclude the main user-page repo */
+        repos = all.filter(r => r.has_pages && r.name !== 'agunechemba.github.io');
+        sessionStorage.setItem(CACHE_KEY, JSON.stringify({ data: repos, ts: Date.now() }));
+      } catch (err) {
+        console.error(err);
+        loading.textContent = 'Could not load projects from GitHub. Please try again later.';
+        return;
+      }
+    }
+
+    if (!repos.length) {
+      loading.textContent = 'No GitHub Pages projects found.';
+      return;
+    }
+
+    /* Build cards */
+    const cardsHTML = repos.map(r => {
+      const url = r.homepage || `https://agunechemba.github.io/${r.name}/`;
+      const description = r.description || 'No description provided.';
+      const lang = r.language || 'Code';
+      const topics = (r.topics || []).slice(0, 4)
+        .map(t => `<li class="tag">${t}</li>`).join('');
+      const year = r.created_at ? new Date(r.created_at).getFullYear() : '';
+
+      return `
+        <article class="card">
+          <div class="card__meta">
+            ${year ? `<span>${year}</span><span class="sep">·</span>` : ''}
+            <span>${lang}</span>
+          </div>
+          <h2 class="card__title">
+            <a class="card__link" href="${url}" target="_blank" rel="noopener noreferrer">
+              ${r.name}
+            </a>
+          </h2>
+          <p class="card__excerpt">${description}</p>
+          ${topics ? `<ul class="card__tags">${topics}</ul>` : ''}
+        </article>
+      `;
+    }).join('');
+
+    loading.remove();
+    grid.insertAdjacentHTML('beforeend', cardsHTML);
+
+    /* ---------- search filter ---------- */
+    const cards = Array.from(grid.querySelectorAll('.card'));
+    const empty = document.createElement('p');
+    empty.className = 'empty';
+    empty.hidden = true;
+    empty.textContent = 'No projects match your search.';
+    grid.appendChild(empty);
+
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      let shown = 0;
+      cards.forEach(card => {
+        const match = card.textContent.toLowerCase().includes(q);
+        card.hidden = !match;
+        if (match) shown++;
+      });
+      empty.hidden = shown !== 0;
+    });
+  })();
+</script>
+
 </body>
 </html>

@@ -1,138 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>404 · Agunechemba</title>
-<style>
-  /* ---------- SHARED PALETTE ---------- */
-  :root {
-    --bg: #faf9f7;
-    --bg-mist: #f1efe9;
-    --card: #ffffff;
-    --ink: #2e2e2e;
-    --muted: #6b6b6b;
-    --border: #e5e2da;
-    --accent: #6a8a6a;
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  <title>Page not found — Agunechemba</title>
+  <meta name="description" content="That page doesn’t exist. Head back to the blog or browse projects by Agunechemba Ekene." />
+  <meta name="robots" content="noindex, follow" />
+  <meta name="author" content="Agunechemba Ekene" />
+  <link rel="canonical" href="https://agunechemba.github.io/404.html" />
 
-  body {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: radial-gradient(circle at 30% 20%, var(--bg-mist) 0%, var(--bg) 90%);
-    min-height: 100vh;
-    display: flex;
-    padding: 24px;
-    color: var(--ink);
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }
+  <link rel="icon" type="image/png" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-icon.png" />
+  <link rel="apple-touch-icon" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-icon.png" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f7f9fb" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0a0c10" media="(prefers-color-scheme: dark)" />
 
-  /* ---------- CARD ---------- */
-  .card {
-    width: 100%;
-    max-width: 520px;
-    margin: auto;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    padding: 48px 32px;
-    text-align: center;
-    box-shadow: 0 24px 48px -28px rgba(0, 0, 0, 0.18);
-  }
-
-  .portrait {
-    display: block;
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 24px;
-    padding: 5px;
-    border: 1px solid var(--border);
-    border-radius: 50%;
-    background: var(--bg-mist);
-    object-fit: contain;
-  }
-
-  .error-number {
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: -0.04em;
-  }
-
-  .headline {
-    margin: 20px 0 12px;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--muted);
-  }
-
-  .message {
-    max-width: 340px;
-    margin: 0 auto 32px;
-    font-size: 15px;
-    color: var(--muted);
-  }
-
-  .btn {
-    display: inline-block;
-    padding: 12px 32px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    background: transparent;
-    color: var(--ink);
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: background-color .2s ease, border-color .2s ease, color .2s ease;
-  }
-
-  .btn:hover {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #fff;
-  }
-
-  .signature {
-    margin-top: 40px;
-    font-size: 11px;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: #b3b0a8;
-  }
-
-  @media (max-width: 480px) {
-    .card { padding: 36px 20px; border-radius: 20px; }
-    .error-number { font-size: 56px; }
-    .headline { font-size: 18px; }
-  }
-</style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <main class="card">
-    <img
-      src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png"
-      alt="Agunechemba Ekene"
-      class="portrait"
-      loading="lazy"
-    >
 
-    <div class="error-number">404</div>
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="brand" href="https://agunechemba.github.io/" aria-label="Agunechemba home">
+      <img
+        class="brand__logo"
+        src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png"
+        alt=""
+        width="34"
+        height="34"
+        loading="eager"
+        decoding="async"
+      />
+      <span class="brand__name">Agunechemba<span> Ekene</span></span>
+    </a>
 
-    <h1 class="headline">this path is missing</h1>
+    <nav class="nav">
+      <a href="https://agunechemba.name.ng/PPH" target="_blank" rel="noopener noreferrer">PPH</a>
+      <a href="https://www.linkedin.com/in/agunechembaekene/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://wa.me/2349066115252" class="cta" target="_blank" rel="noopener noreferrer">Contact</a>
+    </nav>
+  </div>
+</header>
 
-    <p class="message">
-      The page you are looking for has drifted away — moved, deleted,
-      or never existed at all.
+<main class="error">
+  <p class="error__code" aria-hidden="true">404</p>
+  <h1 class="error__title">This page went <em>missing.</em></h1>
+  <p class="error__text">
+    The link may be broken, or the page may have moved.
+    Let’s get you back on track.
+  </p>
+  <div class="error__actions">
+    <a class="article__back" href="https://agunechemba.github.io/">← Back to the blog</a>
+    <a class="article__back" href="projects.html">Browse projects</a>
+  </div>
+</main>
+
+<footer class="footer" id="about">
+  <div class="footer__inner">
+    <p style="margin:0">&copy; <span id="year"></span> Agunechemba Ekene</p>
+    <p style="margin:0">
+      <a href="https://agunechemba.github.io/feed.xml" target="_blank" rel="noopener noreferrer">RSS</a> ·
+      <a href="https://github.com/agunechemba" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+      <a href="mailto:agunechemba@yahoo.com" target="_blank" rel="noopener noreferrer">Email</a>
     </p>
+  </div>
+</footer>
 
-    <a href="https://agunechemba.name.ng/" class="btn">return home</a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
 
-    <div class="signature">agunechemba</div>
-  </main>
+  const header = document.getElementById('header');
+  const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+</script>
+
 </body>
 </html>
