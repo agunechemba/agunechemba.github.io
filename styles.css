@@ -1,0 +1,671 @@
+/* =========================================================
+   AGUNECHEMBA — TECH BLOG
+   styles.css
+   ========================================================= */
+
+/* =========================================================
+   1. DESIGN TOKENS
+   Light is the default palette. The dark block further down
+   overrides the same variables when the OS prefers dark.
+   ========================================================= */
+:root {
+  color-scheme: light dark;
+
+  --bg: #f7f9fb;
+  --line: #e2e8f0;
+  --line-strong: #cbd5e1;
+  --text: #0d1524;
+  --body: #3a4759;
+  --muted: #5b6b80;
+  --accent: #047857;
+  --accent-hover: #036b4d;
+  --accent-soft: rgba(4, 120, 87, 0.09);
+  --accent-line: rgba(4, 120, 87, 0.35);
+  --on-accent: #ffffff;
+
+  --hover-bg: rgba(13, 21, 36, 0.05);
+
+  --card-a: #ffffff;
+  --card-b: #fbfdfc;
+
+  --header-bg: rgba(247, 249, 251, 0.75);
+  --header-bg-scrolled: rgba(247, 249, 251, 0.94);
+
+  --logo-bg: linear-gradient(145deg, rgba(4, 120, 87, 0.12), rgba(79, 70, 229, 0.12));
+
+  --code-bg: rgba(13, 21, 36, 0.06);
+  --code-text: #0b5f47;
+  --pre-bg: #f1f5f9;
+  --pre-border: #e2e8f0;
+  --pre-text: #1e293b;
+
+  --glow-a: rgba(4, 120, 87, 0.06);
+  --glow-b: rgba(79, 70, 229, 0.06);
+
+  --radius: 14px;
+  --maxw: 1080px;
+  --header-h: 64px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0c10;
+    --line: #1f262f;
+    --line-strong: #303b48;
+    --text: #e9eef5;
+    --body: #cbd5e1;
+    --muted: #8a95a6;
+    --accent: #2ee6a8;
+    --accent-hover: #57f0bd;
+    --accent-soft: rgba(46, 230, 168, 0.12);
+    --accent-line: rgba(46, 230, 168, 0.45);
+    --on-accent: #04120d;
+
+    --hover-bg: rgba(255, 255, 255, 0.05);
+
+    --card-a: rgba(255, 255, 255, 0.035);
+    --card-b: rgba(255, 255, 255, 0.012);
+
+    --header-bg: rgba(10, 12, 16, 0.72);
+    --header-bg-scrolled: rgba(10, 12, 16, 0.92);
+
+    --logo-bg: linear-gradient(145deg, rgba(46, 230, 168, 0.18), rgba(99, 102, 241, 0.18));
+
+    --code-bg: rgba(255, 255, 255, 0.07);
+    --code-text: #d7f7ea;
+    --pre-bg: #0e1218;
+    --pre-border: #1f262f;
+    --pre-text: #bfe9d8;
+
+    --glow-a: rgba(46, 230, 168, 0.10);
+    --glow-b: rgba(99, 102, 241, 0.10);
+  }
+}
+
+/* =========================================================
+   2. BASE
+   ========================================================= */
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 16px);
+}
+
+body {
+  margin: 0;
+  padding-top: var(--header-h);
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(620px 320px at 12% -6%, var(--glow-a), transparent 70%),
+    radial-gradient(760px 420px at 92% -4%, var(--glow-b), transparent 70%);
+}
+
+/* =========================================================
+   3. FIXED HEADER
+   ========================================================= */
+.header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--header-h);
+  z-index: 50;
+  background: var(--header-bg);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  border-bottom: 1px solid transparent;
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.header.is-scrolled {
+  background: var(--header-bg-scrolled);
+  border-bottom-color: var(--line);
+}
+
+.header__inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.brand__logo {
+  width: 34px;
+  height: 34px;
+  display: block;                    /* was: grid; place-items: center */
+  border-radius: 50%;                /* circular profile mark */
+  object-fit: cover;                 /* crops the square PNG to the circle */
+  flex: none;
+  box-shadow: 0 0 0 1px var(--line); /* ring replaces the old 1px border */
+}
+
+
+
+.brand:hover .brand__logo {
+  box-shadow: 0 0 0 1px var(--accent-line);
+  transform: scale(1.04);
+}
+.brand__logo { transition: box-shadow 0.2s ease, transform 0.2s ease; }
+
+
+.brand__name { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.02em; }
+.brand__name span { color: var(--accent); }
+
+.nav { display: flex; align-items: center; gap: 4px; }
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 8px 12px;
+  border-radius: 9px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+.nav a:hover { color: var(--text); background: var(--hover-bg); }
+.nav .cta {
+  color: var(--on-accent);
+  background: var(--accent);
+  font-weight: 600;
+  padding: 8px 16px;
+}
+.nav .cta:hover { background: var(--accent-hover); color: var(--on-accent); }
+
+/* =========================================================
+   4. HERO
+   ========================================================= */
+.hero {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 56px 20px 22px;
+}
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin: 0 0 14px;
+}
+
+.hero h1 {
+  margin: 0 0 14px;
+  font-size: clamp(1.9rem, 5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  font-weight: 750;
+}
+
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero p { margin: 0; max-width: 58ch; color: var(--muted); font-size: 1.02rem; }
+
+/* =========================================================
+   5. TAG FILTER CHIPS
+   ========================================================= */
+.filters {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 6px 20px 26px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 13px;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.chip:hover { color: var(--text); border-color: var(--line-strong); }
+
+.chip.is-active {
+  color: var(--accent);
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+/* =========================================================
+   6. POST GRID
+   ========================================================= */
+.posts {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px 88px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--card-a), var(--card-b));
+  transition: transform 0.25s ease, border-color 0.25s ease;
+  animation: rise 0.5s ease both;
+}
+
+.card:hover { transform: translateY(-3px); border-color: var(--line-strong); }
+.card--featured { grid-column: 1 / -1; }
+
+.card__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.card__meta .sep { opacity: 0.45; }
+
+.badge {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--on-accent);
+  background: var(--accent);
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  font-weight: 650;
+}
+.card--featured .card__title { font-size: clamp(1.4rem, 3.2vw, 2rem); }
+
+.card__link { color: inherit; text-decoration: none; }
+.card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.card__link:focus-visible { outline: none; }
+.card:has(.card__link:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.card__excerpt { margin: 0; color: var(--muted); font-size: 0.93rem; }
+
+.card__tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: auto 0 0;
+  padding: 6px 0 0;
+}
+
+.tag {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 6px;
+  padding: 3px 8px;
+}
+
+.empty {
+  grid-column: 1 / -1;
+  padding: 64px 20px;
+  text-align: center;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.9rem;
+}
+
+/* =========================================================
+   7. SINGLE POST VIEW
+   ========================================================= */
+.article {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 34px 20px 96px;
+  animation: rise 0.4s ease both;
+}
+
+.article__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  margin-bottom: 28px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.article__back:hover {
+  color: var(--accent);
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.article__title {
+  margin: 10px 0 18px;
+  font-size: clamp(1.75rem, 4.6vw, 2.55rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  font-weight: 750;
+}
+
+.article__tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 32px;
+  padding: 0;
+}
+
+/* =========================================================
+   8. ARTICLE TYPOGRAPHY
+   ========================================================= */
+.article__body { font-size: 1.03rem; color: var(--body); }
+.article__body > *:first-child { margin-top: 0; }
+.article__body p { margin: 0 0 1.15em; }
+
+.article__body h2 {
+  margin: 2.1em 0 0.55em;
+  font-size: 1.32rem;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.article__body h3 {
+  margin: 1.7em 0 0.5em;
+  font-size: 1.08rem;
+  color: var(--text);
+  font-weight: 650;
+}
+
+.article__body ul,
+.article__body ol { margin: 0 0 1.2em; padding-left: 1.25em; }
+.article__body li { margin-bottom: 0.45em; }
+.article__body strong { color: var(--text); font-weight: 650; }
+.article__body a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+.article__body code {
+  font-family: var(--mono);
+  font-size: 0.86em;
+  background: var(--code-bg);
+  border-radius: 5px;
+  padding: 2px 6px;
+  color: var(--code-text);
+}
+
+.article__body pre {
+  margin: 0 0 1.4em;
+  padding: 16px 18px;
+  background: var(--pre-bg);
+  border: 1px solid var(--pre-border);
+  border-radius: 12px;
+  overflow-x: auto;
+  line-height: 1.65;
+}
+
+.article__body pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--pre-text);
+}
+
+.article__body blockquote {
+  margin: 1.6em 0;
+  padding: 0.2em 0 0.2em 1.1em;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* Loading placeholder shown while a post file is being fetched */
+.article__body .post-loading {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.9rem;
+}
+
+/* =========================================================
+   9. STANDALONE POST PREVIEW
+   Used when opening posts/<slug>.html directly in a browser.
+   ========================================================= */
+.post-preview {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.post-preview .article__body {
+  font-size: 1.03rem;
+  color: var(--body);
+}
+
+/* =========================================================
+   10. PREV / NEXT
+   ========================================================= */
+.postnav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 56px;
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+}
+
+.postnav__link {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.postnav__link:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+.postnav__link--older { text-align: right; }
+
+.postnav__label {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.postnav__title { font-size: 0.94rem; font-weight: 600; line-height: 1.4; }
+
+/* =========================================================
+   11. FOOTER
+   ========================================================= */
+.footer { border-top: 1px solid var(--line); }
+
+.footer__inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 26px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.footer a { color: var(--muted); text-decoration: none; }
+.footer a:hover { color: var(--accent); }
+
+/* =========================================================
+   12. MOTION
+   ========================================================= */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* =========================================================
+   13. SMALL SCREENS
+   ========================================================= */
+@media (max-width: 620px) {
+  .nav a:not(.cta) { display: none; }
+  .hero { padding-top: 40px; }
+  .card { padding: 18px; }
+  .postnav { grid-template-columns: 1fr; }
+  .postnav__link--older { text-align: left; }
+}
+
+
+
+
+/* =========================================================
+   8.1 IMAGES
+   Article / preview images are block-level and horizontally
+   centered in the content column (which is itself centered
+   in the viewport). Mobile view lets them bleed edge-to-edge.
+   ========================================================= */
+.article__body img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 80vh;              /* tall portraits stay usable */
+  object-fit: contain;
+  margin: 1.8em auto;            /* auto side margins = centered */
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card-a);
+  box-shadow: 0 14px 32px -20px rgba(13, 21, 36, 0.5);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.article__body img:hover {
+  border-color: var(--line-strong);
+  box-shadow: 0 18px 38px -20px rgba(13, 21, 36, 0.55);
+}
+
+/* Optional wrappers: <figure><img><figcaption>…</figcaption></figure> */
+.article__body figure {
+  margin: 1.8em auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.article__body figure img {
+  margin: 0 auto 0.7em;
+}
+
+.article__body figcaption {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 0 8px;
+}
+
+/* Keep dark-mode shadows from looking muddy */
+@media (prefers-color-scheme: dark) {
+  .article__body img {
+    border-color: var(--line-strong);
+    box-shadow: 0 14px 32px -22px rgba(0, 0, 0, 0.9);
+  }
+  .article__body img:hover {
+    box-shadow: 0 18px 38px -22px rgba(0, 0, 0, 0.95);
+  }
+}
+
+/* Mobile: full-bleed images for a bigger, cleaner read */
+@media (max-width: 620px) {
+  .article__body img {
+    max-width: calc(100% + 40px);   /* cancels the 20px side padding */
+    margin: 1.4em -20px;
+    max-height: none;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+  }
+
+  .article__body img:hover {
+    box-shadow: none;
+  }
+
+  .article__body figure {
+    margin: 1.4em -20px;
+  }
+
+  .article__body figure img {
+    margin: 0 0 0.7em;
+  }
+
+  .article__body figcaption {
+    padding: 0 20px;
+  }
+}

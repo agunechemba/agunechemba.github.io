@@ -1,0 +1,858 @@
+[
+  {
+    "slug": "php-mysql-javascript-html5-all-in-one",
+    "title": "PHP, MySQL, JavaScript & HTML5 — All-in-One",
+    "excerpt": "An interactive storybook adaptation of PHP, MySQL, JavaScript & HTML5 All-in-One For Dummies — a seven-book journey through the languages of the web, running entirely in the browser.",
+    "date": "2027-07-28",
+    "tags": ["Web", "Technology", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "html-css-javascript-all-in-one",
+    "title": "HTML, CSS & JavaScript — All-in-One",
+    "excerpt": "An interactive storybook adaptation of HTML, CSS & JavaScript All-in-One For Dummies — a five-book journey from tools and HTML basics to Flexbox and Grid.",
+    "date": "2027-06-28",
+    "tags": ["Web", "Technology", "Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "coding-with-javascript",
+    "title": "Coding with JavaScript",
+    "excerpt": "An interactive storybook that teaches JavaScript to young programmers in three parts: Adventurers (5–8), Explorers (9–11), and Masters (12–13).",
+    "date": "2027-05-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "python-essentials",
+    "title": "About Python Essentials",
+    "excerpt": "A storybook introduction to Python for ages 5–13, built on the Zen of Python — three parts, fourteen chapters, and a little dictionary along the way.",
+    "date": "2027-04-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "the-story-of-code",
+    "title": "About The Story of Code",
+    "excerpt": "An interactive page-turning storybook that introduces young readers (5–13) to programming fundamentals in JavaScript, adapted from Eloquent JavaScript.",
+    "date": "2027-03-28",
+    "tags": ["Technology", "Education", "Humanities"],
+    "readTime": 3
+  },
+  {
+    "slug": "the-magic-of-programming",
+    "title": "The Magic of Programming — Now Live",
+    "excerpt": "A free interactive storybook that teaches kids ages 5–11 how to talk to computers — variables, loops, arrays, and the journey from programs to web pages.",
+    "date": "2027-02-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 2
+  },
+  {
+    "slug": "thirty-tiny-tales",
+    "title": "About 30 Tiny Tales",
+    "excerpt": "Thirty short stories that turn one big idea from computing into something small, warm, and memorable — for anyone who has ever wondered how the computer knows.",
+    "date": "2027-01-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 3
+  },
+  {
+    "slug": "ladder-of-learning-britain",
+    "title": "The Ladder of Learning in Britain",
+    "excerpt": "A gentle storybook explanation of the four-step British education ladder — Nursery, Primary, Secondary, and University — written for young learners.",
+    "date": "2026-12-28",
+    "tags": ["Education", "Humanities"],
+    "readTime": 3
+  },
+  {
+    "slug": "hawthorne-studies",
+    "title": "How Can We Make Our Workers Work Harder?",
+    "excerpt": "A short story about the Hawthorne Studies and the discovery that people are not machines — the birth of the Human Relations Approach to work.",
+    "date": "2026-11-28",
+    "tags": ["Business", "Humanities"],
+    "readTime": 3
+  },
+  {
+    "slug": "cbt-computer-based-testing-platform",
+    "title": "CBT — Computer-Based Testing Platform",
+    "excerpt": "A practical look at building a CBT platform: question banks, timed sessions, scoring, and a calm exam-day experience.",
+    "date": "2026-10-28",
+    "tags": ["Education", "Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "remembering-john-dewey",
+    "title": "Remembering John Dewey: October 20, 1859 – June 1, 1952",
+    "excerpt": "John Dewey argued that learning is doing. A short tribute to the pragmatist whose ideas still shape classrooms and code labs.",
+    "date": "2026-10-20",
+    "tags": ["Education", "Humanities"],
+    "readTime": 5
+  },
+  {
+    "slug": "remembering-dennis-ritchie",
+    "title": "Remembering Dennis Ritchie: September 9, 1941 – October 12, 2011",
+    "excerpt": "Dennis Ritchie gave us C and co-created Unix. A reminder that quiet tools often carry the loudest legacies.",
+    "date": "2026-10-12",
+    "tags": ["Humanities", "Technology"],
+    "readTime": 6
+  },
+  {
+    "slug": "igbo-tales-echoes-from-your-ancestors",
+    "title": "Igbo Tales: Echoes from your Ancestors",
+    "excerpt": "Folktales are portable memory. These Igbo stories carry warnings, humor, and lessons that survive the trip to the web.",
+    "date": "2026-09-28",
+    "tags": ["Humanities"],
+    "readTime": 4
+  },
+  {
+    "slug": "javascript-symbol-id",
+    "title": "My Twin Is Not Me: Understanding JavaScript Symbol(“id”)",
+    "excerpt": "Symbols are unique by design. Here is why Symbol('id') is not the same as another Symbol('id'), and when that matters.",
+    "date": "2026-08-28",
+    "tags": ["Technology"],
+    "readTime": 7
+  },
+  {
+    "slug": "gdg-lagos-can-francis-idea-become-reality",
+    "title": "GDG Lagos: Can Francis’s Idea Become Reality?",
+    "excerpt": "A community idea is only as strong as its first volunteers. What it takes to move from a pitch to a repeatable meetup.",
+    "date": "2026-07-28",
+    "tags": ["Business", "Technology"],
+    "readTime": 5
+  },
+  {
+    "slug": "happy-birthday-eich",
+    "title": "Happy Birthday Eich: Imagine being held responsible in 2014 for being a “nice guy” in 2008.",
+    "excerpt": "Brendan Eich's birthday is a good excuse to separate a language from its creator and to think about context and accountability.",
+    "date": "2026-07-04",
+    "tags": ["Technology", "Humanities", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "developers-see-beyond-building-projects",
+    "title": "I Won a $16 Book: Why Developers Must See Beyond Building Projects",
+    "excerpt": "A small book win becomes a big reminder: shipping projects is not the same as understanding the craft behind them.",
+    "date": "2026-06-28",
+    "tags": ["Business", "Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "pwa-experience-complete-guide",
+    "title": "PWA Experience: A Complete Guide For Web Developers",
+    "excerpt": "Installability, offline caching, and service workers explained without the magic. A practical PWA guide for web developers.",
+    "date": "2026-05-28",
+    "tags": ["Web"],
+    "readTime": 8
+  },
+  {
+    "slug": "bill-gates-coding-without-safety-net",
+    "title": "Bill Gates: Coding Without a Safety Net",
+    "excerpt": "Early coding had no undo button. Bill Gates' origin story is a lesson in resourcefulness and ruthless focus.",
+    "date": "2026-05-01",
+    "tags": ["Humanities", "Technology", "Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "whatsapp-usernames-2026-business",
+    "title": "WhatsApp Usernames 2026: What Your Business Needs to Know",
+    "excerpt": "Usernames change discovery on WhatsApp. What businesses should prepare before customers start searching by handle.",
+    "date": "2026-04-28",
+    "tags": ["Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "happy-birthday-jean-baptiste-kempf",
+    "title": "The Most Beautiful “Ugly” Gift in Tech: Happy Birthday Jean-Baptiste Kempf",
+    "excerpt": "VLC is the beautiful ugly gift that plays almost anything. A birthday nod to Jean-Baptiste Kempf and practical open source.",
+    "date": "2026-03-30",
+    "tags": ["Technology", "Humanities"],
+    "readTime": 4
+  },
+  {
+    "slug": "free-whatsapp-email-marketing-alternative",
+    "title": "Free WhatsApp and Email Marketing Alternative",
+    "excerpt": "You do not need a big stack to stay in touch. A lightweight alternative for WhatsApp and email campaigns on a budget.",
+    "date": "2026-03-28",
+    "tags": ["Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "flute-and-code-programmers-unoka",
+    "title": "The Flute and the Code: Why Many Programmers Are Becoming Unoka",
+    "excerpt": "Unoka could talk a good game but would not do the work. A cautionary Igbo lens on programmers who polish excuses instead of shipping.",
+    "date": "2026-03-21",
+    "tags": ["Humanities", "Technology", "Business"],
+    "readTime": 6
+  },
+  {
+    "slug": "happy-birthday-richard-stallman",
+    "title": "The Man Every Open Source Community Should Worship: Happy Birthday Richard Stallman",
+    "excerpt": "Stallman's insistence on software freedom is uncomfortable and essential. Why open source communities still owe him a hearing.",
+    "date": "2026-03-16",
+    "tags": ["Technology", "Humanities"],
+    "readTime": 5
+  },
+  {
+    "slug": "avi-cenna-schools-website-under-an-hour",
+    "title": "Building the Avi Cenna Schools Website – From Idea to Reality in Under an Hour",
+    "excerpt": "A school site does not need a quarter of planning if the scope is honest. How a clear idea became a working site in under an hour.",
+    "date": "2026-02-28",
+    "tags": ["Web", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "remembering-larry-tesler",
+    "title": "The Invisible Architect: Remembering Larry Tesler",
+    "excerpt": "Larry Tesler made cut, copy, and paste feel obvious. A tribute to the invisible design choices we use every day.",
+    "date": "2026-02-16",
+    "tags": ["Humanities", "Web", "Technology"],
+    "readTime": 4
+  },
+  {
+    "slug": "birthday-tribute-ken-thompson",
+    "title": "The Hacker Who Taught Computers to Play Chess: A Birthday Tribute to Ken Thompson",
+    "excerpt": "Ken Thompson built Unix and taught machines to play chess. A birthday tribute to one of computing's quiet giants.",
+    "date": "2026-02-04",
+    "tags": ["Humanities", "Technology"],
+    "readTime": 6
+  },
+  {
+    "slug": "client-side-validation-never-replace-server-side",
+    "title": "Why Client-Side Validation Can Never Replace Server-Side Validation (With Real Code Examples)",
+    "excerpt": "Client-side validation is a courtesy, not a security boundary. Real code examples show why the server still has the final say.",
+    "date": "2026-01-28",
+    "tags": ["Technology", "Web"],
+    "readTime": 7
+  },
+  {
+    "slug": "happy-birthday-linus-torvalds",
+    "title": "Happy Birthday Linus Torvalds: The Father Of Modern Computers",
+    "excerpt": "Linus Torvalds did not just write a kernel; he started a habit of collaboration that changed modern computing.",
+    "date": "2025-12-28",
+    "tags": ["Technology", "Humanities"],
+    "readTime": 5
+  },
+  {
+    "slug": "ancestral-calendar",
+    "title": "Ancestral Calendar",
+    "excerpt": "A calendar is a community's memory of time. Building an ancestral calendar means encoding market days, seasons, and stories.",
+    "date": "2025-11-28",
+    "tags": ["Humanities"],
+    "readTime": 4
+  },
+  {
+    "slug": "pph-learners-playground-python",
+    "title": "PPH Learners Playground (Python)",
+    "excerpt": "A learners' playground should remove setup friction. How a Python playground helps beginners focus on logic, not installs.",
+    "date": "2025-10-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "stop-being-scared-of-ai-learn-to-code",
+    "title": "Stop Being Scared of AI: Should You Still Learn to Code?",
+    "excerpt": "AI can write code, but it cannot want to solve your problem. Why learning to code is still a durable human skill.",
+    "date": "2025-09-28",
+    "tags": ["Technology", "Business"],
+    "readTime": 7
+  },
+  {
+    "slug": "illusion-of-freedom-ai-and-divine",
+    "title": "The Illusion of Freedom: The Lessons from AI and the Divine",
+    "excerpt": "Freedom is not the absence of constraints; it is knowing which ones you chose. A philosophical detour through AI and faith.",
+    "date": "2025-08-28",
+    "tags": ["Technology", "Humanities", "Business"],
+    "readTime": 8
+  },
+  {
+    "slug": "okiri-emmanuel-python-bootcamp-star",
+    "title": "Celebrating Excellence: Okiri Emmanuel Emerges as the Star of the Python Bootcamp!",
+    "excerpt": "Recognition matters. A short celebration of a bootcamp standout and what consistent practice looks like from the outside.",
+    "date": "2025-08-28",
+    "tags": ["Business", "Technology", "Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "journey-school-labs-to-tech-trainer",
+    "title": "My Journey From School Labs to Celebrated Tech Trainer ✨",
+    "excerpt": "From school labs to training rooms: a personal path through curiosity, teaching, and the slow compounding of tech skills.",
+    "date": "2025-07-28",
+    "tags": ["Business", "Education", "Humanities"],
+    "readTime": 6
+  },
+  {
+    "slug": "google-find-hub-android-users",
+    "title": "📱 How I Discovered Google Find Hub — And Why It’s a Game-Changer for Android Users",
+    "excerpt": "Find Hub can turn a lost-device panic into a calm checklist. What it does well and why Android users should care.",
+    "date": "2025-07-28",
+    "tags": ["Technology"],
+    "readTime": 4
+  },
+  {
+    "slug": "tech-everywhere-movement-nowhere",
+    "title": "🤖 Tech Everywhere, Movement Nowhere: Why Smart Living Shouldn’t Replace Natural Exercise",
+    "excerpt": "Convenience is not the same as wellbeing. A gentle argument for keeping natural movement in a smart-living world.",
+    "date": "2025-06-28",
+    "tags": ["Humanities", "Technology", "Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "facebook-preview-image-website",
+    "title": "🎯 How to Set a Facebook Preview Image for Your Website",
+    "excerpt": "Open Graph tags decide how your link looks on Facebook. A quick guide to preview images that actually render.",
+    "date": "2025-05-28",
+    "tags": ["Web", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "how-google-hired-eric-schmidt",
+    "title": "How Google Hired Eric Schmidt: Keep Your Friends For Friendship, But Work With The Skilled And Competent- Robert Greene",
+    "excerpt": "Hiring for competence can feel impersonal, but it protects the mission. A Robert Greene-inspired look at Google's Eric Schmidt hire.",
+    "date": "2025-04-28",
+    "tags": ["Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "microsoft-50-years-paul-allen-bill-gates",
+    "title": "Today marks 50 years since Paul Allen and I officially started Microsoft By Bill Gates April 4, 2025",
+    "excerpt": "Fifty years of Microsoft is a reminder that small partnerships can compound into institutions. A note on the Allen-Gates anniversary.",
+    "date": "2025-04-05",
+    "tags": ["Humanities", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "what-need-to-grow-business",
+    "title": "What Do You Actually Need to Grow Your Business?",
+    "excerpt": "Growth is usually blocked by one constraint, not ten. A practical filter for deciding what your business actually needs next.",
+    "date": "2025-03-28",
+    "tags": ["Business"],
+    "readTime": 6
+  },
+  {
+    "slug": "how-json-was-born",
+    "title": "🚀 How JSON Was Born: How Douglas Crockford Created JSON",
+    "excerpt": "JSON won because it was boring, small, and obvious. The origin story of Douglas Crockford's data format.",
+    "date": "2025-03-15",
+    "tags": ["Technology", "Humanities"],
+    "readTime": 5
+  },
+  {
+    "slug": "one-key-successful-stress-free-programming-career",
+    "title": "One Key to a Successful and Stress-Free Career in Programming",
+    "excerpt": "The key is not typing speed; it is reducing ambiguity. How clearer questions lead to calmer programming careers.",
+    "date": "2025-02-28",
+    "tags": ["Business", "Technology"],
+    "readTime": 5
+  },
+  {
+    "slug": "ai-human-like-voices-js-notes-free-ebook",
+    "title": "AI Generate 100% Human Like Voices: JavaScript Notes for Professionals, Free E-Book Download!",
+    "excerpt": "AI voices are getting uncomfortably good. Plus a free JavaScript notes e-book for developers who prefer reading to scrolling.",
+    "date": "2025-01-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "clasam-schools-programming-whiz-kids",
+    "title": "🏆 Celebrating Excellence: Meet the Programming Whiz Kids of Clasam Schools!",
+    "excerpt": "Young programmers deserve real audiences. A celebration of Clasam Schools learners and the confidence that comes from building.",
+    "date": "2024-12-28",
+    "tags": ["Education", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "hp-omnibook-x-flip-crushes-competition",
+    "title": "Why the HP OmniBook X Flip Crushes the Competition",
+    "excerpt": "The OmniBook X Flip balances portability, hinge, and price in a way rivals struggle to match. A practical review.",
+    "date": "2024-11-28",
+    "tags": ["Technology"],
+    "readTime": 5
+  },
+  {
+    "slug": "google-apps-script-masterclass-series",
+    "title": "🚀 Google Apps Script Masterclass: Complete Series",
+    "excerpt": "A complete series for automating Google Workspace with Apps Script, from first trigger to practical business workflows.",
+    "date": "2024-10-28",
+    "tags": ["Web", "Technology"],
+    "readTime": 7
+  },
+  {
+    "slug": "doc-merger-spreadsheet-data-document",
+    "title": "Doc Merger: Merge Spreadsheet Data into a Single Document",
+    "excerpt": "Turn rows into a polished document without copy-paste. A Doc Merger workflow for templates, mail merges, and reports.",
+    "date": "2024-09-28",
+    "tags": ["Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "mask-credit-cards-php-substr",
+    "title": "How to Mask Credit Cards in PHP Using substr()",
+    "excerpt": "Masking is not encryption, but it is useful. A small PHP substr() example for hiding sensitive card digits in logs and UI.",
+    "date": "2024-08-28",
+    "tags": ["Technology"],
+    "readTime": 4
+  },
+  {
+    "slug": "why-mac-has-terminal-app",
+    "title": "Why Your Mac Has a “Terminal” App (And What Happened to the Real Ones)",
+    "excerpt": "The Terminal app is a window into an older computing world. Why it survived and what happened to the physical terminals it replaced.",
+    "date": "2024-06-28",
+    "tags": ["Technology", "Humanities"],
+    "readTime": 5
+  },
+  {
+    "slug": "william-kahan-devils-number",
+    "title": "🎂 The Devil’s Number: A Story About William Kahan on His Special Day",
+    "excerpt": "William Kahan made floating-point arithmetic less dangerous. A birthday story about precision, standards, and the devil in the details.",
+    "date": "2024-06-05",
+    "tags": ["Humanities", "Technology"],
+    "readTime": 6
+  },
+  {
+    "slug": "igbo-market-days-flexible-calendar",
+    "title": "Exploring Igbo Market Days Across Communities – And How I Built a Flexible Calendar Web App",
+    "excerpt": "Market days are social infrastructure. How community calendars differ, and how a flexible web app can hold those rhythms.",
+    "date": "2024-05-28",
+    "tags": ["Humanities", "Web"],
+    "readTime": 7
+  },
+  {
+    "slug": "beyond-code-empowering-web-innovators-ai",
+    "title": "Beyond the Code: Empowering the Next Generation of Web Innovators with AI",
+    "excerpt": "Teaching web innovation with AI means teaching judgment, not just prompts. How to empower learners without outsourcing thinking.",
+    "date": "2024-04-28",
+    "tags": ["Technology", "Education", "Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "grammar-of-code",
+    "title": "🚀 The Grammar Of Code: Why Learning to Code is Just Learning a New Grammar",
+    "excerpt": "Syntax is grammar; problem-solving is composition. A reassuring reframe for anyone who thinks code is a foreign language.",
+    "date": "2024-03-28",
+    "tags": ["Education", "Technology", "Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "adding-paystack-website-app",
+    "title": "Getting Started: A Simple Guide to Adding Paystack to Your Website or App",
+    "excerpt": "Payments should be boring. A simple Paystack integration guide for getting from checkout button to confirmed transaction.",
+    "date": "2024-02-28",
+    "tags": ["Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "tug-of-war-transforming-learning-competition",
+    "title": "Tug of War: Transforming Learning into Competition",
+    "excerpt": "Competition can sharpen learning if the rules are kind. How a tug-of-war format turns practice into playful stakes.",
+    "date": "2024-01-28",
+    "tags": ["Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "six-year-old-taught-me-colours",
+    "title": "🎨 Personal Blog: The Day My 6-Year-Old Taught Me Colours",
+    "excerpt": "A child's colour choices can dismantle adult assumptions. A small personal story about design, play, and seeing freshly.",
+    "date": "2023-12-28",
+    "tags": ["Humanities", "Web"],
+    "readTime": 4
+  },
+  {
+    "slug": "why-learning-vanilla-javascript-matters",
+    "title": "From Basics to Brilliance: Why Learning Vanilla JavaScript Matters",
+    "excerpt": "Frameworks change; the platform persists. Why vanilla JavaScript is still the best way to understand what your tools are doing.",
+    "date": "2023-11-28",
+    "tags": ["Technology", "Education", "Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "create-sky-html-canvas",
+    "title": "Create Your Own Sky with HTML Canvas: A Beginner’s Guide",
+    "excerpt": "Canvas is a drawing board in the browser. A beginner-friendly guide to gradients, stars, and your first custom sky.",
+    "date": "2023-10-28",
+    "tags": ["Web"],
+    "readTime": 5
+  },
+  {
+    "slug": "websockets-game-changer",
+    "title": "WebSockets: Why It’s a Game-Changer",
+    "excerpt": "HTTP asks; WebSockets converse. Why real-time features feel different when the connection stays open.",
+    "date": "2023-09-28",
+    "tags": ["Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "business-not-depend-only-social-media",
+    "title": "Why Your Business Should Not Depend Only on Social Media",
+    "excerpt": "Social platforms are rented land. Why businesses need an owned channel before an algorithm changes the rules.",
+    "date": "2023-08-28",
+    "tags": ["Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "happy-birthday-ekene-boy-who-taught-world-code",
+    "title": "Happy Birthday Ekene: The Boy Who Taught the World to Code",
+    "excerpt": "A birthday tribute to a young coder whose curiosity became a teaching spark for others.",
+    "date": "2023-07-28",
+    "tags": ["Humanities", "Education", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "social-media-preview-javascript-substring",
+    "title": "How Social Media Preview Works - JavaScript substring()",
+    "excerpt": "Preview text is a substring problem with social consequences. How JavaScript substring() helps generate clean link previews.",
+    "date": "2023-06-28",
+    "tags": ["Technology", "Web", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "remita-payment-link-after-rrr",
+    "title": "🧾 How to Get a Remita Payment Link After Generating RRR",
+    "excerpt": "Generating an RRR is only half the job. How to turn a Remita reference into a payment link customers can actually use.",
+    "date": "2023-05-28",
+    "tags": ["Web", "Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "will-robots-take-all-jobs",
+    "title": "🤖 Will Robots Take All Our Jobs? A Conversation Worth Having…",
+    "excerpt": "Automation changes tasks before it replaces jobs. A calmer conversation about robots, work, and what humans still do best.",
+    "date": "2023-04-28",
+    "tags": ["Technology", "Business"],
+    "readTime": 7
+  },
+  {
+    "slug": "great-wifi-mystery-physical-barriers",
+    "title": "📶 The Great Wi-Fi Mystery: How Physical Barriers Were Wrecking My Connection",
+    "excerpt": "Wi-Fi is radio, not magic. How walls, mirrors, and furniture turned a fast connection into a mystery worth solving.",
+    "date": "2023-03-28",
+    "tags": ["Technology"],
+    "readTime": 5
+  },
+  {
+    "slug": "simple-students-management-system",
+    "title": "A Short Walk Through a Simple Students Management System",
+    "excerpt": "A students management system is a CRUD app with real consequences. A short walk through records, validation, and usable screens.",
+    "date": "2023-02-28",
+    "tags": ["Web", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "web-developers-need-stack-or-vanilla",
+    "title": "Do Web Developers Need a Stack? Or Is Vanilla Enough?",
+    "excerpt": "A stack is a tool, not an identity. When vanilla is enough, and when a stack earns its weight.",
+    "date": "2023-01-28",
+    "tags": ["Web", "Technology", "Business"],
+    "readTime": 6
+  },
+  {
+    "slug": "simple-quiz-game-kids-html-css-js",
+    "title": "🎉 Let’s Build a Simple Quiz Game for Kids Using HTML, CSS and JavaScript",
+    "excerpt": "A quiz game is a friendly first project. Build questions, score, and feedback with plain HTML, CSS, and JavaScript.",
+    "date": "2022-06-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "hidden-computer-hacks-it-technician",
+    "title": "🧰 Hidden Computer Hacks Your IT Technician Doesn’t Want You to Know!",
+    "excerpt": "Small shortcuts save real time. A handful of harmless computer tricks your technician probably assumes you already know.",
+    "date": "2022-04-28",
+    "tags": ["Technology", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "pph-learners-playground-offline-code-editor",
+    "title": "PPH Learners Playground: A Lightweight, Offline-first Web-based Code Editor",
+    "excerpt": "An offline-first code editor removes the network from the learning loop. How a lightweight playground keeps beginners moving.",
+    "date": "2021-12-28",
+    "tags": ["Education", "Web"],
+    "readTime": 5
+  },
+  {
+    "slug": "journey-ekene-agunechemba",
+    "title": "🚀 Empowering the Next Generation of Programmers: The Journey of Ekene Agunechemba",
+    "excerpt": "Teaching programmers is a journey of patience and proof. A personal look at building confidence in the next generation.",
+    "date": "2021-07-28",
+    "tags": ["Humanities", "Education", "Business"],
+    "readTime": 6
+  },
+  {
+    "slug": "remembering-chuck-geschke",
+    "title": "Remembering Dr. Charles “Chuck” Geschke, Adobe Co-Founder",
+    "excerpt": "Chuck Geschke helped make documents portable. A tribute to the Adobe co-founder and the quiet infrastructure of publishing.",
+    "date": "2021-04-16",
+    "tags": ["Humanities", "Technology"],
+    "readTime": 5
+  },
+  {
+    "slug": "clasam-schools-official-website",
+    "title": "Clasam Schools — Official Website",
+    "excerpt": "A school website should answer parent questions quickly. A short case study in clarity, navigation, and trust.",
+    "date": "2021-02-28",
+    "tags": ["Web", "Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "tech-trainers-dilemma-falling-behind",
+    "title": "The Tech Trainer’s Dilemma: Am I Falling Behind?",
+    "excerpt": "Trainers feel the pace of tech too. How to stay current without chasing every new tool into exhaustion.",
+    "date": "2021-01-28",
+    "tags": ["Business", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "scheduled-posts-jekyll-github-pages",
+    "title": "How I Created Scheduled Posts for a Jekyll Site on GitHub Pages",
+    "excerpt": "GitHub Pages is static, but scheduling is still possible. How to publish Jekyll posts on time without a server.",
+    "date": "2020-12-28",
+    "tags": ["Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "javascript-pph-learners-playground",
+    "title": "🟨 JavaScript PPH Learners Playground",
+    "excerpt": "A JavaScript playground for learners: fewer setup steps, faster feedback, and more time spent thinking in code.",
+    "date": "2020-11-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "is-internet-free-gift-of-nature",
+    "title": "🌐✨ Is the Internet a Free Gift of Nature?",
+    "excerpt": "The internet feels free because others paid for the infrastructure. A philosophical look at openness, cost, and the commons.",
+    "date": "2020-10-28",
+    "tags": ["Humanities", "Business"],
+    "readTime": 7
+  },
+  {
+    "slug": "digital-clock-time-based-greeting-12-hour",
+    "title": "🕒 Build a Digital Clock with Time-Based Greeting (12-Hour Format with AM/PM)",
+    "excerpt": "A digital clock is a perfect date-and-time exercise. Build a 12-hour clock with AM/PM and a greeting that changes by hour.",
+    "date": "2020-09-28",
+    "tags": ["Technology", "Web", "Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "taskflow-professional-to-do",
+    "title": "TaskFlow: Professional To-Do",
+    "excerpt": "A to-do app is easy to clone and hard to make useful. What a professional TaskFlow needs beyond checkboxes.",
+    "date": "2020-08-28",
+    "tags": ["Business", "Web", "Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "tao-te-ching-simple-words-kids",
+    "title": "🌿 The Tao Te Ching in Simple Words – A Gentle Journey Through 81 Bit Stories for Kids",
+    "excerpt": "The Tao Te Ching is full of small parables. A gentle retelling of 81 bits for kids and tired developers.",
+    "date": "2020-07-28",
+    "tags": ["Humanities", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "simple-login-page-javascript-credentials",
+    "title": "💻 Project: Building a Simple Login Page with JavaScript Credentials",
+    "excerpt": "A login page is a security lesson disguised as a beginner project. Build the UI, then learn why credentials deserve respect.",
+    "date": "2020-06-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "contact-form-google-sheets-email-apps-script",
+    "title": "🔧 Create a Contact Form That Saves to Google Sheets and Sends Emails (With HTML, JS and Apps Script)",
+    "excerpt": "A contact form can be a full mini-app. Save to Sheets, send email, and add a success state with HTML, JS, and Apps Script.",
+    "date": "2020-05-28",
+    "tags": ["Web"],
+    "readTime": 7
+  },
+  {
+    "slug": "stop-windows-10-updates-8-steps",
+    "title": "🛑 How to Stop Windows 10 Updates in Just 8 Steps",
+    "excerpt": "Automatic updates are usually helpful, sometimes disruptive. A cautious eight-step guide for taking temporary control.",
+    "date": "2020-04-28",
+    "tags": ["Technology", "Business"],
+    "readTime": 4
+  },
+  {
+    "slug": "image-background-html-page",
+    "title": "🌄 How to Set an Image as the Background of an HTML Page (Step-by-Step)",
+    "excerpt": "Background images are a CSS problem, not an HTML one. A step-by-step guide to cover, position, and readability.",
+    "date": "2020-03-28",
+    "tags": ["Web", "Education"],
+    "readTime": 3
+  },
+  {
+    "slug": "digital-clock-javascript-time-greeting",
+    "title": "🕒 Build a Digital Clock with JavaScript + Time-Based Greeting",
+    "excerpt": "Practice Date, setInterval, and DOM updates by building a clock that greets the user according to the hour.",
+    "date": "2020-02-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "click-the-circle-game-html-css-js",
+    "title": "🎯 Build a “Click the Circle” Game with HTML, CSS and JavaScript",
+    "excerpt": "A tiny game teaches event handling and timing. Build a click-the-circle challenge with plain HTML, CSS, and JavaScript.",
+    "date": "2020-01-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "canvas-vs-svg-difference",
+    "title": "🖼️ Canvas vs. SVG: What’s the Difference?",
+    "excerpt": "Canvas draws pixels; SVG describes shapes. A practical comparison for choosing the right graphics tool.",
+    "date": "2019-12-28",
+    "tags": ["Web"],
+    "readTime": 5
+  },
+  {
+    "slug": "grace-hopper-first-compiler",
+    "title": "💡 The Accidental Inventor: How Grace Hopper Created the First Compiler",
+    "excerpt": "Grace Hopper did not set out to invent the compiler; she set out to make programming less painful. A story of practical invention.",
+    "date": "2019-12-09",
+    "tags": ["Humanities", "Technology"],
+    "readTime": 6
+  },
+  {
+    "slug": "john-backus-ibm-compiler",
+    "title": "🧠 The Code Breakthrough at IBM: John Backus and the Invention of the Compiler",
+    "excerpt": "John Backus and IBM turned machine instructions into a language problem. How the compiler changed who could program.",
+    "date": "2019-12-03",
+    "tags": ["Humanities", "Technology"],
+    "readTime": 6
+  },
+  {
+    "slug": "why-use-html-canvas",
+    "title": "🎮 Why You Should Be Using HTML canvas in Your Projects",
+    "excerpt": "Canvas is for pixels you control. When to use it, when not to, and why it belongs in more frontend toolkits.",
+    "date": "2019-11-28",
+    "tags": ["Web"],
+    "readTime": 5
+  },
+  {
+    "slug": "aria-label-accessibility",
+    "title": "Giving Your Website a Voice: ARIA-label for Accessibility",
+    "excerpt": "ARIA labels help screen readers speak your interface. A short guide to labeling controls without over-labeling everything.",
+    "date": "2019-10-28",
+    "tags": ["Web"],
+    "readTime": 4
+  },
+  {
+    "slug": "format-flash-drive-command-prompt",
+    "title": "💻 Formatting Your Flash Drive Using Command Prompt: A Step-by-Step Guide",
+    "excerpt": "Command Prompt can rescue a stubborn USB drive. A careful step-by-step guide with warnings before the destructive part.",
+    "date": "2019-09-28",
+    "tags": ["Technology"],
+    "readTime": 4
+  },
+  {
+    "slug": "scratch-game-good-bad-ugly-trexes",
+    "title": "Build a Fun Scratch Game: “The Good, The Bad, and The Ugly Trexes”",
+    "excerpt": "Scratch makes game logic visible. Build a playful Trex game with sprites, events, and simple scoring.",
+    "date": "2019-08-28",
+    "tags": ["Education"],
+    "readTime": 5
+  },
+  {
+    "slug": "ocean-cleaning-game-scratch",
+    "title": "🎥 New YouTube Tutorial Alert!🌊🎮: Ocean Cleaning Game in Scratch",
+    "excerpt": "An ocean-cleaning game is a gentle way to teach loops and collisions. A companion note to the Scratch video tutorial.",
+    "date": "2019-07-28",
+    "tags": ["Education"],
+    "readTime": 4
+  },
+  {
+    "slug": "write-better-code-5-s-philosophy",
+    "title": "🧠 Write Better Code with the 5-S Philosophy",
+    "excerpt": "Sort, simplify, standardize, sustain, and share. A practical 5-S philosophy for code that stays readable.",
+    "date": "2019-06-28",
+    "tags": ["Technology", "Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "fix-play-store-issues-android",
+    "title": "🚫 Server Error!? Fix Play Store Issues on New or Formatted Android Phones",
+    "excerpt": "A fresh Android install can still hit Play Store errors. A troubleshooting checklist for new or formatted phones.",
+    "date": "2019-05-28",
+    "tags": ["Technology"],
+    "readTime": 4
+  },
+  {
+    "slug": "wps-office-review",
+    "title": "WPS Office Review: A Solid Alternative to Microsoft Office",
+    "excerpt": "WPS Office is not a clone; it is a practical alternative. A review of compatibility, price, and everyday usability.",
+    "date": "2019-04-28",
+    "tags": ["Technology", "Business"],
+    "readTime": 5
+  },
+  {
+    "slug": "contact-form-google-sheets-email-success-animation",
+    "title": "✅ Create a Contact Form That Saves to Google Sheets and Sends Emails – With Success Animation!",
+    "excerpt": "A contact form feels finished when it responds. Add Sheets, email, and a success animation to close the feedback loop.",
+    "date": "2019-03-28",
+    "tags": ["Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "wordpress-org-more-than-cms",
+    "title": "WordPress.org: More Than a CMS — It’s a Powerful Framework",
+    "excerpt": "WordPress is often called a CMS, but its hooks and APIs make it a framework. A look at what that means for builders.",
+    "date": "2019-02-28",
+    "tags": ["Web"],
+    "readTime": 6
+  },
+  {
+    "slug": "capture-sounds-photos-videos-html",
+    "title": "🎙📸🎥 Capture Sounds, Photos and Videos with HTML",
+    "excerpt": "The browser can capture media without plugins. A tour of audio, photo, and video capture with HTML and JavaScript.",
+    "date": "2019-01-28",
+    "tags": ["Web"],
+    "readTime": 5
+  },
+  {
+    "slug": "zen-text-reader-calm-voice",
+    "title": "Zen Text Reader · calm voice",
+    "excerpt": "A calm text reader is an accessibility tool and a focus tool. How a quiet reading experience can reduce cognitive noise.",
+    "date": "2018-12-28",
+    "tags": ["Technology", "Education", "Web"],
+    "readTime": 4
+  },
+  {
+    "slug": "students-attendance-management-system",
+    "title": "Students Attendance Management System",
+    "excerpt": "Attendance is simple data with complex edges. A short case study in building a dependable students attendance system.",
+    "date": "2018-11-28",
+    "tags": ["Web", "Education"],
+    "readTime": 6
+  },
+  {
+    "slug": "google-drive-images-website-source",
+    "title": "How to Use Google Drive Images as a Source on Your Website",
+    "excerpt": "Google Drive can host images for small sites, with caveats. How to use shareable Drive images without breaking your pages.",
+    "date": "2018-10-28",
+    "tags": ["Web"],
+    "readTime": 4
+  },
+  {
+    "slug": "freeze-rows-columns-apache-openoffice",
+    "title": "How to Freeze Rows and Columns in Apache OpenOffice 4",
+    "excerpt": "Freezing panes keeps headers visible. A quick guide to locking rows and columns in Apache OpenOffice 4.",
+    "date": "2018-09-28",
+    "tags": ["Business", "Technology"],
+    "readTime": 3
+  },
+  {
+    "slug": "code-plays-tricks-on-you",
+    "title": "That Moment When Code Plays Tricks on You",
+    "excerpt": "Debugging is humbling because code obeys exactly what you wrote. A light look at the tricks our own assumptions play.",
+    "date": "2018-08-28",
+    "tags": ["Technology", "Humanities"],
+    "readTime": 4
+  },
+  {
+    "slug": "welcome-to-my-blog",
+    "title": "👋 Welcome to My Blog!",
+    "excerpt": "A first post is a promise to show up. Welcome to the blog: notes on code, teaching, culture, and building useful things.",
+    "date": "2018-07-28",
+    "tags": ["Humanities"],
+    "readTime": 3
+  }
+]

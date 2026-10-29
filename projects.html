@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png">
+<title>Published Sites</title>
+<style>
+  /* ---------- SHARED PALETTE ---------- */
+  :root {
+    --bg: #faf9f7;
+    --bg-mist: #f1efe9;
+    --card: #ffffff;
+    --ink: #2e2e2e;
+    --muted: #6b6b6b;
+    --border: #e5e2da;
+    --accent: #6a8a6a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: radial-gradient(circle at 30% 20%, var(--bg-mist) 0%, var(--bg) 90%);
+    min-height: 100vh;
+    display: flex;
+    padding: 24px;
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- CARD ---------- */
+  .card {
+    width: 100%;
+    max-width: 560px;
+    margin: auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 40px 32px;
+    box-shadow: 0 24px 48px -28px rgba(0, 0, 0, 0.18);
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  /* ---------- LIST ---------- */
+  #list {
+    list-style: none;
+    counter-reset: repo;
+    display: grid;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  #list li {
+    counter-increment: repo;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 16px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    transition: border-color .2s ease;
+  }
+
+  #list li:hover { border-color: var(--accent); }
+
+  /* numbered badge */
+  #list li::before {
+    content: counter(repo);
+    flex: 0 0 auto;
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  #list .body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  #list a {
+    color: var(--ink);
+    font-weight: 500;
+    text-decoration: none;
+    word-break: break-word;
+  }
+
+  #list a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  #list .desc {
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+
+  /* status rows: no number, muted */
+  #list li.status {
+    counter-increment: none;
+    color: var(--muted);
+  }
+  #list li.status::before { display: none; }
+
+  .signature {
+    margin-top: 36px;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #b3b0a8;
+  }
+
+  @media (max-width: 480px) {
+    .card { padding: 28px 18px; border-radius: 20px; }
+    .title { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <h1 class="title">Published Sites</h1>
+    <ul id="list" aria-live="polite"></ul>
+    <div class="signature">agunechemba</div>
+  </main>
+
+  <script>
+    (async () => {
+      const list = document.getElementById('list');
+      list.innerHTML = '<li class="status">Loading…</li>';
+
+      try {
+        const res = await fetch(
+          'https://api.github.com/users/agunechemba/repos?per_page=100'
+        );
+        if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
+        const repos = await res.json();
+
+        const pages = repos
+          .filter(r => r.has_pages)
+          .sort((a, b) => a.name.localeCompare(b.name));
+
+        if (!pages.length) {
+          list.innerHTML = '<li class="status">No published sites found.</li>';
+          return;
+        }
+
+        // Build once, then swap in — avoids repeated reflows
+        const frag = document.createDocumentFragment();
+
+        pages.forEach(repo => {
+          const li = document.createElement('li');
+
+          const body = document.createElement('div');
+          body.className = 'body';
+
+          const a = document.createElement('a');
+          a.href = `https://agunechemba.name.ng/${repo.name}`;
+          a.textContent = repo.name;
+          body.appendChild(a);
+
+          if (repo.description) {
+            const desc = document.createElement('span');
+            desc.className = 'desc';
+            desc.textContent = repo.description;
+            body.appendChild(desc);
+          }
+
+          li.appendChild(body);
+          frag.appendChild(li);
+        });
+
+        list.replaceChildren(frag);
+      } catch (err) {
+        list.innerHTML = `<li class="status">Failed to load repos: ${err.message}</li>`;
+      }
+    })();
+  </script>
+</body>
+</html>
