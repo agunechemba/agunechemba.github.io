@@ -9,7 +9,7 @@ const headerEl  = document.getElementById("header");
 const listView  = document.getElementById("list-view");
 const postView  = document.getElementById("post-view");
 
-const BASE_TITLE = "Agunechemba — Tech Blog";
+const BASE_TITLE = "Agunechemba Ekene";
 
 let POSTS    = [];
 let SORTED   = [];
