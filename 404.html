@@ -8,7 +8,7 @@
   <meta name="description" content="That page doesn’t exist. Head back to the blog or browse projects by Agunechemba Ekene." />
   <meta name="robots" content="noindex, follow" />
   <meta name="author" content="Agunechemba Ekene" />
-  <link rel="canonical" href="https://agunechemba.github.io/404.html" />
+  <link rel="canonical" href="https://agunechemba.name.ng/404.html" />
 
   <link rel="icon" type="image/png" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-icon.png" />
   <link rel="apple-touch-icon" href="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-icon.png" />
@@ -16,33 +16,13 @@
   <meta name="theme-color" content="#f7f9fb" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#0a0c10" media="(prefers-color-scheme: dark)" />
 
-<link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./partials.js" defer></script>
 </head>
 
 <body>
 
-<header class="header" id="header">
-  <div class="header__inner">
-    <a class="brand" href="https://agunechemba.github.io/" aria-label="Agunechemba home">
-      <img
-        class="brand__logo"
-        src="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/09/agunechemba-ekene-dp-small.png"
-        alt=""
-        width="34"
-        height="34"
-        loading="eager"
-        decoding="async"
-      />
-      <span class="brand__name">Agunechemba<span> Ekene</span></span>
-    </a>
-
-    <nav class="nav">
-      <a href="https://agunechemba.name.ng/PPH" target="_blank" rel="noopener noreferrer">PPH</a>
-      <a href="https://www.linkedin.com/in/agunechembaekene/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://wa.me/2349066115252" class="cta" target="_blank" rel="noopener noreferrer">Contact</a>
-    </nav>
-  </div>
-</header>
+<div id="site-header"></div>
 
 <main class="error">
   <p class="error__code" aria-hidden="true">404</p>
@@ -57,25 +37,7 @@
   </div>
 </main>
 
-<footer class="footer" id="about">
-  <div class="footer__inner">
-    <p style="margin:0">&copy; <span id="year"></span> Agunechemba Ekene</p>
-    <p style="margin:0">
-      <a href="https://agunechemba.github.io/feed.xml" target="_blank" rel="noopener noreferrer">RSS</a> ·
-      <a href="https://github.com/agunechemba" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-      <a href="mailto:agunechemba@yahoo.com" target="_blank" rel="noopener noreferrer">Email</a>
-    </p>
-  </div>
-</footer>
-
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-
-  const header = document.getElementById('header');
-  const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
-  onScroll();
-  window.addEventListener('scroll', onScroll, { passive: true });
-</script>
+<div id="site-footer"></div>
 
 </body>
 </html>

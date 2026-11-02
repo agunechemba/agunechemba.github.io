@@ -5,7 +5,6 @@
 
 const postsEl   = document.getElementById("posts");
 const filtersEl = document.getElementById("filters");
-const headerEl  = document.getElementById("header");
 const listView  = document.getElementById("list-view");
 const postView  = document.getElementById("post-view");
 
@@ -264,16 +263,10 @@ filtersEl.addEventListener("click", (e) => {
 
 window.addEventListener("hashchange", router);
 
-const onScroll = () =>
-  headerEl.classList.toggle("is-scrolled", window.scrollY > 8);
-window.addEventListener("scroll", onScroll, { passive: true });
-
 /* =========================================================
    Boot
    ========================================================= */
 async function init() {
-  document.getElementById("year").textContent = new Date().getFullYear();
-
   try {
     await loadPosts();
     renderFilters();
@@ -288,8 +281,6 @@ async function init() {
         (use a local server, not <code>file://</code>).
       </p>`;
   }
-
-  onScroll();
 }
 
 init();
