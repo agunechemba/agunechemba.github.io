@@ -8,7 +8,264 @@
 </head>
 <body class="post-preview">
   <article class="article__body">
-    <img src="https://i.ibb.co/V0TT21sc/man-birthday-hat.webp" width="100%" />
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="50%" stop-color="#111a2e"/>
+      <stop offset="100%" stop-color="#0d1525"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowBlue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glowYellow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <!-- Screen Gradient -->
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a2a1e"/>
+      <stop offset="100%" stop-color="#051a12"/>
+    </linearGradient>
+
+    <!-- AI Brain Gradient -->
+    <radialGradient id="brainGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="60%" stop-color="#0077ff"/>
+      <stop offset="100%" stop-color="#0033aa"/>
+    </radialGradient>
+
+    <!-- Speech Bubble Path -->
+    <path id="speechBubble" d="M 0 0 Q 0 -20 20 -20 L 120 -20 Q 140 -20 140 0 L 140 20 Q 140 40 120 40 L 30 40 L 10 55 L 15 40 Q 0 40 0 20 Z"/>
+
+    <!-- Calendar Icon -->
+    <g id="calendarIcon">
+      <rect x="0" y="0" width="28" height="28" rx="4" fill="#1e293b" stroke="#4a90e2" stroke-width="1.5"/>
+      <rect x="0" y="0" width="28" height="8" rx="4" fill="#4a90e2" opacity="0.8"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle" font-weight="bold">18</text>
+    </g>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Grid / Circuit Pattern -->
+  <g stroke="#1e3a5f" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="500" y1="0" x2="500" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="55" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">Google IO Extended Lagos 2026</text>
+  <text x="400" y="80" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#60a5fa" text-anchor="middle" letter-spacing="3">THE DESIGNERS GROUP • 18 JULY</text>
+
+  <!-- Divider -->
+  <line x1="280" y1="95" x2="520" y2="95" stroke="#3b82f6" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- ==================== LEFT: Group Discussion ==================== -->
+  <g transform="translate(60, 160)">
+    <!-- Group Label -->
+    <text x="120" y="-15" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" fill="#94a3b8" text-anchor="middle" letter-spacing="2">THE DESIGNERS</text>
+    
+    <!-- People Silhouettes in a Circle -->
+    <!-- Person 1 (Francis - speaking) -->
+    <g transform="translate(50, 80)">
+      <circle cx="0" cy="-15" r="15" fill="#f59e0b" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#f59e0b" opacity="0.7"/>
+      <!-- Speech bubble from Francis -->
+      <g transform="translate(25, -60)">
+        <rect x="0" y="0" width="160" height="55" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+        <polygon points="10,55 -5,75 20,55" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+        <text x="80" y="20" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fcd34d" text-anchor="middle">AI-powered UI that</text>
+        <text x="80" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fcd34d" text-anchor="middle">adapts to personality</text>
+        <text x="80" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle" font-style="italic">— Francis Daniel</text>
+      </g>
+    </g>
+
+    <!-- Person 2 (Author - listening) -->
+    <g transform="translate(140, 140)">
+      <circle cx="0" cy="-15" r="15" fill="#3b82f6" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#3b82f6" opacity="0.7"/>
+      <!-- Thought bubble from Author -->
+      <g transform="translate(-70, -80)">
+        <ellipse cx="50" cy="25" rx="70" ry="30" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="50" y="18" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#93c5fd" text-anchor="middle">"Advanced form</text>
+        <text x="50" y="33" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#93c5fd" text-anchor="middle">of darkmode?"</text>
+        <!-- Small circle -->
+        <circle cx="15" cy="55" r="5" fill="#3b82f6" opacity="0.6"/>
+        <circle cx="30" cy="65" r="3" fill="#3b82f6" opacity="0.4"/>
+      </g>
+    </g>
+
+    <!-- Person 3 (Chukwuemeka) -->
+    <g transform="translate(200, 60)">
+      <circle cx="0" cy="-15" r="15" fill="#10b981" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#10b981" opacity="0.7"/>
+      <text x="0" y="-40" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#6ee7b7" text-anchor="middle">Chukwuemeka</text>
+    </g>
+
+    <!-- Person 4 -->
+    <g transform="translate(110, 30)">
+      <circle cx="0" cy="-15" r="15" fill="#8b5cf6" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#8b5cf6" opacity="0.7"/>
+    </g>
+
+    <!-- Person 5 -->
+    <g transform="translate(30, 160)">
+      <circle cx="0" cy="-15" r="15" fill="#ec4899" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#ec4899" opacity="0.7"/>
+    </g>
+
+    <!-- Person 6 -->
+    <g transform="translate(100, 200)">
+      <circle cx="0" cy="-15" r="15" fill="#06b6d4" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#06b6d4" opacity="0.7"/>
+    </g>
+
+    <!-- Person 7 -->
+    <g transform="translate(180, 200)">
+      <circle cx="0" cy="-15" r="15" fill="#f97316" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#f97316" opacity="0.7"/>
+    </g>
+
+    <!-- Person 8 -->
+    <g transform="translate(240, 130)">
+      <circle cx="0" cy="-15" r="15" fill="#14b8a6" opacity="0.9"/>
+      <rect x="-18" y="0" width="36" height="40" rx="8" fill="#14b8a6" opacity="0.7"/>
+    </g>
+
+    <!-- Connecting circle lines -->
+    <circle cx="120" cy="130" r="100" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4 6" opacity="0.5"/>
+  </g>
+
+  <!-- ==================== CENTER: AI Brain & Personalized UI ==================== -->
+  <g transform="translate(400, 280)">
+    <!-- Glowing AI Brain / Chip -->
+    <circle cx="0" cy="0" r="45" fill="url(#brainGrad)" filter="url(#glowBlue)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#00e5ff" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- AI Circuits inside -->
+    <g stroke="#00e5ff" stroke-width="1" opacity="0.8">
+      <line x1="-20" y1="-20" x2="-10" y2="-10"/>
+      <line x1="20" y1="-20" x2="10" y2="-10"/>
+      <line x1="-20" y1="20" x2="-10" y2="10"/>
+      <line x1="20" y1="20" x2="10" y2="10"/>
+      <circle cx="0" cy="0" r="8" fill="none" stroke="#00e5ff" stroke-width="2"/>
+    </g>
+    
+    <!-- Label -->
+    <text x="0" y="-60" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#00e5ff" text-anchor="middle" font-weight="bold" letter-spacing="1">AI ENGINE</text>
+
+    <!-- Lines to UI Panels -->
+    <g stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6">
+      <line x1="-40" y1="-20" x2="-100" y2="-70"/>
+      <line x1="40" y1="-20" x2="100" y2="-70"/>
+      <line x1="0" y1="40" x2="0" y2="90"/>
+    </g>
+
+    <!-- UI Panel 1: Grandma (Top Left) -->
+    <g transform="translate(-150, -130)">
+      <rect x="0" y="0" width="100" height="70" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="100" height="20" rx="6" fill="#f59e0b" opacity="0.8"/>
+      <text x="50" y="14" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#1e293b" text-anchor="middle" font-weight="bold">👵 Grandma's UI</text>
+      <text x="50" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fcd34d" text-anchor="middle">Large Text</text>
+      <text x="50" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fcd34d" text-anchor="middle">Simple Layout</text>
+      <text x="50" y="66" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle" font-style="italic">Facebook, simplified</text>
+    </g>
+
+    <!-- UI Panel 2: Child (Top Right) -->
+    <g transform="translate(50, -130)">
+      <rect x="0" y="0" width="100" height="70" rx="6" fill="#1e293b" stroke="#10b981" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="100" height="20" rx="6" fill="#10b981" opacity="0.8"/>
+      <text x="50" y="14" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#1e293b" text-anchor="middle" font-weight="bold">🧒 Child's UI</text>
+      <text x="50" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle">Colorful &amp; Fun</text>
+      <text x="50" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle">Playful Icons</text>
+      <text x="50" y="66" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle" font-style="italic">Facebook, playful</text>
+    </g>
+
+    <!-- UI Panel 3: Developer (Bottom) -->
+    <g transform="translate(-50, 110)">
+      <rect x="0" y="0" width="100" height="70" rx="6" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="100" height="20" rx="6" fill="#8b5cf6" opacity="0.8"/>
+      <text x="50" y="14" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#c4b5fd" text-anchor="middle" font-weight="bold">👨‍💻 Developer's UI</text>
+      <text x="50" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle">Advanced Dark Mode</text>
+      <text x="50" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#c4b5fd" text-anchor="middle">Minimal &amp; Clean</text>
+      <text x="50" y="66" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#94a3b8" text-anchor="middle" font-style="italic">Facebook, dark</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT: Timeline & Reflection ==================== -->
+  <g transform="translate(600, 160)">
+    <!-- Timeline Label -->
+    <text x="0" y="-10" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#94a3b8" text-anchor="middle" letter-spacing="2">TIMELINE</text>
+
+    <!-- Vertical Line -->
+    <line x1="0" y1="10" x2="0" y2="260" stroke="#3b82f6" stroke-width="2" opacity="0.6"/>
+
+    <!-- Date 1: July 18 -->
+    <g transform="translate(-40, 30)">
+      <use href="#calendarIcon"/>
+      <text x="34" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#60a5fa" font-weight="bold">July 18</text>
+      <text x="34" y="30" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8">Google IO Extended</text>
+    </g>
+
+    <!-- Date 2: July 28 (Birthday) -->
+    <g transform="translate(-40, 110)">
+      <!-- Custom calendar with birthday cake -->
+      <rect x="0" y="0" width="28" height="28" rx="4" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+      <rect x="0" y="0" width="28" height="8" rx="4" fill="#f59e0b" opacity="0.8"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11" fill="#fcd34d" text-anchor="middle" font-weight="bold">28</text>
+      <!-- Small cake icon -->
+      <text x="34" y="12" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#fcd34d" font-weight="bold">🎂 July 28</text>
+      <text x="34" y="26" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8">Still wondering...</text>
+    </g>
+
+    <!-- Date 3: Future -->
+    <g transform="translate(-40, 200)">
+      <rect x="0" y="0" width="28" height="28" rx="4" fill="#1e293b" stroke="#00e5ff" stroke-width="1.5"/>
+      <text x="14" y="20" font-family="Arial, sans-serif" font-size="11" fill="#00e5ff" text-anchor="middle" font-weight="bold">?</text>
+      <text x="34" y="12" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#00e5ff" font-weight="bold">The Future</text>
+      <text x="34" y="26" font-family="'Segoe UI', Arial, sans-serif" font-size="9" fill="#94a3b8">Hoping for it</text>
+    </g>
+
+    <!-- Arrow forward -->
+    <polygon points="0,260 -6,250 6,250" fill="#3b82f6" opacity="0.6"/>
+  </g>
+
+  <!-- ==================== BOTTOM: Quote Banner ==================== -->
+  <g transform="translate(400, 555)">
+    <rect x="-250" y="-20" width="500" height="40" rx="20" fill="#1e293b" stroke="#3b82f6" stroke-width="1" opacity="0.8"/>
+    <text x="0" y="6" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#93c5fd" text-anchor="middle" font-style="italic">"I hope to be in this future of dynamic and personalized AI-powered user interface."</text>
+  </g>
+
+  <!-- Connecting dashed line from author to AI engine -->
+  <path d="M 240 280 Q 350 230 360 280" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.5"/>
+
+  <!-- Small birthday cake icon near author -->
+  <g transform="translate(180, 380)" opacity="0.7">
+    <text x="0" y="0" font-size="18">🎂</text>
+  </g>
+</svg>
 
     <p><strong>Francis Daniel</strong> gave me an idea I would never have thought about. At the <a href="https://www.linkedin.com/company/gdg-lagos/posts/?feedView=all"><strong>Google IO Extended Lagos 2026</strong></a>, held on the 18th of July, during the session, we got to a part where we had to split into 3 groups. One for LLM, another for .. “Can’t remember right now (I will edit the blog when I remember) and the last group was us: The Designers.</p>
 
