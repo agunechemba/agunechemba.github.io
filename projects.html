@@ -34,13 +34,13 @@
   <meta name="twitter:description" content="GitHub Pages projects published by Agunechemba Ekene." />
   <meta name="twitter:image" content="https://agunechembaekene.wordpress.com/wp-content/uploads/2026/07/agunechemba_display_image_no-background-400h.png" />
 
-<link rel="stylesheet" href="./styles.css">
-<script src="./partials.js" defer></script>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./partials.js" defer></script>
 </head>
 
 <body>
-<!-- Header -->
-  <div id="site-header"></div>
+<!-- Header (injected by partials.js) -->
+<div id="site-header"></div>
 
 <main>
   <section class="hero">
@@ -68,105 +68,145 @@
   </section>
 </main>
 
-   <!-- Footer -->
+<!-- Footer (injected by partials.js) -->
 <div id="site-footer"></div>
 
 <script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+  /* =========================================================
+     projects.html — inline script
+     ---------------------------------------------------------
+     NOTE: The year (<span id="year">) and the sticky-header
+     scroll state (#header.is-scrolled) are handled by
+     partials.js — do NOT duplicate that here. This script only
+     loads GitHub Pages projects into #projects.
 
-  /* ---------- header scrolled state ---------- */
-  const header = document.getElementById('header');
-  const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
-  onScroll();
-  window.addEventListener('scroll', onScroll, { passive: true });
+     The three elements this script touches — #projects,
+     #loading, #projectSearch — are static HTML, so it is safe
+     to run immediately at the end of <body>.
+     ========================================================= */
+  (function () {
+    'use strict';
 
-  /* ---------- GitHub Pages discovery ---------- */
-  (async function loadGitHubPagesProjects() {
-    const grid    = document.getElementById('projects');
-    const loading = document.getElementById('loading');
-    const input   = document.getElementById('projectSearch');
-    const API     = 'https://api.github.com/users/agunechemba/repos?per_page=100';
-    const CACHE_KEY = 'gh-pages-projects';
-    const CACHE_TTL = 60 * 60 * 1000; // 1 hour
+    var grid    = document.getElementById('projects');
+    var loading = document.getElementById('loading');
+    var input   = document.getElementById('projectSearch');
 
-    /* Try cache first */
-    let repos = null;
-    try {
-      const cached = sessionStorage.getItem(CACHE_KEY);
-      if (cached) {
-        const { data, ts } = JSON.parse(cached);
-        if (Date.now() - ts < CACHE_TTL) repos = data;
-      }
-    } catch (_) { /* ignore cache errors */ }
+    /* Defensive: bail out quietly if the page structure changes. */
+    if (!grid || !loading || !input) return;
 
-    /* Fetch if needed */
-    if (!repos) {
+    var API       = 'https://api.github.com/users/agunechemba/repos?per_page=100';
+    var CACHE_KEY = 'gh-pages-projects';
+    var CACHE_TTL = 60 * 60 * 1000; // 1 hour
+
+    /* Escape text before injecting into HTML. */
+    function esc(s) {
+      return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+        return {
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;',
+          "'": '&#39;'
+        }[c];
+      });
+    }
+
+    (async function loadGitHubPagesProjects() {
+      /* ---------- 1. Try cache ---------- */
+      var repos = null;
       try {
-        const res = await fetch(API);
-        if (!res.ok) throw new Error(`GitHub API ${res.status}`);
-        const all = await res.json();
-        /* Keep only repos with Pages enabled, exclude the main user-page repo */
-        repos = all.filter(r => r.has_pages && r.name !== 'agunechemba.github.io');
-        sessionStorage.setItem(CACHE_KEY, JSON.stringify({ data: repos, ts: Date.now() }));
-      } catch (err) {
-        console.error(err);
-        loading.textContent = 'Could not load projects from GitHub. Please try again later.';
+        var cached = sessionStorage.getItem(CACHE_KEY);
+        if (cached) {
+          var parsed = JSON.parse(cached);
+          if (Date.now() - parsed.ts < CACHE_TTL) repos = parsed.data;
+        }
+      } catch (_) { /* ignore cache errors */ }
+
+      /* ---------- 2. Fetch if needed ---------- */
+      if (!repos) {
+        try {
+          var res = await fetch(API);
+          if (!res.ok) throw new Error('GitHub API ' + res.status);
+          var all = await res.json();
+          /* Keep only repos with Pages enabled,
+             exclude the main user-page repo itself. */
+          repos = all.filter(function (r) {
+            return r.has_pages && r.name !== 'agunechemba.github.io';
+          });
+          sessionStorage.setItem(
+            CACHE_KEY,
+            JSON.stringify({ data: repos, ts: Date.now() })
+          );
+        } catch (err) {
+          console.error(err);
+          loading.textContent =
+            'Could not load projects from GitHub. Please try again later.';
+          return;
+        }
+      }
+
+      /* ---------- 3. Empty state ---------- */
+      if (!repos.length) {
+        loading.textContent = 'No GitHub Pages projects found.';
         return;
       }
-    }
 
-    if (!repos.length) {
-      loading.textContent = 'No GitHub Pages projects found.';
-      return;
-    }
+      /* ---------- 4. Build cards ---------- */
+      var cardsHTML = repos.map(function (r) {
+        var url         = r.homepage || ('https://agunechemba.github.io/' + r.name + '/');
+        var description = r.description || 'No description provided.';
+        var lang        = r.language || 'Code';
+        var year        = r.created_at ? new Date(r.created_at).getFullYear() : '';
+        var topics      = (r.topics || []).slice(0, 4).map(function (t) {
+          return '<li class="tag">' + esc(t) + '</li>';
+        }).join('');
 
-    /* Build cards */
-    const cardsHTML = repos.map(r => {
-      const url = r.homepage || `https://agunechemba.github.io/${r.name}/`;
-      const description = r.description || 'No description provided.';
-      const lang = r.language || 'Code';
-      const topics = (r.topics || []).slice(0, 4)
-        .map(t => `<li class="tag">${t}</li>`).join('');
-      const year = r.created_at ? new Date(r.created_at).getFullYear() : '';
+        return (
+          '<article class="card">' +
+            '<div class="card__meta">' +
+              (year ? '<span>' + year + '</span><span class="sep">·</span>' : '') +
+              '<span>' + esc(lang) + '</span>' +
+            '</div>' +
+            '<h2 class="card__title">' +
+              '<a class="card__link" href="' + esc(url) + '" ' +
+                 'target="_blank" rel="noopener noreferrer">' +
+                esc(r.name) +
+              '</a>' +
+            '</h2>' +
+            '<p class="card__excerpt">' + esc(description) + '</p>' +
+            (topics ? '<ul class="card__tags">' + topics + '</ul>' : '') +
+          '</article>'
+        );
+      }).join('');
 
-      return `
-        <article class="card">
-          <div class="card__meta">
-            ${year ? `<span>${year}</span><span class="sep">·</span>` : ''}
-            <span>${lang}</span>
-          </div>
-          <h2 class="card__title">
-            <a class="card__link" href="${url}" target="_blank" rel="noopener noreferrer">
-              ${r.name}
-            </a>
-          </h2>
-          <p class="card__excerpt">${description}</p>
-          ${topics ? `<ul class="card__tags">${topics}</ul>` : ''}
-        </article>
-      `;
-    }).join('');
+      loading.remove();
+      grid.insertAdjacentHTML('beforeend', cardsHTML);
 
-    loading.remove();
-    grid.insertAdjacentHTML('beforeend', cardsHTML);
+      /* ---------- 5. Search filter ---------- */
+      var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
 
-    /* ---------- search filter ---------- */
-    const cards = Array.from(grid.querySelectorAll('.card'));
-    const empty = document.createElement('p');
-    empty.className = 'empty';
-    empty.hidden = true;
-    empty.textContent = 'No projects match your search.';
-    grid.appendChild(empty);
+      var empty = document.createElement('p');
+      empty.className = 'empty';
+      empty.hidden = true;
+      empty.textContent = 'No projects match your search.';
+      grid.appendChild(empty);
 
-    input.addEventListener('input', () => {
-      const q = input.value.trim().toLowerCase();
-      let shown = 0;
-      cards.forEach(card => {
-        const match = card.textContent.toLowerCase().includes(q);
-        card.hidden = !match;
-        if (match) shown++;
-      });
-      empty.hidden = shown !== 0;
-    });
+      function applyFilter() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        cards.forEach(function (card) {
+          var match = card.textContent.toLowerCase().indexOf(q) !== -1;
+          card.hidden = !match;
+          if (match) shown++;
+        });
+        empty.hidden = shown !== 0;
+      }
+
+      input.addEventListener('input', applyFilter);
+
+      /* In case the user typed while the API was still loading. */
+      applyFilter();
+    })();
   })();
 </script>
 
