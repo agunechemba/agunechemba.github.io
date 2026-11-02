@@ -9,7 +9,147 @@
 <body class="post-preview">
   <article class="article__body">
     <div style="text-align: center;">
-      <img src="https://i.ibb.co/1fb88DYT/John-Dewey.jpg" alt="John Dewey" style="width: 100%; max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Background Blur Filter -->
+    <filter id="blurBg" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+    <filter id="shadowGrad" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Area -->
+  <rect x="0" y="0" width="800" height="630" fill="#151515" />
+
+  <!-- Blurred Background (Library/Bookshelves) -->
+  <g opacity="0.35" filter="url(#blurBg)">
+    <!-- Left shelves -->
+    <rect x="20" y="50" width="60" height="500" fill="#222" />
+    <rect x="100" y="100" width="40" height="400" fill="#2a2a2a" />
+    <rect x="160" y="80" width="50" height="450" fill="#1c1c1c" />
+    <!-- Right shelves -->
+    <rect x="600" y="80" width="60" height="450" fill="#222" />
+    <rect x="680" y="50" width="40" height="500" fill="#2a2a2a" />
+    <rect x="740" y="100" width="40" height="400" fill="#1c1c1c" />
+    <!-- Horizontal shelf lines -->
+    <rect x="0" y="200" width="200" height="15" fill="#111" />
+    <rect x="0" y="380" width="200" height="15" fill="#111" />
+    <rect x="600" y="200" width="200" height="15" fill="#111" />
+    <rect x="600" y="380" width="200" height="15" fill="#111" />
+  </g>
+
+  <!-- Chair Back (Right Side) -->
+  <path d="M 680 630 L 680 500 Q 680 450 720 450 L 800 450 L 800 630 Z" fill="#111" />
+  <path d="M 680 500 Q 680 480 700 480 L 700 520 Q 680 520 680 540 Z" fill="#1a1a1a" />
+  <!-- Chair Tufting Details -->
+  <path d="M 720 480 L 740 630" fill="none" stroke="#222" stroke-width="3" />
+  <path d="M 760 470 L 780 630" fill="none" stroke="#222" stroke-width="3" />
+
+  <!-- Man (John Dewey) - Realistic Sepia Vector Portrait -->
+
+  <!-- Suit Body -->
+  <path d="M 150 630 L 200 480 Q 280 430 400 430 Q 520 430 600 480 L 650 630 Z" fill="#2c2a28" filter="url(#shadowGrad)" />
+  
+  <!-- Shirt -->
+  <path d="M 340 430 L 460 430 L 440 520 L 360 520 Z" fill="#dcd8d1" />
+  
+  <!-- Tie -->
+  <path d="M 380 460 L 420 460 L 425 520 L 400 550 L 375 520 Z" fill="#1a1a1a" />
+  
+  <!-- Suit Lapels -->
+  <path d="M 340 430 L 400 520 L 380 630 L 250 630 Z" fill="#3a3835" />
+  <path d="M 460 430 L 400 520 L 420 630 L 550 630 Z" fill="#3a3835" />
+  
+  <!-- Shirt Collar -->
+  <path d="M 340 430 L 400 460 L 370 490 Z" fill="#f0f0f0" />
+  <path d="M 460 430 L 400 460 L 430 490 Z" fill="#f0f0f0" />
+
+  <!-- Neck -->
+  <path d="M 350 370 L 450 370 L 450 430 L 350 430 Z" fill="#968a7c" />
+
+  <!-- Face Base -->
+  <path d="M 300 230 C 300 140, 340 110, 400 110 C 460 110, 500 140, 500 230 C 500 300, 480 350, 450 370 C 420 390, 380 390, 350 370 C 320 350, 300 300, 300 230 Z" fill="#b5a89a" />
+
+  <!-- Face Lighting (Left Side Highlight) -->
+  <path d="M 300 230 C 300 140, 340 110, 400 110 C 400 160, 380 240, 360 300 C 330 330, 310 300, 300 230 Z" fill="#cfc2b2" />
+
+  <!-- Face Shadow (Right Side) -->
+  <path d="M 500 230 C 500 140, 460 110, 400 110 C 420 160, 440 240, 460 300 C 490 330, 500 300, 500 230 Z" fill="#968a7c" />
+
+  <!-- Forehead Wrinkles -->
+  <path d="M 330 180 Q 400 160 470 180" fill="none" stroke="#7a6e60" stroke-width="3" opacity="0.6" />
+  <path d="M 340 200 Q 400 185 460 200" fill="none" stroke="#7a6e60" stroke-width="3" opacity="0.6" />
+  <path d="M 350 220 Q 400 205 450 220" fill="none" stroke="#7a6e60" stroke-width="2" opacity="0.5" />
+
+  <!-- Eye Sockets (Shadows) -->
+  <path d="M 320 250 Q 350 235 380 250 Q 350 265 320 250 Z" fill="#7a6e60" opacity="0.6"/>
+  <path d="M 420 250 Q 450 235 480 250 Q 450 265 420 250 Z" fill="#7a6e60" opacity="0.6"/>
+
+  <!-- Eyes -->
+  <ellipse cx="350" cy="255" rx="12" ry="8" fill="#e6e0d8" />
+  <circle cx="350" cy="255" r="6" fill="#2c2118" />
+  <ellipse cx="450" cy="255" rx="12" ry="8" fill="#e6e0d8" />
+  <circle cx="450" cy="255" r="6" fill="#2c2118" />
+
+  <!-- Eyelids -->
+  <path d="M 330 245 Q 350 235 370 245" fill="none" stroke="#4a3b2d" stroke-width="4" />
+  <path d="M 430 245 Q 450 235 470 245" fill="none" stroke="#4a3b2d" stroke-width="4" />
+
+  <!-- Eye Bags -->
+  <path d="M 330 275 Q 350 285 370 275" fill="none" stroke="#7a6e60" stroke-width="4" opacity="0.5" />
+  <path d="M 430 275 Q 450 285 470 275" fill="none" stroke="#7a6e60" stroke-width="4" opacity="0.5" />
+
+  <!-- Eyebrows -->
+  <path d="M 320 235 Q 350 215 380 235" fill="none" stroke="#8c8070" stroke-width="8" stroke-linecap="round" />
+  <path d="M 420 235 Q 450 215 480 235" fill="none" stroke="#8c8070" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Nose -->
+  <path d="M 395 250 L 385 320 Q 400 330 415 320 L 405 250 Z" fill="#b5a89a" />
+  <path d="M 405 250 L 415 320 Q 430 330 440 320 L 420 250 Z" fill="#968a7c" />
+  <path d="M 380 320 Q 390 315 395 325" fill="none" stroke="#4a3b2d" stroke-width="3" />
+  <path d="M 405 325 Q 410 315 420 320" fill="none" stroke="#4a3b2d" stroke-width="3" />
+
+  <!-- Mustache -->
+  <path d="M 340 350 C 370 320, 385 335, 400 335 C 415 335, 430 320, 460 350 C 440 370, 415 360, 400 355 C 385 360, 360 370, 340 350 Z" fill="#a09a92" />
+  <path d="M 350 350 Q 375 340 400 345" fill="none" stroke="#6b655e" stroke-width="2" />
+  <path d="M 450 350 Q 425 340 400 345" fill="none" stroke="#6b655e" stroke-width="2" />
+
+  <!-- Smile Lines (Nasolabial folds) -->
+  <path d="M 360 330 Q 340 360 350 380" fill="none" stroke="#7a6e60" stroke-width="4" opacity="0.5" />
+  <path d="M 440 330 Q 460 360 450 380" fill="none" stroke="#7a6e60" stroke-width="4" opacity="0.5" />
+
+  <!-- Chin Shadow -->
+  <path d="M 370 380 Q 400 395 430 380" fill="none" stroke="#7a6e60" stroke-width="5" opacity="0.4" />
+
+  <!-- Hair -->
+  <path d="M 300 210 C 280 130, 320 90, 400 80 C 480 90, 520 130, 500 210 C 480 150, 440 130, 400 130 C 360 130, 320 150, 300 210 Z" fill="#c4bcb4" />
+  <path d="M 300 210 C 290 240, 300 270, 310 280 C 305 250, 310 230, 320 210 Z" fill="#a09a92" />
+  <path d="M 500 210 C 510 240, 500 270, 490 280 C 495 250, 490 230, 480 210 Z" fill="#a09a92" />
+
+  <!-- Bottom Text Banner Area -->
+  <rect x="0" y="630" width="800" height="170" fill="#e8e4db" />
+
+  <!-- Quote Text -->
+  <text x="400" y="680" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1a1a1a" text-anchor="middle" font-weight="500">
+    'Give the pupils something to do,
+  </text>
+  <text x="400" y="720" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#1a1a1a" text-anchor="middle" font-weight="500">
+    not something to learn'
+  </text>
+
+  <!-- Name Text -->
+  <text x="400" y="755" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1a1a1a" text-anchor="middle">
+    John Dewey
+  </text>
+
+  <!-- Dates Text (moved up with proper bottom spacing) -->
+  <text x="400" y="785" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#1a1a1a" text-anchor="middle">
+    1859 - 1952
+  </text>
+
+</svg>
     </div>
   </article>
 </body>
