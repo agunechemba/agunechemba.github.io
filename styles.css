@@ -588,8 +588,11 @@ body::before {
    Article / preview images are block-level and horizontally
    centered in the content column (which is itself centered
    in the viewport). Mobile view lets them bleed edge-to-edge.
+   The same rules apply to inline <svg> so vector artwork
+   renders identically to raster images.
    ========================================================= */
-.article__body img {
+.article__body img,
+.article__body svg {
   display: block;
   width: auto;
   height: auto;
@@ -604,7 +607,8 @@ body::before {
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.article__body img:hover {
+.article__body img:hover,
+.article__body svg:hover {
   border-color: var(--line-strong);
   box-shadow: 0 18px 38px -20px rgba(13, 21, 36, 0.55);
 }
@@ -616,7 +620,8 @@ body::before {
   text-align: center;
 }
 
-.article__body figure img {
+.article__body figure img,
+.article__body figure svg {
   margin: 0 auto 0.7em;
 }
 
@@ -632,18 +637,21 @@ body::before {
 
 /* Keep dark-mode shadows from looking muddy */
 @media (prefers-color-scheme: dark) {
-  .article__body img {
+  .article__body img,
+  .article__body svg {
     border-color: var(--line-strong);
     box-shadow: 0 14px 32px -22px rgba(0, 0, 0, 0.9);
   }
-  .article__body img:hover {
+  .article__body img:hover,
+  .article__body svg:hover {
     box-shadow: 0 18px 38px -22px rgba(0, 0, 0, 0.95);
   }
 }
 
 /* Mobile: full-bleed images for a bigger, cleaner read */
 @media (max-width: 620px) {
-  .article__body img {
+  .article__body img,
+  .article__body svg {
     max-width: calc(100% + 40px);   /* cancels the 20px side padding */
     margin: 1.4em -20px;
     max-height: none;
@@ -653,7 +661,8 @@ body::before {
     box-shadow: none;
   }
 
-  .article__body img:hover {
+  .article__body img:hover,
+  .article__body svg:hover {
     box-shadow: none;
   }
 
@@ -661,7 +670,8 @@ body::before {
     margin: 1.4em -20px;
   }
 
-  .article__body figure img {
+  .article__body figure img,
+  .article__body figure svg {
     margin: 0 0 0.7em;
   }
 
