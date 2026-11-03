@@ -35,7 +35,7 @@ var FOOTER_HTML =
   '<footer class="footer" id="about">\n' +
   '  <div class="footer__inner">\n' +
   '    <p style="margin:0">&copy; <span id="year">2026</span> ' +
-  '<a href="https://www.linkedin.com/in/agunechembaekene/" target="_blank" rel="noopener noreferrer">Agunechemba Ekene</a></p>\n' +
+  '       <a href="https://agunechemba.github.io/">Agunechemba Ekene</a></p>\n' +
   '    <p style="margin:0">\n' +
   '      <a href="https://agunechemba.github.io/PPH">PPH</a> \u00b7\n' +
   '      <a href="https://agunechemba.github.io/projects.html">Projects</a> \u00b7\n' +
