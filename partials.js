@@ -23,6 +23,7 @@
     '    </a>\n' +
     '    <nav class="nav" aria-label="Primary">\n' +
     '      <a href="https://agunechemba.github.io/PPH">PPH</a>\n' +
+    '      <a href="https://agunechemba.github.io/projects.html">Projects</a> \n' +
     '      <a href="https://www.linkedin.com/in/agunechembaekene/" target="_blank" rel="noopener noreferrer">LinkedIn</a>\n' +
     '      <a href="https://wa.me/2349066115252" class="cta" target="_blank" rel="noopener noreferrer">Contact</a>\n' +
     '    </nav>\n' +
@@ -38,6 +39,7 @@ var FOOTER_HTML =
   '    <p style="margin:0">\n' +
   '      <a href="https://agunechemba.github.io/PPH">PPH</a> \u00b7\n' +
   '      <a href="https://agunechemba.github.io/projects.html">Projects</a> \n' +
+  '      <a href="https://www.linkedin.com/in/agunechembaekene/" target="_blank" rel="noopener noreferrer">LinkedIn</a>\n' +
   '    </p>\n' +
   '  </div>\n' +
   '</footer>';
