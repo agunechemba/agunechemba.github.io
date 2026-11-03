@@ -1,5 +1,13 @@
 [  
   {
+    "slug": "the-magic-of-programming",
+    "title": "The Magic of Programming — Now Live",
+    "excerpt": "A free interactive storybook that turns programming basics into friendly stories for kids ages 5–11, complete with real code examples and progress tracking.",
+    "date": "2027-09-28",
+    "tags": ["Technology", "Education"],
+    "readTime": 2
+  },
+  {
     "slug": "they-tried-to-stiff-me-on-a-3-2-million-software-project",
     "title": "They tried to stiff me on a ₦3.2 million software project. Instead, they ended up paying me ₦2.7 million MORE and signing a monthly retainer.",
     "excerpt": "After a Port Harcourt school withheld payment on a ₦3.2m system, the author found a rogue developer skimming parents' fees — and turned the breach into a bigger invoice.",
