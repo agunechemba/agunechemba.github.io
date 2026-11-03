@@ -19,7 +19,7 @@
     '    <a class="brand" href="https://agunechemba.github.io/" aria-label="Agunechemba Ekene — home">\n' +
     '      <img class="brand__logo" src="' + LOGO_SMALL + '" alt="" width="34" height="34"\n' +
     '           loading="eager" decoding="async" />\n' +
-    '      <span class="brand__name">Agunechemba<span> Ekene</span></span>\n' +
+    '      <span class="brand__name"><span>Agunechemba </span>Ekene</span>\n' +
     '    </a>\n' +
     '    <nav class="nav" aria-label="Primary">\n' +
     '      <a href="https://agunechemba.github.io/PPH">PPH</a>\n' +
