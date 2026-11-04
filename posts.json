@@ -408,6 +408,14 @@
     "readTime": 4
   },
   {
+  "slug": "demystifying-mas-activation-script",
+  "title": "Demystifying the MAS Activation Script: A Step-by-Step Guide",
+  "excerpt": "A step-by-step guide breaking down exactly what the Microsoft Activation Scripts (MAS) tool does, where to run the command, and what happens when you navigate its menu.",
+  "date": "2024-07-28",
+  "tags": ["Technology"],
+  "readTime": 5
+},
+  {
     "slug": "why-mac-has-terminal-app",
     "title": "Why Your Mac Has a “Terminal” App (And What Happened to the Real Ones)",
     "excerpt": "The Terminal app is a window into an older computing world. Why it survived and what happened to the physical terminals it replaced.",
