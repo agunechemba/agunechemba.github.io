@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demystifying the MAS Activation Script: A Step-by-Step Guide — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    /* Added styles specifically for the code blocks and disclaimer to ensure they display correctly */
+    .disclaimer {
+      background-color: #fff3cd;
+      border-left: 5px solid #ffc107;
+      padding: 15px;
+      margin: 20px 0;
+      font-style: italic;
+      border-radius: 4px;
+    }
+    pre {
+      background-color: #282c34;
+      color: #abb2bf;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-family: Consolas, monospace;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+      color: #c7254e;
+    }
+    pre code {
+      background-color: transparent;
+      color: inherit;
+      padding: 0;
+    }
+  </style>
+</head>
+<body class="post-preview">
+  <article class="article__body">
+
+
+    <p>If you’ve ever searched for a way to activate Windows or Microsoft Office, you’ve likely stumbled across the Microsoft Activation Scripts (MAS). In this guide, we’ll break down exactly what this tool does, where to run the code, and what happens when you navigate its menu.</p>
+
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> Using MAS is considered software piracy and bypasses official licensing. While it is widely used by home users, it is not legal and carries security risks. For a completely safe and legal experience, purchasing an official license is recommended.
+    </div>
+
+    <p>Let’s walk through it like a story, step by step.</p>
+
+    <hr />
+
+    <h3>Step 1: Opening the Right Window</h3>
+
+    <p>First, you need to know <strong>where</strong> to type the code. You cannot run this in the standard Command Prompt (CMD). You must use <strong>PowerShell with Administrator privileges</strong>.</p>
+    
+    <p>How to do it:</p>
+    <p>First, right-click the <strong>Start Button</strong> (or press <code>Win + X</code>).<br />
+    Second, select <strong>"Windows PowerShell (Admin)"</strong> on Windows 10 or <strong>"Terminal (Admin)"</strong> on Windows 11.<br />
+    Third, click <strong>Yes</strong> if a User Account Control (UAC) prompt appears.</p>
+
+    <hr />
+
+    <h3>Step 2: Running the Command</h3>
+
+    <p>Once your blue PowerShell window is open, you need to paste the activation command. Copy and paste this exact code into the window and press <strong>Enter</strong>:</p>
+    
+    <pre><code>irm https://get.activated.win | iex</code></pre>
+
+    <p><strong>What this does:</strong><br />
+    The <code>irm</code> stands for "Invoke-RestMethod," which downloads the script from the internet.<br />
+    The <code>iex</code> stands for "Invoke-Expression," which executes the downloaded script immediately.</p>
+    
+    <p><em>(Note: Always double-check the URL spelling. Fake domains like <code>get.activate[.]win</code> exist and distribute malware.)</em></p>
+
+    <hr />
+
+    <h3>Step 3: Navigating the Activation Menu</h3>
+
+    <p>After the code finishes downloading, the screen will clear and present you with a menu. You might also see a green link pointing to <code>massgrave.dev</code>—this is just the official help page for the script.</p>
+
+    <p>Here is the breakdown of the main options:</p>
+    <p><strong>[1] HWID:</strong> Activates <strong>Windows 10 or 11</strong> permanently.<br />
+    <strong>[2] Ohook:</strong> Activates <strong>Microsoft Office</strong> permanently.<br />
+    <strong>[3] TSforge:</strong> An alternative method for older versions of Windows/Office.<br />
+    <strong>[4] Online KMS:</strong> A temporary activation that requires renewal every 180 days.<br />
+    <strong>[5] Check Activation Status:</strong> Shows you what is currently activated.<br />
+    <strong>[0] Exit:</strong> Closes the program.</p>
+
+    <hr />
+
+    <h3>Step 4: What Happens When You Click [1]?</h3>
+
+    <p>If you are here to activate Windows, typing <strong><code>1</code></strong> and pressing Enter is your best bet.</p>
+
+    <p>Here is exactly what happens next:</p>
+    <p>First, the script initiates the <strong>HWID (Hardware ID)</strong> process.<br />
+    Second, it generates a ticket and contacts Microsoft's servers to request a digital license.<br />
+    Third, if successful, the text on your screen will turn <strong>green</strong>, indicating the activation was completed.<br />
+    Finally, you will be prompted to press any key to return to the main menu, where you can press <strong><code>0</code></strong> to exit.</p>
+
+    <h4>How it works</h4>
+
+    <p>Clicking <code>[1]</code> grants your computer a <strong>permanent digital license</strong>. This license is permanently linked to your computer's motherboard. This means that if you ever need to do a clean reinstall of Windows in the future, it will automatically reactivate as soon as you connect to the internet.</p>
+
+    <p><strong>Requirements for Option 1:</strong><br />
+    You must have an active internet connection.<br />
+    Your Windows version must match (e.g., Windows 10 or 11).</p>
+
+    <hr />
+
+    <h3>Step 5: Verifying Your Activation</h3>
+
+    <p>Once the script says it is successful, you can close the PowerShell window. To confirm the activation worked:</p>
+    
+    <p>First, open Windows <strong>Settings</strong>.<br />
+    Second, go to <strong>System &gt; Activation</strong>.<br />
+    Third, you should see a message saying <em>"Windows is activated with a digital license linked to your Microsoft account."</em></p>
+
+    <p>For Microsoft Office, simply open an app like Word, go to <strong>File &gt; Account</strong>, and check the "Product Information" section.</p>
+  </article>
+</body>
+</html>
