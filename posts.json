@@ -519,6 +519,14 @@
     "tags": ["Humanities", "Education"],
     "readTime": 4
   },
+   {
+    "slug": "polymorphism-explained-to-a-7-year-old",
+    "title": "Polymorphism Explained to a 7-Year-Old",
+    "excerpt": "Two everyday analogies — a forest chief giving one command, and an auntie with many roles — that make polymorphism click without any jargon.",
+    "date": "2023-07-01",
+    "tags": ["Technology", "Education"],
+    "readTime": 2
+  },
   {
     "slug": "social-media-preview-javascript-substring",
     "title": "How Social Media Preview Works - JavaScript substring()",
