@@ -8,6 +8,239 @@
 </head>
 <body class="post-preview">
   <article class="article__body">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0F4F8" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    
+    <!-- Card Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F7FAFC" />
+    </linearGradient>
+
+    <!-- Code Block Gradient -->
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#282C34" />
+      <stop offset="100%" stop-color="#1E2127" />
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+    
+    <filter id="shadowLight" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.05" />
+    </filter>
+
+    <!-- Speech Bubble Template -->
+    <path id="speechBubble" d="M 0 0 L 120 0 C 126 0 130 4 130 10 L 130 40 C 130 46 126 50 120 50 L 15 50 L 0 65 L 5 50 C -1 50 -5 46 -5 40 L -5 10 C -5 4 -1 0 0 0 Z" />
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="620" fill="url(#bgGrad)" />
+
+  <!-- Header Section -->
+  <g text-anchor="middle">
+    <text x="480" y="55" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#2D3748" letter-spacing="-0.5">Polymorphism Explained to a 7-Year-Old</text>
+    <text x="480" y="85" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#4A5568">Same action, many different ways to do it! 🌟</text>
+  </g>
+
+  <!-- ==================== COLUMN 1: Chief of the Forest ==================== -->
+  <g transform="translate(30, 110)">
+    <!-- Card Background -->
+    <rect width="280" height="420" rx="16" fill="url(#cardGrad)" filter="url(#shadow)" stroke="#E2E8F0" stroke-width="2" />
+    
+    <!-- Title -->
+    <text x="140" y="40" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#2D3748" text-anchor="middle">🦁 Chief of the Forest</text>
+    
+    <!-- Command Bubble -->
+    <rect x="40" y="60" width="200" height="40" rx="20" fill="#F6AD55" />
+    <text x="140" y="85" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">"Make a sound!"</text>
+
+    <!-- Lion -->
+    <g transform="translate(30, 120)">
+      <!-- Mane -->
+      <path d="M 30 0 L 60 10 L 75 35 L 75 65 L 60 90 L 30 100 L 0 90 L -15 65 L -15 35 L 0 10 Z" fill="#DD6B20" />
+      <!-- Face -->
+      <circle cx="30" cy="50" r="25" fill="#F6AD55" />
+      <circle cx="20" cy="45" r="4" fill="#2D3748" />
+      <circle cx="40" cy="45" r="4" fill="#2D3748" />
+      <path d="M 20 60 Q 30 70 40 60" stroke="#2D3748" stroke-width="3" fill="none" stroke-linecap="round" />
+      <circle cx="30" cy="55" r="3" fill="#DD6B20" />
+      <!-- Output Text -->
+      <text x="80" y="45" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#DD6B20">ROAR!</text>
+    </g>
+
+    <!-- Goat -->
+    <g transform="translate(30, 240)">
+      <!-- Horns -->
+      <path d="M 15 10 Q 5 -10 -5 -5" stroke="#A0AEC0" stroke-width="6" fill="none" stroke-linecap="round" />
+      <path d="M 45 10 Q 55 -10 65 -5" stroke="#A0AEC0" stroke-width="6" fill="none" stroke-linecap="round" />
+      <!-- Face -->
+      <circle cx="30" cy="40" r="22" fill="#EDF2F7" stroke="#CBD5E0" stroke-width="2" />
+      <circle cx="20" cy="35" r="3.5" fill="#2D3748" />
+      <circle cx="40" cy="35" r="3.5" fill="#2D3748" />
+      <ellipse cx="30" cy="50" rx="8" ry="5" fill="#FBD38D" />
+      <path d="M 30 55 L 30 65" stroke="#CBD5E0" stroke-width="3" stroke-linecap="round" />
+      <!-- Output Text -->
+      <text x="80" y="45" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#718096">Maa-aa!</text>
+    </g>
+
+    <!-- Bird -->
+    <g transform="translate(30, 360)">
+      <!-- Body -->
+      <circle cx="35" cy="35" r="22" fill="#4299E1" />
+      <!-- Beak -->
+      <polygon points="55,35 75,30 55,40" fill="#F6AD55" />
+      <!-- Eye -->
+      <circle cx="45" cy="30" r="3.5" fill="#2D3748" />
+      <!-- Wing -->
+      <path d="M 20 30 Q 10 50 30 55" stroke="#3182CE" stroke-width="4" fill="none" stroke-linecap="round" />
+      <!-- Output Text -->
+      <text x="80" y="40" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#4299E1">Tweet-tweet!</text>
+    </g>
+  </g>
+
+  <!-- ==================== COLUMN 2: Favorite Auntie ==================== -->
+  <g transform="translate(340, 110)">
+    <!-- Card Background -->
+    <rect width="280" height="420" rx="16" fill="url(#cardGrad)" filter="url(#shadow)" stroke="#E2E8F0" stroke-width="2" />
+    
+    <!-- Title -->
+    <text x="140" y="40" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#2D3748" text-anchor="middle">👩🏾 Favorite Auntie</text>
+    
+    <!-- Command Bubble -->
+    <rect x="40" y="60" width="200" height="40" rx="20" fill="#48BB78" />
+    <text x="140" y="85" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">One Person</text>
+
+    <!-- Mama -->
+    <g transform="translate(30, 120)">
+      <!-- Body -->
+      <circle cx="35" cy="50" r="25" fill="#9C4221" />
+      <!-- Headwrap -->
+      <path d="M 10 30 Q 35 -5 60 30 Z" fill="#F6AD55" />
+      <!-- Eyes & Smile -->
+      <circle cx="25" cy="45" r="3" fill="#FFFFFF" />
+      <circle cx="45" cy="45" r="3" fill="#FFFFFF" />
+      <path d="M 25 55 Q 35 62 45 55" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" />
+      <!-- Pot -->
+      <rect x="10" y="75" width="50" height="25" rx="5" fill="#4A5568" />
+      <path d="M 30 70 Q 35 60 40 70" stroke="#A0AEC0" stroke-width="3" fill="none" stroke-linecap="round" />
+      <!-- Output Text -->
+      <text x="80" y="45" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#2D3748">Cooking Jollof</text>
+    </g>
+
+    <!-- Trader -->
+    <g transform="translate(30, 240)">
+      <!-- Body -->
+      <circle cx="35" cy="40" r="22" fill="#9C4221" />
+      <!-- Headwrap -->
+      <path d="M 15 25 Q 35 0 55 25 Z" fill="#ED64A6" />
+      <!-- Eyes & Smile -->
+      <circle cx="28" cy="38" r="2.5" fill="#FFFFFF" />
+      <circle cx="42" cy="38" r="2.5" fill="#FFFFFF" />
+      <path d="M 30 45 Q 35 50 40 45" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round" />
+      <!-- Basket & Tomatoes -->
+      <path d="M 10 60 L 60 60 L 50 80 L 20 80 Z" fill="#D69E2E" />
+      <circle cx="25" cy="65" r="6" fill="#E53E3E" />
+      <circle cx="40" cy="65" r="6" fill="#E53E3E" />
+      <circle cx="32" cy="58" r="6" fill="#E53E3E" />
+      <!-- Output Text -->
+      <text x="80" y="40" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#2D3748">Selling Tomatoes</text>
+    </g>
+
+    <!-- Dancer -->
+    <g transform="translate(30, 360)">
+      <!-- Body -->
+      <circle cx="35" cy="35" r="20" fill="#9C4221" />
+      <!-- Headwrap -->
+      <path d="M 15 22 Q 35 0 55 22 Z" fill="#ECC94B" />
+      <!-- Eyes & Smile -->
+      <circle cx="28" cy="33" r="2.5" fill="#FFFFFF" />
+      <circle cx="42" cy="33" r="2.5" fill="#FFFFFF" />
+      <path d="M 30 40 Q 35 45 40 40" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round" />
+      <!-- Arms & Legs -->
+      <path d="M 15 35 Q 5 25 10 15" stroke="#9C4221" stroke-width="4" fill="none" stroke-linecap="round" />
+      <path d="M 55 35 Q 65 25 60 15" stroke="#9C4221" stroke-width="4" fill="none" stroke-linecap="round" />
+      <path d="M 25 55 L 15 75" stroke="#9C4221" stroke-width="4" fill="none" stroke-linecap="round" />
+      <path d="M 45 55 L 55 75" stroke="#9C4221" stroke-width="4" fill="none" stroke-linecap="round" />
+      <!-- Drum -->
+      <ellipse cx="70" cy="65" rx="12" ry="6" fill="#744210" />
+      <rect x="58" y="65" width="24" height="15" fill="#744210" />
+      <ellipse cx="70" cy="80" rx="12" ry="6" fill="#744210" />
+      <!-- Output Text -->
+      <text x="80" y="40" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#2D3748">Wedding Dance</text>
+    </g>
+  </g>
+
+  <!-- ==================== COLUMN 3: In Code ==================== -->
+  <g transform="translate(650, 110)">
+    <!-- Card Background -->
+    <rect width="280" height="420" rx="16" fill="url(#codeGrad)" filter="url(#shadow)" stroke="#1A202C" stroke-width="2" />
+    
+    <!-- Window Controls -->
+    <circle cx="20" cy="20" r="6" fill="#FC8181" />
+    <circle cx="40" cy="20" r="6" fill="#F6E05E" />
+    <circle cx="60" cy="20" r="6" fill="#68D391" />
+    
+    <!-- Title -->
+    <text x="140" y="25" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#A0AEC0" text-anchor="middle">💻 main.js</text>
+    
+    <!-- Command Bubble -->
+    <rect x="40" y="45" width="200" height="40" rx="20" fill="#4299E1" />
+    <text x="140" y="70" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">"Do your job!"</text>
+
+    <!-- Code Snippet -->
+    <g font-family="'Courier New', Courier, monospace" font-size="13" fill="#ABB2BF">
+      <!-- Line 1 -->
+      <text x="20" y="115"><tspan fill="#C678DD">interface</tspan> <tspan fill="#E5C07B">Animal</tspan> {</text>
+      <!-- Line 2 -->
+      <text x="35" y="135"><tspan fill="#61AFEF">makeSound</tspan>();</text>
+      <!-- Line 3 -->
+      <text x="20" y="155">}</text>
+      
+      <!-- Line 4 -->
+      <text x="20" y="185"><tspan fill="#C678DD">class</tspan> <tspan fill="#E5C07B">Lion</tspan> <tspan fill="#C678DD">implements</tspan> <tspan fill="#E5C07B">Animal</tspan> {</text>
+      <!-- Line 5 -->
+      <text x="35" y="205"><tspan fill="#61AFEF">makeSound</tspan>() { <tspan fill="#98C379">"ROAR!"</tspan> }</text>
+      <!-- Line 6 -->
+      <text x="20" y="225">}</text>
+
+      <!-- Line 7 -->
+      <text x="20" y="255"><tspan fill="#C678DD">class</tspan> <tspan fill="#E5C07B">Bird</tspan> <tspan fill="#C678DD">implements</tspan> <tspan fill="#E5C07B">Animal</tspan> {</text>
+      <!-- Line 8 -->
+      <text x="35" y="275"><tspan fill="#61AFEF">makeSound</tspan>() { <tspan fill="#98C379">"Tweet-tweet!"</tspan> }</text>
+      <!-- Line 9 -->
+      <text x="20" y="295">}</text>
+
+      <!-- Output example -->
+      <text x="20" y="325"><tspan fill="#5C6370">// Output based on the object:</tspan></text>
+      <text x="20" y="345"><tspan fill="#C678DD">Animal</tspan> a = <tspan fill="#C678DD">new</tspan> <tspan fill="#E5C07B">Lion</tspan>();</text>
+      <text x="20" y="365">a.<tspan fill="#61AFEF">makeSound</tspan>(); <tspan fill="#5C6370">// "ROAR!"</tspan></text>
+    </g>
+    
+    <!-- Glowing cursor -->
+    <rect x="145" y="375" width="8" height="14" fill="#61AFEF" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- ==================== BOTTOM BANNER ==================== -->
+  <g transform="translate(30, 550)">
+    <rect width="900" height="50" rx="12" fill="#2D3748" filter="url(#shadowLight)" />
+    <text x="450" y="32" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#F6E05E" text-anchor="middle">
+      🌟 The Big Takeaway: Polymorphism is simply same action, many different ways to do it.
+    </text>
+  </g>
+
+</svg>
+
     <p>The best way to test if you truly understand a concept is to try explaining it to a 7-year-old. 👧🏾👦🏾</p>
 
     <p>Let’s take Polymorphism—one of the most intimidating words in Object-Oriented Programming.</p>
@@ -48,12 +281,11 @@
 
     <p>The computer hears the same instruction but knows exactly how to act based on the object it is handling.</p>
 
-    <p>🌟 The Big Takeaway:<br />
-    Polymorphism is simply same action, many different ways to do it.</p>
+    <p>Polymorphism is simply same action, many different ways to do it.</p>
 
     <p>Whether you are architecting software or explaining tech to a junior developer, stripping away the jargon and using everyday analogies is a superpower.</p>
 
-    <p>👇 If you were the Chief of the Forest, what sound would you make? Let me know in the comments!</p>
+    <p>If you were the Chief of the Forest, what sound would you make?</p>
 
     <p>#SoftwareEngineering #Polymorphism #TechEducation #Programming #ExplainLikeImFive #OOP #Communication</p>
   </article>
