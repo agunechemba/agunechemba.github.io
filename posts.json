@@ -52,7 +52,7 @@
     "title": "About The Story of Code",
     "excerpt": "An interactive page-turning storybook that introduces young readers (5–13) to programming fundamentals in JavaScript, adapted from Eloquent JavaScript.",
     "date": "2027-03-01",
-    "tags": ["Technology", "Education", "Humanities"],
+    "tags": ["Education", "Humanities"],
     "readTime": 3
   },
   {
@@ -284,7 +284,7 @@
     "title": "Celebrating Excellence: Okiri Emmanuel Emerges as the Star of the Python Bootcamp!",
     "excerpt": "Recognition matters. A short celebration of a bootcamp standout and what consistent practice looks like from the outside.",
     "date": "2025-08-01",
-    "tags": ["Humanities", "Technology", "Education"],
+    "tags": ["Humanities", "Education"],
     "readTime": 4
   },
   {
@@ -452,7 +452,7 @@
     "title": "🚀 The Grammar Of Code: Why Learning to Code is Just Learning a New Grammar",
     "excerpt": "Syntax is grammar; problem-solving is composition. A reassuring reframe for anyone who thinks code is a foreign language.",
     "date": "2024-03-01",
-    "tags": ["Education", "Technology", "Humanities"],
+    "tags": ["Education", "Technology"],
     "readTime": 5
   },
   {
@@ -612,8 +612,16 @@
     "title": "Remembering Dr. Charles “Chuck” Geschke, Adobe Co-Founder",
     "excerpt": "Chuck Geschke helped make documents portable. A tribute to the Adobe co-founder and the quiet infrastructure of publishing.",
     "date": "2021-04-16",
-    "tags": ["Humanities", "Technology"],
+    "tags": ["Humanities"],
     "readTime": 5
+  },
+  {
+    "slug": "i-built-a-12-page-interactive-html-storybook-for-7-year-olds",
+    "title": "I built a 12-page interactive HTML storybook for 7-year-olds.",
+    "excerpt": "A dependency-free, print-ready web book that teaches three HTML projects through bricks, sandwiches and a robot — and why the quiet version beat confetti.",
+    "date": "2021-03-01",
+    "tags": ["Education"],
+    "readTime": 2
   },
   {
     "slug": "clasam-schools-official-website",
@@ -668,7 +676,7 @@
     "title": "TaskFlow: Professional To-Do",
     "excerpt": "A to-do app is easy to clone and hard to make useful. What a professional TaskFlow needs beyond checkboxes.",
     "date": "2020-08-01",
-    "tags": ["Humanities", "Technology", "Education"],
+    "tags": ["Humanities", "Technology"],
     "readTime": 5
   },
   {
