@@ -1,5 +1,13 @@
 [  
   {
+    "slug": "7-windows-command-prompt-commands-it-pros-use-every-day",
+    "title": "7 Windows Command Prompt Commands IT Pros Use Every Day (That Most People Don’t Know)",
+    "excerpt": "Seven built-in Windows commands for auditing group policy, recovering saved Wi-Fi passwords, checking disk health and changing user passwords — no extra tools required.",
+    "date": "2021-04-01",
+    "tags": ["Technology", "Education"],
+    "readTime": 4
+  },
+  {
     "slug": "how-i-set-up-a-new-windows-laptop-with-a-local-account-no-microsoft-account-required",
     "title": "How I Set Up a New Windows Laptop With a Local Account (No Microsoft Account Required)",
     "excerpt": "Two tested workarounds for skipping the Microsoft account screen during Windows 11 setup — plus which one Microsoft has already started patching out.",
