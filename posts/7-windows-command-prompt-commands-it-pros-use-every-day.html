@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>7 Windows Command Prompt Commands IT Pros Use Every Day (That Most People Don’t Know) — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <p>Here's the updated blog post with a new opening section explaining how to open Command Prompt.</p>
+
+    <hr />
+
+    <p>The Windows Command Prompt is still one of the fastest ways to troubleshoot, audit, and manage a PC—especially when you don’t want to click through a dozen menus. These seven commands are the kind IT professionals reach for regularly, but most everyday users have never heard of them.</p>
+
+    <p>Before we dive in, here’s how to open Command Prompt:</p>
+
+    <ul>
+      <li><strong>Quickest way:</strong> Press <code>Win + R</code>, type <code>cmd</code>, and press Enter.</li>
+      <li><strong>From the Start menu:</strong> Click Start, type <code>cmd</code>, and select <strong>Command Prompt</strong>.</li>
+      <li><strong>As administrator (recommended for some commands):</strong> Right-click the Start button and choose <strong>Command Prompt (Admin)</strong> or <strong>Windows PowerShell (Admin)</strong>. Some commands—like changing passwords or running <code>chkdsk /f</code>—require elevated privileges.</li>
+    </ul>
+
+    <p>Now, on to the commands.</p>
+
+    <hr />
+
+    <h2>1. See Every Group Policy Applied to a Computer</h2>
+
+    <p>When something <em>should</em> work but doesn’t, Group Policy is often the culprit. This command builds a report showing every policy applied to the computer and user:</p>
+
+    <pre><code>gpresult /R</code></pre>
+
+    <p>Let it run. It will generate the report and show you exactly what’s being applied—perfect for troubleshooting mysterious configuration issues.</p>
+
+    <hr />
+
+    <h2>2. Recover a Forgotten Wi-Fi Password</h2>
+
+    <p>If a computer has connected to a Wi-Fi network before, Windows remembers it—even if you’ve forgotten the password.</p>
+
+    <p>First, list every Wi-Fi profile the computer has connected to:</p>
+
+    <pre><code>netsh wlan show profiles</code></pre>
+
+    <p>Then show the password for a specific network by replacing <code>Wi-FiName</code> with the actual profile name:</p>
+
+    <pre><code>netsh wlan show profile name="Wi-FiName" key=clear</code></pre>
+
+    <p>Look for <strong>Key Content</strong> in the output. That’s your Wi-Fi password.</p>
+
+    <hr />
+
+    <h2>3. Check and Fix Disk Errors Before Replacing a Drive</h2>
+
+    <p>Got a hard drive acting strange? Don’t replace it just yet. Run:</p>
+
+    <pre><code>chkdsk /f</code></pre>
+
+    <p>This checks the disk for errors and fixes them. It may ask you a few questions—answer them—and if the drive is in use, it can schedule the scan for the next reboot.</p>
+
+    <p>Sometimes the problem is simple and fixable.</p>
+
+    <hr />
+
+    <h2>4. Get a Quick Disk Health Check</h2>
+
+    <p>Need to know whether a disk is healthy? This command shows the status of your physical drives:</p>
+
+    <pre><code>wmic disk drive get status</code></pre>
+
+    <p>Note: <code>wmic</code> is being deprecated in newer Windows versions, but for now it still works on many systems. It’s a fast way to see what’s going on with your disk.</p>
+
+    <hr />
+
+    <h2>5. See How Much RAM an Application Is Using</h2>
+
+    <p>Ever wondered how much Chrome is really eating up? This command lists running processes by image name:</p>
+
+    <pre><code>tasklist /fi "imagename eq chrome.exe"</code></pre>
+
+    <p>You can replace <code>chrome.exe</code> with any application’s executable name. It’s a quick way to check memory usage without opening Task Manager.</p>
+
+    <hr />
+
+    <h2>6. List User Profiles and Change Passwords Quickly</h2>
+
+    <p>Need to see which local user accounts are configured on a computer? Run:</p>
+
+    <pre><code>net user</code></pre>
+
+    <p>And if you need to quickly change a user’s password, use:</p>
+
+    <pre><code>net user Username NewPassword</code></pre>
+
+    <p>Replace <code>Username</code> with the account name and <code>NewPassword</code> with the new password. Press Enter, and it’s changed.</p>
+
+    <hr />
+
+    <h2>7. Run a Fast System Audit</h2>
+
+    <p>Need to know what Windows version and build you’re running—or get a quick overview of the machine? Run:</p>
+
+    <pre><code>systeminfo</code></pre>
+
+    <p>It displays OS version, build number, processor information, RAM, and more. It’s one of the fastest ways to get the system details you need.</p>
+
+    <hr />
+
+    <h2>Final Thoughts</h2>
+
+    <p>These commands won’t replace a full toolkit, but they’re fast, built into Windows, and incredibly useful in everyday troubleshooting. Whether you’re recovering a Wi-Fi password, checking disk health, or auditing a system, the Command Prompt can save you a lot of clicking.</p>
+  </article>
+</body>
+</html>

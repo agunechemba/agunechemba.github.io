@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How I Set Up a New Windows Laptop With a Local Account (No Microsoft Account Required) — Agunechemba</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="post-preview">
+  <article class="article__body">
+    <p>I recently set up a brand-new Windows laptop, and like clockwork, Windows started pushing me toward Wi-Fi and a Microsoft account before I’d even had a chance to settle in. I didn’t want that. I wanted a plain local username and password—no cloud tie-in, no email link, no telemetry circus. Just a simple offline account on my own machine.</p>
+
+    <p>So I went digging. I found two methods that actually work, and I tested them on fresh installs. The first one is the classic trick, but it’s already being patched on newer Windows builds. The second one is the backup that saved me when the first one failed—and it even works while you’re connected to the internet.</p>
+
+    <p>Here’s exactly what I did.</p>
+
+    <h2>Method 1: The classic command (best if you’re offline)</h2>
+
+    <p>During the initial Windows setup—right after you choose your language, country, and keyboard—you’ll hit the screen asking you to connect to Wi-Fi. <strong>Don’t connect.</strong> Instead:</p>
+
+    <ol>
+      <li>Click the Wi-Fi icon on the left so that window has focus.</li>
+      <li>Press <strong>Fn + Shift + F10</strong> on my laptop. On many machines it’s just <strong>Shift + F10</strong>. If plain Shift + F10 does nothing, try adding Fn—some laptops require it to access the function keys.</li>
+      <li>An administrator Command Prompt should pop up.</li>
+      <li>Type this command and press Enter:
+
+        <pre><code>start ms-cxh:localonly</code></pre>
+      </li>
+    </ol>
+
+    <p>Windows should then let you create a local account. I entered a username, password, and security question, clicked Next, declined the optional offers, and then said “No” to every privacy and telemetry prompt—Find My Device, diagnostic data, tailored ads, advertising ID, presence sensing, all of it.</p>
+
+    <p>The laptop never touched the internet, and when I checked the Start menu, it showed my account as a local account. Under account settings, it confirmed I was a local administrator.</p>
+
+    <p><strong>The catch:</strong> This method has stopped working on recent Windows Insider builds, including build 26220.6772, and Microsoft is expected to remove it from public releases soon. So if you’re on a newer build, keep reading.</p>
+
+    <h2>Method 2: The developer console backup (works even online)</h2>
+
+    <p>This is the method that saved me when Method 1 failed. It’s a little more fiddly, but it worked on the latest Dev Channel build I tested—Windows 11 version 25H2, build 26220.7523.</p>
+
+    <p>Here’s the process:</p>
+
+    <ol>
+      <li>During setup, when you reach the screen asking you to connect to Wi-Fi or sign in, <strong>click on the window to give it focus</strong>.</li>
+      <li>Press <strong>Ctrl + Shift + J</strong>. This opens a hidden developer console. Sometimes it doesn’t appear on the first try—I had to press the keys a few times. So if nothing happens, keep pressing <strong>Ctrl + Shift + J</strong> until the console shows up.</li>
+      <li>In the console, type this exactly:
+
+        <pre><code>WinJS.Application.restart("ms-cxh://LOCALONLY")</code></pre>
+
+        The command is case-sensitive. Some guides show <code>ms-cxh:localonly</code> without the slashes, and both versions have worked for people, but the version above is the one I used.</li>
+      <li>Press <strong>Enter</strong>. The console may go dark or seem unresponsive—that’s normal.</li>
+      <li>Press <strong>Escape</strong> to close the console. You should now get the prompt to create a local user account.</li>
+      <li>Enter your username, click Next, and finish the privacy settings as usual.</li>
+    </ol>
+
+    <p>The best part: this method works <strong>even if you’re connected to the internet</strong>. You don’t have to disconnect or jump through hoops to stay offline. It just works.</p>
+
+    <p>After setup, I clicked my user icon and confirmed it was a local account. I also checked System settings and saw the same thing—local account, local administrator.</p>
+
+    <h2>The reality check</h2>
+
+    <p>Microsoft is clearly on a mission to force Microsoft accounts on everyone. The old <code>start ms-cxh:localonly</code> command is already dead in recent Insider builds, and the developer console trick is the current workaround. There’s no guarantee it’ll survive the next update, but as of the latest Dev Channel build, it’s still holding up.</p>
+
+    <p>If you’re setting up a new Windows 11 laptop and you want a local account, try Method 1 first if you’re offline. If that fails—or if you’re on a newer build—give the developer console a shot.</p>
+  </article>
+</body>
+</html>
