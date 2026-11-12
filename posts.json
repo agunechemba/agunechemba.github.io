@@ -1,5 +1,13 @@
 [  
   {
+    "slug": "how-i-set-up-a-new-windows-laptop-with-a-local-account-no-microsoft-account-required",
+    "title": "How I Set Up a New Windows Laptop With a Local Account (No Microsoft Account Required)",
+    "excerpt": "Two tested workarounds for skipping the Microsoft account screen during Windows 11 setup — plus which one Microsoft has already started patching out.",
+    "date": "2021-05-01",
+    "tags": ["Technology", "Education"],
+    "readTime": 4
+  },
+  {
     "slug": "the-magic-of-programming",
     "title": "The Magic of Programming — Now Live",
     "excerpt": "A free interactive storybook that turns programming basics into friendly stories for kids ages 5–11, complete with real code examples and progress tracking.",
