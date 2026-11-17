@@ -1,4 +1,12 @@
-[  
+[
+  {
+    "slug": "how-i-cleaned-a-self-healing-wordpress-malware-infection-across-six-sites",
+    "title": "How I Cleaned a Self-Healing WordPress Malware Infection Across Six Sites",
+    "excerpt": "A self-healing infection kept resurrecting across six WordPress sites — how a database dump revealed the payload and one script finally wiped it for good.",
+    "date": "2027-10-01",
+    "tags": ["Technology", "Education"],
+    "readTime": 2
+  },
   {
     "slug": "7-windows-command-prompt-commands-it-pros-use-every-day",
     "title": "7 Windows Command Prompt Commands IT Pros Use Every Day (That Most People Don’t Know)",
